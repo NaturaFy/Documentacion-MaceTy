@@ -159,6 +159,51 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 
 ## 1.1. Startup Profile  
 ### 1.1.1. Descripción de la Startup  
+## 1.1. Startup Profile
+
+### 1.1.1. Descripción de la Startup
+
+<p align="center">
+  <img src="assets/Startup.png" alt="Logo de Naturafy" style="width:200px;"/>
+</p>
+
+
+Naturafy es una startup dedicada al desarrollo de soluciones IoT para el hogar, enfocada en mejorar la experiencia de los usuarios y optimizar el uso de recursos naturales. 
+
+<p align="center">
+  <img src="assets/producto.png" alt="Logo de Naturafy" style="width:200px;"/>
+</p>
+
+Su producto principal, **MaceTy**, es una maceta inteligente que combina sensores, conectividad y automatización para cuidar automáticamente las plantas de interior, haciendo el riego más eficiente y mejorando la salud de las plantas.  
+
+
+### Objetivo  
+
+Diseñar una maceta inteligente IoT que:  
+- Mida la humedad del suelo  
+- Controle automáticamente el riego mediante una mini bomba de agua  
+- Permita monitoreo en tiempo real desde una app o plataforma web  
+
+### Colaboraciones Estratégicas  
+
+Naturafy establece alianzas con viveros, tiendas de jardinería, fabricantes de sensores y comunidades de usuarios de plantas de interior. Trabajamos con estos socios para garantizar que nuestras soluciones tecnológicas respondan a sus necesidades, facilitando el cuidado automatizado de plantas y mejorando la experiencia del usuario.  
+
+### Innovación y Tecnología  
+
+**MaceTy** utiliza tecnologías IoT avanzadas para ofrecer un sistema de riego inteligente y automatizado. Los sensores de humedad, luz y temperatura permiten monitoreo continuo, mientras que la bomba controlada automáticamente asegura un riego óptimo. La app/web proporciona datos en tiempo real, alertas y control remoto, integrando tecnología accesible y diseño centrado en el usuario.  
+
+### Comunidad y Funciones Sociales  
+
+MaceTy no es solo un producto; es también un espacio de aprendizaje y conexión. La plataforma permite a los usuarios compartir consejos de cuidado, estrategias de riego y mantenerse informados sobre nuevas prácticas de jardinería inteligente. Esta comunidad activa fomenta el intercambio de conocimiento y la adopción de hábitos sostenibles.  
+
+
+### Visión  
+
+Visualizamos hogares donde la tecnología y la naturaleza se integran para facilitar la vida de los usuarios y mejorar la salud de sus plantas. MaceTy será sinónimo de innovación en jardinería inteligente, un aliado indispensable para quienes buscan un cuidado eficiente, sostenible y conectado de sus plantas.  
+
+### Misión  
+
+Ofrecer un producto integral que empodere a los usuarios con herramientas inteligentes de cuidado de plantas, mejorando comodidad, eficiencia y bienestar en el hogar. Naturafy, a través de MaceTy, promueve el ahorro de agua, la sostenibilidad ambiental y la conexión con la naturaleza, siendo símbolo de excelencia, innovación y compromiso con un estilo de vida más verde y consciente.
 
 
 ### 1.1.2. Perfiles de integrantes del equipo  
@@ -173,6 +218,9 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 </div>
 
 ## 1.2. Solution Profile  
+La solución propuesta por Naturafy, **MaceTy**, combina hardware y software para ofrecer un sistema de riego inteligente y automatizado para plantas de interior. La plataforma permite monitoreo en tiempo real, control remoto mediante app/web y optimización del uso de agua.  
+Se busca que MaceTy no solo sea funcional, sino también accesible, escalable y fácil de usar, integrando principios de diseño centrado en el usuario y soluciones tecnológicas de bajo costo.
+
 ### 1.2.1. Antecedentes y problemática  
 
 ### 1.2.2. Lean UX Process  
