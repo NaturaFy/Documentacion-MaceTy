@@ -229,6 +229,68 @@ Se busca que MaceTy no solo sea funcional, sino también accesible, escalable y 
 
 ## 1.3. Segmentos objetivo  
 
+La **Maceta Inteligente** ha sido diseñada para atender a usuarios con distintos perfiles y necesidades, ofreciendo soluciones tecnológicas que faciliten el cuidado de las plantas y mejoren la experiencia de jardinería en el hogar. Cada segmento presenta motivaciones y desafíos específicos que nuestra plataforma busca atender con funcionalidades prácticas, accesibles y sostenibles.
+
+A continuación, se detalla el perfil de nuestros principales segmentos objetivos, identificando sus características, motivaciones y problemáticas, con el fin de adaptar y mejorar constantemente nuestros servicios para ofrecerles el mayor valor posible.
+
+## 1. Personas Ocupadas en la Ciudad
+
+**Descripción:**  
+Este segmento está compuesto por individuos que residen en zonas urbanas de Perú, principalmente en Lima, Arequipa y Trujillo. Buscan mantener plantas saludables sin invertir demasiado tiempo o esfuerzo, adaptándose a un estilo de vida acelerado y con limitaciones de espacio en departamentos o casas pequeñas.
+
+**Objetivos Principales:**
+
+- Facilitar el cuidado de sus plantas mediante riego automático y alertas inteligentes.
+- Mantener plantas estéticamente atractivas con mínima intervención.
+- Optimizar tiempo y recursos dedicados al cuidado de plantas.
+
+**Problemáticas y Desafíos:**
+
+- Falta de tiempo para regar y monitorear las plantas de forma constante.
+- Desconocimiento sobre las necesidades específicas de riego, luz y nutrientes de cada planta.
+- Espacios limitados que dificultan la instalación de plantas tradicionales.
+
+**Datos Cuantitativos del Problema:**
+
+- Se estima que el 70% de las personas en zonas urbanas de Perú que intentan cultivar plantas en casa abandonan su cuidado en los primeros 3 meses por falta de tiempo o conocimiento.
+- Cerca del 60% de las plantas en hogares urbanos mueren por riego inadecuado o exposición incorrecta a la luz.
+
+**Variables Geográficas, Demográficas y Psicográficas:**
+
+- **Geográficas:** Zonas urbanas de Perú (Lima, Arequipa, Trujillo).  
+- **Demográficas:** Edad: 18-50 años; Género: Femenino/Masculino; Nivel socioeconómico: medio a alto; Ocupación: profesionales, estudiantes, trabajadores con tiempo limitado.  
+- **Psicográficas:** Buscan comodidad, eficiencia, valoran la estética y el diseño en el hogar; estilo de vida urbano y ocupado.
+
+---
+
+## 2. Amantes de la Jardinería 
+
+**Descripción:**  
+Este segmento está compuesto por personas apasionadas por la jardinería, interesadas en la tecnología aplicada al cuidado de plantas. Incluye tanto aficionados como semi-profesionales que buscan monitorear y optimizar el crecimiento de sus plantas mediante dispositivos inteligentes y aplicaciones móviles.
+
+**Objetivos Principales:**
+
+- Monitorear en tiempo real las condiciones de humedad, luz y nutrientes de sus plantas.
+- Automatizar funciones de cuidado avanzadas para mejorar la salud y el crecimiento de las plantas.
+- Obtener datos y recomendaciones precisas sobre el cuidado de cada especie.
+
+**Problemáticas y Desafíos:**
+
+- Necesidad de herramientas precisas para medir y ajustar condiciones ambientales.
+- Falta de soluciones tecnológicas que integren monitoreo y automatización de forma accesible.
+- Deseo de personalización y control sobre cada planta sin perder tiempo en tareas repetitivas.
+
+**Datos Cuantitativos del Problema:**
+
+- Aproximadamente el 55% de los jardineros aficionados en Perú invierten más de 1 hora diaria en tareas de cuidado que podrían automatizarse.
+- Solo el 30% de los sistemas de cuidado de plantas en el hogar ofrecen monitoreo en tiempo real y alertas personalizadas.
+
+**Variables Geográficas, Demográficas y Psicográficas:**
+
+- **Geográficas:** Zonas urbanas y suburbanas de Perú con espacio disponible para plantas.  
+- **Demográficas:** Edad: 18-65 años; Género: Femenino/Masculino; Nivel socioeconómico: medio a alto; Ocupación: profesionales, técnicos, emprendedores y entusiastas de la jardinería.  
+- **Psicográficas:** Personas curiosas, detallistas, interesadas en tecnología y sostenibilidad; disfrutan del control y optimización del cuidado de sus plantas.
+
 
 # Capítulo II: Requirements Elicitation & Analysis  
 
@@ -277,3 +339,8 @@ Se busca que MaceTy no solo sea funcional, sino también accesible, escalable y 
 ## 4.2. Tactical-Level Domain-Driven Design  
 
 
+## Bibliografía
+
+- Verified Market Reports. (2024). *Insights de mercado de plantas inteligentes en macetas*. Recuperado de [https://www.verifiedmarketreports.com/es/product/smart-potted-plant-market/](https://www.verifiedmarketreports.com/es/product/smart-potted-plant-market/)  
+- Global Growth Insights. (2025). *Tamaño del mercado del mercado de macetas y plantadores*. Recuperado de [https://www.globalgrowthinsights.com/es/market-reports/home-flower-pots-and-planters-market-113156](https://www.globalgrowthinsights.com/es/market-reports/home-flower-pots-and-planters-market-113156)  
+- Business Research Insights. (2023). *Tamaño y pronóstico del mercado de macetas de plástico para el hogar*. Recuperado de [https://www.businessresearchinsights.com/es/market-reports/home-plastic-flower-pots-and-planters-market-112521](https://www.businessresearchinsights.com/es/market-reports/home-plastic-flower-pots-and-planters-market-112521)
