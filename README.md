@@ -43,6 +43,12 @@
 |---------|-------------|-------------------------------|--------------------------------------------|
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Creación inicial del documento  |
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Estructuración del documento |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Descripcion del StartUp |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Segmento Objetivo |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Ubiquitous Language |
+
+
+
 
 # Project Report Collaboration Insights
 #### 1. URL del Repositorio en GitHub
@@ -310,6 +316,32 @@ Este segmento está compuesto por personas apasionadas por la jardinería, inter
 ### 2.3.4. Empathy Mapping  
 
 ## 2.4. Ubiquitous Language  
+# Ubiquitous Language
+
+A continuación se presenta un glosario de términos utilizados en el dominio de macetas inteligentes y jardinería, incluyendo tanto términos formales como coloquiales, para asegurar que todos los miembros del equipo y stakeholders compartan un lenguaje común.
+
+| Término (Inglés)          | Término (Español)               | Definición                                                                                  |
+|----------------------------|---------------------------------|---------------------------------------------------------------------------------------------|
+| Plant                      | Planta                          | Organismo vivo que requiere agua, luz y nutrientes para crecer y desarrollarse.             |
+| Pot                        | Maceta                          | Recipiente donde se cultiva la planta; puede ser de plástico, cerámica, barro u otros.     |
+| Smart Pot                  | Maceta Inteligente              | Maceta equipada con sensores y sistemas automáticos para riego, monitoreo y cuidado de la planta. |
+| Soil                       | Sustrato / Tierra               | Mezcla que sirve como soporte físico y nutricional para la planta.                          |
+| Watering                   | Riego                           | Acción de suministrar agua a la planta según sus necesidades.                               |
+| Light Exposure             | Exposición a la Luz             | Cantidad de luz que recibe la planta para su fotosíntesis.                                  |
+| Humidity                   | Humedad                         | Nivel de agua presente en el aire o sustrato, importante para el crecimiento de la planta. |
+| Fertilizer                 | Fertilizante                    | Sustancia que aporta nutrientes esenciales a la planta.                                     |
+| Seedling                   | Plántula                        | Planta joven recién germinada o en etapa inicial de crecimiento.                            |
+| Growth Stage               | Etapa de Crecimiento            | Fase de desarrollo de la planta: germinación, vegetativa, floración o fructificación.       |
+| Sprout                     | Brote / Chiquita                | Primeros tallos o hojas que emergen del sustrato; término coloquial usado por aficionados. |
+| Leaf Drop                  | Caída de Hojas                  | Pérdida de hojas de la planta, puede indicar estrés o necesidad de cuidado.                |
+| Automated Care             | Cuidado Automatizado            | Funciones que regulan riego, luz o humedad sin intervención manual.                         |
+| Health Monitoring          | Monitoreo de Salud              | Seguimiento del estado de la planta mediante sensores y alertas.                            |
+| Water Sensor               | Sensor de Agua                  | Dispositivo que mide la humedad del sustrato.                                               |
+| Light Sensor               | Sensor de Luz                   | Dispositivo que mide la cantidad de luz que recibe la planta.                               |
+| User Preferences           | Preferencias del Usuario        | Configuraciones definidas por el usuario para el cuidado de sus plantas.                   |
+| Plant Buddy                | Compañero de Planta             | Término coloquial para referirse a la planta que se cuida con atención.                    |
+| Alert System               | Sistema de Alertas              | Notificaciones enviadas al usuario sobre necesidades de la planta (riego, luz, nutrientes).|
+| Green Thumb                | Pulgar Verde                    | Expresión coloquial que describe habilidad o talento para cuidar plantas.                  |
 
 ## 2.5. Big Picture EventStorming  
 
