@@ -46,7 +46,11 @@
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Descripcion del StartUp |
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Segmento Objetivo |
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Ubiquitous Language |
-
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture System Landscape Diagram |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Context Level Diagrams |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Container Level Diagrams |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Deployment Diagrams |
 
 
 
@@ -269,7 +273,7 @@ Este segmento está compuesto por individuos que residen en zonas urbanas de Per
 
 ---
 
-## 2. Amantes de la Jardinería 
+## 2. Jardineros
 
 **Descripción:**  
 Este segmento está compuesto por personas apasionadas por la jardinería, interesadas en la tecnología aplicada al cuidado de plantas. Incluye tanto aficionados como semi-profesionales que buscan monitorear y optimizar el crecimiento de sus plantas mediante dispositivos inteligentes y aplicaciones móviles.
@@ -362,12 +366,77 @@ A continuación se presenta un glosario de términos utilizados en el dominio de
 
 ### 4.1.2. Context Mapping  
 
-### 4.1.3. Software Architecture  
-#### 4.1.3.1. Software Architecture System Landscape Diagram  
-#### 4.1.3.2. Software Architecture Context Level Diagrams  
-#### 4.1.3.3. Software Architecture Container Level Diagrams  
+### 4.1.3. Software Architecture
+
+En esta sección se presentan los diagramas C4 que describen la arquitectura del sistema de la Maceta Inteligente MaceTy, una solución integral para el cuidado automatizado de plantas domésticas en entornos urbanos. Estos diagramas ilustran desde una vista general de alto nivel hasta el detalle de contenedores y componentes internos, mostrando cómo interactúan los sensores, la plataforma IoT y las aplicaciones móviles y web.  
+
+#### 4.1.3.1. System Landscape Diagram  
+
+El Diagrama del Paisaje del Sistema muestra la relación de MaceTy con actores externos, como usuarios urbanos y jardineros, así como aplicaciones móviles, servicios de notificación y bases de datos de especies. También ilustra la interacción con sistemas externos clave, como APIs climáticas y repositorios especializados, que enriquecen las recomendaciones de cuidado.  
+
+![Landscape](./assets/structurizr-106169-PanoramaDelSistema.png)  
+
+**Leyenda del diagrama:**  
+![Landscapekey](./assets/structurizr-106169-PanoramaDelSistema-key.png)  
+
+#### 4.1.3.2. Context Level Diagram  
+
+El Diagrama de Contexto detalla cómo los distintos actores (usuarios, jardineros) se comunican con el sistema a través de la aplicación móvil y la plataforma web. También representa la conexión con el MaceTy Urban IoT Device, que recolecta datos del entorno (humedad, temperatura, luz) y los transmite al ecosistema vía el MaceTy API Gateway.  
+
+![Context](./assets/structurizr-106169-ContextoDelSistema.png)  
+
+**Leyenda del diagrama:**  
+![ContextKey](./assets/structurizr-106169-ContextoDelSistema-key.png)  
+
+#### 4.1.3.3. Container Level Diagram  
+
+El **Diagrama de Contenedores** describe los principales bloques funcionales del sistema:  
+
+- **MaceTy Mobile App**: Permite al usuario monitorear y controlar su planta en tiempo real.  
+- **MaceTy Web Platform**: Proporciona un dashboard con métricas y comunidad de usuarios.  
+- **MaceTy API Gateway**: Administra la comunicación entre dispositivos IoT, aplicaciones y base de datos.  
+- **MaceTy Urban Database**: Almacena información de sensores, preferencias del usuario y patrones urbanos.  
+- **Servicios externos**: Repositorios de especies que enriquecen las recomendaciones.  
+
+![Container](./assets/structurizr-106169-DiagramaDeContenedores.png)  
+
+**Leyenda del diagrama:**  
+![ContainerKey](./assets/structurizr-106169-DiagramaDeContenedores-key.png)  
+
+#### Software Component Diagram  
+
+El Diagrama de Componentes detalla la lógica interna de los microservicios en el **MaceTy API Gateway**, como:  
+
+- Procesamiento de datos de sensores.  
+- Módulo de alertas inteligentes de riego.  
+- Módulo de recomendaciones basadas en patrones urbanos y clima.  
+- API de integración con aplicaciones móviles y web.  
+
+![Component](./assets/structurizr-106169-ComponentesGatewayAPI.png)  
+
+**Leyenda del diagrama:**   
+![ComponentKey](./assets/structurizr-106169-ComponentesGatewayAPI-key.png)  
+
+#### 4.1.3.5. Software IoT Diagram  
+
+El **Diagrama IoT** representa el **MaceTy Urban IoT Device**, un dispositivo basado en ESP32 con sensores de humedad, temperatura y luz ambiental, además de una mini bomba de riego controlada automáticamente. Este dispositivo envía telemetría cada 15–30 minutos mediante protocolos como MQTT/HTTP, asegurando comunicación confiable con el API Gateway y retroalimentación en tiempo real hacia las aplicaciones.  
+
+![Landscape](./assets/structurizr-106169-ComponentesMacetaInteligente.png)  
+
+**Índice:**  
+![Landscape](./assets/structurizr-106169-ComponentesMacetaInteligente-key.png)  
+
 #### 4.1.3.4. Software Architecture Deployment Diagrams  
 
+Los Deployment Diagrams (diagramas de despliegue) forman parte de la arquitectura de software y son esenciales para representar cómo los componentes del sistema se distribuyen físicamente en el entorno de ejecución. Estos diagramas muestran la disposición de hardware (nodos) y la manera en que los artefactos de software se instalan en ellos, permitiendo visualizar la infraestructura que soporta la aplicación. Su propósito principal es ilustrar la relación entre el software y el hardware, detallando aspectos como servidores, dispositivos de red, bases de datos, y cómo interactúan entre sí.
+
+**Web App**
+
+![containers](./assets/deployment1.png)
+
+**Mobile App**
+
+![containers](./assets/deployment2.png)
 ## 4.2. Tactical-Level Domain-Driven Design  
 
 
