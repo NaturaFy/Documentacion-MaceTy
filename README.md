@@ -417,7 +417,7 @@ El Diagrama de Componentes detalla la lógica interna de los microservicios en e
 **Leyenda del diagrama:**   
 ![ComponentKey](./assets/structurizr-106169-ComponentesGatewayAPI-key.png)  
 
-#### 4.1.3.5. Software IoT Diagram  
+#### Software IoT Diagram  
 
 El **Diagrama IoT** representa el **MaceTy Urban IoT Device**, un dispositivo basado en ESP32 con sensores de humedad, temperatura y luz ambiental, además de una mini bomba de riego controlada automáticamente. Este dispositivo envía telemetría cada 15–30 minutos mediante protocolos como MQTT/HTTP, asegurando comunicación confiable con el API Gateway y retroalimentación en tiempo real hacia las aplicaciones.  
 
