@@ -236,6 +236,10 @@ Se busca que MaceTy no solo sea funcional, sino también accesible, escalable y 
 
 ### 1.2.1. Antecedentes y problemática  
 
+En los últimos años, el acceso a libros y material educativo ha cambiado drásticamente con la llegada de plataformas digitales. Sin embargo, en el Perú y gran parte de Latinoamérica aún existe una **brecha significativa en el acceso a contenidos educativos** debido a los altos costos de los libros físicos, la limitada disponibilidad de títulos en formato digital y la falta de integración de estas plataformas con las necesidades de los estudiantes y las instituciones educativas.  
+Muchos alumnos enfrentan dificultades para adquirir los textos requeridos en sus cursos, lo que **afecta su rendimiento académico** y limita sus oportunidades de aprendizaje. Por otro lado, los autores y editoriales locales suelen encontrar barreras para difundir sus obras en plataformas internacionales, lo que reduce su alcance y dificulta la valorización de su trabajo. Si bien existen competidores que ofrecen bibliotecas digitales o acceso a libros electrónicos, estas soluciones suelen ser **costosas, poco personalizables o enfocadas en mercados extranjeros**, sin considerar las realidades y necesidades de los usuarios en contextos educativos de la región.  
+Ante esta problemática, surge **BookSphere** como una propuesta que busca democratizar el acceso a libros y audiolibros, integrando una **plataforma digital accesible, flexible y adaptada** tanto a estudiantes como a instituciones. Nuestro enfoque no solo se centra en facilitar la obtención de materiales académicos, sino también en **fomentar la lectura, apoyar a los autores locales y crear una comunidad participativa** alrededor de la literatura y el conocimiento.
+
 ### 1.2.2. Lean UX Process  
 #### 1.2.2.1. Lean UX Problem Statements  
 #### 1.2.2.2. Lean UX Assumptions  
