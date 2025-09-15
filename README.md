@@ -43,6 +43,16 @@
 |---------|-------------|-------------------------------|--------------------------------------------|
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Creación inicial del documento  |
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Estructuración del documento |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Descripcion del StartUp |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Segmento Objetivo |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Ubiquitous Language |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture System Landscape Diagram |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Context Level Diagrams |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Container Level Diagrams |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Deployment Diagrams |
+
+
 
 # Project Report Collaboration Insights
 #### 1. URL del Repositorio en GitHub
@@ -157,8 +167,51 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 
 # Capítulo I: Introducción  
 
-## 1.1. Startup Profile  
-### 1.1.1. Descripción de la Startup  
+## 1.1. Startup Profile
+
+### 1.1.1. Descripción de la Startup
+
+<p align="center">
+  <img src="assets/Startup.png" alt="Logo de Naturafy" style="width:200px;"/>
+</p>
+
+
+Naturafy es una startup dedicada al desarrollo de soluciones IoT para el hogar, enfocada en mejorar la experiencia de los usuarios y optimizar el uso de recursos naturales. 
+
+<p align="center">
+  <img src="assets/producto.png" alt="Logo de Naturafy" style="width:200px;"/>
+</p>
+
+Su producto principal, **MaceTy**, es una maceta inteligente que combina sensores, conectividad y automatización para cuidar automáticamente las plantas de interior, haciendo el riego más eficiente y mejorando la salud de las plantas.  
+
+
+### Objetivo  
+
+Diseñar una maceta inteligente IoT que:  
+- Mida la humedad del suelo  
+- Controle automáticamente el riego mediante una mini bomba de agua  
+- Permita monitoreo en tiempo real desde una app o plataforma web  
+
+### Colaboraciones Estratégicas  
+
+Naturafy establece alianzas con viveros, tiendas de jardinería, fabricantes de sensores y comunidades de usuarios de plantas de interior. Trabajamos con estos socios para garantizar que nuestras soluciones tecnológicas respondan a sus necesidades, facilitando el cuidado automatizado de plantas y mejorando la experiencia del usuario.  
+
+### Innovación y Tecnología  
+
+**MaceTy** utiliza tecnologías IoT avanzadas para ofrecer un sistema de riego inteligente y automatizado. Los sensores de humedad, luz y temperatura permiten monitoreo continuo, mientras que la bomba controlada automáticamente asegura un riego óptimo. La app/web proporciona datos en tiempo real, alertas y control remoto, integrando tecnología accesible y diseño centrado en el usuario.  
+
+### Comunidad y Funciones Sociales  
+
+MaceTy no es solo un producto; es también un espacio de aprendizaje y conexión. La plataforma permite a los usuarios compartir consejos de cuidado, estrategias de riego y mantenerse informados sobre nuevas prácticas de jardinería inteligente. Esta comunidad activa fomenta el intercambio de conocimiento y la adopción de hábitos sostenibles.  
+
+
+### Visión  
+
+Visualizamos hogares donde la tecnología y la naturaleza se integran para facilitar la vida de los usuarios y mejorar la salud de sus plantas. MaceTy será sinónimo de innovación en jardinería inteligente, un aliado indispensable para quienes buscan un cuidado eficiente, sostenible y conectado de sus plantas.  
+
+### Misión  
+
+Ofrecer un producto integral que empodere a los usuarios con herramientas inteligentes de cuidado de plantas, mejorando comodidad, eficiencia y bienestar en el hogar. Naturafy, a través de MaceTy, promueve el ahorro de agua, la sostenibilidad ambiental y la conexión con la naturaleza, siendo símbolo de excelencia, innovación y compromiso con un estilo de vida más verde y consciente.
 
 
 ### 1.1.2. Perfiles de integrantes del equipo  
@@ -173,6 +226,9 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 </div>
 
 ## 1.2. Solution Profile  
+La solución propuesta por Naturafy, **MaceTy**, combina hardware y software para ofrecer un sistema de riego inteligente y automatizado para plantas de interior. La plataforma permite monitoreo en tiempo real, control remoto mediante app/web y optimización del uso de agua.  
+Se busca que MaceTy no solo sea funcional, sino también accesible, escalable y fácil de usar, integrando principios de diseño centrado en el usuario y soluciones tecnológicas de bajo costo.
+
 ### 1.2.1. Antecedentes y problemática  
 
 ### 1.2.2. Lean UX Process  
@@ -182,6 +238,68 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 #### 1.2.2.4. Lean UX Canvas  
 
 ## 1.3. Segmentos objetivo  
+
+La **Maceta Inteligente** ha sido diseñada para atender a usuarios con distintos perfiles y necesidades, ofreciendo soluciones tecnológicas que faciliten el cuidado de las plantas y mejoren la experiencia de jardinería en el hogar. Cada segmento presenta motivaciones y desafíos específicos que nuestra plataforma busca atender con funcionalidades prácticas, accesibles y sostenibles.
+
+A continuación, se detalla el perfil de nuestros principales segmentos objetivos, identificando sus características, motivaciones y problemáticas, con el fin de adaptar y mejorar constantemente nuestros servicios para ofrecerles el mayor valor posible.
+
+## 1. Personas Ocupadas en la Ciudad
+
+**Descripción:**  
+Este segmento está compuesto por individuos que residen en zonas urbanas de Perú, principalmente en Lima, Arequipa y Trujillo. Buscan mantener plantas saludables sin invertir demasiado tiempo o esfuerzo, adaptándose a un estilo de vida acelerado y con limitaciones de espacio en departamentos o casas pequeñas.
+
+**Objetivos Principales:**
+
+- Facilitar el cuidado de sus plantas mediante riego automático y alertas inteligentes.
+- Mantener plantas estéticamente atractivas con mínima intervención.
+- Optimizar tiempo y recursos dedicados al cuidado de plantas.
+
+**Problemáticas y Desafíos:**
+
+- Falta de tiempo para regar y monitorear las plantas de forma constante.
+- Desconocimiento sobre las necesidades específicas de riego, luz y nutrientes de cada planta.
+- Espacios limitados que dificultan la instalación de plantas tradicionales.
+
+**Datos Cuantitativos del Problema:**
+
+- Se estima que el 70% de las personas en zonas urbanas de Perú que intentan cultivar plantas en casa abandonan su cuidado en los primeros 3 meses por falta de tiempo o conocimiento.
+- Cerca del 60% de las plantas en hogares urbanos mueren por riego inadecuado o exposición incorrecta a la luz.
+
+**Variables Geográficas, Demográficas y Psicográficas:**
+
+- **Geográficas:** Zonas urbanas de Perú (Lima, Arequipa, Trujillo).  
+- **Demográficas:** Edad: 18-50 años; Género: Femenino/Masculino; Nivel socioeconómico: medio a alto; Ocupación: profesionales, estudiantes, trabajadores con tiempo limitado.  
+- **Psicográficas:** Buscan comodidad, eficiencia, valoran la estética y el diseño en el hogar; estilo de vida urbano y ocupado.
+
+---
+
+## 2. Jardineros
+
+**Descripción:**  
+Este segmento está compuesto por personas apasionadas por la jardinería, interesadas en la tecnología aplicada al cuidado de plantas. Incluye tanto aficionados como semi-profesionales que buscan monitorear y optimizar el crecimiento de sus plantas mediante dispositivos inteligentes y aplicaciones móviles.
+
+**Objetivos Principales:**
+
+- Monitorear en tiempo real las condiciones de humedad, luz y nutrientes de sus plantas.
+- Automatizar funciones de cuidado avanzadas para mejorar la salud y el crecimiento de las plantas.
+- Obtener datos y recomendaciones precisas sobre el cuidado de cada especie.
+
+**Problemáticas y Desafíos:**
+
+- Necesidad de herramientas precisas para medir y ajustar condiciones ambientales.
+- Falta de soluciones tecnológicas que integren monitoreo y automatización de forma accesible.
+- Deseo de personalización y control sobre cada planta sin perder tiempo en tareas repetitivas.
+
+**Datos Cuantitativos del Problema:**
+
+- Aproximadamente el 55% de los jardineros aficionados en Perú invierten más de 1 hora diaria en tareas de cuidado que podrían automatizarse.
+- Solo el 30% de los sistemas de cuidado de plantas en el hogar ofrecen monitoreo en tiempo real y alertas personalizadas.
+
+**Variables Geográficas, Demográficas y Psicográficas:**
+
+- **Geográficas:** Zonas urbanas y suburbanas de Perú con espacio disponible para plantas.  
+- **Demográficas:** Edad: 18-65 años; Género: Femenino/Masculino; Nivel socioeconómico: medio a alto; Ocupación: profesionales, técnicos, emprendedores y entusiastas de la jardinería.  
+- **Psicográficas:** Personas curiosas, detallistas, interesadas en tecnología y sostenibilidad; disfrutan del control y optimización del cuidado de sus plantas.
 
 
 # Capítulo II: Requirements Elicitation & Analysis  
@@ -202,6 +320,32 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 ### 2.3.4. Empathy Mapping  
 
 ## 2.4. Ubiquitous Language  
+# Ubiquitous Language
+
+A continuación se presenta un glosario de términos utilizados en el dominio de macetas inteligentes y jardinería, incluyendo tanto términos formales como coloquiales, para asegurar que todos los miembros del equipo y stakeholders compartan un lenguaje común.
+
+| Término (Inglés)          | Término (Español)               | Definición                                                                                  |
+|----------------------------|---------------------------------|---------------------------------------------------------------------------------------------|
+| Plant                      | Planta                          | Organismo vivo que requiere agua, luz y nutrientes para crecer y desarrollarse.             |
+| Pot                        | Maceta                          | Recipiente donde se cultiva la planta; puede ser de plástico, cerámica, barro u otros.     |
+| Smart Pot                  | Maceta Inteligente              | Maceta equipada con sensores y sistemas automáticos para riego, monitoreo y cuidado de la planta. |
+| Soil                       | Sustrato / Tierra               | Mezcla que sirve como soporte físico y nutricional para la planta.                          |
+| Watering                   | Riego                           | Acción de suministrar agua a la planta según sus necesidades.                               |
+| Light Exposure             | Exposición a la Luz             | Cantidad de luz que recibe la planta para su fotosíntesis.                                  |
+| Humidity                   | Humedad                         | Nivel de agua presente en el aire o sustrato, importante para el crecimiento de la planta. |
+| Fertilizer                 | Fertilizante                    | Sustancia que aporta nutrientes esenciales a la planta.                                     |
+| Seedling                   | Plántula                        | Planta joven recién germinada o en etapa inicial de crecimiento.                            |
+| Growth Stage               | Etapa de Crecimiento            | Fase de desarrollo de la planta: germinación, vegetativa, floración o fructificación.       |
+| Sprout                     | Brote / Chiquita                | Primeros tallos o hojas que emergen del sustrato; término coloquial usado por aficionados. |
+| Leaf Drop                  | Caída de Hojas                  | Pérdida de hojas de la planta, puede indicar estrés o necesidad de cuidado.                |
+| Automated Care             | Cuidado Automatizado            | Funciones que regulan riego, luz o humedad sin intervención manual.                         |
+| Health Monitoring          | Monitoreo de Salud              | Seguimiento del estado de la planta mediante sensores y alertas.                            |
+| Water Sensor               | Sensor de Agua                  | Dispositivo que mide la humedad del sustrato.                                               |
+| Light Sensor               | Sensor de Luz                   | Dispositivo que mide la cantidad de luz que recibe la planta.                               |
+| User Preferences           | Preferencias del Usuario        | Configuraciones definidas por el usuario para el cuidado de sus plantas.                   |
+| Plant Buddy                | Compañero de Planta             | Término coloquial para referirse a la planta que se cuida con atención.                    |
+| Alert System               | Sistema de Alertas              | Notificaciones enviadas al usuario sobre necesidades de la planta (riego, luz, nutrientes).|
+| Green Thumb                | Pulgar Verde                    | Expresión coloquial que describe habilidad o talento para cuidar plantas.                  |
 
 ## 2.5. Big Picture EventStorming  
 
@@ -222,12 +366,82 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 
 ### 4.1.2. Context Mapping  
 
-### 4.1.3. Software Architecture  
-#### 4.1.3.1. Software Architecture System Landscape Diagram  
-#### 4.1.3.2. Software Architecture Context Level Diagrams  
-#### 4.1.3.3. Software Architecture Container Level Diagrams  
+### 4.1.3. Software Architecture
+
+En esta sección se presentan los diagramas C4 que describen la arquitectura del sistema de la Maceta Inteligente MaceTy, una solución integral para el cuidado automatizado de plantas domésticas en entornos urbanos. Estos diagramas ilustran desde una vista general de alto nivel hasta el detalle de contenedores y componentes internos, mostrando cómo interactúan los sensores, la plataforma IoT y las aplicaciones móviles y web.  
+
+#### 4.1.3.1. System Landscape Diagram  
+
+El Diagrama del Paisaje del Sistema muestra la relación de MaceTy con actores externos, como usuarios urbanos y jardineros, así como aplicaciones móviles, servicios de notificación y bases de datos de especies. También ilustra la interacción con sistemas externos clave, como APIs climáticas y repositorios especializados, que enriquecen las recomendaciones de cuidado.  
+
+![Landscape](./assets/structurizr-106169-PanoramaDelSistema.png)  
+
+**Leyenda del diagrama:**  
+![Landscapekey](./assets/structurizr-106169-PanoramaDelSistema-key.png)  
+
+#### 4.1.3.2. Context Level Diagram  
+
+El Diagrama de Contexto detalla cómo los distintos actores (usuarios, jardineros) se comunican con el sistema a través de la aplicación móvil y la plataforma web. También representa la conexión con el MaceTy Urban IoT Device, que recolecta datos del entorno (humedad, temperatura, luz) y los transmite al ecosistema vía el MaceTy API Gateway.  
+
+![Context](./assets/structurizr-106169-ContextoDelSistema.png)  
+
+**Leyenda del diagrama:**  
+![ContextKey](./assets/structurizr-106169-ContextoDelSistema-key.png)  
+
+#### 4.1.3.3. Container Level Diagram  
+
+El **Diagrama de Contenedores** describe los principales bloques funcionales del sistema:  
+
+- **MaceTy Mobile App**: Permite al usuario monitorear y controlar su planta en tiempo real.  
+- **MaceTy Web Platform**: Proporciona un dashboard con métricas y comunidad de usuarios.  
+- **MaceTy API Gateway**: Administra la comunicación entre dispositivos IoT, aplicaciones y base de datos.  
+- **MaceTy Urban Database**: Almacena información de sensores, preferencias del usuario y patrones urbanos.  
+- **Servicios externos**: Repositorios de especies que enriquecen las recomendaciones.  
+
+![Container](./assets/structurizr-106169-DiagramaDeContenedores.png)  
+
+**Leyenda del diagrama:**  
+![ContainerKey](./assets/structurizr-106169-DiagramaDeContenedores-key.png)  
+
+#### Software Component Diagram  
+
+El Diagrama de Componentes detalla la lógica interna de los microservicios en el **MaceTy API Gateway**, como:  
+
+- Procesamiento de datos de sensores.  
+- Módulo de alertas inteligentes de riego.  
+- Módulo de recomendaciones basadas en patrones urbanos y clima.  
+- API de integración con aplicaciones móviles y web.  
+
+![Component](./assets/structurizr-106169-ComponentesGatewayAPI.png)  
+
+**Leyenda del diagrama:**   
+![ComponentKey](./assets/structurizr-106169-ComponentesGatewayAPI-key.png)  
+
+#### Software IoT Diagram  
+
+El **Diagrama IoT** representa el **MaceTy Urban IoT Device**, un dispositivo basado en ESP32 con sensores de humedad, temperatura y luz ambiental, además de una mini bomba de riego controlada automáticamente. Este dispositivo envía telemetría cada 15–30 minutos mediante protocolos como MQTT/HTTP, asegurando comunicación confiable con el API Gateway y retroalimentación en tiempo real hacia las aplicaciones.  
+
+![Landscape](./assets/structurizr-106169-ComponentesMacetaInteligente.png)  
+
+**Índice:**  
+![Landscape](./assets/structurizr-106169-ComponentesMacetaInteligente-key.png)  
+
 #### 4.1.3.4. Software Architecture Deployment Diagrams  
 
+Los Deployment Diagrams (diagramas de despliegue) forman parte de la arquitectura de software y son esenciales para representar cómo los componentes del sistema se distribuyen físicamente en el entorno de ejecución. Estos diagramas muestran la disposición de hardware (nodos) y la manera en que los artefactos de software se instalan en ellos, permitiendo visualizar la infraestructura que soporta la aplicación. Su propósito principal es ilustrar la relación entre el software y el hardware, detallando aspectos como servidores, dispositivos de red, bases de datos, y cómo interactúan entre sí.
+
+**Web App**
+
+![containers](./assets/deployment1.png)
+
+**Mobile App**
+
+![containers](./assets/deployment2.png)
 ## 4.2. Tactical-Level Domain-Driven Design  
 
 
+## Bibliografía
+
+- Verified Market Reports. (2024). *Insights de mercado de plantas inteligentes en macetas*. Recuperado de [https://www.verifiedmarketreports.com/es/product/smart-potted-plant-market/](https://www.verifiedmarketreports.com/es/product/smart-potted-plant-market/)  
+- Global Growth Insights. (2025). *Tamaño del mercado del mercado de macetas y plantadores*. Recuperado de [https://www.globalgrowthinsights.com/es/market-reports/home-flower-pots-and-planters-market-113156](https://www.globalgrowthinsights.com/es/market-reports/home-flower-pots-and-planters-market-113156)  
+- Business Research Insights. (2023). *Tamaño y pronóstico del mercado de macetas de plástico para el hogar*. Recuperado de [https://www.businessresearchinsights.com/es/market-reports/home-plastic-flower-pots-and-planters-market-112521](https://www.businessresearchinsights.com/es/market-reports/home-plastic-flower-pots-and-planters-market-112521)
