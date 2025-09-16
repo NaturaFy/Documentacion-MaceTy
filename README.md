@@ -30,7 +30,7 @@
 | **Member**               | **Code**   |
 | ------------------------ | ---------- |
 | Rojas Velasquez, Maycol  | U202219984 |
-|                          |            |
+| Gómez Vallejos, Sergio   | U20221D401 |
 |                          |            |
 
 </div>
@@ -51,6 +51,11 @@
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Context Level Diagrams |
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Container Level Diagrams |
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Deployment Diagrams |
+| TB1     | 14/09/2025  | Sergio André Gómez Vallejos | Implementación de Antecedentes y problematica  |
+| TB1     | 14/09/2025  | Sergio André Gómez Vallejos | Implementación de los Competidores  |
+| TB1     | 14/09/2025  | Sergio André Gómez Vallejos | Implementación de Analisis de los competidores  |
+| TB1     | 14/09/2025  | Sergio André Gómez Vallejos | Creación de las tácticas y entrategias frente a competidores  |
+| TB1     | 14/09/2025  | Sergio André Gómez Vallejos | Creación de analisis de las entrevistas  |
 
 
 
@@ -220,7 +225,7 @@ Ofrecer un producto integral que empodere a los usuarios con herramientas inteli
 | Integrante                                                                                                                                                                                                                                                       | Conocimientos técnicos / Habilidades                                                                                                                                                                                                                               |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |<img src="https://hackmd.io/_uploads/B1F_iuso0.jpg" alt="yo-3" style="width: 600px ; height: 200px;"> | Maycol Jhordan Rojas Velasquez – Ingeniería de Software – u202219984 Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar las ventajas y desventajas.Además, tengo conocimientos de programación en C++, HTML, Python, Angular, Backend en Java, y domino Flutter. También cuento con experiencia en LangChain aplicado con LLM y RAG.Tengo un enfoque responsable y dedicado, acompañado de un aprendizaje rápido, lo que me permite ayudar a mis compañeros en sus dudas. Por otro lado, mis hobbies son ver series, jugar, escuchar música, nadar y manejar.|
-|     |       |
+| ![Sergio](https://hackmd.io/_uploads/SkU_5d9cR.png)    | Sergio André Gómez Vallejos – Ingeniería de Software – u20221d401 <br> Soy una persona resiliente que, sin importar cuántas veces caiga, siempre encuentra la manera de levantarse. Tengo habilidades sociales sólidas y una amplia experiencia en la resolución de problemas de código. Suelo ser el miembro más activo de mi equipo de trabajo. Me apasionan los lenguajes de programación y la tecnología, y constantemente me esfuerzo por alcanzar mis objetivos y contribuir al desarrollo del startup.      |
 |     |       |
 
 </div>
@@ -230,6 +235,10 @@ La solución propuesta por Naturafy, **MaceTy**, combina hardware y software par
 Se busca que MaceTy no solo sea funcional, sino también accesible, escalable y fácil de usar, integrando principios de diseño centrado en el usuario y soluciones tecnológicas de bajo costo.
 
 ### 1.2.1. Antecedentes y problemática  
+
+En los últimos años, el acceso a libros y material educativo ha cambiado drásticamente con la llegada de plataformas digitales. Sin embargo, en el Perú y gran parte de Latinoamérica aún existe una **brecha significativa en el acceso a contenidos educativos** debido a los altos costos de los libros físicos, la limitada disponibilidad de títulos en formato digital y la falta de integración de estas plataformas con las necesidades de los estudiantes y las instituciones educativas.  
+Muchos alumnos enfrentan dificultades para adquirir los textos requeridos en sus cursos, lo que **afecta su rendimiento académico** y limita sus oportunidades de aprendizaje. Por otro lado, los autores y editoriales locales suelen encontrar barreras para difundir sus obras en plataformas internacionales, lo que reduce su alcance y dificulta la valorización de su trabajo. Si bien existen competidores que ofrecen bibliotecas digitales o acceso a libros electrónicos, estas soluciones suelen ser **costosas, poco personalizables o enfocadas en mercados extranjeros**, sin considerar las realidades y necesidades de los usuarios en contextos educativos de la región.  
+Ante esta problemática, surge **BookSphere** como una propuesta que busca democratizar el acceso a libros y audiolibros, integrando una **plataforma digital accesible, flexible y adaptada** tanto a estudiantes como a instituciones. Nuestro enfoque no solo se centra en facilitar la obtención de materiales académicos, sino también en **fomentar la lectura, apoyar a los autores locales y crear una comunidad participativa** alrededor de la literatura y el conocimiento.
 
 ### 1.2.2. Lean UX Process  
 #### 1.2.2.1. Lean UX Problem Statements  
@@ -305,8 +314,23 @@ Este segmento está compuesto por personas apasionadas por la jardinería, inter
 # Capítulo II: Requirements Elicitation & Analysis  
 
 ## 2.1. Competidores  
-### 2.1.1. Análisis competitivo  
+### 2.1.1. Análisis competitivo
+<table> <tr> <td align="center" colspan="6"><b>Competitive Analysis Landscape</b></td> </tr> <tr> <td colspan="2"><b>¿Porqué llevar a cabo este análisis?</b></td> <td colspan="4"> Para entender las fortalezas y debilidades de MaceTy frente a competidores internacionales y así definir estrategias de diferenciación en el mercado peruano y latinoamericano. </td> </tr> <tr> <td colspan="2"><b>¿Cómo podemos proporcionar un buen servicio?</b></td> <td colspan="4"> ¿Cómo podemos ofrecer un cuidado de plantas inteligente, accesible y sostenible que combine IoT, automatización y comunidad de usuarios para mejorar la experiencia de jardinería en el hogar? </td> </tr> <tr align="center"> <td colspan="2"></td><td><b>Naturafy – MaceTy</b></td><td><b>Click & Grow</b></td><td><b>Parrot Pot</b></td><td><b>Xiaomi Smart Flower Pot</b></td> </tr> <tr> <td rowspan="2"><b>Perfil</b></td><td><b>Overview</b></td> <td>Startup peruana con una maceta inteligente IoT que mide humedad, luz y temperatura, controla riego automático y se conecta vía app/web.</td> <td>Empresa internacional con sistema de jardinería inteligente basado en cápsulas y riego automático.</td> <td>Maceta inteligente con sensores de humedad, luz y fertilización, conectada vía app.</td> <td>Maceta de bajo costo con sensores básicos y conectividad Bluetooth/WiFi.</td> </tr> <tr> <td><b>Ventaja competitiva</b></td> <td>Accesible y adaptada al mercado latinoamericano; combina IoT + comunidad + sostenibilidad.</td> <td>Gran reconocimiento global, productos “plug & play” fáciles de usar.</td> <td>Alta precisión de sensores, diseño elegante y conectividad avanzada.</td> <td>Precios bajos, distribución masiva gracias al ecosistema Xiaomi.</td> </tr> <tr> <td rowspan="2"><b>Perfil de Marketing</b></td><td><b>Mercado Objetivo</b></td> <td>Usuarios urbanos peruanos y latinoamericanos (profesionales, estudiantes, jardineros aficionados).</td> <td>Consumidores urbanos de Europa y EE.UU. interesados en jardinería indoor.</td> <td>Amantes de la tecnología y plantas de gama media-alta.</td> <td>Usuarios de hogar inteligente en mercados asiáticos.</td> </tr> <tr> <td><b>Estrategias de Marketing</b></td> <td>Redes sociales, alianzas con viveros locales, ferias y comunidades de jardinería.</td> <td>E-commerce internacional, influencers de estilo de vida verde.</td> <td>Marketing en ferias tecnológicas y jardinería premium.</td> <td>Integración en ecosistema Xiaomi + ventas retail masivas.</td> </tr> <tr> <td rowspan="3"><b>Perfil de Producto</b></td><td><b>Productos & Servicios</b></td> <td>Maceta IoT con sensores, riego automático, app/web y comunidad integrada.</td> <td>Sistemas de cultivo inteligente con cápsulas de semillas.</td> <td>Maceta IoT con sensores avanzados y app.</td> <td>Maceta básica con sensores de humedad y luz.</td> </tr> <tr> <td><b>Precios & Costos</b></td> <td>Medio-bajo (adaptado al poder adquisitivo peruano).</td> <td>Alto (USD 80–150 + cápsulas).</td> <td>Alto (USD 90–120).</td> <td>Bajo (USD 30–50).</td> </tr> <tr> <td><b>Canales de distribución</b></td> <td>App/web, e-commerce local, alianzas con viveros y tiendas.</td> <td>Web oficial, Amazon, retailers.</td> <td>E-commerce y tiendas especializadas.</td> <td>Marketplace Xiaomi y distribuidores globales.</td> </tr> <tr> <td rowspan="5"><b>Análisis SWOT</b></td><td><b>Fortalezas</b></td> <td>Adaptación local, sostenibilidad, accesibilidad y comunidad en LATAM.</td> <td>Experiencia global y gran comunidad de usuarios.</td> <td>Alta precisión tecnológica.</td> <td>Precios accesibles y ecosistema Xiaomi.</td> </tr> <tr> <td><b>Debilidades</b></td> <td>Startup en desarrollo, requiere inversión para escalar.</td> <td>Costos altos y dependencia de cápsulas.</td> <td>Precio elevado y limitada disponibilidad.</td> <td>Funciones limitadas, enfoque en bajo costo.</td> </tr> <tr> <td><b>Oportunidades</b></td> <td>Creciente interés en sostenibilidad y cuidado de plantas en hogares urbanos de LATAM.</td> <td>Expansión hacia mercados emergentes.</td> <td>Alianzas con marcas de jardinería premium.</td> <td>Integración con otros dispositivos IoT.</td> </tr> <tr> <td><b>Amenazas</b></td> <td>Competencia de gigantes tecnológicos y falta de inversión local.</td> <td>Competencia de bajo costo y productos alternativos.</td> <td>Nuevas startups con precios más accesibles.</td> <td>Saturación del mercado asiático.</td> </tr> </table>
+<br/>
 ### 2.1.2. Estrategias y tácticas frente a competidores  
+
+Para enfrentarnos a la competencia en el sector de plataformas digitales de lectura, nuestra estrategia se centrará en ofrecer una aplicación accesible, intuitiva y adaptada a las necesidades de estudiantes y lectores en el Perú y Latinoamérica.  
+
+A diferencia de competidores como **Click & Grow** u otras plataformas internacionales de distribución de libros, **BookSphere** destacará por su enfoque en la **personalización del contenido**, la **integración con instituciones educativas** y la **creación de comunidad lectora**.  
+
+Nuestras tácticas incluirán:  
+- **Campañas de marketing digital segmentadas**, utilizando redes sociales y medios especializados en educación y cultura.  
+- **Alianzas estratégicas con universidades, colegios y editoriales locales**, lo que permitirá fortalecer la presencia de la aplicación en el ámbito académico.  
+- **Modelos de suscripción flexibles y accesibles**, adaptados a estudiantes, instituciones y usuarios independientes.  
+- **Innovación constante en la experiencia del usuario**, incorporando reseñas, recomendaciones personalizadas y funciones sociales que fomenten la interacción entre autores y lectores.  
+
+De esta forma, BookSphere no solo será una plataforma de acceso a libros y audiolibros, sino también un espacio para conectar a los usuarios con el conocimiento, la educación y la literatura en una experiencia digital enriquecedora.
+
 
 ## 2.2. Entrevistas  
 ### 2.2.1. Diseño de entrevistas  
