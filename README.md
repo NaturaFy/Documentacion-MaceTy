@@ -331,9 +331,60 @@ Nuestras tácticas incluirán:
 
 De esta forma, BookSphere no solo será una plataforma de acceso a libros y audiolibros, sino también un espacio para conectar a los usuarios con el conocimiento, la educación y la literatura en una experiencia digital enriquecedora.
 
-
 ## 2.2. Entrevistas  
 ### 2.2.1. Diseño de entrevistas  
+
+El diseño de entrevistas se centra en validar la propuesta de valor de **MaceTy**, una maceta inteligente que combina hardware y software para ofrecer un sistema de riego automatizado y monitoreo en tiempo real, con el fin de facilitar el cuidado de plantas de interior.  
+Se busca comprender mejor las necesidades de los usuarios potenciales, sus hábitos, motivaciones y desafíos en relación al cuidado de plantas, además de explorar la disposición que tendrían hacia una solución tecnológica accesible y fácil de usar.  
+
+Para ello, se definieron dos segmentos de entrevistas: **Personas Ocupadas en la Ciudad** y **Jardineros**, cada uno con un guion adaptado a sus características.  
+
+#### Entrevista – Personas Ocupadas en la Ciudad  
+
+**Preguntas iniciales (contexto):**  
+1. ¿Cómo te llamas?  
+2. ¿Dónde vives actualmente?  
+3. ¿Qué edad tienes?  
+
+**Preguntas principales:**  
+4. ¿Tienes plantas en tu casa o departamento?  
+5. ¿Cuántas veces a la semana sueles regarlas o cuidarlas?  
+6. ¿Alguna vez se te han muerto plantas por falta de tiempo o desconocimiento? ¿Qué pasó?  
+7. ¿Qué tan importante es para ti tener plantas bonitas en tu hogar? (Nada – Poco – Importante – Muy importante)  
+8. Si tuvieras una maceta que se riega sola y te avisa si tu planta necesita luz o nutrientes, ¿la usarías? ¿Por qué?  
+9. ¿Qué características valoras más en un producto para el hogar? (ej. estética, facilidad de uso, precio, tecnología)  
+10. ¿Cuánto estarías dispuesto a pagar por una maceta inteligente que cuide tus plantas automáticamente?  
+11. ¿Qué aplicación móvil usas más en tu día a día y por qué te gusta?  
+12. ¿Qué tan seguido olvidas regar o cuidar tus plantas? (Casi nunca – A veces – Frecuente – Siempre)  
+13. ¿Prefieres recibir alertas en tu celular o que el sistema se encargue solo sin notificaciones?  
+14. ¿Cuál sería el mayor beneficio para ti de tener una maceta inteligente?  
+15. ¿Qué obstáculos crees que podrías tener para usar un producto así? (precio, desconfianza en la tecnología, instalación, etc.)  
+16. ¿Recomendarías este tipo de solución a familiares o amigos que también tienen plantas? ¿Por qué?  
+
+---
+
+#### Entrevista – Jardineros (aficionados o semi-profesionales)  
+
+**Preguntas iniciales (contexto):**  
+1. ¿Cómo te llamas?  
+2. ¿Dónde vives actualmente?  
+3. ¿Qué edad tienes?  
+
+**Preguntas principales:**  
+4. ¿Qué tipo de plantas cultivas con más frecuencia?  
+5. ¿Cuánto tiempo al día o a la semana dedicas al cuidado de tus plantas?  
+6. ¿Usas alguna herramienta o aplicación para monitorear riego, humedad o luz? ¿Cuál?  
+7. ¿Qué problemas enfrentas más seguido en el cuidado de tus plantas?  
+8. ¿Te interesaría un sistema que te muestre datos en tiempo real (riego, nutrientes, luz) de cada planta? ¿Por qué?  
+9. ¿Prefieres tener el control total sobre el cuidado (ajustar tú mismo) o que el sistema se encargue automáticamente?  
+10. ¿Qué tan dispuesto estarías a invertir en tecnología que mejore la salud y el crecimiento de tus plantas?  
+11. ¿Qué tan importante es para ti llevar un registro histórico del crecimiento y estado de tus plantas?  
+12. ¿Qué tan cómodo te sientes usando aplicaciones móviles o dispositivos inteligentes?  
+13. ¿Te gustaría compartir tus logros (ej. fotos, estadísticas de crecimiento) en redes sociales o comunidades de jardinería?  
+14. ¿Qué funciones extra te gustaría que tenga una maceta inteligente además de riego y monitoreo?  
+15. ¿Qué esperas en cuanto al diseño? (ej. algo moderno, estético, simple, robusto)  
+16. Si una maceta inteligente pudiera conectarse con otras (ej. crear un ecosistema de plantas), ¿lo verías útil? ¿Por qué?  
+
 ### 2.2.2. Registro de entrevistas  
 ### 2.2.3. Análisis de entrevistas  
 
