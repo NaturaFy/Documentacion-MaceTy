@@ -396,7 +396,7 @@ Para ello, se definieron dos segmentos de entrevistas: **Personas Ocupadas en la
 *Inicio de la Entrevista:* 00:00 <br>
 *Duración de la Entrevista:* 03:35 <br>
 
-<img src="assets/segmento1.png" alt="" style="width: 600px; height: auto;">
+<img src="assets/enzo.png" alt="" style="width: 600px; height: auto;">
 
 *Resumen de la Entrevista*:
 
@@ -413,7 +413,7 @@ Enzo, un joven de 23 años que vive en Comas, compartió su experiencia personal
 *Inicio de la Entrevista:* 00:00 <br>
 *Duración de la Entrevista:* 03:26 <br>
 
-<img src="assets/segmento1.png" alt="" style="width: 600px; height: auto;">
+<img src="assets/ramiro.png" alt="" style="width: 600px; height: auto;">
 
 *Resumen de la Entrevista*:
 
