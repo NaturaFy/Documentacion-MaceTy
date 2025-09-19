@@ -386,6 +386,40 @@ Para ello, se definieron dos segmentos de entrevistas: **Personas Ocupadas en la
 16. Si una maceta inteligente pudiera conectarse con otras (ej. crear un ecosistema de plantas), ¿lo verías útil? ¿Por qué?  
 
 ### 2.2.2. Registro de entrevistas  
+
+## Segmento 1: Personas Ocupadas en la Ciudad:
+
+*Entrevistado:* Enzo Sanamamur <br>
+*Sexo:* Masculino <br>
+*Edad:* 23 <br>
+*Domicilio:* Comas, Lima, Peru <br>
+*Inicio de la Entrevista:* 00:00 <br>
+*Duración de la Entrevista:* 03:35 <br>
+
+<img src="assets/segmento1.png" alt="" style="width: 600px; height: auto;">
+
+*Resumen de la Entrevista*:
+
+Enzo, un joven de 23 años que vive en Comas, compartió su experiencia personal sobre el cuidado de plantas en su hogar, resaltando que para él son un elemento vital porque aportan vida y mejoran el ambiente de su espacio. Aunque reconoce que las riega una o dos veces por semana, también admitió que en ocasiones se olvida y ha perdido plantas por falta de atención, lo que evidencia la necesidad de soluciones que automaticen estas tareas. En ese sentido, mostró gran interés en la idea de una maceta inteligente que no solo pueda regar automáticamente, sino también avisar sobre la necesidad de luz o nutrientes, siempre que sea fácil de usar y con un diseño atractivo que combine con su hogar. En cuanto a su disposición de pago, mencionó que estaría dispuesto a invertir entre 100 y 200 soles, aunque considera que el precio y la complejidad de uso son los principales obstáculos que podrían limitar su adopción. Finalmente, destacó que recomendaría este tipo de producto a amigos y familiares que, como él, viven en departamentos y valoran tener plantas, lo que refleja una oportunidad de mercado en este segmento de consumidores jóvenes interesados en soluciones prácticas y tecnológicas para simplificar su vida cotidiana.
+
+
+
+## Segmento 2: Jardineros:
+
+*Entrevistado:* Ramiro Guzmán <br>
+*Sexo:* Masculino <br>
+*Edad:* 24 <br>
+*Domicilio:* Bellavista Callao, Lima, Peru <br>
+*Inicio de la Entrevista:* 00:00 <br>
+*Duración de la Entrevista:* 03:26 <br>
+
+<img src="assets/segmento1.png" alt="" style="width: 600px; height: auto;">
+
+*Resumen de la Entrevista*:
+
+Ramiro Guzmán, de 24 años y residente en Bellavista, Callao, compartió su experiencia sobre el cuidado de plantas en su hogar, principalmente ornamentales y algunas comestibles como tomates y lechugas. Dedica entre una y dos horas diarias, más los fines de semana, observando manualmente la tierra y las hojas, aunque enfrenta problemas como plantas que se secan por exceso de sol o descuido al regarlas. Mostró gran interés en un sistema que monitoree en tiempo real riego, nutrientes y luz, prefiriendo una maceta inteligente que pueda automatizarse pero le permita ajustes manuales. Está dispuesto a invertir entre 250 y 300 soles en una maceta confiable, valorando la posibilidad de registrar el crecimiento de sus plantas, recibir recomendaciones personalizadas y conectarlas en un ecosistema controlable desde un solo dispositivo. Además, prioriza un diseño moderno, minimalista y estético que combine con su hogar, y disfruta compartir experiencias y estadísticas de jardinería en redes sociales y comunidades especializadas.
+
+ 
 ### 2.2.3. Análisis de entrevistas  
 
 ## 2.3. Needfinding  
