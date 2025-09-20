@@ -227,73 +227,46 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 |-------------------------|------------------------|------------------|
 |Trabaja en equipo para proporcionar liderazgo en forma conjunta |<br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué liderazgo conjunto durante el desarrollo del proyecto MaceTy, coordinando con todo el equipo la distribución de tareas técnicas y de investigación. Lideré la arquitectura de software, diagramas C4 y el diseño del sistema IoT, mientras facilitaba la integración del trabajo de los cinco miembros del equipo, asegurando coherencia entre los bounded contexts y componentes técnicos.<br><br> 2. Gómez Vallejos, Sergio André<br>*TB1:*<br> Ejercí liderazgo compartido en la investigación de mercado y análisis competitivo. Coordiné con el equipo completo para asegurar coherencia entre los antecedentes, problemática y la propuesta técnica, liderando las secciones de competidores y análisis de entrevistas. Facilité la comunicación entre todos los miembros para mantener una visión unificada del proyecto.<br><br> 3. Valera Garcés, Samuel Ignacio<br>*TB1:*<br> Lideré la elaboración de **2.3 Needfinding**, **2.3.1 User Personas**, **2.3.2 User Task Matrix**, **2.3.3 User Journey Mapping**, **2.3.4 Empathy Mapping**, **2.5 Big Picture EventStorming**, la **entrevista con el segmento 1**, así como **3.1 User Stories** y **3.2 Product Backlog**. Coordiné con los cinco integrantes del equipo para integrar estos insumos al documento final, asegurando coherencia y cumplimiento de los objetivos del proyecto MaceTy.<br><br> 4. Leon Rioja, Carlos Andres<br>*TB1:*<br> Asumí el liderazgo en el diseño de contextos delimitados y modelado de dominios. Desarrollé el **4.1.1.1 Candidate Context Discovery**, **4.1.1.2 Domain Message Flows Modeling** y **4.1.1.3 Bounded Context Canvases**. Colaboré estrechamente con todo el equipo para asegurar que los bounded contexts reflejaran correctamente los procesos de negocio identificados en las fases previas del proyecto.<br><br> 5. Jaque Peña, Estefano Oscar<br>*TB1:*<br> Lideré la conceptualización y desarrollo del **1.2.2 Lean UX Process**, incluyendo problem statements, assumptions y hypothesis statements que sirvieron como base fundamental para todo el proyecto. Coordiné con los demás miembros para asegurar que el enfoque Lean UX se mantuviera consistente a lo largo de todas las fases del desarrollo, desde la investigación hasta la arquitectura técnica. | Durante el TB1, los cinco miembros del equipo demostraron capacidades de liderazgo complementarias y distribuidas estratégicamente. Maycol lideró los aspectos técnicos y arquitecturales, Sergio dirigió la investigación de mercado y análisis competitivo, Samuel se enfocó en el needfinding y especificación de requerimientos, Carlos desarrolló el modelado de dominio y contextos delimitados, mientras que Estefano estableció las bases metodológicas con Lean UX. Esta distribución de liderazgo permitió aprovechar las fortalezas individuales y crear un producto integral que combina solidez técnica, investigación de mercado robusta, análisis de usuarios profundo, arquitectura de dominio bien estructurada y metodología ágil sólida. |
 | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué metodologías colaborativas estableciendo reuniones regulares de sincronización con los cinco miembros del equipo, utilizando GitHub para el control de versiones colaborativo y creando un ambiente donde todos pudieran contribuir según sus fortalezas técnicas. Establecí metas claras para cada sprint: definición de segmentos objetivo, arquitectura del sistema y documentación técnica, coordinando con Carlos para los bounded contexts y con Samuel para la integración de user stories.<br><br> 2. Gómez Vallejos, Sergio André<br>*TB1:*<br> Contribuí a crear un entorno inclusivo donde cada uno de los cinco miembros del equipo pudo aportar desde sus habilidades específicas. Planifiqué las tareas de investigación y análisis competitivo en coordinación con Samuel para las entrevistas y Estefano para el marco Lean UX, estableciendo metas semanales para el levantamiento de información. Cumplí con todos los objetivos propuestos facilitando la integración de todos los componentes del proyecto.<br><br> 3. Valera Garcés, Samuel Ignacio<br>*TB1:*<br> Organicé y planifiqué reuniones de coordinación con todos los integrantes del equipo, definí metas por sección a mi cargo y utilicé herramientas colaborativas (GitHub, documentos compartidos) para facilitar la integración y retroalimentación entre los cinco miembros. Cumplí los plazos acordados para cada entrega, manteniendo una comunicación constante y un ambiente inclusivo en el desarrollo del proyecto, especialmente coordinando con Sergio para las entrevistas y con Carlos para alinear el needfinding con los bounded contexts.<br><br> 4. Leon Rioja, Carlos Andres<br>*TB1:*<br> Establecí un ambiente colaborativo para el desarrollo de la arquitectura de dominio, coordinando estrechamente con Maycol para alinear los bounded contexts con la arquitectura técnica y con Samuel para asegurar que los contextos reflejaran las necesidades identificadas en el needfinding. Planifiqué las tareas de modelado de dominio con metas específicas semanales y mantuve comunicación constante con todo el equipo para validar los diseños propuestos.<br><br> 5. Jaque Peña, Estefano Oscar<br>*TB1:*<br> Creé un marco metodológico colaborativo basado en Lean UX que facilitó la participación equitativa de los cinco miembros del equipo. Establecí metas claras para cada fase del proceso Lean UX y planifiqué la integración de los aportes de cada integrante: coordinando con Sergio para los antecedentes, con Samuel para el needfinding, con Carlos para el domain modeling y con Maycol para la arquitectura técnica. Mantuve un ambiente inclusivo donde todas las perspectivas fueran valoradas y consideradas en las decisiones del proyecto. | El equipo de cinco integrantes logró crear un entorno altamente colaborativo donde cada miembro aportó desde sus fortalezas específicas: técnicas, de investigación, de análisis de usuarios, de modelado de dominio y metodológicas. La planificación clara y coordinada de tareas permitió cumplir con todos los objetivos del TB1: documentación completa del startup profile, análisis competitivo exhaustivo, needfinding profundo, arquitectura de software bien definida, bounded contexts coherentes, segmentos objetivo validados y un marco Lean UX sólido. La comunicación constante entre los cinco miembros y el uso de herramientas colaborativas como GitHub facilitaron la integración exitosa de todos los componentes del proyecto MaceTy, demostrando que un liderazgo distribuido y colaborativo puede generar resultados superiores a la suma de las contribuciones individuales. |
-
-
 # Capítulo I: Introducción  
-
 ## 1.1. Startup Profile
-
 ### 1.1.1. Descripción de la Startup
-
 <p align="center">
   <img src="assets/Startup.png" alt="Logo de Naturafy" style="width:200px;"/>
 </p>
-
-
 Naturafy es una startup dedicada al desarrollo de soluciones IoT para el hogar, enfocada en mejorar la experiencia de los usuarios y optimizar el uso de recursos naturales. 
-
 <p align="center">
   <img src="assets/producto.png" alt="Logo de Naturafy" style="width:200px;"/>
 </p>
-
 Su producto principal, **MaceTy**, es una maceta inteligente que combina sensores, conectividad y automatización para cuidar automáticamente las plantas de interior, haciendo el riego más eficiente y mejorando la salud de las plantas.  
-
-
 ### Objetivo  
 
 Diseñar una maceta inteligente IoT que:  
 - Mida la humedad del suelo  
 - Controle automáticamente el riego mediante una mini bomba de agua  
 - Permita monitoreo en tiempo real desde una app o plataforma web  
-
 ### Colaboraciones Estratégicas  
-
 Naturafy establece alianzas con viveros, tiendas de jardinería, fabricantes de sensores y comunidades de usuarios de plantas de interior. Trabajamos con estos socios para garantizar que nuestras soluciones tecnológicas respondan a sus necesidades, facilitando el cuidado automatizado de plantas y mejorando la experiencia del usuario.  
-
 ### Innovación y Tecnología  
-
 **MaceTy** utiliza tecnologías IoT avanzadas para ofrecer un sistema de riego inteligente y automatizado. Los sensores de humedad, luz y temperatura permiten monitoreo continuo, mientras que la bomba controlada automáticamente asegura un riego óptimo. La app/web proporciona datos en tiempo real, alertas y control remoto, integrando tecnología accesible y diseño centrado en el usuario.  
-
 ### Comunidad y Funciones Sociales  
-
 MaceTy no es solo un producto; es también un espacio de aprendizaje y conexión. La plataforma permite a los usuarios compartir consejos de cuidado, estrategias de riego y mantenerse informados sobre nuevas prácticas de jardinería inteligente. Esta comunidad activa fomenta el intercambio de conocimiento y la adopción de hábitos sostenibles.  
-
-
 ### Visión  
-
 Visualizamos hogares donde la tecnología y la naturaleza se integran para facilitar la vida de los usuarios y mejorar la salud de sus plantas. MaceTy será sinónimo de innovación en jardinería inteligente, un aliado indispensable para quienes buscan un cuidado eficiente, sostenible y conectado de sus plantas.  
-
 ### Misión  
-
 Ofrecer un producto integral que empodere a los usuarios con herramientas inteligentes de cuidado de plantas, mejorando comodidad, eficiencia y bienestar en el hogar. Naturafy, a través de MaceTy, promueve el ahorro de agua, la sostenibilidad ambiental y la conexión con la naturaleza, siendo símbolo de excelencia, innovación y compromiso con un estilo de vida más verde y consciente.
-
-
 ### 1.1.2. Perfiles de integrantes del equipo  
-<div align="center">
 
-| Integrante                                                                                                                                                                                                                                                       | Conocimientos técnicos / Habilidades                                                                                                                                                                                                                               |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|<img src="https://hackmd.io/_uploads/B1F_iuso0.jpg" alt="yo-3" style="width: 600px ; height: 200px;"> | Maycol Jhordan Rojas Velasquez – Ingeniería de Software – u202219984 Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar las ventajas y desventajas.Además, tengo conocimientos de programación en C++, HTML, Python, Angular, Backend en Java, y domino Flutter. También cuento con experiencia en LangChain aplicado con LLM y RAG.Tengo un enfoque responsable y dedicado, acompañado de un aprendizaje rápido, lo que me permite ayudar a mis compañeros en sus dudas. Por otro lado, mis hobbies son ver series, jugar, escuchar música, nadar y manejar.|
-| ![Sergio](https://hackmd.io/_uploads/SkU_5d9cR.png)    | Sergio André Gómez Vallejos – Ingeniería de Software – u20221d401 <br> Soy una persona resiliente que, sin importar cuántas veces caiga, siempre encuentra la manera de levantarse. Tengo habilidades sociales sólidas y una amplia experiencia en la resolución de problemas de código. Suelo ser el miembro más activo de mi equipo de trabajo. Me apasionan los lenguajes de programación y la tecnología, y constantemente me esfuerzo por alcanzar mis objetivos y contribuir al desarrollo del startup.      |
-| ![Carlos](assets/carlos.png) | Carlos Andres Leon Rioja - Ingeniería de Software - u202111451 <br> Me considero una persona responsable, comprensible y con ganas de aprender. Manejo distintos lenguajes y frameworks como C#, C++, Java, SQL, Vue, Angular, Python, node.js y JavaScript. |
-| ![Samuel](assets/samuel.png) | Samuel Ignacio Valera Garces - Ingeniería de Software - u202111952 <br> Hola, mi nombre es Samuel, estudiante de la carrera de Ingeniería de software. Me considero una persona responsable, empática y con adaptación rápida al trabajo en equipo. Cuento con conocimiento en diversos lenguajes de programación. Mi objetivo a futuro es utilizar la tecnología para el desarrollo de aplicaciones que necesite la sociedad en el día a día. En mis tiempos libres, me gusta practicar guitarra y leer. |
-
-</div>
+| **Integrante** | **Conocimientos técnicos / Habilidades** |
+|----------------|-------------------------------------------|
+| <img src="https://hackmd.io/_uploads/B1F_iuso0.jpg" alt="Maycol Rojas" style="width: 300px; height: 200px;"> | **Maycol Jhordan Rojas Velasquez** – Ingeniería de Software – U202219984<br><br>Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar las ventajas y desventajas.<br><br>**Conocimientos técnicos:** C++, HTML, Python, Angular, Backend en Java, Flutter, LangChain aplicado con LLM y RAG.<br><br>**Habilidades:** Enfoque responsable y dedicado, aprendizaje rápido, liderazgo técnico, resolución de problemas.<br><br>**Hobbies:** Ver series, jugar videojuegos, escuchar música, nadar y manejar. |
+| <img src="https://hackmd.io/_uploads/SkU_5d9cR.png" alt="Sergio Gomez" style="width: 300px; height: 200px;"> | **Sergio André Gómez Vallejos** – Ingeniería de Software – U20221D401<br><br>Soy una persona resiliente que, sin importar cuántas veces caiga, siempre encuentra la manera de levantarse. Tengo habilidades sociales sólidas y una amplia experiencia en la resolución de problemas de código. Suelo ser el miembro más activo de mi equipo de trabajo.<br><br>**Conocimientos técnicos:** Diversos lenguajes de programación y tecnologías de desarrollo.<br><br>**Habilidades:** Liderazgo en investigación de mercado, análisis competitivo, resolución de problemas, comunicación efectiva.<br><br>**Fortalezas:** Me apasionan los lenguajes de programación y la tecnología, constantemente me esfuerzo por alcanzar mis objetivos y contribuir al desarrollo del startup. |
+| <img src="assets/carlos.png" alt="Carlos Leon" style="width: 300px; height: 200px;"> | **Carlos Andres Leon Rioja** – Ingeniería de Software – U202111451<br><br>Me considero una persona responsable, comprensible y con ganas de aprender. Mi enfoque principal está en el desarrollo de arquitecturas sólidas y el modelado de dominios complejos.<br><br>**Conocimientos técnicos:** C#, C++, Java, SQL, Vue, Angular, Python, Node.js, JavaScript.<br><br>**Habilidades:** Diseño de contextos delimitados, modelado de dominios, arquitectura de software, trabajo colaborativo.<br><br>**Especialización:** Domain-Driven Design, Context Discovery, Message Flows Modeling, Bounded Context Canvases. |
+| <img src="assets/samuel.png" alt="Samuel Valera" style="width: 300px; height: 200px;"> | **Samuel Ignacio Valera Garces** – Ingeniería de Software – U202111952<br><br>Hola, mi nombre es Samuel, estudiante de la carrera de Ingeniería de software. Me considero una persona responsable, empática y con adaptación rápida al trabajo en equipo. Mi objetivo a futuro es utilizar la tecnología para el desarrollo de aplicaciones que necesite la sociedad en el día a día.<br><br>**Conocimientos técnicos:** Diversos lenguajes de programación, diseño de experiencia de usuario, análisis de requerimientos.<br><br>**Habilidades:** Needfinding, User Stories, Product Backlog, investigación de usuarios, análisis de requerimientos.<br><br>**Hobbies:** Practicar guitarra y leer en mis tiempos libres. |
+| <img src="assets/estefano.png" alt="Estefano Jaque" style="width: 300px; height: 200px;"> | **Estefano Oscar Jaque Peña** – Ingeniería de Software – U202225466<br><br>Me especializo en metodologías ágiles y marcos de trabajo centrados en el usuario. Mi enfoque principal está en establecer bases metodológicas sólidas que guíen el desarrollo de productos tecnológicos exitosos.<br><br>**Conocimientos técnicos:** Metodologías ágiles, Lean UX, Design Thinking, análisis de procesos de negocio.<br><br>**Habilidades:** Liderazgo metodológico, Lean UX Process, Problem Statements, Assumptions, Hypothesis Statements, facilitación de equipos.<br><br>**Especialización:** Conceptualización de productos, validación de hipótesis, marcos de trabajo ágiles. |
 
 ## 1.2. Solution Profile  
 La solución propuesta por Naturafy, **MaceTy**, combina hardware y software para ofrecer un sistema de riego inteligente y automatizado para plantas de interior. La plataforma permite monitoreo en tiempo real, control remoto mediante app/web y optimización del uso de agua.  
 Se busca que MaceTy no solo sea funcional, sino también accesible, escalable y fácil de usar, integrando principios de diseño centrado en el usuario y soluciones tecnológicas de bajo costo.
-
 ### 1.2.1. Antecedentes y problemática  
 En los últimos años, el interés por la jardinería urbana y el cultivo de plantas de interior ha crecido en ciudades peruanas como Lima, Arequipa y Trujillo, donde los espacios reducidos y el estilo de vida acelerado limitan el tiempo y los conocimientos necesarios para un cuidado adecuado. Este fenómeno responde a una tendencia global hacia la búsqueda de bienestar, contacto con la naturaleza y sostenibilidad dentro del hogar.
 
@@ -307,9 +280,10 @@ Sin embargo, diversos estudios y experiencias muestran que la mayoría de los in
 
 Estas limitaciones generan frustración en los usuarios, abandono de la jardinería y pérdida de recursos económicos y naturales. Surge entonces la necesidad de una solución accesible, escalable y adaptada al contexto urbano peruano y latinoamericano, que permita automatizar el riego, monitorear en tiempo real y brindar recomendaciones confiables a los usuarios.
 La problemática impacta tanto a personas urbanas ocupadas, que buscan plantas como parte de su decoración y bienestar sin invertir demasiado tiempo, como a jardineros aficionados, que desean optimizar el cuidado de sus plantas con apoyo tecnológico.
-
-
-### 1.2.2. Lean UX Process  
+### 1.2.2. Lean UX Process 
+El **Lean UX Process** es una metodología ágil que combina los principios del Design Thinking, Lean Startup y desarrollo ágil para crear productos centrados en el usuario de manera iterativa y eficiente. Esta aproximación nos permite validar rápidamente nuestras hipótesis sobre las necesidades de los usuarios urbanos y jardineros tecnológicos, reduciendo el riesgo de desarrollar características innecesarias y asegurando que MaceTy resuelva problemas reales.
+En el contexto de MaceTy, aplicamos Lean UX para entender profundamente los desafíos que enfrentan las personas al cuidar plantas en entornos urbanos, donde factores como la falta de tiempo, espacios reducidos y conocimientos limitados sobre jardinería generan altas tasas de mortalidad vegetal. Esta metodología nos guía desde la identificación del problema hasta la formulación de hipótesis testeable, pasando por la comprensión de las necesidades del usuario y la definición de métricas de éxito.
+El proceso Lean UX para MaceTy se estructura en cuatro etapas fundamentales: **Problem Statements** (definición clara del problema a resolver), **Assumptions** (suposiciones sobre usuarios, negocio y solución), **Hypothesis Statements** (hipótesis testeable con métricas específicas) y **Lean UX Canvas** (síntesis visual de todos los elementos). Esta estructura nos permite mantener el foco en el valor para el usuario mientras desarrollamos una solución IoT que sea tanto tecnológicamente viable como comercialmente sostenible.
 #### 1.2.2.1. Lean UX Problem Statements  
 Nuestro contexto requiere información oportuna y confiable para cuidar plantas de interior en hogares urbanos; con esta información, los usuarios esperan mantener la vitalidad de sus plantas y optimizar el consumo de agua.
 Hemos observado que muchos usuarios reportan pérdidas recurrentes de plantas y riego inconstante, lo que se manifiesta en marchitez, hojas amarillas y variaciones bruscas de humedad que no son detectadas a tiempo.
@@ -406,8 +380,6 @@ Comportamiento: Rápido, confiable, silencioso, con respuesta inmediata a la app
 4. El usuario busca un producto estético que embellezca su hogar mientras cuida sus plantas.
 
 5. El usuario busca participar en una comunidad que comparta consejos y experiencias de jardinería inteligente.
-
-
 #### 1.2.2.3. Lean UX Hypothesis Statements  
 
 HYPOTHESIS 1:
@@ -449,7 +421,6 @@ Creemos que mantener la innovación en IoT accesible y sostenible fortalecerá l
 Sabremos que estamos bien.
 
 Cuando obtengamos un NPS ≥ 40, comentarios positivos sobre sostenibilidad y una tasa de recompra del 20% en clientes actuales.
-
 #### 1.2.2.4. Lean UX Canvas  
 
 <table border="1" cellpadding="10" cellspacing="0">
@@ -522,112 +493,76 @@ Cuando obtengamos un NPS ≥ 40, comentarios positivos sobre sostenibilidad y un
     </tr>
 </table>
 
-
 ## 1.3. Segmentos objetivo  
 
 La **Maceta Inteligente** ha sido diseñada para atender a usuarios con distintos perfiles y necesidades, ofreciendo soluciones tecnológicas que faciliten el cuidado de las plantas y mejoren la experiencia de jardinería en el hogar. Cada segmento presenta motivaciones y desafíos específicos que nuestra plataforma busca atender con funcionalidades prácticas, accesibles y sostenibles.
 
 A continuación, se detalla el perfil de nuestros principales segmentos objetivos, identificando sus características, motivaciones y problemáticas, con el fin de adaptar y mejorar constantemente nuestros servicios para ofrecerles el mayor valor posible.
-
 ## 1. Personas Ocupadas en la Ciudad
-
 **Descripción:**  
 Este segmento está compuesto por individuos que residen en zonas urbanas de Perú, principalmente en Lima, Arequipa y Trujillo. Buscan mantener plantas saludables sin invertir demasiado tiempo o esfuerzo, adaptándose a un estilo de vida acelerado y con limitaciones de espacio en departamentos o casas pequeñas.
-
 **Objetivos Principales:**
-
 - Facilitar el cuidado de sus plantas mediante riego automático y alertas inteligentes.
 - Mantener plantas estéticamente atractivas con mínima intervención.
 - Optimizar tiempo y recursos dedicados al cuidado de plantas.
-
 **Problemáticas y Desafíos:**
-
 - Falta de tiempo para regar y monitorear las plantas de forma constante.
 - Desconocimiento sobre las necesidades específicas de riego, luz y nutrientes de cada planta.
 - Espacios limitados que dificultan la instalación de plantas tradicionales.
-
 **Datos Cuantitativos del Problema:**
-
 - Se estima que el 70% de las personas en zonas urbanas de Perú que intentan cultivar plantas en casa abandonan su cuidado en los primeros 3 meses por falta de tiempo o conocimiento.
 - Cerca del 60% de las plantas en hogares urbanos mueren por riego inadecuado o exposición incorrecta a la luz.
-
 **Variables Geográficas, Demográficas y Psicográficas:**
-
 - **Geográficas:** Zonas urbanas de Perú (Lima, Arequipa, Trujillo).  
 - **Demográficas:** Edad: 18-50 años; Género: Femenino/Masculino; Nivel socioeconómico: medio a alto; Ocupación: profesionales, estudiantes, trabajadores con tiempo limitado.  
 - **Psicográficas:** Buscan comodidad, eficiencia, valoran la estética y el diseño en el hogar; estilo de vida urbano y ocupado.
-
----
-
 ## 2. Jardineros
-
 **Descripción:**  
 Este segmento está compuesto por personas apasionadas por la jardinería, interesadas en la tecnología aplicada al cuidado de plantas. Incluye tanto aficionados como semi-profesionales que buscan monitorear y optimizar el crecimiento de sus plantas mediante dispositivos inteligentes y aplicaciones móviles.
-
 **Objetivos Principales:**
-
 - Monitorear en tiempo real las condiciones de humedad, luz y nutrientes de sus plantas.
 - Automatizar funciones de cuidado avanzadas para mejorar la salud y el crecimiento de las plantas.
 - Obtener datos y recomendaciones precisas sobre el cuidado de cada especie.
-
 **Problemáticas y Desafíos:**
-
 - Necesidad de herramientas precisas para medir y ajustar condiciones ambientales.
 - Falta de soluciones tecnológicas que integren monitoreo y automatización de forma accesible.
 - Deseo de personalización y control sobre cada planta sin perder tiempo en tareas repetitivas.
-
 **Datos Cuantitativos del Problema:**
-
 - Aproximadamente el 55% de los jardineros aficionados en Perú invierten más de 1 hora diaria en tareas de cuidado que podrían automatizarse.
 - Solo el 30% de los sistemas de cuidado de plantas en el hogar ofrecen monitoreo en tiempo real y alertas personalizadas.
-
 **Variables Geográficas, Demográficas y Psicográficas:**
-
 - **Geográficas:** Zonas urbanas y suburbanas de Perú con espacio disponible para plantas.  
 - **Demográficas:** Edad: 18-65 años; Género: Femenino/Masculino; Nivel socioeconómico: medio a alto; Ocupación: profesionales, técnicos, emprendedores y entusiastas de la jardinería.  
 - **Psicográficas:** Personas curiosas, detallistas, interesadas en tecnología y sostenibilidad; disfrutan del control y optimización del cuidado de sus plantas.
-
-
 # Capítulo II: Requirements Elicitation & Analysis  
-
 ## 2.1. Competidores  
 ### 2.1.1. Análisis competitivo
 <table> <tr> <td align="center" colspan="6"><b>Competitive Analysis Landscape</b></td> </tr> <tr> <td colspan="2"><b>¿Porqué llevar a cabo este análisis?</b></td> <td colspan="4"> Para entender las fortalezas y debilidades de MaceTy frente a competidores internacionales y así definir estrategias de diferenciación en el mercado peruano y latinoamericano. </td> </tr> <tr> <td colspan="2"><b>¿Cómo podemos proporcionar un buen servicio?</b></td> <td colspan="4"> ¿Cómo podemos ofrecer un cuidado de plantas inteligente, accesible y sostenible que combine IoT, automatización y comunidad de usuarios para mejorar la experiencia de jardinería en el hogar? </td> </tr> <tr align="center"> <td colspan="2"></td><td><b>Naturafy – MaceTy</b></td><td><b>Click & Grow</b></td><td><b>Parrot Pot</b></td><td><b>Xiaomi Smart Flower Pot</b></td> </tr> <tr> <td rowspan="2"><b>Perfil</b></td><td><b>Overview</b></td> <td>Startup peruana con una maceta inteligente IoT que mide humedad, luz y temperatura, controla riego automático y se conecta vía app/web.</td> <td>Empresa internacional con sistema de jardinería inteligente basado en cápsulas y riego automático.</td> <td>Maceta inteligente con sensores de humedad, luz y fertilización, conectada vía app.</td> <td>Maceta de bajo costo con sensores básicos y conectividad Bluetooth/WiFi.</td> </tr> <tr> <td><b>Ventaja competitiva</b></td> <td>Accesible y adaptada al mercado latinoamericano; combina IoT + comunidad + sostenibilidad.</td> <td>Gran reconocimiento global, productos “plug & play” fáciles de usar.</td> <td>Alta precisión de sensores, diseño elegante y conectividad avanzada.</td> <td>Precios bajos, distribución masiva gracias al ecosistema Xiaomi.</td> </tr> <tr> <td rowspan="2"><b>Perfil de Marketing</b></td><td><b>Mercado Objetivo</b></td> <td>Usuarios urbanos peruanos y latinoamericanos (profesionales, estudiantes, jardineros aficionados).</td> <td>Consumidores urbanos de Europa y EE.UU. interesados en jardinería indoor.</td> <td>Amantes de la tecnología y plantas de gama media-alta.</td> <td>Usuarios de hogar inteligente en mercados asiáticos.</td> </tr> <tr> <td><b>Estrategias de Marketing</b></td> <td>Redes sociales, alianzas con viveros locales, ferias y comunidades de jardinería.</td> <td>E-commerce internacional, influencers de estilo de vida verde.</td> <td>Marketing en ferias tecnológicas y jardinería premium.</td> <td>Integración en ecosistema Xiaomi + ventas retail masivas.</td> </tr> <tr> <td rowspan="3"><b>Perfil de Producto</b></td><td><b>Productos & Servicios</b></td> <td>Maceta IoT con sensores, riego automático, app/web y comunidad integrada.</td> <td>Sistemas de cultivo inteligente con cápsulas de semillas.</td> <td>Maceta IoT con sensores avanzados y app.</td> <td>Maceta básica con sensores de humedad y luz.</td> </tr> <tr> <td><b>Precios & Costos</b></td> <td>Medio-bajo (adaptado al poder adquisitivo peruano).</td> <td>Alto (USD 80–150 + cápsulas).</td> <td>Alto (USD 90–120).</td> <td>Bajo (USD 30–50).</td> </tr> <tr> <td><b>Canales de distribución</b></td> <td>App/web, e-commerce local, alianzas con viveros y tiendas.</td> <td>Web oficial, Amazon, retailers.</td> <td>E-commerce y tiendas especializadas.</td> <td>Marketplace Xiaomi y distribuidores globales.</td> </tr> <tr> <td rowspan="5"><b>Análisis SWOT</b></td><td><b>Fortalezas</b></td> <td>Adaptación local, sostenibilidad, accesibilidad y comunidad en LATAM.</td> <td>Experiencia global y gran comunidad de usuarios.</td> <td>Alta precisión tecnológica.</td> <td>Precios accesibles y ecosistema Xiaomi.</td> </tr> <tr> <td><b>Debilidades</b></td> <td>Startup en desarrollo, requiere inversión para escalar.</td> <td>Costos altos y dependencia de cápsulas.</td> <td>Precio elevado y limitada disponibilidad.</td> <td>Funciones limitadas, enfoque en bajo costo.</td> </tr> <tr> <td><b>Oportunidades</b></td> <td>Creciente interés en sostenibilidad y cuidado de plantas en hogares urbanos de LATAM.</td> <td>Expansión hacia mercados emergentes.</td> <td>Alianzas con marcas de jardinería premium.</td> <td>Integración con otros dispositivos IoT.</td> </tr> <tr> <td><b>Amenazas</b></td> <td>Competencia de gigantes tecnológicos y falta de inversión local.</td> <td>Competencia de bajo costo y productos alternativos.</td> <td>Nuevas startups con precios más accesibles.</td> <td>Saturación del mercado asiático.</td> </tr> </table>
-
 <br/>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores  
-
 Para posicionar a **MaceTy** en el mercado latinoamericano frente a competidores internacionales, se plantean las siguientes estrategias y tácticas:  
-
 **Estrategias:**  
 - **Diferenciación local:** Ofrecer un producto adaptado al contexto peruano y latinoamericano, con precios accesibles y funciones útiles para usuarios urbanos.  
 - **Valor agregado comunitario:** Crear una comunidad de usuarios que compartan experiencias, consejos y recomendaciones sobre jardinería urbana.  
 - **Sostenibilidad como eje central:** Destacar el ahorro de agua, el uso responsable de recursos y la promoción de un estilo de vida verde.  
 - **Alianzas estratégicas:** Establecer vínculos con viveros, universidades, municipalidades y empresas de tecnología local.  
-
 **Tácticas:**  
 - **Marketing digital segmentado:** Uso de redes sociales, influencers locales y contenido educativo sobre jardinería inteligente.  
 - **Ferias y eventos verdes:** Participación activa en ferias de tecnología, sostenibilidad y agricultura urbana.  
 - **Modelos de suscripción y servicios postventa:** Planes que incluyan soporte técnico, actualizaciones y recomendaciones personalizadas vía app/web.  
 - **Distribución híbrida:** Venta en línea (e-commerce local) y presencia en viveros y tiendas de hogar.  
 - **Innovación constante:** Integrar nuevas funciones como alertas inteligentes, compatibilidad con asistentes virtuales y mejoras en la experiencia de usuario.  
-
 ## 2.2. Entrevistas  
 ### 2.2.1. Diseño de entrevistas  
-
 El diseño de entrevistas se centra en validar la propuesta de valor de **MaceTy**, una maceta inteligente que combina hardware y software para ofrecer un sistema de riego automatizado y monitoreo en tiempo real, con el fin de facilitar el cuidado de plantas de interior.  
 Se busca comprender mejor las necesidades de los usuarios potenciales, sus hábitos, motivaciones y desafíos en relación al cuidado de plantas, además de explorar la disposición que tendrían hacia una solución tecnológica accesible y fácil de usar.  
-
 Para ello, se definieron dos segmentos de entrevistas: **Personas Ocupadas en la Ciudad** y **Jardineros**, cada uno con un guion adaptado a sus características.  
-
 #### Entrevista – Personas Ocupadas en la Ciudad  
-
 **Preguntas iniciales (contexto):**  
 1. ¿Cómo te llamas?  
 2. ¿Dónde vives actualmente?  
 3. ¿Qué edad tienes?  
-
 **Preguntas principales:**  
 4. ¿Tienes plantas en tu casa o departamento?  
 5. ¿Cuántas veces a la semana sueles regarlas o cuidarlas?  
@@ -642,16 +577,12 @@ Para ello, se definieron dos segmentos de entrevistas: **Personas Ocupadas en la
 14. ¿Cuál sería el mayor beneficio para ti de tener una maceta inteligente?  
 15. ¿Qué obstáculos crees que podrías tener para usar un producto así? (precio, desconfianza en la tecnología, instalación, etc.)  
 16. ¿Recomendarías este tipo de solución a familiares o amigos que también tienen plantas? ¿Por qué?  
-
 ---
-
 #### Entrevista – Jardineros (aficionados o semi-profesionales)  
-
 **Preguntas iniciales (contexto):**  
 1. ¿Cómo te llamas?  
 2. ¿Dónde vives actualmente?  
 3. ¿Qué edad tienes?  
-
 **Preguntas principales:**  
 4. ¿Qué tipo de plantas cultivas con más frecuencia?  
 5. ¿Cuánto tiempo al día o a la semana dedicas al cuidado de tus plantas?  
@@ -666,60 +597,57 @@ Para ello, se definieron dos segmentos de entrevistas: **Personas Ocupadas en la
 14. ¿Qué funciones extra te gustaría que tenga una maceta inteligente además de riego y monitoreo?  
 15. ¿Qué esperas en cuanto al diseño? (ej. algo moderno, estético, simple, robusto)  
 16. Si una maceta inteligente pudiera conectarse con otras (ej. crear un ecosistema de plantas), ¿lo verías útil? ¿Por qué?  
-
 ### 2.2.2. Registro de entrevistas  
-
 ## Segmento 1: Personas Ocupadas en la Ciudad:
 
-*Entrevistado:* Enzo Sanamamur <br>
-*Sexo:* Masculino <br>
-*Edad:* 23 <br>
-*Domicilio:* Comas, Lima, Peru <br>
-*Inicio de la Entrevista:* 00:00 <br>
-*Duración de la Entrevista:* 03:35 <br>
+| **Aspecto** | **Entrevista 1** | **Entrevista 2** | **Entrevista 3** |
+|-------------|------------------|------------------|------------------|
+| **Entrevistado** | Enzo Sanamamur | Ariana Martinez | Camila Morales |
+| **Sexo** | Masculino | Femenino | Femenino |
+| **Edad** | 23 años | 25 años | 20 años |
+| **Domicilio** | Comas, Lima, Perú | Santiago de Surco, Lima, Perú | San Miguel, Lima, Perú |
+| **Duración** | 03:35 | 03:30 | 04:47 |
+| **Imagen** | <img src="assets/enzo.png" alt="" style="width: 400px; height: auto;"> | <img src="assets/entrevistaarianapersonaocupada.png" alt="" style="width: 400px; height: auto;"> | <img src="assets/entrevistacamila.png" alt="" style="width: 400px; height: auto;"> |
 
-<img src="assets/enzo.png" alt="" style="width: 600px; height: auto;">
+### Resúmenes de Entrevistas
 
-*Resumen de la Entrevista*:
+**Entrevista 1: Enzo Sanamamur**
 
-Enzo, un joven de 23 años que vive en Comas, compartió su experiencia personal sobre el cuidado de plantas en su hogar, resaltando que para él son un elemento vital porque aportan vida y mejoran el ambiente de su espacio. Aunque reconoce que las riega una o dos veces por semana, también admitió que en ocasiones se olvida y ha perdido plantas por falta de atención, lo que evidencia la necesidad de soluciones que automaticen estas tareas. En ese sentido, mostró gran interés en la idea de una maceta inteligente que no solo pueda regar automáticamente, sino también avisar sobre la necesidad de luz o nutrientes, siempre que sea fácil de usar y con un diseño atractivo que combine con su hogar. En cuanto a su disposición de pago, mencionó que estaría dispuesto a invertir entre 100 y 200 soles, aunque considera que el precio y la complejidad de uso son los principales obstáculos que podrían limitar su adopción. Finalmente, destacó que recomendaría este tipo de producto a amigos y familiares que, como él, viven en departamentos y valoran tener plantas, lo que refleja una oportunidad de mercado en este segmento de consumidores jóvenes interesados en soluciones prácticas y tecnológicas para simplificar su vida cotidiana.
+Enzo, estudiante de 23 años residente en Comas, considera las plantas como un elemento vital que aporta vida y mejora el ambiente de su hogar. Aunque mantiene una rutina de riego de 1-2 veces por semana, reconoce que frecuentemente olvida cuidarlas, resultando en la pérdida de plantas por falta de atención constante. Mostró gran interés en una maceta inteligente que automatice el riego y proporcione alertas sobre luz y nutrientes, valorando especialmente la facilidad de uso y un diseño atractivo que complemente su decoración. Su disposición de pago se sitúa entre 100-200 soles, identificando el precio y la complejidad de uso como principales barreras de adopción. Expresó su intención de recomendar el producto a amigos y familiares que, como él, viven en departamentos y valoran las plantas, evidenciando una oportunidad de mercado en jóvenes urbanos que buscan soluciones tecnológicas prácticas.
 
+**Entrevista 2: Ariana Martinez**
 
-*Entrevistada:* Ariana Martinez <br>
-*Sexo:* Femenino  <br>
-*Edad:* 25   
-*Domicilio:* Santiago de Surco, Lima, Perú   <br>
-*Inicio de la Entrevista:* ... <br>
-*Duración de la Entrevista:* 3:30 <br>
+Ariana, diseñadora de interiores de 25 años que vive en un departamento en Surco, mantiene plantas como elementos esenciales para crear ambientes más vivos y atractivos. Aunque revisa sus plantas diariamente, la inconsistencia en su rutina ha resultado en la pérdida de algunas por descuido. Demostró gran entusiasmo por una maceta inteligente capaz de detectar automáticamente necesidades de riego, temperatura y luz, valorando especialmente un sistema de notificaciones que le facilite el día a día y le permita ahorrar tiempo. Su disposición de pago alcanza los 300 soles, siempre que el producto incluya instrucciones claras para instalación y conectividad móvil. Identifica la complejidad de uso como el principal obstáculo potencial, pero confirma su intención de recomendar la solución a su círculo social, representando el segmento de jóvenes profesionales interesados en integrar tecnología práctica en sus hogares.
 
-<img src="assets/entrevistaarianapersonaocupada.png" alt="" style="width: 600px; height: auto;">
+**Entrevista 3: Camila Morales**
 
-Resumen de la Entrevista:
-
-Ariana, diseñadora de interiores que reside en un departamento en Surco, Lima, compartió su experiencia con el cuidado de plantas en su hogar, señalando que, aunque revisa sus macetas a diario, a veces le resulta difícil mantener la rutina y ha perdido un par de plantas por descuido. Destacó que para ella las plantas son esenciales porque aportan vida y mejoran el ambiente de sus espacios. Al conocer la idea de una maceta inteligente capaz de detectar automáticamente las necesidades de riego, temperatura y luz, mostró gran entusiasmo, indicando que un sistema de notificaciones que informe sobre el estado de la planta le facilitaría el día a día y le permitiría ahorrar tiempo. Ariana expresó que estaría dispuesta a pagar alrededor de 300 soles por un producto con estas características, siempre que cuente con instrucciones claras para su instalación y conexión con el teléfono, ya que considera que la complejidad de uso podría ser el principal obstáculo. Finalmente, afirmó que recomendaría este tipo de solución a amigos y familiares, evidenciando una oportunidad de mercado entre personas jóvenes, ocupadas y con interés en integrar tecnología práctica en su hogar.
-
+Camila, estudiante universitaria de 20 años residente en San Miguel, mantiene varias plantas ornamentales y en macetas con un programa de riego de 2-3 veces por semana. Sin embargo, experimenta interrupciones en el cuidado durante períodos de exámenes y viajes, resultando en pérdida de plantas por olvidos o desconocimiento sobre cuidados específicos. Considera muy importante tener plantas bonitas en casa por el frescor y vida que aportan al ambiente. Expresó fuerte interés en una maceta inteligente con riego automático y alertas móviles, valorando la tranquilidad y continuidad del cuidado incluso durante ausencias o períodos de alta ocupación. Prioriza facilidad de uso, estética y precio razonable, con disposición de pago entre 150-200 soles. Identifica costo e instalación compleja como posibles barreras, pero confirma su intención de recomendar el producto a familiares y amigos con plantas, utilizando principalmente WhatsApp para comunicación diaria por su simplicidad y rapidez.
 
 ## Segmento 2: Jardineros:
 
-*Entrevistado:* Ramiro Guzmán <br>
-*Sexo:* Masculino <br>
-*Edad:* 24 <br>
-*Domicilio:* Bellavista Callao, Lima, Peru <br>
-*Inicio de la Entrevista:* 00:00 <br>
-*Duración de la Entrevista:* 03:26 <br>
+| **Aspecto** | **Entrevista 1** | **Entrevista 2** |
+|-------------|------------------|------------------|
+| **Entrevistado** | Ramiro Guzmán | Gabriela Baza |
+| **Sexo** | Masculino | Femenino |
+| **Edad** | 24 años | 26 |
+| **Domicilio** | Bellavista Callao, Lima, Perú | Yanahuara, Arequipa , Perú |
+| **Duración** | 03:26 | 06:14 |
+| **Imagen** | <img src="assets/ramiro.png" alt="" style="width: 400px; height: auto;"> | <img src="assets/ramiro.png" alt="" style="width: 400px; height: auto;"> |
 
-<img src="assets/ramiro.png" alt="" style="width: 600px; height: auto;">
 
-*Resumen de la Entrevista*:
+### Resumen de Entrevista
 
-Ramiro Guzmán, de 24 años y residente en Bellavista, Callao, compartió su experiencia sobre el cuidado de plantas en su hogar, principalmente ornamentales y algunas comestibles como tomates y lechugas. Dedica entre una y dos horas diarias, más los fines de semana, observando manualmente la tierra y las hojas, aunque enfrenta problemas como plantas que se secan por exceso de sol o descuido al regarlas. Mostró gran interés en un sistema que monitoree en tiempo real riego, nutrientes y luz, prefiriendo una maceta inteligente que pueda automatizarse pero le permita ajustes manuales. Está dispuesto a invertir entre 250 y 300 soles en una maceta confiable, valorando la posibilidad de registrar el crecimiento de sus plantas, recibir recomendaciones personalizadas y conectarlas en un ecosistema controlable desde un solo dispositivo. Además, prioriza un diseño moderno, minimalista y estético que combine con su hogar, y disfruta compartir experiencias y estadísticas de jardinería en redes sociales y comunidades especializadas.
+**Entrevista 1: Ramiro Guzmán**
 
- 
+Ramiro, jardinero aficionado de 24 años residente en Bellavista, Callao, cultiva principalmente plantas ornamentales y algunas comestibles como tomates y lechugas, dedicando entre 1-2 horas diarias más tiempo adicional los fines de semana. Utiliza métodos manuales de observación para monitorear la tierra y las hojas, enfrentando desafíos como plantas que se secan por exceso de exposición solar o descuidos en el riego. Mostró gran interés en un sistema de monitoreo en tiempo real que mida riego, nutrientes y luz, prefiriendo una maceta inteligente que permita automatización con la posibilidad de ajustes manuales para mantener control sobre el proceso. Su disposición de inversión alcanza 250-300 soles para una maceta confiable, valorando especialmente la capacidad de registrar el crecimiento de sus plantas, recibir recomendaciones personalizadas y conectar múltiples plantas en un ecosistema controlable desde un dispositivo único. Prioriza un diseño moderno, minimalista y estético que se integre armoniosamente con su hogar, y disfruta compartir experiencias y estadísticas de jardinería en redes sociales y comunidades especializadas, evidenciando su perfil de jardinero tecnológico con interés en optimización y análisis de datos.
+
+**Entrevista 2: Gabriela Baza**
+Gabriela (26, Yanahuara–Arequipa) cuida rosas, suculentas y aromáticas; dedica ~1 h diaria y usa medidor de humedad y temporizador de goteo. Sus dolores: olvidos de riego, sol excesivo en verano y plagas detectadas tarde. Valora datos en tiempo real y un sistema automático con opción de ajuste manual; cómoda con apps/domótica y dispuesta a pagar S/ 250–S/ 300. Pide alertas de plagas y recomendaciones de fertilización; diseño moderno, robusto y fácil de limpiar, con gestión multi-maceta por zonas. Para adoptarlo, exige onboarding claro y eficiencia energética.
+
 ### 2.2.3. Análisis de entrevistas  
 
 ## 2.3. Needfinding  
 ### 2.3.1. User Personas  
-
 
 ### Segmento Objetivo: Personas Ocupadas en la Ciudad
 
