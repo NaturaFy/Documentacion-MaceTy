@@ -568,7 +568,12 @@ Este modelo nos proporciona una visión holística del dominio MaceTy y sirve co
 
 ## 4.1. Strategic-Level Domain-Driven Design  
 ### 4.1.1. Design-Level EventStorming  
-#### 4.1.1.1. Candidate Context Discovery  
+#### 4.1.1.1. Candidate Context Discovery
+
+Identificar contextos candidatos es un paso clave para gestionar la complejidad en el desarrollo de sistemas. Se trata de un análisis minucioso que busca entender los elementos centrales del sistema y sus interconexiones. A partir de ahí, se procede a agrupar estos elementos en 'contextos delimitados' lógicos y coherentes. Esta separación no solo facilita el diseño y la implementación, sino que también tiene como meta principal potenciar la escalabilidad, el desempeño y la mantenibilidad del sistema resultante.
+
+![Candidate Context Discovery](assets/Candidate-Context-Discovery.png)
+
 #### 4.1.1.2. Domain Message Flows Modeling  
 #### 4.1.1.3. Bounded Context Canvases  
 
