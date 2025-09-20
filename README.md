@@ -643,11 +643,129 @@ Ramiro, jardinero aficionado de 24 años residente en Bellavista, Callao, cultiv
 
 **Entrevista 2: Gabriela Baza**
 Gabriela (26, Yanahuara–Arequipa) cuida rosas, suculentas y aromáticas; dedica ~1 h diaria y usa medidor de humedad y temporizador de goteo. Sus dolores: olvidos de riego, sol excesivo en verano y plagas detectadas tarde. Valora datos en tiempo real y un sistema automático con opción de ajuste manual; cómoda con apps/domótica y dispuesta a pagar S/ 250–S/ 300. Pide alertas de plagas y recomendaciones de fertilización; diseño moderno, robusto y fácil de limpiar, con gestión multi-maceta por zonas. Para adoptarlo, exige onboarding claro y eficiencia energética.
+### 2.2.3. Análisis de entrevistas
 
-### 2.2.3. Análisis de entrevistas  
+#### Segmento 1: Personas Ocupadas en la Ciudad
 
+**Análisis Demográfico:**
+- **Rango de edad:** 20-25 años, representando jóvenes profesionales y estudiantes universitarios
+- **Ubicación geográfica:** Concentrados en Lima metropolitana (Comas, Surco, San Miguel)
+- **Perfil ocupacional:** Estudiantes y profesionales jóvenes con limitaciones de tiempo
+
+**Análisis de Comportamiento y Hábitos:**
+
+**Rutinas de Cuidado de Plantas:**
+- **Frecuencia de riego:** 1-3 veces por semana, con inconsistencias frecuentes
+- **Problema recurrente:** 100% de los entrevistados admitió haber perdido plantas por descuido u olvido
+- **Factores de interferencia:** Períodos de exámenes, trabajo intenso, viajes y rutinas cambiantes
+
+**Motivaciones Principales:**
+- **Estética del hogar:** Valoran las plantas como elementos decorativos que aportan vida y frescura
+- **Bienestar ambiental:** Reconocen los beneficios de las plantas para mejorar el ambiente del hogar
+- **Conexión con la naturaleza:** Buscan mantener un vínculo con elementos naturales en entornos urbanos
+
+**Receptividad hacia MaceTy:**
+- **Nivel de interés:** 100% mostró entusiasmo por una solución automatizada
+- **Beneficios valorados:**
+  - Riego automático (eliminación del factor humano)
+  - Alertas contextuales sobre necesidades de la planta
+  - Tranquilidad durante ausencias prolongadas
+  - Ahorro de tiempo en rutinas de cuidado
+
+**Disposición de Pago:**
+- **Rango promedio:** S/ 150 - S/ 300 soles
+- **Factores determinantes:** Facilidad de uso, diseño atractivo, funcionalidad completa
+- **Barreras identificadas:** Complejidad de instalación y configuración
+
+**Preferencias Tecnológicas:**
+- **Aplicación preferida:** WhatsApp (comunicación simple y directa)
+- **Expectativas de UX:** Interfaces intuitivas, instalación guiada, notificaciones no intrusivas
+
+#### Segmento 2: Jardineros
+
+**Análisis Demográfico:**
+- **Rango de edad:** 24-26 años, jardineros aficionados con conocimientos intermedios
+- **Distribución geográfica:** Lima Metropolitana y Arequipa
+- **Nivel de experiencia:** Aficionados con 1-3 años de experiencia práctica
+
+**Análisis de Comportamiento y Prácticas:**
+
+**Dedicación Temporal:**
+- **Tiempo invertido:** 1-2 horas diarias + tiempo adicional los fines de semana
+- **Tipos de plantas:** Combinación de ornamentales, aromáticas y comestibles
+- **Métodos actuales:** Observación manual, herramientas básicas (medidores de humedad, temporizadores)
+
+**Desafíos Técnicos Identificados:**
+- **Problemas climáticos:** Exposición solar excesiva, variaciones estacionales
+- **Detección tardía:** Plagas, enfermedades y deficiencias nutricionales
+- **Optimización:** Necesidad de datos precisos para mejorar rendimiento
+
+**Expectativas hacia la Tecnología:**
+- **Monitoreo en tiempo real:** Datos continuos de humedad, luz, temperatura
+- **Control híbrido:** Automatización con capacidad de intervención manual
+- **Análisis de datos:** Históricos, tendencias y recomendaciones personalizadas
+- **Escalabilidad:** Gestión simultánea de múltiples plantas
+
+**Inversión y ROI:**
+- **Disposición de pago:** S/ 250 - S/ 300 soles
+- **Justificación:** Mejora en resultados de cultivo y optimización de recursos
+- **Características valoradas:** Precisión de sensores, robustez del sistema, integración tecnológica
+
+**Perfil Tecnológico:**
+- **Competencia digital:** Alta comodidad con aplicaciones móviles y dispositivos inteligentes
+- **Interés en comunidad:** Disposición a compartir experiencias y datos en redes especializadas
+
+#### Insights Transversales y Conclusiones Estratégicas
+
+**Validación del Problem-Market Fit:**
+- **Problema confirmado:** Mortalidad alta de plantas urbanas (60-70% según entrevistados)
+- **Causas principales:** Inconsistencia en cuidados, falta de tiempo, conocimientos limitados
+- **Impacto emocional:** Frustración y sensación de fracaso al perder plantas
+
+**Diferenciación por Segmento:**
+
+| Aspecto | Personas Ocupadas | Jardineros |
+|---------|------------------|------------|
+| **Prioridad #1** | Automatización completa | Datos y control granular |
+| **Interfaz ideal** | Minimalista, pocas alertas | Dashboard completo con métricas |
+| **Frecuencia de uso** | Consulta esporádica | Monitoreo regular |
+| **Valor percibido** | Ahorro de tiempo | Optimización de resultados |
+
+**Oportunidades de Mercado Identificadas:**
+- **Mercado primario:** Jóvenes urbanos 20-30 años en Lima metropolitana
+- **Mercado secundario:** Jardineros aficionados en ciudades principales del país
+- **Expansión geográfica:** Arequipa como segundo mercado prioritario
+
+**Requerimientos del Producto Validados:**
+- **Funcionalidad core:** Riego automático con sensores de humedad
+- **Features diferenciadores:** Alertas inteligentes, diseño estético, app intuitiva
+- **Requisitos técnicos:** Instalación simple (<10 min), conectividad estable, batería duradera
+
+**Estrategia de Precio Confirmada:**
+- **Sweet spot:** S/ 200 - S/ 250 soles para capturar ambos segmentos
+- **Modelo freemium:** Hardware básico + suscripción opcional para features avanzadas
+
+**Canales de Distribución Validados:**
+- **Digital:** E-commerce y marketplace locales
+- **Físico:** Viveros, tiendas de hogar y decoración
+- **Referidos:** Boca a boca entre usuarios satisfechos (100% disposición a recomendar)
+
+Esta investigación cualitativa confirma la viabilidad comercial de MaceTy y proporciona direcciones claras para el desarrollo del producto, la estrategia de mercado y la experiencia de usuario diferenciada por segmento.
 ## 2.3. Needfinding  
+
+El **Needfinding** es una fase fundamental en el proceso de diseño centrado en el usuario que nos permite profundizar en la comprensión de las necesidades, comportamientos, motivaciones y desafíos reales de nuestros usuarios objetivo. Esta etapa va más allá de los datos cuantitativos obtenidos en las entrevistas, transformándolos en insights accionables que guían el desarrollo del producto MaceTy.
+
+A través de diversas técnicas de investigación cualitativa y herramientas de síntesis, el needfinding nos ayuda a identificar patrones de comportamiento, puntos de dolor no expresados verbalmente y oportunidades de innovación que no son evidentes en un análisis superficial. Para MaceTy, este proceso es especialmente crítico dado que nuestros dos segmentos objetivos personas ocupadas urbanas y jardineros tecnológicos presentan necesidades y contextos de uso significativamente diferentes.
+
+El proceso de needfinding para MaceTy se estructura en cuatro componentes principales: **User Personas** (arquetipos representativos basados en datos reales de investigación), **User Task Matrix** (mapeo de tareas y su importancia relativa), **User Journey Mapping** (visualización de la experiencia completa del usuario) y **Empathy Mapping** (comprensión profunda de pensamientos, sentimientos y motivaciones). Esta metodología integral nos permite diseñar una solución IoT que no solo sea técnicamente viable, sino que resuene genuinamente with las necesidades emocionales y prácticas de nuestros usuarios urbanos.
+
 ### 2.3.1. User Personas  
+
+Las **User Personas** son representaciones semi-ficticias de nuestros usuarios ideales, construidas a partir de datos reales obtenidos durante la investigación de usuarios. Estas personas nos ayudan a mantener el foco en necesidades específicas y contextos de uso reales durante todo el proceso de diseño y desarrollo de MaceTy.
+
+Para el proyecto MaceTy, hemos desarrollado dos personas principales que representan nuestros segmentos objetivo identificados: personas ocupadas en entornos urbanos y jardineros aficionados con interés tecnológico. Cada persona incluye información demográfica, psicográfica, objetivos, frustraciones, canales de comunicación preferidos y patrones de comportamiento específicos relacionados con el cuidado de plantas.
+
+Estas personas sirven como herramienta de validación constante, asegurando que cada decisión de diseño, funcionalidad del producto y estrategia de comunicación esté alineada con las necesidades reales de nuestros usuarios objetivo en el contexto urbano peruano.
 
 ### Segmento Objetivo: Personas Ocupadas en la Ciudad
 
@@ -657,10 +775,13 @@ Gabriela (26, Yanahuara–Arequipa) cuida rosas, suculentas y aromáticas; dedic
 
 <img src="assets/userpersonasegmento2.png">
 
-
 ### 2.3.2. User Task Matrix  
 
+La **User Task Matrix** es una herramienta de análisis que nos permite identificar y priorizar las tareas que nuestros usuarios realizan en relación con el cuidado de plantas, evaluando tanto la frecuencia con la que las ejecutan como la importancia que les asignan. Esta matriz es fundamental para determinar qué funcionalidades debe priorizar MaceTy y cómo debe estructurarse la experiencia de usuario.
 
+La matriz se construye sobre dos dimensiones clave: **Frequency** (qué tan frecuentemente el usuario realiza cada tarea) y **Importance** (qué tan crítica es esa tarea para lograr sus objetivos). Esta evaluación cruzada nos ayuda a identificar las tareas de alta frecuencia y alta importancia que deben ser automatizadas o simplificadas al máximo, así como aquellas tareas menos frecuentes pero críticas que requieren interfaces intuitivas y guías claras.
+
+Para MaceTy, la User Task Matrix revela diferencias significativas entre nuestros dos segmentos: mientras las personas ocupadas priorizan tareas de bajo mantenimiento y automatización, los jardineros valoran el control granular y el acceso a datos detallados. Esta comprensión nos permite diseñar interfaces y funcionalidades diferenciadas que satisfagan las necesidades específicas de cada segmento.
 ### Segmento Objetivo: Personas Ocupadas en la Ciudad
 
 | Task                                             | Frequency | Importance |
