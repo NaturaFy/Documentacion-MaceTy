@@ -263,7 +263,7 @@ Ofrecer un producto integral que empodere a los usuarios con herramientas inteli
 | <img src="https://hackmd.io/_uploads/SkU_5d9cR.png" alt="Sergio Gomez" style="width: 300px; height: 200px;"> | **Sergio André Gómez Vallejos** – Ingeniería de Software – U20221D401<br><br>Soy una persona resiliente que, sin importar cuántas veces caiga, siempre encuentra la manera de levantarse. Tengo habilidades sociales sólidas y una amplia experiencia en la resolución de problemas de código. Suelo ser el miembro más activo de mi equipo de trabajo.<br><br>**Conocimientos técnicos:** Diversos lenguajes de programación y tecnologías de desarrollo.<br><br>**Habilidades:** Liderazgo en investigación de mercado, análisis competitivo, resolución de problemas, comunicación efectiva.<br><br>**Fortalezas:** Me apasionan los lenguajes de programación y la tecnología, constantemente me esfuerzo por alcanzar mis objetivos y contribuir al desarrollo del startup. |
 | <img src="assets/carlos.png" alt="Carlos Leon" style="width: 300px; height: 200px;"> | **Carlos Andres Leon Rioja** – Ingeniería de Software – U202111451<br><br>Me considero una persona responsable, comprensible y con ganas de aprender. Mi enfoque principal está en el desarrollo de arquitecturas sólidas y el modelado de dominios complejos.<br><br>**Conocimientos técnicos:** C#, C++, Java, SQL, Vue, Angular, Python, Node.js, JavaScript.<br><br>**Habilidades:** Diseño de contextos delimitados, modelado de dominios, arquitectura de software, trabajo colaborativo.<br><br>**Especialización:** Domain-Driven Design, Context Discovery, Message Flows Modeling, Bounded Context Canvases. |
 | <img src="assets/samuel.png" alt="Samuel Valera" style="width: 300px; height: 200px;"> | **Samuel Ignacio Valera Garces** – Ingeniería de Software – U202111952<br><br>Hola, mi nombre es Samuel, estudiante de la carrera de Ingeniería de software. Me considero una persona responsable, empática y con adaptación rápida al trabajo en equipo. Mi objetivo a futuro es utilizar la tecnología para el desarrollo de aplicaciones que necesite la sociedad en el día a día.<br><br>**Conocimientos técnicos:** Diversos lenguajes de programación, diseño de experiencia de usuario, análisis de requerimientos.<br><br>**Habilidades:** Needfinding, User Stories, Product Backlog, investigación de usuarios, análisis de requerimientos.<br><br>**Hobbies:** Practicar guitarra y leer en mis tiempos libres. |
-| <img src="assets/estefano.png" alt="Estefano Jaque" style="width: 300px; height: 200px;"> | **Estefano Oscar Jaque Peña** – Ingeniería de Software – U202225466<br><br>Me especializo en metodologías ágiles y marcos de trabajo centrados en el usuario. Mi enfoque principal está en establecer bases metodológicas sólidas que guíen el desarrollo de productos tecnológicos exitosos.<br><br>**Conocimientos técnicos:** Metodologías ágiles, Lean UX, Design Thinking, análisis de procesos de negocio.<br><br>**Habilidades:** Liderazgo metodológico, Lean UX Process, Problem Statements, Assumptions, Hypothesis Statements, facilitación de equipos.<br><br>**Especialización:** Conceptualización de productos, validación de hipótesis, marcos de trabajo ágiles. |
+| <img src="https://i.imgur.com/I4HL8Lv.jpeg" alt="Estefano Jaque" style="width: 300px; height: 200px;"> | **Estefano Oscar Jaque Peña** – Ingeniería de Software – U202225466<br><br>Me especializo en metodologías ágiles y marcos de trabajo centrados en el usuario. Mi enfoque principal está en establecer bases metodológicas sólidas que guíen el desarrollo de productos tecnológicos exitosos.<br><br>**Conocimientos técnicos:** Metodologías ágiles, Lean UX, Design Thinking, análisis de procesos de negocio.<br><br>**Habilidades:** Liderazgo metodológico, Lean UX Process, Problem Statements, Assumptions, Hypothesis Statements, facilitación de equipos.<br><br>**Especialización:** Conceptualización de productos, validación de hipótesis, marcos de trabajo ágiles. |
 
 ## 1.2. Solution Profile  
 La solución propuesta por Naturafy, **MaceTy**, combina hardware y software para ofrecer un sistema de riego inteligente y automatizado para plantas de interior. La plataforma permite monitoreo en tiempo real, control remoto mediante app/web y optimización del uso de agua.  
@@ -1392,6 +1392,14 @@ La **Infrastructure Layer** implementa la persistencia y servicios externos para
 - PlantSpeciesDatabaseService: Integración con base de datos externa de especies
 - ImageStorageService: Almacenamiento de fotos de plantas
 - WeatherService: Datos climáticos para recomendaciones
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Plant Management Component Diagram](assets/plant-management-components.png)
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+**Índice:**  
+![Landscape](assets/plant-management-components-plant.png) 
 
 ### 4.2.3. Bounded Context: Sensor Management
 
@@ -1464,6 +1472,13 @@ La **Infrastructure Layer** implementa la comunicación IoT y persistencia de da
 - MQTTService: Comunicación MQTT con dispositivos IoT
 - TimeSeriesDatabase: Almacenamiento optimizado para series de tiempo
 - DeviceFirmwareService: Actualizaciones de firmware OTA
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Sensor Management Component Diagram](assets/sensor-management-components.png)
+**Índice:**  
+![Landscape](assets/sensor-management-components-key.png) 
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 
 ### 4.2.4. Bounded Context: IA Management
@@ -1537,7 +1552,13 @@ La **Infrastructure Layer** implementa la infraestructura de ML y servicios de c
 - MLPlatformService: Integración con plataformas de ML (TensorFlow, PyTorch)
 - DataProcessingService: Procesamiento y limpieza de datos
 - ModelDeploymentService: Despliegue automatizado de modelos
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 
+![IA Management Component Diagram](assets/ia-management-components.png)
+**Índice:**  
+![Landscape](assets/ia-management-components-key.png) 
+
+#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 ### 4.2.5. Bounded Context: Notification Management
 
@@ -1611,7 +1632,13 @@ La **Infrastructure Layer** implementa los canales de entrega y persistencia de 
 - EmailService: Envío de correos electrónicos
 - SMSService: Envío de mensajes SMS
 - AnalyticsService: Seguimiento de métricas de entrega
+#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
+![Notification Management Component Diagram](assets/notification-management-components.png)
+**Índice:**  
+![Landscape](assets/notification-management-components-key.png)
+
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 ## Conclusiones
 
