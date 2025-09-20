@@ -109,7 +109,7 @@
   - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)  
   - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)  
 - [1.2. Solution Profile](#12-solution-profile)  
-  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)  
+  - [1.2.1.  y problemática](#121--y-problemática)  
   - [1.2.2. Lean UX Process](#122-lean-ux-process)  
     - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)  
     - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)  
@@ -244,10 +244,19 @@ La solución propuesta por Naturafy, **MaceTy**, combina hardware y software par
 Se busca que MaceTy no solo sea funcional, sino también accesible, escalable y fácil de usar, integrando principios de diseño centrado en el usuario y soluciones tecnológicas de bajo costo.
 
 ### 1.2.1. Antecedentes y problemática  
+En los últimos años, el interés por la jardinería urbana y el cultivo de plantas de interior ha crecido en ciudades peruanas como Lima, Arequipa y Trujillo, donde los espacios reducidos y el estilo de vida acelerado limitan el tiempo y los conocimientos necesarios para un cuidado adecuado. Este fenómeno responde a una tendencia global hacia la búsqueda de bienestar, contacto con la naturaleza y sostenibilidad dentro del hogar.
 
-En los últimos años, el acceso a libros y material educativo ha cambiado drásticamente con la llegada de plataformas digitales. Sin embargo, en el Perú y gran parte de Latinoamérica aún existe una **brecha significativa en el acceso a contenidos educativos** debido a los altos costos de los libros físicos, la limitada disponibilidad de títulos en formato digital y la falta de integración de estas plataformas con las necesidades de los estudiantes y las instituciones educativas.  
-Muchos alumnos enfrentan dificultades para adquirir los textos requeridos en sus cursos, lo que **afecta su rendimiento académico** y limita sus oportunidades de aprendizaje. Por otro lado, los autores y editoriales locales suelen encontrar barreras para difundir sus obras en plataformas internacionales, lo que reduce su alcance y dificulta la valorización de su trabajo. Si bien existen competidores que ofrecen bibliotecas digitales o acceso a libros electrónicos, estas soluciones suelen ser **costosas, poco personalizables o enfocadas en mercados extranjeros**, sin considerar las realidades y necesidades de los usuarios en contextos educativos de la región.  
-Ante esta problemática, surge **BookSphere** como una propuesta que busca democratizar el acceso a libros y audiolibros, integrando una **plataforma digital accesible, flexible y adaptada** tanto a estudiantes como a instituciones. Nuestro enfoque no solo se centra en facilitar la obtención de materiales académicos, sino también en **fomentar la lectura, apoyar a los autores locales y crear una comunidad participativa** alrededor de la literatura y el conocimiento.
+Sin embargo, diversos estudios y experiencias muestran que la mayoría de los intentos por mantener plantas en entornos urbanos fracasan en los primeros meses. Entre los principales factores destacan:
+
+- Riego inadecuado (exceso o falta de agua), responsable de la muerte de hasta el 60% de plantas en hogares urbanos.
+
+- Falta de tiempo para realizar tareas constantes de monitoreo y riego.
+
+- Desconocimiento sobre las necesidades específicas de cada especie en cuanto a humedad, luz y nutrientes.
+
+Estas limitaciones generan frustración en los usuarios, abandono de la jardinería y pérdida de recursos económicos y naturales. Surge entonces la necesidad de una solución accesible, escalable y adaptada al contexto urbano peruano y latinoamericano, que permita automatizar el riego, monitorear en tiempo real y brindar recomendaciones confiables a los usuarios.
+La problemática impacta tanto a personas urbanas ocupadas, que buscan plantas como parte de su decoración y bienestar sin invertir demasiado tiempo, como a jardineros aficionados, que desean optimizar el cuidado de sus plantas con apoyo tecnológico.
+
 
 ### 1.2.2. Lean UX Process  
 #### 1.2.2.1. Lean UX Problem Statements  
