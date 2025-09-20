@@ -251,9 +251,217 @@ Ante esta problemática, surge **BookSphere** como una propuesta que busca democ
 
 ### 1.2.2. Lean UX Process  
 #### 1.2.2.1. Lean UX Problem Statements  
+Nuestro contexto requiere información oportuna y confiable para cuidar plantas de interior en hogares urbanos; con esta información, los usuarios esperan mantener la vitalidad de sus plantas y optimizar el consumo de agua.
+Hemos observado que muchos usuarios reportan pérdidas recurrentes de plantas y riego inconstante, lo que se manifiesta en marchitez, hojas amarillas y variaciones bruscas de humedad que no son detectadas a tiempo.
+¿Cómo podemos reducir la pérdida de plantas por riego inadecuado y mejorar la constancia del cuidado sin incrementar la carga diaria del usuario?
 #### 1.2.2.2. Lean UX Assumptions  
+
+Business Assumptions:
+
+1. Creo que mis clientes necesitan mantener sus plantas sanas sin invertir tiempo ni conocimientos técnicos, evitando riegos incorrectos.
+
+2. Estas necesidades se pueden resolver con una maceta IoT con sensores de humedad/luz/temperatura, riego automático, y app/web con alertas y recomendaciones.
+
+3. Mis clientes iniciales son (early adopters) personas urbanas ocupadas de 18–40 años que ya usan dispositivos smart-home y jardineros aficionados tech-friendly de 25–55 años en Lima/Arequipa/Trujillo.
+
+4. El valor #1 que un cliente quiere de mi servicio es “que la planta no se muera”: riego automático confiable.
+
+5. El cliente también puede obtener estos beneficios adicionales: ahorro de agua (20–30%), historial y recomendaciones por especie, estética premium, comunidad en español, integración futura con asistentes de voz.
+
+6. Voy a adquirir la mayoría de mis clientes a través de alianzas con viveros/tiendas, contenido en IG/TikTok, referidos in-app y demos en ferias universitarias.
+
+7. Haré dinero a través de venta del hardware, suscripción freemium (analítica/recetas/alertas avanzadas/backup en la nube), consumibles (sustrato/fertilizante) y B2B para viveros e instituciones.
+
+8. Mi competencia principal en el mercado será macetas inteligentes importadas (p. ej., Xiaomi, Click & Grow), sistemas de riego por goteo básicos y apps de recordatorios genéricas.
+
+9. Los venceremos debido a precio local competitivo, soporte y posventa en LATAM, personalización por especie y clima local, comunidad en español y diseño plug-and-play.
+
+10. Mi mayor riesgo de producto es fallas del riego automático o alertas imprecisas, fricción en instalación/pareo, y costo BOM no competitivo.
+
+11. Resolveremos esto a través de pilotos en hogares + pruebas de bancada, calibración por especie, onboarding guiado con failsafe (botón de riego manual), telemetría/alertas robustas (MQTT/Cloud con reintentos), y pruebas de coste para asegurar margen.
+
+User assumptions:
+
+1. Quién es el usuario?
+Personas urbanas ocupadas (profesionales, estudiantes) que desean tener plantas en casa pero carecen de tiempo o conocimientos, y jardineros aficionados que buscan optimizar el cuidado de sus plantas con tecnología.
+
+2. Dónde encaja nuestro producto, en su trabajo o vida?
+En su hogar o espacio personal (departamentos, casas, oficinas), como parte de su rutina diaria de decoración, bienestar y conexión con la naturaleza, integrándose también con otros dispositivos inteligentes del hogar.
+
+3. Qué problemas tiene nuestro producto y cómo se pueden resolver?
+
+Problema: Las plantas mueren por falta de riego o exceso de agua.
+> Solución: Sensores de humedad + riego automático controlado por app/web.
+
+Problema: Los usuarios no saben qué cuidados específicos requiere cada especie.
+> Solución: App con recomendaciones personalizadas y alertas inteligentes.
+
+Problema: Falta de tiempo para dedicar a la jardinería.
+> Solución: Automatización del riego y monitoreo remoto.
+
+4. Cuándo y cómo es usado nuestro producto?
+Se usa todos los días, de manera pasiva (riego automático) y activa (consultando la app/web). El usuario recibe notificaciones en tiempo real sobre el estado de la planta y puede revisar métricas o activar funciones manualmente en cualquier momento.
+
+5. Qué características son importantes?
+
+Fácil instalación y configuración en menos de 10 minutos.
+
+Riego automático confiable y configurable.
+
+Alertas precisas y no invasivas.
+
+Diseño estético y moderno que combine con la decoración del hogar.
+
+Compatibilidad con dispositivos móviles (Android/iOS) y web.
+
+Bajo consumo energético y eficiencia en el uso del agua.
+
+6. Cómo debe verse nuestro producto y cómo debe comportarse?
+
+Visualmente: Diseño minimalista, colores neutros y acabados elegantes que encajen en entornos urbanos modernos.
+
+Comportamiento: Rápido, confiable, silencioso, con respuesta inmediata a la app, generando confianza en que la planta está bien cuidada incluso sin intervención constante del usuario.
+
+
+* Business Outcomes (Empresa – NaturaFy / MaceTy)
+
+1. Se busca incrementar la cartera de clientes en el mercado urbano y de jardineros aficionados.
+
+2. Se busca posicionar a MaceTy como la maceta inteligente líder en Latinoamérica.
+
+3. Se busca generar ingresos sostenibles mediante hardware, suscripciones y alianzas estratégicas.
+
+4. Se busca expandir la marca a viveros, universidades y comunidades de jardinería.
+
+5. Se busca fortalecer la innovación en IoT accesible y sostenible para el hogar.
+
+* User Outcomes (Clientes/Usuarios de MaceTy)
+
+1. El usuario busca mantener sus plantas sanas sin esfuerzo ni conocimientos especializados.
+
+2. El usuario busca ahorrar tiempo y agua gracias a la automatización del riego.
+
+3. El usuario busca recibir alertas claras y confiables para cuidar mejor sus plantas.
+
+4. El usuario busca un producto estético que embellezca su hogar mientras cuida sus plantas.
+
+5. El usuario busca participar en una comunidad que comparta consejos y experiencias de jardinería inteligente.
+
+
 #### 1.2.2.3. Lean UX Hypothesis Statements  
+
+HYPOTHESIS 1:
+
+Creemos que al ofrecer un sistema de riego automático y confiable, lograremos incrementar la cartera de clientes urbanos y jardineros aficionados.
+
+Sabremos que estamos bien.
+
+Cuando alcancemos un aumento del 20% en ventas trimestrales y comentarios positivos sobre la facilidad de uso en entrevistas y encuestas.
+
+HYPOTHESIS 2:
+
+Creemos que posicionar a MaceTy como la primera maceta inteligente adaptada al mercado latinoamericano nos permitirá diferenciarnos de competidores internacionales.
+
+Sabremos que estamos bien.
+
+Cuando obtengamos un crecimiento del 15% en la participación de mercado local y comentarios cualitativos de usuarios que valoran la adaptación cultural y económica.
+
+HYPOTHESIS 3:
+
+Creemos que implementar un modelo mixto de ingresos (hardware + suscripciones + alianzas) generará sostenibilidad financiera.
+
+Sabremos que estamos bien.
+
+Cuando logremos que al menos el 30% de usuarios de hardware se conviertan en suscriptores activos y alianzas con 3 viveros en el primer año.
+
+HYPOTHESIS 4:
+
+Creemos que expandir la marca mediante alianzas con viveros, universidades y comunidades de jardinería aumentará la adquisición de clientes.
+
+Sabremos que estamos bien.
+
+Cuando firmemos convenios con al menos 5 instituciones y observemos un aumento del 25% en clientes provenientes de estos canales.
+
+HYPOTHESIS 5:
+
+Creemos que mantener la innovación en IoT accesible y sostenible fortalecerá la confianza de los clientes y la retención de usuarios.
+
+Sabremos que estamos bien.
+
+Cuando obtengamos un NPS ≥ 40, comentarios positivos sobre sostenibilidad y una tasa de recompra del 20% en clientes actuales.
+
 #### 1.2.2.4. Lean UX Canvas  
+
+<table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+        <td><strong>Lean UX Canvas – Proyecto MaceTy</strong></td>
+        <td><strong>Fecha:</strong> 14/04/2025</td>
+        <td><strong>Primera Iteración</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Business Problem</strong><br>
+            - Muchas personas desean tener plantas en casa, pero mueren por falta de tiempo o conocimientos.<br>
+            - Esto genera frustración, pérdida de dinero y abandono de la jardinería.<br>
+            - No existen soluciones accesibles y locales que integren riego automático, monitoreo en tiempo real y recomendaciones personalizadas.
+        </td>
+        <td>
+            <strong>Solution Ideas</strong><br>
+            - Maceta IoT con sensores de humedad, luz y temperatura.<br>
+            - Riego automático mediante mini bomba controlada digitalmente.<br>
+            - App/web con notificaciones y métricas en tiempo real.<br>
+            - Comunidad integrada para compartir consejos y experiencias.<br>
+            - Integración futura con asistentes de voz y smart home.
+        </td>
+        <td>
+            <strong>Business Outcomes</strong><br>
+            - Incrementar la cartera de clientes urbanos y jardineros aficionados.<br>
+            - Posicionar a MaceTy como la maceta inteligente líder en Latinoamérica.<br>
+            - Generar ingresos sostenibles con hardware, suscripción y alianzas.<br>
+            - Expandir la marca en viveros, universidades y comunidades de jardinería.<br>
+            - Fortalecer la innovación en IoT accesible y sostenible.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Users & Customers</strong><br>
+            - Personas urbanas ocupadas (profesionales, estudiantes) que quieren plantas sin invertir demasiado tiempo.<br>
+            - Jardineros aficionados y semi-profesionales interesados en optimizar y medir el cuidado de sus plantas.
+        </td>
+        <td>
+            <strong>Hypotheses</strong><br>
+            - Creemos que al automatizar el riego y monitorear humedad, luz y temperatura, los usuarios podrán mantener sus plantas vivas con menos esfuerzo.<br>
+            - Sabremos que hemos tenido éxito cuando logremos reducir la mortalidad de plantas en un 50% y recibamos comentarios positivos sobre ahorro de tiempo y facilidad de uso.<br>
+            - Creemos que integrar alertas personalizadas y recomendaciones aumentará la confianza en el cuidado de plantas.<br>
+            - Sabremos que hemos tenido éxito cuando un 30% de los clientes activos se suscriban al plan premium de la aplicación.
+        </td>
+        <td>
+            <strong>User Benefits</strong><br>
+            - Ahorro de tiempo en el cuidado de las plantas.<br>
+            - Mayor confianza y tranquilidad en el estado de sus plantas.<br>
+            - Hogar más estético y natural sin esfuerzo adicional.<br>
+            - Conexión con una comunidad de jardinería digital.<br>
+            - Ahorro de agua gracias a un riego más eficiente.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <strong>What's the most important thing we need to learn first?</strong><br>
+            - Validar si las personas urbanas aceptarían pagar por un sistema IoT de riego automático.<br>
+            - Conocer cuánto valoran la automatización vs. control manual.<br>
+            - Identificar las especies de plantas más comunes en hogares urbanos.<br>
+            - Medir disposición a suscribirse a un servicio complementario.
+        </td>
+        <td colspan="2">
+            <strong>What's the least amount of work we need to do to learn the most important?</strong><br>
+            - Encuestas y entrevistas con dueños de plantas en zonas urbanas.<br>
+            - Prototipo de baja fidelidad (mockup app + demo hardware básico).<br>
+            - Prueba piloto en 10–15 hogares con plantas de interior.<br>
+            - Recoger métricas de uso, feedback y disposición de pago.
+        </td>
+    </tr>
+</table>
+
 
 ## 1.3. Segmentos objetivo  
 
