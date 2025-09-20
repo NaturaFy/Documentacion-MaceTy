@@ -843,6 +843,13 @@ Este modelo nos proporciona una visión holística del dominio MaceTy y sirve co
 #### 4.1.1.2. Domain Message Flows Modeling  
 #### 4.1.1.3. Bounded Context Canvases  
 
+
+<img src="assets/boundedcanvassensormanagement.png">
+
+
+<img src="assets/boundedcanvascomunicationmanagement.png">
+
+
 ### 4.1.2. Context Mapping  
 
 ### 4.1.3. Software Architecture
