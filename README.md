@@ -28,12 +28,21 @@
 <div align="center">
 
 | **Member**               | **Code**   |
-| ------------------------ | ---------- |
+|--------------------------|------------|
 | Rojas Velasquez, Maycol  | U202219984 |
 | Gómez Vallejos, Sergio   | U20221D401 |
 |                          |            |
 
 </div>
+
+<style>
+@media print {
+  div[align="center"] table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+</style>
 
 <p align="center"><strong>Septiembre 2025</strong></p>
 
@@ -166,8 +175,8 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |  
 |-------------------------|------------------------|------------------|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta |<br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué | |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué| |
+|Trabaja en equipo para proporcionar liderazgo en forma conjunta |<br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué liderazgo conjunto durante el desarrollo del proyecto MaceTy, coordinando con Sergio Gómez la distribución de tareas técnicas y de investigación. Lideré la arquitectura de software, diagramas C4 y el diseño del sistema IoT, mientras facilitaba la integración del trabajo de ambos miembros del equipo.<br><br> 2. Gómez Vallejos, Sergio André<br>*TB1:*<br>  | Durante el TB1, ambos miembros del equipo demostraron capacidades de liderazgo complementarias. Maycol lideró los aspectos técnicos y arquitecturales, mientras Sergio lideró la investigación de mercado y análisis competitivo. Esta distribución de liderazgo permitió aprovechar las fortalezas individuales y crear un producto integral que combina solidez técnica con investigación de mercado robusta. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué metodologías colaborativas estableciendo reuniones regulares de sincronización, utilizando GitHub para el control de versiones colaborativo y creando un ambiente donde ambos miembros pudieran contribuir según sus fortalezas. Establecí metas claras para cada sprint: definición de segmentos objetivo, arquitectura del sistema y documentación técnica, cumpliendo todos los objetivos dentro de los plazos establecidos.<br><br> 2. Gómez Vallejos, Sergio André<br>*TB1:*<br>  | El equipo logró crear un entorno altamente colaborativo donde cada miembro aportó desde sus fortalezas técnicas y de investigación. La planificación clara de tareas permitió cumplir con todos los objetivos del TB1: documentación completa del startup profile, análisis competitivo exhaustivo, arquitectura de software bien definida y segmentos objetivo validados. La comunicación constante y el uso de herramientas colaborativas como GitHub facilitaron la integración exitosa de todos los componentes del proyecto MaceTy. |
 
 
 # Capítulo I: Introducción  
@@ -421,9 +430,99 @@ A continuación se presenta un glosario de términos utilizados en el dominio de
 | Plant Buddy                | Compañero de Planta             | Término coloquial para referirse a la planta que se cuida con atención.                    |
 | Alert System               | Sistema de Alertas              | Notificaciones enviadas al usuario sobre necesidades de la planta (riego, luz, nutrientes).|
 | Green Thumb                | Pulgar Verde                    | Expresión coloquial que describe habilidad o talento para cuidar plantas.                  |
+## 2.5. Big Picture EventStorming
 
-## 2.5. Big Picture EventStorming  
+El Big Picture EventStorming es una técnica de modelado colaborativo que nos permite explorar y visualizar el dominio completo de MaceTy desde la perspectiva de eventos del negocio. Esta técnica nos ayuda a identificar los eventos más importantes que ocurren en el sistema de la maceta inteligente, desde el registro inicial del usuario hasta el mantenimiento continuo de las plantas urbanas.
 
+### Metodología Aplicada para MaceTy
+
+Para realizar este Big Picture EventStorming seguimos una metodología estructurada de 9 pasos consolidados, cada uno enfocado en aspectos específicos del dominio de cuidado inteligente de plantas urbanas:
+
+#### Paso 1: Unstructured Exploration (Exploración No Estructurada)
+Comenzamos con una lluvia de ideas identificando todos los eventos significativos que ocurren en el dominio de MaceTy. Durante esta fase exploratoria, nos enfocamos en capturar eventos críticos como "Usuario se registra en la plataforma", "Planta es configurada por primera vez", "Sensor detecta humedad crítica", "Sistema activa riego automático", "Usuario recibe notificación de alerta", entre otros eventos relevantes para el ecosistema de cuidado urbano de plantas.
+
+![Paso 1: Exploración de Domain Events](assets/big-picture-step-1.png)
+
+#### Paso 2: Timelines (Líneas Temporales)
+Organizamos los eventos identificados en una línea temporal coherente que representa el flujo natural del proceso de negocio. Esta organización temporal abarca desde la configuración inicial de MaceTy hasta el monitoreo continuo y mantenimiento de plantas en espacios urbanos, considerando los diferentes patrones de uso de nuestros segmentos objetivo: usuarios ocupados urbanos y jardineros tecnológicos.
+
+![Paso 2: Organización del Flujo Temporal](assets/big-picture-step-2.png)
+
+#### Paso 3: Pain Points (Puntos de Dolor)
+Identificamos y marcamos los puntos problemáticos o áreas de fricción en el flujo de eventos. Estos pain points incluyen situaciones como "Pérdida de conectividad WiFi", "Sensor defectuoso", "Depósito de agua vacío", "Usuario olvida configurar tipo de planta", que representan desafíos críticos que el sistema MaceTy debe resolver para garantizar una experiencia de usuario exitosa.
+
+![Paso 3: Identificación de Pain Points](assets/big-picture-step-3.png)
+
+#### Paso 4: Pivotal Points (Puntos Pivotales)
+Definimos los eventos pivotales o momentos críticos que determinan el éxito o fracaso del proceso. Estos puntos incluyen decisiones clave como "Usuario decide automatizar completamente el riego" vs "Usuario prefiere control manual", "Sistema detecta condiciones críticas de la planta", que bifurcan el flujo hacia diferentes escenarios de uso según las preferencias del segmento objetivo.
+
+![Paso 4: Identificación de Puntos Pivotales](assets/big-picture-step-4.png)
+
+#### Paso 5: Commands (Comandos)
+Para cada evento identificado, determinamos qué comandos o acciones específicas los desencadenan. Establecemos comandos como "Configurar nueva planta", "Solicitar datos de especie", "Activar riego manual", "Generar alerta de humedad", "Actualizar configuraciones de usuario", creando una relación clara de causa-efecto en el sistema MaceTy.
+
+![Paso 5: Mapeo de Comandos](assets/big-picture-step-5.png)
+
+#### Paso 6: Policies (Políticas de Negocio)
+Establecimos las reglas de negocio y políticas que conectan eventos con comandos subsecuentes. Definimos políticas críticas como "Cuando la humedad del sustrato está por debajo del 30%, activar riego automático", "Si el usuario es jardinero tecnológico, mostrar métricas detalladas y históricos", "En caso de falla del sensor, notificar inmediatamente y activar modo manual".
+
+![Paso 6: Definición de Políticas](assets/big-picture-step-6.png)
+
+#### Paso 7: Read Models (Modelos de Lectura)
+Determinamos qué información específica necesita consultar cada actor en diferentes momentos del proceso: dashboards simplificados para usuarios ocupados, métricas avanzadas y análisis para jardineros tecnológicos, históricos detallados de sensores, reportes de crecimiento de plantas, y alertas contextualizadas según el perfil del usuario.
+
+![Paso 7: Definición de Read Models](assets/big-picture-step-7.png)
+
+#### Paso 8: External Systems (Sistemas Externos)
+Mapeamos las integraciones necesarias con sistemas externos, principalmente la Base de Datos de Especies de Plantas que se consulta únicamente durante el registro inicial de una nueva planta. Esta optimización permite que el sistema funcione de forma autónoma después de la configuración inicial, reduciendo dependencias externas y mejorando el rendimiento general del sistema.
+
+![Paso 8: Integración con Sistemas Externos](assets/big-picture-step-8.png)
+
+#### Paso 9: Aggregates & Bounded Contexts (Agregados y Contextos Delimitados)
+Organizamos los eventos relacionados en contextos delimitados específicos para MaceTy: "Gestión de Usuarios Urbanos", "Monitoreo Inteligente de Plantas", "Control IoT de Dispositivos", "Automatización de Riego", y "Análisis de Datos de Plantas". Adicionalmente, marcamos las áreas problemáticas o hotspots de alta complejidad que requieren atención especial, como la sincronización entre dispositivos IoT y la nube, la gestión optimizada de alertas para usuarios ocupados, y la adaptación del sistema a condiciones urbanas específicas.
+
+![Paso 9: Bounded Contexts y Hotspots](assets/big-picture-step-9-10.png)
+
+### Resultado del Big Picture EventStorming
+
+El siguiente diagrama presenta el resultado consolidado de nuestro Big Picture EventStorming para MaceTy, integrando todos los elementos identificados en una vista unificada del dominio de cuidado inteligente de plantas urbanas:
+
+![Big Picture EventStorming Completo - MaceTy](assets/Event_Storming_IoT.jpeg)
+
+**Enlace interactivo:** [https://lucid.app/lucidchart/b67df073-d2bc-4ff2-9ab6-425a3e713360/edit?invitationId=inv_43dc8df3-420e-4f16-bf31-d07c7c357ee1](https://lucid.app/lucidchart/b67df073-d2bc-4ff2-9ab6-425a3e713360/edit?invitationId=inv_43dc8df3-420e-4f16-bf31-d07c7c357ee1)
+
+### Principales Descubrimientos del EventStorming
+
+Durante el proceso de EventStorming identificamos varios aspectos clave específicos para MaceTy:
+
+**Flujos Diferenciados por Segmento:**
+- Los usuarios ocupados urbanos requieren automatización máxima con alertas mínimas y no intrusivas
+- Los jardineros tecnológicos demandan datos detallados, control granular y métricas de rendimiento
+
+**Eventos Críticos de Automatización:**
+- La detección automática de humedad baja, falta de luz o temperatura inadecuada son eventos centrales
+- Estos eventos disparan múltiples procesos de cuidado inteligente y notificaciones contextuales
+
+**Optimizaciones para Entorno Urbano:**
+- El sistema debe adaptarse a espacios urbanos limitados y redes WiFi inestables
+- Consideración de variaciones de luz natural en departamentos y condiciones específicas de la ciudad
+
+**Integración Externa Optimizada:**
+- La consulta a la Base de Datos de Especies solo ocurre durante la configuración inicial
+- El sistema funciona autónomamente con los parámetros configurados, mejorando la eficiencia
+
+**Flujos de Recuperación:**
+- Identificamos escenarios críticos: pérdida de conectividad, fallos de sensor, agotamiento del depósito
+- Definimos estrategias de recuperación automática y notificaciones de contingencia
+
+**Bounded Contexts Identificados:**
+1. **IAM Management** - Gestión de identidad, acceso y autenticación de usuarios urbanos
+2. **Plant Management** - Administración del ciclo de vida de plantas y sus configuraciones específicas
+3. **IA Management** - Inteligencia artificial para análisis predictivo y recomendaciones de cuidado
+4. **Notification Management** - Sistema de alertas contextuales y comunicaciones push
+5. **Sensor Management** - Control y monitoreo de dispositivos IoT y telemetría de sensores
+
+Este modelo nos proporciona una visión holística del dominio MaceTy y sirve como base sólida para el diseño de la arquitectura IoT y la implementación de los bounded contexts identificados, asegurando que el sistema responda efectivamente a las necesidades reales de cuidado de plantas en entornos urbanos peruanos.
 # Capítulo III: Requirements Specification  
 
 ## 3.1. User Stories  
