@@ -871,6 +871,34 @@ Este modelo nos proporciona una visión holística del dominio MaceTy y sirve co
 
 
 ## 3.2. Product Backlog  
+
+
+# Product Backlog – MaceTy
+
+| # Orden | User Story ID | Título | Descripción | Story Points (1/2/3/5/8) |
+|--------|--------------|-------|-------------|-------------------------|
+| 1 | ST-13 | Registro y login de usuario | Como usuario quiero crear cuenta y autenticarme para acceder a la app/web y mis dispositivos. | 3 |
+| 2 | ST-14 | Dashboard de métricas | Como usuario quiero visualizar humedad, luz, temperatura y riego en tiempo real. | 8 |
+| 3 | ST-01 | Lectura de humedad en tiempo real | Como usuario quiero ver el nivel actual de humedad del sustrato para decidir el riego. | 3 |
+| 4 | ST-03 | Lectura de luz | Como usuario quiero conocer la luminosidad actual para verificar condiciones de la planta. | 2 |
+| 5 | ST-05 | Lectura de temperatura | Como usuario quiero conocer la temperatura del ambiente para prevenir daños en la planta. | 2 |
+| 6 | ST-07 | Configurar umbral de riego | Como usuario quiero fijar el % de humedad mínimo para activar el riego automático. | 3 |
+| 7 | ST-08 | Activar riego automático | Como usuario quiero que el sistema riegue automáticamente cuando la humedad baje del umbral. | 5 |
+| 8 | ST-09 | Riego manual desde app | Como usuario quiero activar el riego manualmente desde la app cuando lo considere necesario. | 3 |
+| 9 | ST-10 | Alerta de humedad crítica | Como usuario quiero recibir alertas cuando la humedad sea demasiado baja. | 3 |
+|10 | ST-11 | Alerta de temperatura extrema | Como usuario quiero recibir alertas si la temperatura excede los rangos definidos. | 3 |
+|11 | ST-04 | Alertas de luz insuficiente | Como usuario quiero recibir alertas cuando la luz esté fuera del rango óptimo. | 3 |
+|12 | ST-02 | Historial de humedad | Como usuario quiero ver gráficos de humedad por día/semana/mes para análisis. | 2 |
+|13 | ST-06 | Historial de temperatura | Como usuario quiero ver el historial de temperatura para entender cambios ambientales. | 2 |
+|14 | ST-15 | Comunidad de usuarios | Como usuario quiero compartir consejos y fotos con otros usuarios en la plataforma. | 2 |
+|15 | ST-18 | Backup en la nube | Como usuario quiero guardar configuraciones y métricas en la nube para evitar pérdida de datos. | 5 |
+|16 | ST-19 | Calibración de sensores | Como usuario quiero calibrar los sensores desde la app para asegurar lecturas correctas. | 4 |
+|17 | ST-20 | Notificación de mantenimiento | Como usuario quiero recibir avisos de limpieza o batería baja para un uso continuo. | 2 |
+|18 | ST-21 | Gestión de usuarios y roles | Como administrador quiero asignar permisos a varios usuarios por maceta. | 3 |
+|19 | ST-16 | API para integraciones | Como desarrollador quiero endpoints para integrar MaceTy con otras plataformas. | 5 |
+
+
+
 ## 3.3. Impact Mapping  
 
 
