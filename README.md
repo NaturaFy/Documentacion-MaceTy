@@ -544,17 +544,20 @@ Este segmento está compuesto por personas apasionadas por la jardinería, inter
 
 ### 2.1.2. Estrategias y tácticas frente a competidores  
 
-Para enfrentarnos a la competencia en el sector de plataformas digitales de lectura, nuestra estrategia se centrará en ofrecer una aplicación accesible, intuitiva y adaptada a las necesidades de estudiantes y lectores en el Perú y Latinoamérica.  
+Para posicionar a **MaceTy** en el mercado latinoamericano frente a competidores internacionales, se plantean las siguientes estrategias y tácticas:  
 
-A diferencia de competidores como **Click & Grow** u otras plataformas internacionales de distribución de libros, **BookSphere** destacará por su enfoque en la **personalización del contenido**, la **integración con instituciones educativas** y la **creación de comunidad lectora**.  
+**Estrategias:**  
+- **Diferenciación local:** Ofrecer un producto adaptado al contexto peruano y latinoamericano, con precios accesibles y funciones útiles para usuarios urbanos.  
+- **Valor agregado comunitario:** Crear una comunidad de usuarios que compartan experiencias, consejos y recomendaciones sobre jardinería urbana.  
+- **Sostenibilidad como eje central:** Destacar el ahorro de agua, el uso responsable de recursos y la promoción de un estilo de vida verde.  
+- **Alianzas estratégicas:** Establecer vínculos con viveros, universidades, municipalidades y empresas de tecnología local.  
 
-Nuestras tácticas incluirán:  
-- **Campañas de marketing digital segmentadas**, utilizando redes sociales y medios especializados en educación y cultura.  
-- **Alianzas estratégicas con universidades, colegios y editoriales locales**, lo que permitirá fortalecer la presencia de la aplicación en el ámbito académico.  
-- **Modelos de suscripción flexibles y accesibles**, adaptados a estudiantes, instituciones y usuarios independientes.  
-- **Innovación constante en la experiencia del usuario**, incorporando reseñas, recomendaciones personalizadas y funciones sociales que fomenten la interacción entre autores y lectores.  
-
-De esta forma, BookSphere no solo será una plataforma de acceso a libros y audiolibros, sino también un espacio para conectar a los usuarios con el conocimiento, la educación y la literatura en una experiencia digital enriquecedora.
+**Tácticas:**  
+- **Marketing digital segmentado:** Uso de redes sociales, influencers locales y contenido educativo sobre jardinería inteligente.  
+- **Ferias y eventos verdes:** Participación activa en ferias de tecnología, sostenibilidad y agricultura urbana.  
+- **Modelos de suscripción y servicios postventa:** Planes que incluyan soporte técnico, actualizaciones y recomendaciones personalizadas vía app/web.  
+- **Distribución híbrida:** Venta en línea (e-commerce local) y presencia en viveros y tiendas de hogar.  
+- **Innovación constante:** Integrar nuevas funciones como alertas inteligentes, compatibilidad con asistentes virtuales y mejoras en la experiencia de usuario.  
 
 ## 2.2. Entrevistas  
 ### 2.2.1. Diseño de entrevistas  
