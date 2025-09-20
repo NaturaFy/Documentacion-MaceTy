@@ -574,8 +574,13 @@ Identificar contextos candidatos es un paso clave para gestionar la complejidad 
 
 ![Candidate Context Discovery](assets/Candidate-Context-Discovery.png)
 
-#### 4.1.1.2. Domain Message Flows Modeling  
-#### 4.1.1.3. Bounded Context Canvases  
+#### 4.1.1.2. Domain Message Flows Modeling
+
+Para analizar y diseñar sistemas de software, se usa el Modelado de Flujos de Mensajes de Dominio, un método que ilustra la transferencia de información entre componentes mediante mensajes. Este proceso se centra en especificar los mensajes enviados y recibidos por los diferentes actores del sistema y en descifrar sus relaciones. El uso de esta metodología aporta claridad para entender y representar las vías de información del sistema, permitiendo detectar problemas potenciales más fácilmente y optimizar la estructura del diseño. A modo de ejemplo, mostraremos a continuación algunos diagramas aplicados a nuestro sistema.
+
+![Domain Message Flows Modeling](assets/Domain-Message-Flows-Modeling.png)
+
+#### 4.1.1.3. Bounded Context Canvases
 
 ### 4.1.2. Context Mapping  
 
