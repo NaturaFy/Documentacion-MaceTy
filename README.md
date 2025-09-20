@@ -1144,13 +1144,6 @@ Para analizar y diseñar sistemas de software, se usa el Modelado de Flujos de M
 
 #### 4.1.1.3. Bounded Context Canvases
 
-Sensor Management <br>
-![Sensor Management](assets/Sensor-Management.png)
-
-Communication Management <br>
-![Communication Management](assets/Communication-Management.png)
-
-
 <img src="assets/boundedcanvassensormanagement.png">
 
 
@@ -1232,9 +1225,484 @@ Los Deployment Diagrams (diagramas de despliegue) forman parte de la arquitectur
 ![containers](./assets/deployment2.png)
 ## 4.2. Tactical-Level Domain-Driven Design  
 
+El **Tactical-Level Domain-Driven Design** nos permite profundizar en el diseño detallado de cada bounded context identificado durante el Strategic-Level Design, definiendo la estructura interna de cada contexto delimitado con sus respectivas capas arquitectónicas, entidades de dominio, servicios y patrones de implementación específicos para MaceTy.
+
+Esta fase tactical se enfoca en la implementación concreta de los bounded contexts, aplicando patrones DDD como **Domain Layer** (lógica de negocio pura), **Interface Layer** (controladores y DTOs), **Application Layer** (orquestación de operaciones) e **Infrastructure Layer** (persistencia y servicios externos). Cada contexto mantiene su autonomía e integridad, comunicándose con otros a través de interfaces bien definidas que preservan los límites del dominio.
+
+Para MaceTy, el diseño tactical se centra en cinco bounded contexts principales: **IAM Management** (gestión de identidad y acceso de usuarios urbanos), **Plant Management** (administración del ciclo de vida de plantas), **Sensor Management** (control de dispositivos IoT), **IA Management** (análisis predictivo y recomendaciones inteligentes), y **Notification Management** (sistema de alertas contextuales). Cada contexto se diseña considerando las necesidades específicas de nuestros segmentos objetivo: automatización máxima para usuarios ocupados urbanos y control granular para jardineros tecnológicos.
+
+### 4.2.1. Bounded Context: IAM Management
+
+#### 4.2.1.1. Domain Layer
+
+La **Domain Layer** del bounded context IAM Management contiene las entidades de dominio, value objects, agregados y domain services que modelan la lógica de negocio relacionada con la gestión de identidad, acceso y autenticación de usuarios urbanos de MaceTy.
+
+**Aggregate Roots:**
+- **User**: Representa al usuario del sistema con roles diferenciados (Usuario Ocupado Urbano, Jardinero Tecnológico)
+- **UserSession**: Gestiona las sesiones activas y tokens de autenticación
+
+**Entities:**
+- User (id, email, password, profile, createdAt, lastLogin)
+- Profile (firstName, lastName, userType, preferences, location)
+
+**Value Objects:**
+- Email (validación de formato)
+- Password (encriptación y políticas de seguridad)
+- UserRole (URBAN_PROFESSIONAL, GARDEN_ENTHUSIAST, FAMILY_MEMBER)
+
+**Domain Services:**
+- AuthenticationService: Lógica de autenticación y validación de credenciales
+- PasswordPolicyService: Validación de políticas de contraseñas
+- RoleAssignmentService: Asignación de roles según el tipo de usuario
+
+#### 4.2.1.2. Interface Layer
+
+La **Interface Layer** expone las funcionalidades del IAM Management a través de controladores REST y interfaces de usuario.
+
+**Controllers:**
+- AuthenticationController: Maneja login, logout y renovación de tokens
+- UserRegistrationController: Gestiona el registro de nuevos usuarios
+- ProfileController: Administra la información del perfil de usuario
+
+**DTOs:**
+- LoginRequest/Response
+- RegisterUserRequest/Response  
+- UserProfileResponse
+- TokenRefreshRequest/Response
+
+#### 4.2.1.3. Application Layer
+
+La **Application Layer** orquesta las operaciones de negocio utilizando command handlers, query handlers y application services.
+
+**Command Handlers:**
+- RegisterUserCommandHandler: Procesa el registro de nuevos usuarios
+- LoginCommandHandler: Maneja el proceso de autenticación
+- UpdateProfileCommandHandler: Actualiza información del perfil
+
+**Query Handlers:**
+- GetUserProfileQueryHandler: Obtiene información del perfil de usuario
+- ValidateTokenQueryHandler: Valida tokens de acceso
+
+**Application Services:**
+- UserApplicationService: Coordina operaciones relacionadas con usuarios
+- AuthenticationApplicationService: Gestiona flujos de autenticación
+
+#### 4.2.1.4. Infrastructure Layer
+
+La **Infrastructure Layer** implementa la persistencia de datos, servicios externos y configuraciones técnicas.
+
+**Repositories:**
+- UserRepository: Persistencia de datos de usuarios en base de datos
+- SessionRepository: Almacenamiento de sesiones activas
+
+**External Services:**
+- EmailService: Envío de correos de verificación y recuperación
+- TokenService: Generación y validación de JWT tokens
+- EncryptionService: Servicios de encriptación y hash
+
+### 4.2.2. Bounded Context: Plant Management
+
+#### 4.2.2.1. Domain Layer
+
+La **Domain Layer** del bounded context Plant Management modela toda la lógica de negocio relacionada con la administración del ciclo de vida de plantas y sus configuraciones específicas.
+
+**Aggregate Roots:**
+- **Plant**: Entidad principal que representa una planta con sus características y configuraciones
+- **PlantSpecies**: Información específica sobre especies de plantas y sus requerimientos
+
+**Entities:**
+- Plant (id, name, species, userId, deviceId, plantingDate, status)
+- PlantCareConfiguration (wateringThreshold, lightRequirement, temperatureRange)
+- PlantGrowthRecord (date, height, health, notes, photos)
+
+**Value Objects:**
+- PlantStatus (HEALTHY, NEEDS_ATTENTION, CRITICAL, DORMANT)
+- WateringSchedule (frequency, amount, lastWatering)
+- EnvironmentalRequirements (minLight, maxLight, minTemp, maxTemp, humidity)
+
+**Domain Services:**
+- PlantCareRecommendationService: Genera recomendaciones de cuidado
+- PlantHealthAnalysisService: Analiza el estado de salud de las plantas
+- SpeciesMatchingService: Relaciona plantas con especies en la base de datos
+
+#### 4.2.2.2. Interface Layer
+
+La **Interface Layer** expone las funcionalidades de Plant Management a través de endpoints REST y interfaces gráficas.
+
+**Controllers:**
+- PlantController: CRUD de plantas y configuraciones
+- PlantCareController: Gestiona recomendaciones y cuidados
+- PlantHistoryController: Maneja históricos de crecimiento
+
+**DTOs:**
+- CreatePlantRequest/Response
+- UpdatePlantConfigurationRequest
+- PlantStatusResponse
+- PlantCareRecommendationResponse
+
+#### 4.2.2.3. Application Layer
+
+La **Application Layer** coordina las operaciones de negocio del dominio de plantas.
+
+**Command Handlers:**
+- RegisterPlantCommandHandler: Registra una nueva planta en el sistema
+- UpdatePlantCareConfigurationCommandHandler: Actualiza configuraciones de cuidado
+- RecordPlantGrowthCommandHandler: Registra datos de crecimiento
+
+**Query Handlers:**
+- GetPlantDetailsQueryHandler: Obtiene información detallada de una planta
+- GetPlantCareHistoryQueryHandler: Recupera el historial de cuidados
+- GetPlantRecommendationsQueryHandler: Genera recomendaciones personalizadas
+
+**Application Services:**
+- PlantLifecycleService: Gestiona el ciclo de vida completo de las plantas
+- PlantAnalyticsService: Proporciona análisis y métricas de plantas
+
+#### 4.2.2.4. Infrastructure Layer
+
+La **Infrastructure Layer** implementa la persistencia y servicios externos para Plant Management.
+
+**Repositories:**
+- PlantRepository: Persistencia de datos de plantas
+- PlantSpeciesRepository: Acceso a información de especies
+- PlantHistoryRepository: Almacenamiento de registros históricos
+
+**External Services:**
+- PlantSpeciesDatabaseService: Integración con base de datos externa de especies
+- ImageStorageService: Almacenamiento de fotos de plantas
+- WeatherService: Datos climáticos para recomendaciones
+
+### 4.2.3. Bounded Context: Sensor Management
+
+#### 4.2.3.1. Domain Layer
+
+La **Domain Layer** del bounded context Sensor Management modela la lógica de negocio para el control y monitoreo de dispositivos IoT y telemetría de sensores.
+
+**Aggregate Roots:**
+- **Device**: Representa el dispositivo MaceTy IoT con todos sus sensores
+- **SensorReading**: Agregado que encapsula las lecturas de todos los sensores
+
+**Entities:**
+- Device (id, serialNumber, model, plantId, lastConnection, status)
+- Sensor (id, type, deviceId, calibrationData, status)
+- SensorData (timestamp, sensorId, value, unit, quality)
+
+**Value Objects:**
+- SensorType (HUMIDITY, TEMPERATURE, LIGHT, SOIL_PH)
+- DeviceStatus (ONLINE, OFFLINE, MAINTENANCE, ERROR)
+- SensorReading (value, timestamp, accuracy, unit)
+
+**Domain Services:**
+- SensorCalibrationService: Calibración automática y manual de sensores
+- DataValidationService: Validación de lecturas de sensores
+- DeviceHealthMonitoringService: Monitoreo del estado de dispositivos
+
+#### 4.2.3.2. Interface Layer
+
+La **Interface Layer** gestiona la comunicación con dispositivos IoT y la exposición de datos de sensores.
+
+**Controllers:**
+- DeviceController: Gestión de dispositivos MaceTy
+- SensorDataController: Recepción y consulta de datos de sensores
+- DeviceConfigurationController: Configuración remota de dispositivos
+
+**DTOs:**
+- DeviceRegistrationRequest/Response
+- SensorDataBatch
+- DeviceStatusResponse
+- SensorCalibrationRequest
+
+#### 4.2.3.3. Application Layer
+
+La **Application Layer** orquesta las operaciones relacionadas con dispositivos y sensores.
+
+**Command Handlers:**
+- RegisterDeviceCommandHandler: Registro de nuevos dispositivos
+- ProcessSensorDataCommandHandler: Procesamiento de datos de sensores
+- CalibrateDeviceCommandHandler: Calibración de sensores
+
+**Query Handlers:**
+- GetDeviceStatusQueryHandler: Estado actual de dispositivos
+- GetSensorHistoryQueryHandler: Historial de lecturas
+- GetDeviceConfigurationQueryHandler: Configuración de dispositivos
+
+**Application Services:**
+- DeviceManagementService: Gestión completa de dispositivos
+- SensorDataProcessingService: Procesamiento y análisis de datos
+
+#### 4.2.3.4. Infrastructure Layer
+
+La **Infrastructure Layer** implementa la comunicación IoT y persistencia de datos de sensores.
+
+**Repositories:**
+- DeviceRepository: Persistencia de dispositivos
+- SensorDataRepository: Almacenamiento masivo de datos de sensores
+- DeviceConfigurationRepository: Configuraciones de dispositivos
+
+**External Services:**
+- MQTTService: Comunicación MQTT con dispositivos IoT
+- TimeSeriesDatabase: Almacenamiento optimizado para series de tiempo
+- DeviceFirmwareService: Actualizaciones de firmware OTA
+
+
+### 4.2.4. Bounded Context: IA Management
+
+#### 4.2.4.1. Domain Layer
+
+La **Domain Layer** del bounded context IA Management contiene la lógica de negocio para inteligencia artificial aplicada al análisis predictivo y recomendaciones de cuidado de plantas.
+
+**Aggregate Roots:**
+- **MLModel**: Representa modelos de machine learning entrenados
+- **Prediction**: Predicciones y análisis generados por IA
+
+**Entities:**
+- MLModel (id, name, version, accuracy, trainingData, deployedAt)
+- PredictionResult (timestamp, modelId, plantId, prediction, confidence)
+- TrainingDataset (id, source, features, labels, quality)
+
+**Value Objects:**
+- ModelType (WATERING_PREDICTION, GROWTH_ANALYSIS, HEALTH_ASSESSMENT, PEST_DETECTION)
+- PredictionConfidence (percentage, reliability)
+- ModelAccuracy (precision, recall, f1Score)
+
+**Domain Services:**
+- PlantHealthPredictionService: Predicción del estado de salud de plantas
+- WateringOptimizationService: Optimización de horarios de riego
+- GrowthAnalysisService: Análisis de patrones de crecimiento
+
+#### 4.2.4.2. Interface Layer
+
+La **Interface Layer** expone los servicios de IA a través de APIs REST y interfaces de consulta.
+
+**Controllers:**
+- PredictionController: Generación y consulta de predicciones
+- MLModelController: Gestión de modelos de machine learning
+- AnalyticsController: Análisis avanzados y insights
+
+**DTOs:**
+- PredictionRequest/Response
+- ModelTrainingRequest
+- PlantAnalysisResponse
+- RecommendationResponse
+
+#### 4.2.4.3. Application Layer
+
+La **Application Layer** coordina las operaciones de inteligencia artificial y análisis de datos.
+
+**Command Handlers:**
+- GeneratePredictionCommandHandler: Genera predicciones basadas en datos actuales
+- TrainModelCommandHandler: Entrena y actualiza modelos de ML
+- UpdateRecommendationsCommandHandler: Actualiza recomendaciones de cuidado
+
+**Query Handlers:**
+- GetPlantInsightsQueryHandler: Obtiene insights detallados de plantas
+- GetPredictionHistoryQueryHandler: Historial de predicciones
+- GetModelPerformanceQueryHandler: Métricas de rendimiento de modelos
+
+**Application Services:**
+- AIRecommendationService: Genera recomendaciones inteligentes
+- ModelManagementService: Gestión de ciclo de vida de modelos ML
+
+#### 4.2.4.4. Infrastructure Layer
+
+La **Infrastructure Layer** implementa la infraestructura de ML y servicios de computación.
+
+**Repositories:**
+- MLModelRepository: Persistencia de modelos entrenados
+- PredictionRepository: Almacenamiento de predicciones
+- TrainingDataRepository: Gestión de datasets de entrenamiento
+
+**External Services:**
+- MLPlatformService: Integración con plataformas de ML (TensorFlow, PyTorch)
+- DataProcessingService: Procesamiento y limpieza de datos
+- ModelDeploymentService: Despliegue automatizado de modelos
+
+
+### 4.2.5. Bounded Context: Notification Management
+
+#### 4.2.5.1. Domain Layer
+
+La **Domain Layer** del bounded context Notification Management modela la lógica de negocio para el sistema de alertas contextuales y comunicaciones push optimizado para usuarios urbanos.
+
+**Aggregate Roots:**
+- **Notification**: Representa una notificación con su contenido y configuración de entrega
+- **NotificationChannel**: Canales de comunicación disponibles (push, email, SMS)
+
+**Entities:**
+- Notification (id, userId, plantId, type, message, priority, timestamp, status)
+- NotificationPreference (userId, channelType, enabled, schedule, filters)
+- NotificationTemplate (id, type, subject, body, variables)
+
+**Value Objects:**
+- NotificationType (WATERING_ALERT, TEMPERATURE_WARNING, MAINTENANCE_REMINDER, GROWTH_UPDATE)
+- Priority (LOW, MEDIUM, HIGH, CRITICAL)
+- DeliveryStatus (PENDING, SENT, DELIVERED, FAILED, READ)
+
+**Domain Services:**
+- NotificationPriorizationService: Prioriza notificaciones según urgencia y preferencias
+- UrbanSchedulingService: Optimiza horarios de envío para usuarios urbanos ocupados
+- MessagePersonalizationService: Personaliza contenido según perfil de usuario
+
+#### 4.2.5.2. Interface Layer
+
+La **Interface Layer** gestiona la recepción de eventos y entrega de notificaciones.
+
+**Controllers:**
+- NotificationController: Envío y gestión de notificaciones
+- NotificationPreferenceController: Configuración de preferencias de usuario
+- NotificationHistoryController: Historial y estadísticas de notificaciones
+
+**DTOs:**
+- SendNotificationRequest/Response
+- NotificationPreferenceRequest/Response
+- NotificationHistoryResponse
+- BulkNotificationRequest
+
+#### 4.2.5.3. Application Layer
+
+La **Application Layer** orquesta el procesamiento y entrega de notificaciones.
+
+**Command Handlers:**
+- SendNotificationCommandHandler: Procesa y envía notificaciones
+- UpdateNotificationPreferencesCommandHandler: Actualiza preferencias de usuario
+- MarkNotificationAsReadCommandHandler: Marca notificaciones como leídas
+
+**Query Handlers:**
+- GetNotificationHistoryQueryHandler: Obtiene historial de notificaciones
+- GetNotificationPreferencesQueryHandler: Recupera configuraciones de usuario
+- GetNotificationStatisticsQueryHandler: Estadísticas de entrega y lectura
+
+**Application Services:**
+- NotificationDispatcherService: Coordinador de envío de notificaciones
+- NotificationAnalyticsService: Análisis de efectividad de notificaciones
+
+#### 4.2.5.4. Infrastructure Layer
+
+La **Infrastructure Layer** implementa los canales de entrega y persistencia de notificaciones.
+
+**Repositories:**
+- NotificationRepository: Persistencia de notificaciones
+- NotificationPreferenceRepository: Almacenamiento de preferencias
+- NotificationTemplateRepository: Gestión de plantillas
+
+**External Services:**
+- PushNotificationService: Envío de notificaciones push (Firebase, APNs)
+- EmailService: Envío de correos electrónicos
+- SMSService: Envío de mensajes SMS
+- AnalyticsService: Seguimiento de métricas de entrega
+
+
+## Conclusiones
+
+Existe un problema real y validado en el mercado peruano, donde la mayoría de usuarios urbanos pierde sus plantas por falta de tiempo o conocimiento, lo que abre una oportunidad clara para soluciones IoT accesibles como MaceTy.
+
+La diferenciación local es la clave competitiva, ya que MaceTy se adapta al contexto latinoamericano con precios adecuados, soporte en español y funcionalidades pensadas para el estilo de vida urbano, lo que le da ventaja frente a productos importados.
+
+El proyecto no solo es comercialmente viable, sino también sostenible y escalable, al contar con una arquitectura tecnológica robusta, segmentación clara de usuarios y un impacto positivo en el uso eficiente de recursos y la conexión de las personas con la naturaleza.
+
 
 ## Bibliografía
 
 - Verified Market Reports. (2024). *Insights de mercado de plantas inteligentes en macetas*. Recuperado de [https://www.verifiedmarketreports.com/es/product/smart-potted-plant-market/](https://www.verifiedmarketreports.com/es/product/smart-potted-plant-market/)  
+
 - Global Growth Insights. (2025). *Tamaño del mercado del mercado de macetas y plantadores*. Recuperado de [https://www.globalgrowthinsights.com/es/market-reports/home-flower-pots-and-planters-market-113156](https://www.globalgrowthinsights.com/es/market-reports/home-flower-pots-and-planters-market-113156)  
+
 - Business Research Insights. (2023). *Tamaño y pronóstico del mercado de macetas de plástico para el hogar*. Recuperado de [https://www.businessresearchinsights.com/es/market-reports/home-plastic-flower-pots-and-planters-market-112521](https://www.businessresearchinsights.com/es/market-reports/home-plastic-flower-pots-and-planters-market-112521)
+
+- Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley Professional.
+
+- Brown, S. (2018). *Software Architecture for Developers: Volume 1 - Technical Leadership and the Balance with Agility*. Leanpub.
+
+- Vernon, V. (2013). *Implementing Domain-Driven Design*. Addison-Wesley Professional.
+
+- Gothelf, J., & Seiden, J. (2016). *Lean UX: Designing Great Products with Agile Teams*. O'Reilly Media.
+
+- Cooper, A., Reimann, R., Cronin, D., & Noessel, C. (2014). *About Face: The Essentials of Interaction Design*. John Wiley & Sons.
+
+- Patton, J. (2014). *User Story Mapping: Discover the Whole Story, Build the Right Product*. O'Reilly Media.
+
+- INEI - Instituto Nacional de Estadística e Informática. (2023). *Características de los hogares urbanos en el Perú*. Lima: INEI.
+
+- Brandtzæg, P. B., Heim, J., & Karahasanović, A. (2011). Understanding the new digital divide—A typology of Internet users in Europe. *Computers in Human Behavior*, 27(1), 123-137.
+
+## Anexos
+
+### Anexo A: Guías de Entrevistas Completas
+
+**Entrevista - Personas Ocupadas en la Ciudad:**
+1. ¿Cómo te llamas y dónde vives actualmente?
+2. ¿Qué edad tienes y cuál es tu ocupación principal?
+3. ¿Tienes plantas en tu casa o departamento actualmente?
+4. ¿Cuántas veces a la semana sueles regarlas o cuidarlas?
+5. ¿Alguna vez se te han muerto plantas por falta de tiempo o desconocimiento?
+6. ¿Qué tan importante es para ti tener plantas bonitas en tu hogar?
+7. Si tuvieras una maceta que se riega sola y te avisa si tu planta necesita luz o nutrientes, ¿la usarías?
+8. ¿Qué características valoras más en un producto para el hogar?
+9. ¿Cuánto estarías dispuesto a pagar por una maceta inteligente?
+10. ¿Qué aplicación móvil usas más en tu día a día?
+11. ¿Qué tan seguido olvidas regar o cuidar tus plantas?
+12. ¿Prefieres recibir alertas en tu celular o que el sistema se encargue automáticamente?
+13. ¿Cuál sería el mayor beneficio para ti de tener una maceta inteligente?
+14. ¿Qué obstáculos crees que podrías tener para usar un producto así?
+15. ¿Recomendarías este tipo de solución a familiares o amigos?
+
+**Entrevista - Jardineros:**
+1. ¿Cómo te llamas, dónde vives y qué edad tienes?
+2. ¿Qué tipo de plantas cultivas con más frecuencia?
+3. ¿Cuánto tiempo dedicas al cuidado de tus plantas semanalmente?
+4. ¿Usas herramientas o aplicaciones para monitorear tus plantas?
+5. ¿Qué problemas enfrentas más frecuentemente en el cuidado?
+6. ¿Te interesaría un sistema de monitoreo en tiempo real?
+7. ¿Prefieres control manual o automatización?
+8. ¿Qué tan dispuesto estarías a invertir en tecnología para plantas?
+9. ¿Qué tan importante es llevar un registro histórico del crecimiento?
+10. ¿Qué tan cómodo te sientes con aplicaciones móviles?
+11. ¿Te gustaría compartir logros en redes sociales?
+12. ¿Qué funciones adicionales te gustaría en una maceta inteligente?
+13. ¿Qué expectativas tienes sobre el diseño del producto?
+14. ¿Verías útil conectar múltiples macetas en un ecosistema?
+
+### Anexo B: Mapas de Empatía Detallados
+
+Los mapas de empatía completos para ambos segmentos incluyen análisis detallados de:
+- **Says**: Frases literales de los usuarios durante las entrevistas
+- **Thinks**: Pensamientos inferidos a partir de patrones de comportamiento
+- **Does**: Acciones observadas y reportadas por los usuarios
+- **Feels**: Emociones identificadas durante el proceso de investigación
+
+### Anexo C: Especificaciones Técnicas del Hardware
+
+**Componentes del MaceTy IoT Device:**
+- **Microcontrolador**: ESP32 con WiFi y Bluetooth integrado
+- **Sensores**: DHT22 (temperatura/humedad), LDR (luz ambiental), sensor capacitivo de humedad del suelo
+- **Actuadores**: Mini bomba de agua 5V, LEDs indicadores de estado
+- **Alimentación**: Batería recargable Li-Ion 3.7V con panel solar opcional
+- **Conectividad**: WiFi 802.11n, MQTT para comunicación con la nube
+- **Carcasa**: Material resistente al agua IP65 para uso interior/exterior
+
+### Anexo D: Criterios de Aceptación Expandidos
+
+Cada User Story incluye criterios de aceptación técnicos detallados que especifican:
+- Condiciones de entrada y salida
+- Validaciones de datos requeridas
+- Comportamientos del sistema en casos de error
+- Métricas de rendimiento específicas
+- Requisitos de usabilidad y accesibilidad
+
+### Anexo E: Documentación de APIs
+
+**Endpoints principales del MaceTy API Gateway:**
+- `POST /api/auth/login`: Autenticación de usuarios
+- `GET /api/plants/{id}/status`: Estado actual de una planta
+- `POST /api/devices/{id}/water`: Activación manual de riego
+- `GET /api/sensors/{id}/history`: Historial de datos de sensores
+- `POST /api/notifications/preferences`: Configuración de alertas
+
+### Anexo F: Prototipos de Interfaz de Usuario
+
+Wireframes y mockups de alta fidelidad para:
+- **Mobile App**: Pantallas principales de iOS y Android
+- **Web Platform**: Dashboard de administración y comunidad
+- **Onboarding Flow**: Proceso de configuración inicial paso a paso
+
+Estos anexos proporcionan documentación completa y detallada que complementa el informe principal, facilitando la implementación y el mantenimiento futuro del sistema MaceTy.
