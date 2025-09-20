@@ -25,52 +25,69 @@
 
 <h3 align="center">Team Members:</h3>
 
-<div align="center">
-
-| **Member**               | **Code**   |
-|--------------------------|------------|
-| Rojas Velasquez, Maycol  | U202219984 |
-| Gómez Vallejos, Sergio   | U20221D401 |
-| Leon Rioja, Carlos Andres| U202111451 |
-| Valera Garces, Samuel    | U202111952 |
-
+<div align="center" style="display: flex; justify-content: center;">
+<table style="margin: 0 auto;">
+<tr>
+<th><b>Member</b></th>
+<th><b>Code</b></th>
+</tr>
+<tr>
+<td>Rojas Velasquez, Maycol</td>
+<td>U202219984</td>
+</tr>
+<tr>
+<td>Gómez Vallejos, Sergio</td>
+<td>U20221D401</td>
+</tr>
+<tr>
+<td>Leon Rioja, Carlos Andres</td>
+<td>U202111451</td>
+</tr>
+<tr>
+<td>Valera Garces, Samuel</td>
+<td>U202111952</td>
+</tr>
+<tr>
+<td>Jaque Peña, Estefano</td>
+<td>U202225466</td>
+</tr>
+</table>
 </div>
-
 
 <p align="center"><strong>Septiembre 2025</strong></p>
 
 # Registro de Versiones del Informe
-
 | Versión | Fecha       | Autor                         | Descripción de modificación                |
 |---------|-------------|-------------------------------|--------------------------------------------|
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Creación inicial del documento  |
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Estructuración del documento |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Descripcion del StartUp |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Segmento Objetivo |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Ubiquitous Language |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture System Landscape Diagram |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Context Level Diagrams |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Container Level Diagrams |
-| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Deployment Diagrams |
-| TB1     | 14/09/2025  | Sergio André Gómez Vallejos | Implementación de Antecedentes y problematica  |
-| TB1     | 14/09/2025  | Sergio André Gómez Vallejos | Implementación de los Competidores  |
-| TB1     | 14/09/2025  | Sergio André Gómez Vallejos | Implementación de Analisis de los competidores  |
-| TB1     | 14/09/2025  | Sergio André Gómez Vallejos | Creación de las tácticas y entrategias frente a competidores  |
-| TB1     | 14/09/2025  | Sergio André Gómez Vallejos | Creación de analisis de las entrevistas  |
-| TB1     | 20/09/2025  | Carlos Andres Leon Rioja | Candidate Context Discovery Diagram  |
+| TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Descripción del StartUp |
+| TB1     | 14/09/2025  | Sergio André Gómez Vallejos | Implementación de Antecedentes y problemática  |
+| TB1     | 15/09/2025  | Estefano Jaque Peña | Lean UX Process   |
+| TB1     | 15/09/2025  | Maycol Jhordan Rojas Velásquez | Segmento Objetivo |
+| TB1     | 15/09/2025  | Sergio André Gómez Vallejos | Implementación de los Competidores  |
+| TB1     | 15/09/2025  | Sergio André Gómez Vallejos | Implementación de Análisis de los competidores  |
+| TB1     | 15/09/2025  | Sergio André Gómez Vallejos | Creación de las tácticas y estrategias frente a competidores  |
+| TB1     | 16/09/2025  | Sergio André Gómez Vallejos | Creación de análisis de las entrevistas  |
+| TB1     | 16/09/2025  | Samuel Valera Garces | Needfinding   |
+| TB1     | 17/09/2025  | Maycol Jhordan Rojas Velásquez | Ubiquitous Language |
+| TB1     | 17/09/2025  | Samuel Valera Garces | User Stories   |
+| TB1     | 18/09/2025  | Samuel Valera Garces | Product Backlog   |
+| TB1     | 19/09/2025  | Carlos Andres Leon Rioja | Candidate Context Discovery Diagram  |
 | TB1     | 20/09/2025  | Carlos Andres Leon Rioja | Domain Message Flows Modeling Diagram  |
 | TB1     | 20/09/2025  | Carlos Andres Leon Rioja | Bounded Context Canvases Diagram  |
-
-
-
+| TB1     | 20/09/2025  | Samuel Valera Garces | Bounded Context: Notification Management   |
+| TB1     | 20/09/2025  | Samuel Valera Garces | Bounded Context: Sensor Management   |
+| TB1     | 20/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture |
+| TB1     | 20/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture System Landscape Diagram |
+| TB1     | 20/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Context Level Diagrams |
+| TB1     | 20/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Container Level Diagrams |
+| TB1     | 20/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Deployment Diagrams |
 # Project Report Collaboration Insights
 #### 1. URL del Repositorio en GitHub
-
 | Repositorio del Informe en GitHub |
 |-----------------------------------|
 | https://github.com/orgs/NaturaFy/repositories |
-
 #### 2. Actividades de Elaboración del Informe
 
 | Actividad                           | Descripción                                                                                          |
@@ -79,18 +96,12 @@
 | Delegación de responsabilidades    | Se organizaron charlas y reuniones para la delegación de tareas, promoviendo el trabajo en equipo y el avance continuo de manera asíncrona.                            |
 | Recopilación de datos              | Se realizó un estudio del mercado, utilizando los segmentos objetivos para extraer datos significativos mediante entrevistas. Además, se utilizaron referencias bibliográficas para investigar información relevante dentro del desarrollo del informe                                                          |
 | Documentación             | Se desarrollaron diferentes capítulos del informe, utilizando las técnicas, herramientas y metodologías requeridas.                                                         |
-
-
 #### 3. Capturas de Imagen de los Analíticos de Colaboración y Commits en GitHub
-
 | Métrica                         | Descripción                                                                                          |
 |---------------------------------|------------------------------------------------------------------------------------------------------|
-| Número de commits por autor     |  |
-| Historial de cambios            |  |
-
-
+| Número de commits por autor     | ![Commits por autor](assets/insghits.png) |
+| Historial de cambios            | ![Historial de cambios](assets/network.png) |
 #### 4. Participación de Todos los Miembros del Equipo
-
 | Evidencia                       | Descripción                                                                                          |
 |---------------------------------|------------------------------------------------------------------------------------------------------|
 | Contribuciones en GitHub       | Cada integrante del equipo completó sus tareas y subió sus avances al repositorio de GitHub. Adempas, cada uno colaboró revisando el trabajo de sus compañeros. |
@@ -156,7 +167,51 @@
     - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)  
     - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)  
 - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)  
-
+  - [4.2.1. Bounded Context: IAM Management](#421-bounded-context-iam-management)  
+    - [4.2.1.1. Domain Layer](#4211-domain-layer)  
+    - [4.2.1.2. Interface Layer](#4212-interface-layer)  
+    - [4.2.1.3. Application Layer](#4213-application-layer)  
+    - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)  
+    - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)  
+    - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)  
+      - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)  
+      - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)  
+  - [4.2.2. Bounded Context: Plant Management](#422-bounded-context-plant-management)  
+    - [4.2.2.1. Domain Layer](#4221-domain-layer)  
+    - [4.2.2.2. Interface Layer](#4222-interface-layer)  
+    - [4.2.2.3. Application Layer](#4223-application-layer)  
+    - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)  
+    - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)  
+    - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)  
+      - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)  
+      - [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)  
+  - [4.2.3. Bounded Context: Sensor Management](#423-bounded-context-sensor-management)  
+    - [4.2.3.1. Domain Layer](#4231-domain-layer)  
+    - [4.2.3.2. Interface Layer](#4232-interface-layer)  
+    - [4.2.3.3. Application Layer](#4233-application-layer)  
+    - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)  
+    - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)  
+    - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)  
+      - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)  
+      - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)  
+  - [4.2.4. Bounded Context: IA Management](#424-bounded-context-ia-management)  
+    - [4.2.4.1. Domain Layer](#4241-domain-layer)  
+    - [4.2.4.2. Interface Layer](#4242-interface-layer)  
+    - [4.2.4.3. Application Layer](#4243-application-layer)  
+    - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)  
+    - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)  
+    - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)  
+      - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)  
+      - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)  
+  - [4.2.5. Bounded Context: Notification Management](#425-bounded-context-notification-management)  
+    - [4.2.5.1. Domain Layer](#4251-domain-layer)  
+    - [4.2.5.2. Interface Layer](#4252-interface-layer)  
+    - [4.2.5.3. Application Layer](#4253-application-layer)  
+    - [4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)  
+    - [4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)  
+    - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)  
+      - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)  
+      - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)    
 - [Conclusiones](#61-conclusiones)  
 - [Bibliografía](#62-bibliografía)  
 - [Anexos](#63-anexos)  
