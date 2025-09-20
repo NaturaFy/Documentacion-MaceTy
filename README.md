@@ -831,6 +831,40 @@ Este modelo nos proporciona una visión holística del dominio MaceTy y sirve co
 # Capítulo III: Requirements Specification  
 
 ## 3.1. User Stories  
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-----------------|-------|------------|-------------------------|---------------------------|
+| **EP-01** | Monitoreo de Humedad | Como usuario quiero que la maceta mida la humedad del suelo para conocer el nivel de riego necesario. | - La app muestra en tiempo real el porcentaje de humedad.<br>- Actualización mínima cada 5 min. | — |
+| ST-01 | Lectura de humedad en tiempo real | Mostrar el nivel actual de humedad del sustrato. | - Datos en % visibles en la app y web.<br>- Error máximo de ±5%. | EP-01 |
+| ST-02 | Historial de humedad | Guardar registros diarios de humedad. | - Consulta de gráficos por día/semana/mes.<br>- Exportable en .csv. | EP-01 |
+| **EP-02** | Monitoreo de Luz | Como usuario quiero conocer la cantidad de luz recibida para asegurar el crecimiento óptimo. | - Lectura en lux disponible en app/web.<br>- Actualización cada 10 min. | — |
+| ST-03 | Lectura de luz | Mostrar luminosidad actual. | - Datos en lux con precisión ±10%. | EP-02 |
+| ST-04 | Alertas de luz insuficiente | Enviar alerta si la luz está fuera del rango óptimo configurado. | - Notificación push en <30 s del evento. | EP-02 |
+| **EP-03** | Monitoreo de Temperatura | Como usuario quiero medir la temperatura ambiental de la planta para protegerla de cambios bruscos. | - Sensor registra temperatura °C cada 5 min. | — |
+| ST-05 | Lectura de temperatura | Visualizar temperatura en tiempo real. | - Rango de 0–50 °C con precisión ±1 °C. | EP-03 |
+| ST-06 | Historial de temperatura | Guardar histórico diario/semanal. | - Consulta de gráficos en la app. | EP-03 |
+| **EP-04** | Riego Automático | Como usuario quiero que la maceta riegue automáticamente cuando la humedad esté por debajo del umbral. | - Bomba de agua se activa/desactiva según umbral. | — |
+| ST-07 | Configurar umbral de riego | Permitir al usuario fijar % de humedad mínimo. | - Umbral configurable en la app. | EP-04 |
+| ST-08 | Activar riego automático | Riego se activa cuando humedad < umbral. | - Log en la app de cada riego realizado. | EP-04 |
+| ST-09 | Riego manual desde app | Permitir riego inmediato desde app. | - Botón “Regar ahora” ejecuta riego y confirma finalización. | EP-04 |
+| **EP-05** | Notificaciones y Alertas | Como usuario quiero recibir alertas ante cambios críticos para actuar a tiempo. | - Push/email ante condiciones fuera de rango. | — |
+| ST-10 | Alerta de humedad crítica | Enviar notificación si humedad < umbral de seguridad. | - Notificación push en <30 s. | EP-05 |
+| ST-11 | Alerta de temperatura extrema | Avisar si temperatura excede rangos definidos. | - Mensaje claro con datos actuales. | EP-05 |
+| ST-12 | Confirmación de envío | Registrar confirmación de que la alerta fue entregada. | - Estado “enviada” en panel. | EP-05 |
+| **EP-06** | App/Web y Comunidad | Como usuario quiero administrar y compartir datos de mis plantas desde app y web. | - Acceso multiplataforma (iOS/Android/Web). | — |
+| ST-13 | Registro y login de usuario | Permitir crear cuenta y autenticarse. | - Validar email/contraseña.<br>- Mensajes de error claros. | EP-06 |
+| ST-14 | Dashboard de métricas | Mostrar humedad, luz, temperatura y riego. | - Datos en tiempo real y gráficos. | EP-06 |
+| ST-15 | Comunidad de usuarios | Compartir consejos y fotos. | - Publicar y comentar en foros internos. | EP-06 |
+| **EP-07** | Integraciones Futuras | Como usuario quiero integrar la maceta con asistentes de voz y otros dispositivos smart home. | - API/documentación disponible. | — |
+| ST-16 | API para integraciones | Ofrecer endpoints REST/ MQTT para terceros. | - Autenticación segura (token). | EP-07 |
+| ST-17 | Compatibilidad con asistentes de voz | Enviar/recibir comandos básicos. | - Prueba con Alexa/Google Home. | EP-07 |
+| **EP-08** | Mantenimiento y Seguridad | Como usuario quiero asegurar el correcto funcionamiento y la protección de mis datos. | - Encriptación y respaldo de datos. | — |
+| ST-18 | Backup en la nube | Guardar configuraciones y métricas. | - Respaldo automático diario. | EP-08 |
+| ST-19 | Calibración de sensores | Permitir calibración desde app. | - Opción de calibrar con guía paso a paso. | EP-08 |
+| ST-20 | Notificación de mantenimiento | Avisar cuando se requiera limpieza/batería. | - Push y correo de recordatorio. | EP-08 |
+| ST-21 | Gestión de usuarios y roles | Permitir varios usuarios por maceta con permisos. | - Rol administrador/invitado configurable. | EP-08 |
+
+
 ## 3.2. Product Backlog  
 ## 3.3. Impact Mapping  
 
