@@ -31,7 +31,7 @@
 |--------------------------|------------|
 | Rojas Velasquez, Maycol  | U202219984 |
 | Gómez Vallejos, Sergio   | U20221D401 |
-|                          |            |
+| Valera Garces, Samuel    | U202111952 |
 
 </div>
 
@@ -641,9 +641,59 @@ Ramiro Guzmán, de 24 años y residente en Bellavista, Callao, compartió su exp
 
 ## 2.3. Needfinding  
 ### 2.3.1. User Personas  
+
+
+### Segmento Objetivo: Personas Ocupadas en la Ciudad
+
+<img src="assets/userpersonasegmento1.png">
+
+### Segmento Objetivo: Jardineros
+
+<img src="assets/userpersonasegmento2.png">
+
+
 ### 2.3.2. User Task Matrix  
+
+
+### Segmento Objetivo: Personas Ocupadas en la Ciudad
+
+| Task                                             | Frequency | Importance |
+|--------------------------------------------------|-----------|-----------|
+| Configurar la maceta y conectarla al WiFi/Bluetooth | Medium   | High      |
+| Revisar humedad y temperatura desde la app       | High     | High      |
+| Recibir alertas de riego y plagas                | High     | High      |
+| Activar riego automático                         | Medium   | High      |
+| Consultar historial de datos ambientales         | Low      | Medium    |
+
+### Segmento Objetivo: Jardineros
+
+| Task                                                     | Frequency | Importance |
+|----------------------------------------------------------|-----------|-----------|
+| Monitorear en tiempo real luz, humedad y temperatura     | High     | High      |
+| Ajustar parámetros de riego desde la app                 | Medium   | High      |
+| Analizar datos históricos para optimizar el crecimiento  | Medium   | High      |
+| Detectar plagas mediante sensor de movimiento            | Medium   | High      |
+| Personalizar notificaciones y reportes                   | Medium   | Medium    |
+
+
 ### 2.3.3. User Journey Mapping  
+
+
+<img src="assets/userjourneymap.png">
+
+
 ### 2.3.4. Empathy Mapping  
+
+
+### Segmento Objetivo: Personas Ocupadas en la Ciudad
+
+<img src="assets/mapaempatiasegm1.png">
+
+### Segmento Objetivo: Jardineros
+
+<img src="assets/mapaempatiasegm2.png">
+
+
 
 ## 2.4. Ubiquitous Language  
 # Ubiquitous Language
