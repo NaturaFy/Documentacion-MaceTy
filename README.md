@@ -944,8 +944,15 @@ Durante el proceso de EventStorming identificamos varios aspectos clave específ
 Este modelo nos proporciona una visión holística del dominio MaceTy y sirve como base sólida para el diseño de la arquitectura IoT y la implementación de los bounded contexts identificados, asegurando que el sistema responda efectivamente a las necesidades reales de cuidado de plantas en entornos urbanos peruanos.
 # Capítulo III: Requirements Specification  
 
-## 3.1. User Stories  
+## 3.1. User Stories
 
+Las **User Stories** son una técnica fundamental en el desarrollo ágil que nos permite traducir las necesidades y objetivos de nuestros usuarios en requerimientos específicos y accionables para el desarrollo de MaceTy. Cada historia de usuario sigue el formato estándar "Como [tipo de usuario], quiero [funcionalidad] para [beneficio]", asegurando que mantengamos el foco en el valor que proporcionamos a nuestros segmentos objetivo.
+
+Para MaceTy, las User Stories se organizan en **Épicas** (EP) que representan funcionalidades de alto nivel y se descomponen en **Stories** (ST) más específicas y manejables. Esta estructura jerárquica nos permite priorizar el desarrollo basándose en el valor para el usuario y la complejidad técnica, mientras mantenemos la trazabilidad desde los insights del needfinding hasta la implementación final.
+
+Las historias han sido priorizadas considerando los hallazgos de nuestras entrevistas y análisis de usuarios: los **usuarios ocupados urbanos** requieren automatización máxima y simplicidad de uso, mientras que los **jardineros tecnológicos** valoran el control granular y acceso a datos detallados. Esta diferenciación se refleja en nuestras épicas, que abarcan desde funcionalidades core como monitoreo de sensores y riego automático, hasta características avanzadas como integración con ecosistemas smart home y análisis predictivo.
+
+Cada User Story incluye **Criterios de Aceptación** claros y medibles que definen exactamente cuándo una funcionalidad se considera completada y lista para ser entregada a nuestros usuarios. Estos criterios aseguran que el producto final no solo cumpla con las expectativas técnicas, sino que realmente resuelva los problemas identificados durante la fase de investigación de usuarios y proporcione una experiencia excepcional en el cuidado automatizado de plantas urbanas.
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |-----------------|-------|------------|-------------------------|---------------------------|
 | **EP-01** | Monitoreo de Humedad | Como usuario quiero que la maceta mida la humedad del suelo para conocer el nivel de riego necesario. | - La app muestra en tiempo real el porcentaje de humedad.<br>- Actualización mínima cada 5 min. | — |
@@ -978,8 +985,13 @@ Este modelo nos proporciona una visión holística del dominio MaceTy y sirve co
 | ST-20 | Notificación de mantenimiento | Avisar cuando se requiera limpieza/batería. | - Push y correo de recordatorio. | EP-08 |
 | ST-21 | Gestión de usuarios y roles | Permitir varios usuarios por maceta con permisos. | - Rol administrador/invitado configurable. | EP-08 |
 
+## 3.2. Product Backlog
 
-## 3.2. Product Backlog  
+El **Product Backlog** es una lista priorizada de funcionalidades, características y requerimientos que define lo que se debe construir para MaceTy. Esta lista viva y dinámica se organiza por valor de negocio, riesgo técnico y dependencies, asegurando que el equipo de desarrollo se enfoque en entregar las funcionalidades más críticas primero.
+
+Para MaceTy, el Product Backlog se estructura considerando las necesidades diferenciadas de nuestros segmentos objetivo: **automatización máxima** para usuarios ocupados urbanos y **control granular** para jardineros tecnológicos. Las user stories se priorizan usando la técnica de **Story Points** (escala Fibonacci: 1, 2, 3, 5, 8) que estima la complejidad relativa y el esfuerzo requerido.
+
+La priorización se basa en tres criterios principales: **valor para el usuario** (impacto directo en la experiencia), **viabilidad técnica** (complejidad de implementación) y **dependencies** (prerequisitos técnicos). Esta metodología asegura un desarrollo incremental que entrega valor temprano y continuo a nuestros usuarios urbanos.
 
 
 # Product Backlog – MaceTy
@@ -1006,10 +1018,107 @@ Este modelo nos proporciona una visión holística del dominio MaceTy y sirve co
 |18 | ST-21 | Gestión de usuarios y roles | Como administrador quiero asignar permisos a varios usuarios por maceta. | 3 |
 |19 | ST-16 | API para integraciones | Como desarrollador quiero endpoints para integrar MaceTy con otras plataformas. | 5 |
 
+## 3.3. Impact Mapping
 
+El **Impact Mapping** es una técnica de planificación estratégica que conecta los objetivos de negocio con las funcionalidades específicas del producto, asegurando que cada característica de MaceTy contribuya de manera medible al éxito de nuestros usuarios y del negocio. Esta metodología visual nos ayuda a mantener el foco en el impacto real que queremos generar: reducir la mortalidad de plantas urbanas y mejorar la experiencia de cuidado automatizado.
 
-## 3.3. Impact Mapping  
+Para MaceTy, el Impact Mapping se estructura en cuatro niveles: **Goal** (objetivo de negocio), **Actors** (personas que pueden influir en el resultado), **Impacts** (comportamientos que queremos generar en estos actores) y **Deliverables** (funcionalidades específicas que habilitarán estos comportamientos). Esta estructura nos permite validar que cada funcionalidad desarrollada tenga un propósito claro y medible.
 
+El mapa de impacto se enfoca en nuestros dos segmentos principales: usuarios ocupados urbanos que buscan automatización máxima, y jardineros tecnológicos que valoran datos detallados y control granular. Cada segmento requiere impactos diferenciados para lograr el objetivo común de mantener plantas saludables con mínimo esfuerzo.
+
+### Impact Map - MaceTy: Reducir Mortalidad de Plantas Urbanas en 50%
+
+<div align="center">
+<img src="assets/impact-mapping-macety.png" alt="Impact Mapping MaceTy" style="width: 100%; max-width: 1200px;">
+</div>
+
+### Desglose del Impact Mapping por Segmento
+
+#### Segmento: Personas Ocupadas Urbanas
+
+**Goal:** Reducir mortalidad de plantas urbanas en 50% en el primer año
+
+**Actor:** Usuario Ocupado Urbano (18-35 años, profesional/estudiante)
+
+**Impacts Esperados:**
+- Mantenga plantas vivas por más de 6 meses (vs. 3 meses promedio actual)
+- Reduzca tiempo de cuidado manual de 15 min/día a 2 min/día
+- Aumente confianza en el cuidado de plantas (de 3/10 a 8/10)
+- Recomiende MaceTy a al menos 3 amigos/familiares
+
+**Deliverables Clave:**
+- ST-08: Riego automático cuando humedad < umbral configurado
+- ST-10: Alertas de humedad crítica en <30 segundos
+- ST-01: Lectura de humedad en tiempo real con ±5% precisión
+- ST-13: Registro y login simplificado (<2 minutos)
+
+#### Segmento: Jardineros Tecnológicos
+
+**Goal:** Optimizar rendimiento de plantas y engagement con la plataforma
+
+**Actor:** Jardinero Aficionado/Semi-profesional (25-45 años)
+
+**Impacts Esperados:**
+- Mejore salud de plantas usando datos históricos (incremento 30% en vitalidad)
+- Use MaceTy diariamente para monitoreo (>5 días/semana)
+- Comparta experiencias en la comunidad (>2 posts/mes)
+- Se suscriba a plan premium para análisis avanzados (conversión 25%)
+
+**Deliverables Clave:**
+- ST-02: Historial de humedad con gráficos exportables
+- ST-14: Dashboard completo con métricas en tiempo real
+- ST-15: Comunidad para compartir consejos y fotos
+- ST-19: Calibración avanzada de sensores
+
+#### Actores Secundarios
+
+**Viveros y Tiendas (Canal Partner)**
+
+**Impacts Esperados:**
+- Vendan MaceTy como producto complementario (20% de sus clientes)
+- Proporcionen soporte técnico básico a usuarios finales
+- Generen ingresos adicionales por comisiones (15% por venta)
+
+**Deliverables Clave:**
+- ST-16: API para integración con sistemas de inventario
+- Programa de capacitación para vendedores
+- Materiales de marketing diferenciados por segmento
+
+**Influencers/Comunidades de Jardinería**
+
+**Impacts Esperados:**
+- Recomienden MaceTy en redes sociales (reach >10K por post)
+- Generen contenido educativo usando el producto
+- Validen credibilidad en mercado peruano/latinoamericano
+
+**Deliverables Clave:**
+- ST-15: Features de compartir logros y estadísticas
+- Programa beta para early adopters
+- Dashboard de métricas compartibles en redes sociales
+
+### Métricas de Éxito por Impact
+
+| Impact | Métrica Objetivo | Período | Método de Medición |
+|---------|------------------|---------|-------------------|
+| Reducir mortalidad de plantas | 50% menos plantas muertas | 12 meses | Encuestas pre/post + telemetría |
+| Aumentar retención de usuarios | 70% uso activo >6 meses | 6-12 meses | Analytics de app + device logs |
+| Mejorar satisfacción | NPS ≥ 50 | Trimestral | Encuestas in-app |
+| Generar recomendaciones | 40% usuarios refieren a otros | 6 meses | Código de referido + tracking |
+| Conversión premium | 25% suscripción a plan avanzado | 3 meses | Analytics de conversión |
+
+### Assumptions y Riesgos Identificados
+
+**Assumptions Críticas:**
+- Los usuarios urbanos están dispuestos a confiar en automatización para sus plantas
+- La conectividad WiFi en departamentos limeños es suficientemente estable
+- El precio punto (S/200-250) es competitivo vs. alternativas importadas
+
+**Riesgos de Impact:**
+- **Alto:** Fallas de hardware que generen desconfianza en automatización
+- **Medio:** Competencia de productos similares con menor precio
+- **Bajo:** Cambios en preferencias de usuarios post-pandemia
+
+Este Impact Mapping nos permite validar constantemente que MaceTy está generando el valor esperado y nos proporciona un marco claro para tomar decisiones de producto basadas en objetivos medibles y centrados en el usuario.
 
 # Capítulo IV: Solution Software Design  
 
