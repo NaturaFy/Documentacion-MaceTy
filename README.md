@@ -1124,6 +1124,12 @@ Este Impact Mapping nos permite validar constantemente que MaceTy está generand
 
 ## 4.1. Strategic-Level Domain-Driven Design  
 ### 4.1.1. Design-Level EventStorming  
+
+El **Design-Level EventStorming** es una técnica de modelado colaborativo que nos permite profundizar en el análisis del dominio de MaceTy, refinando los contextos delimitados identificados durante el Big Picture EventStorming. Esta fase se enfoca en explorar con mayor detalle los procesos de negocio, los flujos de información y las interacciones entre diferentes bounded contexts del sistema de cuidado inteligente de plantas urbanas.
+
+A diferencia del Big Picture EventStorming que proporcionó una vista panorámica del dominio completo, el Design-Level EventStorming se concentra en áreas específicas del negocio, permitiéndonos descubrir patrones de comunicación entre contextos, identificar interfaces de integración y definir las responsabilidades exactas de cada bounded context. Esta metodología es fundamental para MaceTy porque nos ayuda a diseñar una arquitectura que sea tanto escalable como mantenible, considerando las necesidades específicas de nuestros segmentos urbanos.
+
+El proceso de Design-Level EventStorming para MaceTy se estructura en tres fases principales: **Candidate Context Discovery** (identificación y validación de contextos delimitados), **Domain Message Flows Modeling** (modelado de flujos de mensajes entre contextos) y **Bounded Context Canvases** (definición detallada de cada contexto con sus responsabilidades, interfaces y dependencias). Esta aproximación sistemática nos permite pasar del entendimiento conceptual del dominio a un diseño arquitectónico concreto que guíe la implementación de la plataforma IoT MaceTy.
 #### 4.1.1.1. Candidate Context Discovery
 
 Identificar contextos candidatos es un paso clave para gestionar la complejidad en el desarrollo de sistemas. Se trata de un análisis minucioso que busca entender los elementos centrales del sistema y sus interconexiones. A partir de ahí, se procede a agrupar estos elementos en 'contextos delimitados' lógicos y coherentes. Esta separación no solo facilita el diseño y la implementación, sino que también tiene como meta principal potenciar la escalabilidad, el desempeño y la mantenibilidad del sistema resultante.
