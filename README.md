@@ -620,6 +620,19 @@ Para ello, se definieron dos segmentos de entrevistas: **Personas Ocupadas en la
 Enzo, un joven de 23 años que vive en Comas, compartió su experiencia personal sobre el cuidado de plantas en su hogar, resaltando que para él son un elemento vital porque aportan vida y mejoran el ambiente de su espacio. Aunque reconoce que las riega una o dos veces por semana, también admitió que en ocasiones se olvida y ha perdido plantas por falta de atención, lo que evidencia la necesidad de soluciones que automaticen estas tareas. En ese sentido, mostró gran interés en la idea de una maceta inteligente que no solo pueda regar automáticamente, sino también avisar sobre la necesidad de luz o nutrientes, siempre que sea fácil de usar y con un diseño atractivo que combine con su hogar. En cuanto a su disposición de pago, mencionó que estaría dispuesto a invertir entre 100 y 200 soles, aunque considera que el precio y la complejidad de uso son los principales obstáculos que podrían limitar su adopción. Finalmente, destacó que recomendaría este tipo de producto a amigos y familiares que, como él, viven en departamentos y valoran tener plantas, lo que refleja una oportunidad de mercado en este segmento de consumidores jóvenes interesados en soluciones prácticas y tecnológicas para simplificar su vida cotidiana.
 
 
+*Entrevistada:* Ariana Martinez <br>
+*Sexo:* Femenino  <br>
+*Edad:* 25   
+*Domicilio:* Santiago de Surco, Lima, Perú   <br>
+*Inicio de la Entrevista:* ... <br>
+*Duración de la Entrevista:* 3:30 <br>
+
+<img src="assets/entrevistaarianapersonaocupada.png" alt="" style="width: 600px; height: auto;">
+
+Resumen de la Entrevista:
+
+Ariana, diseñadora de interiores que reside en un departamento en Surco, Lima, compartió su experiencia con el cuidado de plantas en su hogar, señalando que, aunque revisa sus macetas a diario, a veces le resulta difícil mantener la rutina y ha perdido un par de plantas por descuido. Destacó que para ella las plantas son esenciales porque aportan vida y mejoran el ambiente de sus espacios. Al conocer la idea de una maceta inteligente capaz de detectar automáticamente las necesidades de riego, temperatura y luz, mostró gran entusiasmo, indicando que un sistema de notificaciones que informe sobre el estado de la planta le facilitaría el día a día y le permitiría ahorrar tiempo. Ariana expresó que estaría dispuesta a pagar alrededor de 300 soles por un producto con estas características, siempre que cuente con instrucciones claras para su instalación y conexión con el teléfono, ya que considera que la complejidad de uso podría ser el principal obstáculo. Finalmente, afirmó que recomendaría este tipo de solución a amigos y familiares, evidenciando una oportunidad de mercado entre personas jóvenes, ocupadas y con interés en integrar tecnología práctica en su hogar.
+
 
 ## Segmento 2: Jardineros:
 
