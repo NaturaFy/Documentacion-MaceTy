@@ -632,7 +632,7 @@ Camila, estudiante universitaria de 20 años residente en San Miguel, mantiene v
 | **Edad** | 24 años | 26 |
 | **Domicilio** | Bellavista Callao, Lima, Perú | Yanahuara, Arequipa , Perú |
 | **Duración** | 03:26 | 06:14 |
-| **Imagen** | <img src="assets/ramiro.png" alt="" style="width: 400px; height: auto;"> | <img src="assets/ramiro.png" alt="" style="width: 400px; height: auto;"> |
+| **Imagen** | <img src="assets/ramiro.png" alt="" style="width: 400px; height: auto;"> | <img src="assets/stefanoentrevistaaa.png" alt="" style="width: 400px; height: auto;"> |
 
 
 ### Resumen de Entrevista
@@ -1160,19 +1160,19 @@ En esta sección se presentan los diagramas C4 que describen la arquitectura del
 
 El Diagrama del Paisaje del Sistema muestra la relación de MaceTy con actores externos, como usuarios urbanos y jardineros, así como aplicaciones móviles, servicios de notificación y bases de datos de especies. También ilustra la interacción con sistemas externos clave, como APIs climáticas y repositorios especializados, que enriquecen las recomendaciones de cuidado.  
 
-![Landscape](./assets/structurizr-106169-PanoramaDelSistema.png)  
+![Landscape](assets/structurizr-106169-PanoramaDelSistema.png)  
 
 **Leyenda del diagrama:**  
-![Landscapekey](./assets/structurizr-106169-PanoramaDelSistema-key.png)  
+![Landscapekey](assets/structurizr-106169-PanoramaDelSistema-key.png)  
 
 #### 4.1.3.2. Context Level Diagram  
 
 El Diagrama de Contexto detalla cómo los distintos actores (usuarios, jardineros) se comunican con el sistema a través de la aplicación móvil y la plataforma web. También representa la conexión con el MaceTy Urban IoT Device, que recolecta datos del entorno (humedad, temperatura, luz) y los transmite al ecosistema vía el MaceTy API Gateway.  
 
-![Context](./assets/structurizr-106169-ContextoDelSistema.png)  
+![Context](assets/structurizr-106169-ContextoDelSistema.png)  
 
 **Leyenda del diagrama:**  
-![ContextKey](./assets/structurizr-106169-ContextoDelSistema-key.png)  
+![ContextKey](assets/structurizr-106169-ContextoDelSistema-key.png)  
 
 #### 4.1.3.3. Container Level Diagram  
 
@@ -1184,10 +1184,10 @@ El **Diagrama de Contenedores** describe los principales bloques funcionales del
 - **MaceTy Urban Database**: Almacena información de sensores, preferencias del usuario y patrones urbanos.  
 - **Servicios externos**: Repositorios de especies que enriquecen las recomendaciones.  
 
-![Container](./assets/structurizr-106169-DiagramaDeContenedores.png)  
+![Container](assets/structurizr-106169-DiagramaDeContenedores.png)  
 
 **Leyenda del diagrama:**  
-![ContainerKey](./assets/structurizr-106169-DiagramaDeContenedores-key.png)  
+![ContainerKey](assets/structurizr-106169-DiagramaDeContenedores-key.png)  
 
 #### Software Component Diagram  
 
@@ -1198,19 +1198,19 @@ El Diagrama de Componentes detalla la lógica interna de los microservicios en e
 - Módulo de recomendaciones basadas en patrones urbanos y clima.  
 - API de integración con aplicaciones móviles y web.  
 
-![Component](./assets/structurizr-106169-ComponentesGatewayAPI.png)  
+![Component](assets/structurizr-106169-ComponentesGatewayAPI.png)  
 
 **Leyenda del diagrama:**   
-![ComponentKey](./assets/structurizr-106169-ComponentesGatewayAPI-key.png)  
+![ComponentKey](assets/structurizr-106169-ComponentesGatewayAPI-key.png)  
 
 #### Software IoT Diagram  
 
 El **Diagrama IoT** representa el **MaceTy Urban IoT Device**, un dispositivo basado en ESP32 con sensores de humedad, temperatura y luz ambiental, además de una mini bomba de riego controlada automáticamente. Este dispositivo envía telemetría cada 15–30 minutos mediante protocolos como MQTT/HTTP, asegurando comunicación confiable con el API Gateway y retroalimentación en tiempo real hacia las aplicaciones.  
 
-![Landscape](./assets/structurizr-106169-ComponentesMacetaInteligente.png)  
+![Landscape](assets/structurizr-106169-ComponentesMacetaInteligente.png)  
 
 **Índice:**  
-![Landscape](./assets/structurizr-106169-ComponentesMacetaInteligente-key.png)  
+![Landscape](assets/structurizr-106169-ComponentesMacetaInteligente-key.png)  
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams  
 
@@ -1218,11 +1218,11 @@ Los Deployment Diagrams (diagramas de despliegue) forman parte de la arquitectur
 
 **Web App**
 
-![containers](./assets/deployment1.png)
+![containers](assets/deployment1.png)
 
 **Mobile App**
 
-![containers](./assets/deployment2.png)
+![containers](assets/deployment2.png)
 ## 4.2. Tactical-Level Domain-Driven Design  
 
 El **Tactical-Level Domain-Driven Design** nos permite profundizar en el diseño detallado de cada bounded context identificado durante el Strategic-Level Design, definiendo la estructura interna de cada contexto delimitado con sus respectivas capas arquitectónicas, entidades de dominio, servicios y patrones de implementación específicos para MaceTy.
@@ -1299,6 +1299,14 @@ La **Infrastructure Layer** implementa la persistencia de datos, servicios exter
 - EmailService: Envío de correos de verificación y recuperación
 - TokenService: Generación y validación de JWT tokens
 - EncryptionService: Servicios de encriptación y hash
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+![IAM Management Component Diagram](assets/iam-management-components.png)
+
+**Índice:**  
+![Landscape](assets/iam-management-components-key.png) 
+
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 ### 4.2.2. Bounded Context: Plant Management
 
