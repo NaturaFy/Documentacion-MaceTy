@@ -28,12 +28,21 @@
 <div align="center">
 
 | **Member**               | **Code**   |
-| ------------------------ | ---------- |
+|--------------------------|------------|
 | Rojas Velasquez, Maycol  | U202219984 |
-|                          |            |
+| Gómez Vallejos, Sergio   | U20221D401 |
 |                          |            |
 
 </div>
+
+<style>
+@media print {
+  div[align="center"] table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+</style>
 
 <p align="center"><strong>Septiembre 2025</strong></p>
 
@@ -51,6 +60,11 @@
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Context Level Diagrams |
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Container Level Diagrams |
 | TB1     | 14/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Deployment Diagrams |
+| TB1     | 14/09/2025  | Sergio André Gómez Vallejos | Implementación de Antecedentes y problematica  |
+| TB1     | 14/09/2025  | Sergio André Gómez Vallejos | Implementación de los Competidores  |
+| TB1     | 14/09/2025  | Sergio André Gómez Vallejos | Implementación de Analisis de los competidores  |
+| TB1     | 14/09/2025  | Sergio André Gómez Vallejos | Creación de las tácticas y entrategias frente a competidores  |
+| TB1     | 14/09/2025  | Sergio André Gómez Vallejos | Creación de analisis de las entrevistas  |
 
 
 
@@ -161,8 +175,8 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |  
 |-------------------------|------------------------|------------------|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta |<br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué | |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué| |
+|Trabaja en equipo para proporcionar liderazgo en forma conjunta |<br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué liderazgo conjunto durante el desarrollo del proyecto MaceTy, coordinando con Sergio Gómez la distribución de tareas técnicas y de investigación. Lideré la arquitectura de software, diagramas C4 y el diseño del sistema IoT, mientras facilitaba la integración del trabajo de ambos miembros del equipo.<br><br> 2. Gómez Vallejos, Sergio André<br>*TB1:*<br>  | Durante el TB1, ambos miembros del equipo demostraron capacidades de liderazgo complementarias. Maycol lideró los aspectos técnicos y arquitecturales, mientras Sergio lideró la investigación de mercado y análisis competitivo. Esta distribución de liderazgo permitió aprovechar las fortalezas individuales y crear un producto integral que combina solidez técnica con investigación de mercado robusta. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué metodologías colaborativas estableciendo reuniones regulares de sincronización, utilizando GitHub para el control de versiones colaborativo y creando un ambiente donde ambos miembros pudieran contribuir según sus fortalezas. Establecí metas claras para cada sprint: definición de segmentos objetivo, arquitectura del sistema y documentación técnica, cumpliendo todos los objetivos dentro de los plazos establecidos.<br><br> 2. Gómez Vallejos, Sergio André<br>*TB1:*<br>  | El equipo logró crear un entorno altamente colaborativo donde cada miembro aportó desde sus fortalezas técnicas y de investigación. La planificación clara de tareas permitió cumplir con todos los objetivos del TB1: documentación completa del startup profile, análisis competitivo exhaustivo, arquitectura de software bien definida y segmentos objetivo validados. La comunicación constante y el uso de herramientas colaborativas como GitHub facilitaron la integración exitosa de todos los componentes del proyecto MaceTy. |
 
 
 # Capítulo I: Introducción  
@@ -220,7 +234,7 @@ Ofrecer un producto integral que empodere a los usuarios con herramientas inteli
 | Integrante                                                                                                                                                                                                                                                       | Conocimientos técnicos / Habilidades                                                                                                                                                                                                                               |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |<img src="https://hackmd.io/_uploads/B1F_iuso0.jpg" alt="yo-3" style="width: 600px ; height: 200px;"> | Maycol Jhordan Rojas Velasquez – Ingeniería de Software – u202219984 Elegí la carrera de Ingeniería de Software debido a mi gusto por la innovación y la implementación de la tecnología en cualquier rubro social, de una manera creativa y en todos los aspectos. Me considero una persona creativa, en busca de ideas y estrategias con mente nueva. También me gusta escuchar ideas de mi equipo, dar propuestas de mejora, evaluar las ventajas y desventajas.Además, tengo conocimientos de programación en C++, HTML, Python, Angular, Backend en Java, y domino Flutter. También cuento con experiencia en LangChain aplicado con LLM y RAG.Tengo un enfoque responsable y dedicado, acompañado de un aprendizaje rápido, lo que me permite ayudar a mis compañeros en sus dudas. Por otro lado, mis hobbies son ver series, jugar, escuchar música, nadar y manejar.|
-|     |       |
+| ![Sergio](https://hackmd.io/_uploads/SkU_5d9cR.png)    | Sergio André Gómez Vallejos – Ingeniería de Software – u20221d401 <br> Soy una persona resiliente que, sin importar cuántas veces caiga, siempre encuentra la manera de levantarse. Tengo habilidades sociales sólidas y una amplia experiencia en la resolución de problemas de código. Suelo ser el miembro más activo de mi equipo de trabajo. Me apasionan los lenguajes de programación y la tecnología, y constantemente me esfuerzo por alcanzar mis objetivos y contribuir al desarrollo del startup.      |
 |     |       |
 
 </div>
@@ -230,6 +244,10 @@ La solución propuesta por Naturafy, **MaceTy**, combina hardware y software par
 Se busca que MaceTy no solo sea funcional, sino también accesible, escalable y fácil de usar, integrando principios de diseño centrado en el usuario y soluciones tecnológicas de bajo costo.
 
 ### 1.2.1. Antecedentes y problemática  
+
+En los últimos años, el acceso a libros y material educativo ha cambiado drásticamente con la llegada de plataformas digitales. Sin embargo, en el Perú y gran parte de Latinoamérica aún existe una **brecha significativa en el acceso a contenidos educativos** debido a los altos costos de los libros físicos, la limitada disponibilidad de títulos en formato digital y la falta de integración de estas plataformas con las necesidades de los estudiantes y las instituciones educativas.  
+Muchos alumnos enfrentan dificultades para adquirir los textos requeridos en sus cursos, lo que **afecta su rendimiento académico** y limita sus oportunidades de aprendizaje. Por otro lado, los autores y editoriales locales suelen encontrar barreras para difundir sus obras en plataformas internacionales, lo que reduce su alcance y dificulta la valorización de su trabajo. Si bien existen competidores que ofrecen bibliotecas digitales o acceso a libros electrónicos, estas soluciones suelen ser **costosas, poco personalizables o enfocadas en mercados extranjeros**, sin considerar las realidades y necesidades de los usuarios en contextos educativos de la región.  
+Ante esta problemática, surge **BookSphere** como una propuesta que busca democratizar el acceso a libros y audiolibros, integrando una **plataforma digital accesible, flexible y adaptada** tanto a estudiantes como a instituciones. Nuestro enfoque no solo se centra en facilitar la obtención de materiales académicos, sino también en **fomentar la lectura, apoyar a los autores locales y crear una comunidad participativa** alrededor de la literatura y el conocimiento.
 
 ### 1.2.2. Lean UX Process  
 #### 1.2.2.1. Lean UX Problem Statements  
@@ -305,12 +323,112 @@ Este segmento está compuesto por personas apasionadas por la jardinería, inter
 # Capítulo II: Requirements Elicitation & Analysis  
 
 ## 2.1. Competidores  
-### 2.1.1. Análisis competitivo  
+### 2.1.1. Análisis competitivo
+<table> <tr> <td align="center" colspan="6"><b>Competitive Analysis Landscape</b></td> </tr> <tr> <td colspan="2"><b>¿Porqué llevar a cabo este análisis?</b></td> <td colspan="4"> Para entender las fortalezas y debilidades de MaceTy frente a competidores internacionales y así definir estrategias de diferenciación en el mercado peruano y latinoamericano. </td> </tr> <tr> <td colspan="2"><b>¿Cómo podemos proporcionar un buen servicio?</b></td> <td colspan="4"> ¿Cómo podemos ofrecer un cuidado de plantas inteligente, accesible y sostenible que combine IoT, automatización y comunidad de usuarios para mejorar la experiencia de jardinería en el hogar? </td> </tr> <tr align="center"> <td colspan="2"></td><td><b>Naturafy – MaceTy</b></td><td><b>Click & Grow</b></td><td><b>Parrot Pot</b></td><td><b>Xiaomi Smart Flower Pot</b></td> </tr> <tr> <td rowspan="2"><b>Perfil</b></td><td><b>Overview</b></td> <td>Startup peruana con una maceta inteligente IoT que mide humedad, luz y temperatura, controla riego automático y se conecta vía app/web.</td> <td>Empresa internacional con sistema de jardinería inteligente basado en cápsulas y riego automático.</td> <td>Maceta inteligente con sensores de humedad, luz y fertilización, conectada vía app.</td> <td>Maceta de bajo costo con sensores básicos y conectividad Bluetooth/WiFi.</td> </tr> <tr> <td><b>Ventaja competitiva</b></td> <td>Accesible y adaptada al mercado latinoamericano; combina IoT + comunidad + sostenibilidad.</td> <td>Gran reconocimiento global, productos “plug & play” fáciles de usar.</td> <td>Alta precisión de sensores, diseño elegante y conectividad avanzada.</td> <td>Precios bajos, distribución masiva gracias al ecosistema Xiaomi.</td> </tr> <tr> <td rowspan="2"><b>Perfil de Marketing</b></td><td><b>Mercado Objetivo</b></td> <td>Usuarios urbanos peruanos y latinoamericanos (profesionales, estudiantes, jardineros aficionados).</td> <td>Consumidores urbanos de Europa y EE.UU. interesados en jardinería indoor.</td> <td>Amantes de la tecnología y plantas de gama media-alta.</td> <td>Usuarios de hogar inteligente en mercados asiáticos.</td> </tr> <tr> <td><b>Estrategias de Marketing</b></td> <td>Redes sociales, alianzas con viveros locales, ferias y comunidades de jardinería.</td> <td>E-commerce internacional, influencers de estilo de vida verde.</td> <td>Marketing en ferias tecnológicas y jardinería premium.</td> <td>Integración en ecosistema Xiaomi + ventas retail masivas.</td> </tr> <tr> <td rowspan="3"><b>Perfil de Producto</b></td><td><b>Productos & Servicios</b></td> <td>Maceta IoT con sensores, riego automático, app/web y comunidad integrada.</td> <td>Sistemas de cultivo inteligente con cápsulas de semillas.</td> <td>Maceta IoT con sensores avanzados y app.</td> <td>Maceta básica con sensores de humedad y luz.</td> </tr> <tr> <td><b>Precios & Costos</b></td> <td>Medio-bajo (adaptado al poder adquisitivo peruano).</td> <td>Alto (USD 80–150 + cápsulas).</td> <td>Alto (USD 90–120).</td> <td>Bajo (USD 30–50).</td> </tr> <tr> <td><b>Canales de distribución</b></td> <td>App/web, e-commerce local, alianzas con viveros y tiendas.</td> <td>Web oficial, Amazon, retailers.</td> <td>E-commerce y tiendas especializadas.</td> <td>Marketplace Xiaomi y distribuidores globales.</td> </tr> <tr> <td rowspan="5"><b>Análisis SWOT</b></td><td><b>Fortalezas</b></td> <td>Adaptación local, sostenibilidad, accesibilidad y comunidad en LATAM.</td> <td>Experiencia global y gran comunidad de usuarios.</td> <td>Alta precisión tecnológica.</td> <td>Precios accesibles y ecosistema Xiaomi.</td> </tr> <tr> <td><b>Debilidades</b></td> <td>Startup en desarrollo, requiere inversión para escalar.</td> <td>Costos altos y dependencia de cápsulas.</td> <td>Precio elevado y limitada disponibilidad.</td> <td>Funciones limitadas, enfoque en bajo costo.</td> </tr> <tr> <td><b>Oportunidades</b></td> <td>Creciente interés en sostenibilidad y cuidado de plantas en hogares urbanos de LATAM.</td> <td>Expansión hacia mercados emergentes.</td> <td>Alianzas con marcas de jardinería premium.</td> <td>Integración con otros dispositivos IoT.</td> </tr> <tr> <td><b>Amenazas</b></td> <td>Competencia de gigantes tecnológicos y falta de inversión local.</td> <td>Competencia de bajo costo y productos alternativos.</td> <td>Nuevas startups con precios más accesibles.</td> <td>Saturación del mercado asiático.</td> </tr> </table>
+<br/>
 ### 2.1.2. Estrategias y tácticas frente a competidores  
+
+Para enfrentarnos a la competencia en el sector de plataformas digitales de lectura, nuestra estrategia se centrará en ofrecer una aplicación accesible, intuitiva y adaptada a las necesidades de estudiantes y lectores en el Perú y Latinoamérica.  
+
+A diferencia de competidores como **Click & Grow** u otras plataformas internacionales de distribución de libros, **BookSphere** destacará por su enfoque en la **personalización del contenido**, la **integración con instituciones educativas** y la **creación de comunidad lectora**.  
+
+Nuestras tácticas incluirán:  
+- **Campañas de marketing digital segmentadas**, utilizando redes sociales y medios especializados en educación y cultura.  
+- **Alianzas estratégicas con universidades, colegios y editoriales locales**, lo que permitirá fortalecer la presencia de la aplicación en el ámbito académico.  
+- **Modelos de suscripción flexibles y accesibles**, adaptados a estudiantes, instituciones y usuarios independientes.  
+- **Innovación constante en la experiencia del usuario**, incorporando reseñas, recomendaciones personalizadas y funciones sociales que fomenten la interacción entre autores y lectores.  
+
+De esta forma, BookSphere no solo será una plataforma de acceso a libros y audiolibros, sino también un espacio para conectar a los usuarios con el conocimiento, la educación y la literatura en una experiencia digital enriquecedora.
 
 ## 2.2. Entrevistas  
 ### 2.2.1. Diseño de entrevistas  
+
+El diseño de entrevistas se centra en validar la propuesta de valor de **MaceTy**, una maceta inteligente que combina hardware y software para ofrecer un sistema de riego automatizado y monitoreo en tiempo real, con el fin de facilitar el cuidado de plantas de interior.  
+Se busca comprender mejor las necesidades de los usuarios potenciales, sus hábitos, motivaciones y desafíos en relación al cuidado de plantas, además de explorar la disposición que tendrían hacia una solución tecnológica accesible y fácil de usar.  
+
+Para ello, se definieron dos segmentos de entrevistas: **Personas Ocupadas en la Ciudad** y **Jardineros**, cada uno con un guion adaptado a sus características.  
+
+#### Entrevista – Personas Ocupadas en la Ciudad  
+
+**Preguntas iniciales (contexto):**  
+1. ¿Cómo te llamas?  
+2. ¿Dónde vives actualmente?  
+3. ¿Qué edad tienes?  
+
+**Preguntas principales:**  
+4. ¿Tienes plantas en tu casa o departamento?  
+5. ¿Cuántas veces a la semana sueles regarlas o cuidarlas?  
+6. ¿Alguna vez se te han muerto plantas por falta de tiempo o desconocimiento? ¿Qué pasó?  
+7. ¿Qué tan importante es para ti tener plantas bonitas en tu hogar? (Nada – Poco – Importante – Muy importante)  
+8. Si tuvieras una maceta que se riega sola y te avisa si tu planta necesita luz o nutrientes, ¿la usarías? ¿Por qué?  
+9. ¿Qué características valoras más en un producto para el hogar? (ej. estética, facilidad de uso, precio, tecnología)  
+10. ¿Cuánto estarías dispuesto a pagar por una maceta inteligente que cuide tus plantas automáticamente?  
+11. ¿Qué aplicación móvil usas más en tu día a día y por qué te gusta?  
+12. ¿Qué tan seguido olvidas regar o cuidar tus plantas? (Casi nunca – A veces – Frecuente – Siempre)  
+13. ¿Prefieres recibir alertas en tu celular o que el sistema se encargue solo sin notificaciones?  
+14. ¿Cuál sería el mayor beneficio para ti de tener una maceta inteligente?  
+15. ¿Qué obstáculos crees que podrías tener para usar un producto así? (precio, desconfianza en la tecnología, instalación, etc.)  
+16. ¿Recomendarías este tipo de solución a familiares o amigos que también tienen plantas? ¿Por qué?  
+
+---
+
+#### Entrevista – Jardineros (aficionados o semi-profesionales)  
+
+**Preguntas iniciales (contexto):**  
+1. ¿Cómo te llamas?  
+2. ¿Dónde vives actualmente?  
+3. ¿Qué edad tienes?  
+
+**Preguntas principales:**  
+4. ¿Qué tipo de plantas cultivas con más frecuencia?  
+5. ¿Cuánto tiempo al día o a la semana dedicas al cuidado de tus plantas?  
+6. ¿Usas alguna herramienta o aplicación para monitorear riego, humedad o luz? ¿Cuál?  
+7. ¿Qué problemas enfrentas más seguido en el cuidado de tus plantas?  
+8. ¿Te interesaría un sistema que te muestre datos en tiempo real (riego, nutrientes, luz) de cada planta? ¿Por qué?  
+9. ¿Prefieres tener el control total sobre el cuidado (ajustar tú mismo) o que el sistema se encargue automáticamente?  
+10. ¿Qué tan dispuesto estarías a invertir en tecnología que mejore la salud y el crecimiento de tus plantas?  
+11. ¿Qué tan importante es para ti llevar un registro histórico del crecimiento y estado de tus plantas?  
+12. ¿Qué tan cómodo te sientes usando aplicaciones móviles o dispositivos inteligentes?  
+13. ¿Te gustaría compartir tus logros (ej. fotos, estadísticas de crecimiento) en redes sociales o comunidades de jardinería?  
+14. ¿Qué funciones extra te gustaría que tenga una maceta inteligente además de riego y monitoreo?  
+15. ¿Qué esperas en cuanto al diseño? (ej. algo moderno, estético, simple, robusto)  
+16. Si una maceta inteligente pudiera conectarse con otras (ej. crear un ecosistema de plantas), ¿lo verías útil? ¿Por qué?  
+
 ### 2.2.2. Registro de entrevistas  
+
+## Segmento 1: Personas Ocupadas en la Ciudad:
+
+*Entrevistado:* Enzo Sanamamur <br>
+*Sexo:* Masculino <br>
+*Edad:* 23 <br>
+*Domicilio:* Comas, Lima, Peru <br>
+*Inicio de la Entrevista:* 00:00 <br>
+*Duración de la Entrevista:* 03:35 <br>
+
+<img src="assets/enzo.png" alt="" style="width: 600px; height: auto;">
+
+*Resumen de la Entrevista*:
+
+Enzo, un joven de 23 años que vive en Comas, compartió su experiencia personal sobre el cuidado de plantas en su hogar, resaltando que para él son un elemento vital porque aportan vida y mejoran el ambiente de su espacio. Aunque reconoce que las riega una o dos veces por semana, también admitió que en ocasiones se olvida y ha perdido plantas por falta de atención, lo que evidencia la necesidad de soluciones que automaticen estas tareas. En ese sentido, mostró gran interés en la idea de una maceta inteligente que no solo pueda regar automáticamente, sino también avisar sobre la necesidad de luz o nutrientes, siempre que sea fácil de usar y con un diseño atractivo que combine con su hogar. En cuanto a su disposición de pago, mencionó que estaría dispuesto a invertir entre 100 y 200 soles, aunque considera que el precio y la complejidad de uso son los principales obstáculos que podrían limitar su adopción. Finalmente, destacó que recomendaría este tipo de producto a amigos y familiares que, como él, viven en departamentos y valoran tener plantas, lo que refleja una oportunidad de mercado en este segmento de consumidores jóvenes interesados en soluciones prácticas y tecnológicas para simplificar su vida cotidiana.
+
+
+
+## Segmento 2: Jardineros:
+
+*Entrevistado:* Ramiro Guzmán <br>
+*Sexo:* Masculino <br>
+*Edad:* 24 <br>
+*Domicilio:* Bellavista Callao, Lima, Peru <br>
+*Inicio de la Entrevista:* 00:00 <br>
+*Duración de la Entrevista:* 03:26 <br>
+
+<img src="assets/ramiro.png" alt="" style="width: 600px; height: auto;">
+
+*Resumen de la Entrevista*:
+
+Ramiro Guzmán, de 24 años y residente en Bellavista, Callao, compartió su experiencia sobre el cuidado de plantas en su hogar, principalmente ornamentales y algunas comestibles como tomates y lechugas. Dedica entre una y dos horas diarias, más los fines de semana, observando manualmente la tierra y las hojas, aunque enfrenta problemas como plantas que se secan por exceso de sol o descuido al regarlas. Mostró gran interés en un sistema que monitoree en tiempo real riego, nutrientes y luz, prefiriendo una maceta inteligente que pueda automatizarse pero le permita ajustes manuales. Está dispuesto a invertir entre 250 y 300 soles en una maceta confiable, valorando la posibilidad de registrar el crecimiento de sus plantas, recibir recomendaciones personalizadas y conectarlas en un ecosistema controlable desde un solo dispositivo. Además, prioriza un diseño moderno, minimalista y estético que combine con su hogar, y disfruta compartir experiencias y estadísticas de jardinería en redes sociales y comunidades especializadas.
+
+ 
 ### 2.2.3. Análisis de entrevistas  
 
 ## 2.3. Needfinding  
@@ -346,9 +464,99 @@ A continuación se presenta un glosario de términos utilizados en el dominio de
 | Plant Buddy                | Compañero de Planta             | Término coloquial para referirse a la planta que se cuida con atención.                    |
 | Alert System               | Sistema de Alertas              | Notificaciones enviadas al usuario sobre necesidades de la planta (riego, luz, nutrientes).|
 | Green Thumb                | Pulgar Verde                    | Expresión coloquial que describe habilidad o talento para cuidar plantas.                  |
+## 2.5. Big Picture EventStorming
 
-## 2.5. Big Picture EventStorming  
+El Big Picture EventStorming es una técnica de modelado colaborativo que nos permite explorar y visualizar el dominio completo de MaceTy desde la perspectiva de eventos del negocio. Esta técnica nos ayuda a identificar los eventos más importantes que ocurren en el sistema de la maceta inteligente, desde el registro inicial del usuario hasta el mantenimiento continuo de las plantas urbanas.
 
+### Metodología Aplicada para MaceTy
+
+Para realizar este Big Picture EventStorming seguimos una metodología estructurada de 9 pasos consolidados, cada uno enfocado en aspectos específicos del dominio de cuidado inteligente de plantas urbanas:
+
+#### Paso 1: Unstructured Exploration (Exploración No Estructurada)
+Comenzamos con una lluvia de ideas identificando todos los eventos significativos que ocurren en el dominio de MaceTy. Durante esta fase exploratoria, nos enfocamos en capturar eventos críticos como "Usuario se registra en la plataforma", "Planta es configurada por primera vez", "Sensor detecta humedad crítica", "Sistema activa riego automático", "Usuario recibe notificación de alerta", entre otros eventos relevantes para el ecosistema de cuidado urbano de plantas.
+
+![Paso 1: Exploración de Domain Events](assets/big-picture-step-1.png)
+
+#### Paso 2: Timelines (Líneas Temporales)
+Organizamos los eventos identificados en una línea temporal coherente que representa el flujo natural del proceso de negocio. Esta organización temporal abarca desde la configuración inicial de MaceTy hasta el monitoreo continuo y mantenimiento de plantas en espacios urbanos, considerando los diferentes patrones de uso de nuestros segmentos objetivo: usuarios ocupados urbanos y jardineros tecnológicos.
+
+![Paso 2: Organización del Flujo Temporal](assets/big-picture-step-2.png)
+
+#### Paso 3: Pain Points (Puntos de Dolor)
+Identificamos y marcamos los puntos problemáticos o áreas de fricción en el flujo de eventos. Estos pain points incluyen situaciones como "Pérdida de conectividad WiFi", "Sensor defectuoso", "Depósito de agua vacío", "Usuario olvida configurar tipo de planta", que representan desafíos críticos que el sistema MaceTy debe resolver para garantizar una experiencia de usuario exitosa.
+
+![Paso 3: Identificación de Pain Points](assets/big-picture-step-3.png)
+
+#### Paso 4: Pivotal Points (Puntos Pivotales)
+Definimos los eventos pivotales o momentos críticos que determinan el éxito o fracaso del proceso. Estos puntos incluyen decisiones clave como "Usuario decide automatizar completamente el riego" vs "Usuario prefiere control manual", "Sistema detecta condiciones críticas de la planta", que bifurcan el flujo hacia diferentes escenarios de uso según las preferencias del segmento objetivo.
+
+![Paso 4: Identificación de Puntos Pivotales](assets/big-picture-step-4.png)
+
+#### Paso 5: Commands (Comandos)
+Para cada evento identificado, determinamos qué comandos o acciones específicas los desencadenan. Establecemos comandos como "Configurar nueva planta", "Solicitar datos de especie", "Activar riego manual", "Generar alerta de humedad", "Actualizar configuraciones de usuario", creando una relación clara de causa-efecto en el sistema MaceTy.
+
+![Paso 5: Mapeo de Comandos](assets/big-picture-step-5.png)
+
+#### Paso 6: Policies (Políticas de Negocio)
+Establecimos las reglas de negocio y políticas que conectan eventos con comandos subsecuentes. Definimos políticas críticas como "Cuando la humedad del sustrato está por debajo del 30%, activar riego automático", "Si el usuario es jardinero tecnológico, mostrar métricas detalladas y históricos", "En caso de falla del sensor, notificar inmediatamente y activar modo manual".
+
+![Paso 6: Definición de Políticas](assets/big-picture-step-6.png)
+
+#### Paso 7: Read Models (Modelos de Lectura)
+Determinamos qué información específica necesita consultar cada actor en diferentes momentos del proceso: dashboards simplificados para usuarios ocupados, métricas avanzadas y análisis para jardineros tecnológicos, históricos detallados de sensores, reportes de crecimiento de plantas, y alertas contextualizadas según el perfil del usuario.
+
+![Paso 7: Definición de Read Models](assets/big-picture-step-7.png)
+
+#### Paso 8: External Systems (Sistemas Externos)
+Mapeamos las integraciones necesarias con sistemas externos, principalmente la Base de Datos de Especies de Plantas que se consulta únicamente durante el registro inicial de una nueva planta. Esta optimización permite que el sistema funcione de forma autónoma después de la configuración inicial, reduciendo dependencias externas y mejorando el rendimiento general del sistema.
+
+![Paso 8: Integración con Sistemas Externos](assets/big-picture-step-8.png)
+
+#### Paso 9: Aggregates & Bounded Contexts (Agregados y Contextos Delimitados)
+Organizamos los eventos relacionados en contextos delimitados específicos para MaceTy: "Gestión de Usuarios Urbanos", "Monitoreo Inteligente de Plantas", "Control IoT de Dispositivos", "Automatización de Riego", y "Análisis de Datos de Plantas". Adicionalmente, marcamos las áreas problemáticas o hotspots de alta complejidad que requieren atención especial, como la sincronización entre dispositivos IoT y la nube, la gestión optimizada de alertas para usuarios ocupados, y la adaptación del sistema a condiciones urbanas específicas.
+
+![Paso 9: Bounded Contexts y Hotspots](assets/big-picture-step-9-10.png)
+
+### Resultado del Big Picture EventStorming
+
+El siguiente diagrama presenta el resultado consolidado de nuestro Big Picture EventStorming para MaceTy, integrando todos los elementos identificados en una vista unificada del dominio de cuidado inteligente de plantas urbanas:
+
+![Big Picture EventStorming Completo - MaceTy](assets/Event_Storming_IoT.jpeg)
+
+**Enlace interactivo:** [https://lucid.app/lucidchart/b67df073-d2bc-4ff2-9ab6-425a3e713360/edit?invitationId=inv_43dc8df3-420e-4f16-bf31-d07c7c357ee1](https://lucid.app/lucidchart/b67df073-d2bc-4ff2-9ab6-425a3e713360/edit?invitationId=inv_43dc8df3-420e-4f16-bf31-d07c7c357ee1)
+
+### Principales Descubrimientos del EventStorming
+
+Durante el proceso de EventStorming identificamos varios aspectos clave específicos para MaceTy:
+
+**Flujos Diferenciados por Segmento:**
+- Los usuarios ocupados urbanos requieren automatización máxima con alertas mínimas y no intrusivas
+- Los jardineros tecnológicos demandan datos detallados, control granular y métricas de rendimiento
+
+**Eventos Críticos de Automatización:**
+- La detección automática de humedad baja, falta de luz o temperatura inadecuada son eventos centrales
+- Estos eventos disparan múltiples procesos de cuidado inteligente y notificaciones contextuales
+
+**Optimizaciones para Entorno Urbano:**
+- El sistema debe adaptarse a espacios urbanos limitados y redes WiFi inestables
+- Consideración de variaciones de luz natural en departamentos y condiciones específicas de la ciudad
+
+**Integración Externa Optimizada:**
+- La consulta a la Base de Datos de Especies solo ocurre durante la configuración inicial
+- El sistema funciona autónomamente con los parámetros configurados, mejorando la eficiencia
+
+**Flujos de Recuperación:**
+- Identificamos escenarios críticos: pérdida de conectividad, fallos de sensor, agotamiento del depósito
+- Definimos estrategias de recuperación automática y notificaciones de contingencia
+
+**Bounded Contexts Identificados:**
+1. **IAM Management** - Gestión de identidad, acceso y autenticación de usuarios urbanos
+2. **Plant Management** - Administración del ciclo de vida de plantas y sus configuraciones específicas
+3. **IA Management** - Inteligencia artificial para análisis predictivo y recomendaciones de cuidado
+4. **Notification Management** - Sistema de alertas contextuales y comunicaciones push
+5. **Sensor Management** - Control y monitoreo de dispositivos IoT y telemetría de sensores
+
+Este modelo nos proporciona una visión holística del dominio MaceTy y sirve como base sólida para el diseño de la arquitectura IoT y la implementación de los bounded contexts identificados, asegurando que el sistema responda efectivamente a las necesidades reales de cuidado de plantas en entornos urbanos peruanos.
 # Capítulo III: Requirements Specification  
 
 ## 3.1. User Stories  
