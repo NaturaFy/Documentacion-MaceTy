@@ -83,6 +83,7 @@
 | TB1     | 20/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Context Level Diagrams |
 | TB1     | 20/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Container Level Diagrams |
 | TB1     | 20/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Deployment Diagrams |
+| TB1     | 20/09/2025  | Carlos Andres Leon Rioja | Context Mapping |
 # Project Report Collaboration Insights
 #### 1. URL del Repositorio en GitHub
 | Repositorio del Informe en GitHub |
@@ -1146,11 +1147,23 @@ Para analizar y diseñar sistemas de software, se usa el Modelado de Flujos de M
 
 <img src="assets/boundedcanvassensormanagement.png">
 
-
 <img src="assets/boundedcanvascomunicationmanagement.png">
 
-
 ### 4.1.2. Context Mapping  
+
+En esta sección presentamos el context map definido para el sistema, donde se visualizan las relaciones estructurales entre los bounded contexts identificados. La propuesta busca mantener una separación clara de responsabilidades, asegurando consistencia en los modelos y una comunicación eficiente entre los diferentes componentes.
+
+- IAM Management funciona como un servicio transversal para todos los demás bounded contexts bajo el patrón Customer/Supplier, ya que provee la gestión de identidad y autenticación que consumen las demás áreas del sistema.
+
+- Plant Management y IA Management comparten un Shared Kernel basado en el modelo de plantas, lo que garantiza coherencia entre la administración del ciclo de vida de las plantas y el análisis predictivo para su cuidado.
+
+- Sensor Management se comunica con Plant Management a través de una Anti-corruption Layer, que traduce la telemetría de los dispositivos IoT a un formato comprensible para la gestión de plantas, protegiendo al dominio de detalles técnicos propios de los sensores.
+
+- IA Management mantiene una relación de tipo Conformist con Notification Management, adaptando sus recomendaciones al formato de alertas y comunicaciones push definido por el sistema de notificaciones.
+
+- Notification Management actúa como punto de salida hacia los usuarios finales, consolidando la información proveniente de otros contexts y distribuyéndola en forma de alertas y mensajes push.
+
+![Context Mapping](assets/Context-Mapping.png)
 
 ### 4.1.3. Software Architecture
 
