@@ -68,6 +68,7 @@
 | TB1     | 14/09/2025  | Sergio André Gómez Vallejos | Creación de analisis de las entrevistas  |
 | TB1     | 20/09/2025  | Carlos Andres Leon Rioja | Candidate Context Discovery Diagram  |
 | TB1     | 20/09/2025  | Carlos Andres Leon Rioja | Domain Message Flows Modeling Diagram  |
+| TB1     | 20/09/2025  | Carlos Andres Leon Rioja | Bounded Context Canvases Diagram  |
 
 
 
@@ -584,6 +585,12 @@ Para analizar y diseñar sistemas de software, se usa el Modelado de Flujos de M
 ![Domain Message Flows Modeling](assets/Domain-Message-Flows-Modeling.png)
 
 #### 4.1.1.3. Bounded Context Canvases
+
+Sensor Management <br>
+![Sensor Management](assets/Sensor-Management.png)
+
+Communication Management <br>
+![Communication Management](assets/Communication-Management.png)
 
 ### 4.1.2. Context Mapping  
 
