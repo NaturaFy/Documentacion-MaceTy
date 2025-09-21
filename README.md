@@ -1149,6 +1149,12 @@ Para analizar y diseñar sistemas de software, se usa el Modelado de Flujos de M
 
 <img src="assets/boundedcanvascomunicationmanagement.png">
 
+<img src="assets/canvasplantmanagement.png">
+
+<img src="assets/canvasIAMmanagement.png">
+
+<img src="assets/canvasIAmanagement.png">
+
 ### 4.1.2. Context Mapping  
 
 En esta sección presentamos el context map definido para el sistema, donde se visualizan las relaciones estructurales entre los bounded contexts identificados. La propuesta busca mantener una separación clara de responsabilidades, asegurando consistencia en los modelos y una comunicación eficiente entre los diferentes componentes.
