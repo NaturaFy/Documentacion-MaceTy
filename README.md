@@ -1321,6 +1321,14 @@ La **Infrastructure Layer** implementa la persistencia de datos, servicios exter
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
+
+
+##### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+![IAM Management Database Design](assets/iam-management-database.png)
+
+
+
 ### 4.2.2. Bounded Context: Plant Management
 
 #### 4.2.2.1. Domain Layer
@@ -1395,11 +1403,18 @@ La **Infrastructure Layer** implementa la persistencia y servicios externos para
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
 ![Plant Management Component Diagram](assets/plant-management-components.png)
+**Índice:**  
+![Landscape](assets/plant-management-components-plant.png) 
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 
-**Índice:**  
-![Landscape](assets/plant-management-components-plant.png) 
+
+
+
+##### 4.2.2.6.2. Bounded Context Database Design Diagram
+
+![Plant Management Database Design](assets/plant-management-database.png)
+
 
 ### 4.2.3. Bounded Context: Sensor Management
 
@@ -1481,6 +1496,10 @@ La **Infrastructure Layer** implementa la comunicación IoT y persistencia de da
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 
+
+##### 4.2.3.6.2. Bounded Context Database Design Diagram
+![Sensor Management Database Design](assets/sensor-management-database.png)
+
 ### 4.2.4. Bounded Context: IA Management
 
 #### 4.2.4.1. Domain Layer
@@ -1559,6 +1578,11 @@ La **Infrastructure Layer** implementa la infraestructura de ML y servicios de c
 ![Landscape](assets/ia-management-components-key.png) 
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+
+##### 4.2.4.6.2. Bounded Context Database Design Diagram
+![IA Management Database Design](assets/ia-management-database.png)
+
 
 ### 4.2.5. Bounded Context: Notification Management
 
@@ -1639,6 +1663,11 @@ La **Infrastructure Layer** implementa los canales de entrega y persistencia de 
 ![Landscape](assets/notification-management-components-key.png)
 
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+
+##### 4.2.5.6.2. Bounded Context Database Design Diagram
+
+![Notification Management Database Design](assets/notification-management-database.png)
 
 ## Conclusiones
 
