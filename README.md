@@ -1326,7 +1326,9 @@ La **Infrastructure Layer** implementa la persistencia de datos, servicios exter
 ![Landscape](assets/iam-management-components-key.png) 
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
+![IAM Management Domain Class Diagram](assets/iam-management-domain-classes.png)
 
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
@@ -1413,8 +1415,9 @@ La **Infrastructure Layer** implementa la persistencia y servicios externos para
 ![Landscape](assets/plant-management-components-plant.png) 
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-
+![Plant Management Domain Class Diagram](assets/plant-management-domain-classes.png)
 
 
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram
@@ -1500,6 +1503,9 @@ La **Infrastructure Layer** implementa la comunicación IoT y persistencia de da
 ![Landscape](assets/sensor-management-components-key.png) 
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Sensor Management Domain Class Diagram](assets/sensor-management-domain-classes.png)
 
 
 
@@ -1585,6 +1591,11 @@ La **Infrastructure Layer** implementa la infraestructura de ML y servicios de c
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
+##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+![IA Management Domain Class Diagram](assets/ia-management-domain-classes.png)
+
+
 
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
 ![IA Management Database Design](assets/ia-management-database.png)
@@ -1669,6 +1680,10 @@ La **Infrastructure Layer** implementa los canales de entrega y persistencia de 
 ![Landscape](assets/notification-management-components-key.png)
 
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Notification Management Domain Class Diagram](assets/notification-management-domain-classes.png)
 
 
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram
