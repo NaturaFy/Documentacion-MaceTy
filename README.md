@@ -84,6 +84,7 @@
 | TB1     | 20/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Container Level Diagrams |
 | TB1     | 20/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Deployment Diagrams |
 | TB1     | 20/09/2025  | Carlos Andres Leon Rioja | Context Mapping |
+| TB1     | 20/09/2025  | Carlos Andres Leon Rioja | Impact Mapping |
 # Project Report Collaboration Insights
 #### 1. URL del Repositorio en GitHub
 | Repositorio del Informe en GitHub |
@@ -1029,9 +1030,7 @@ El mapa de impacto se enfoca en nuestros dos segmentos principales: usuarios ocu
 
 ### Impact Map - MaceTy: Reducir Mortalidad de Plantas Urbanas en 50%
 
-<div align="center">
-<img src="assets/impact-mapping-macety.png" alt="Impact Mapping MaceTy" style="width: 100%; max-width: 1200px;">
-</div>
+![Impact Mapping](assets/Impact-Mapping.png)
 
 ### Desglose del Impact Mapping por Segmento
 
