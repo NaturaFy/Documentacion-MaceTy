@@ -1,14 +1,4 @@
 <p align="center">
-  <img src="assets/upc_logo.png" alt="Logo de la UPC" />
-</p>
-<p align="center">
-  <strong>UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</strong><br>
-  <strong>FACULTAD DE INGENIERÍA</strong><br>
-  <strong>PROGRAMA ACADÉMICO DE INGENIERÍA DE SOFTWARE</strong><br>
-  <strong>1ASI0572-2520-3414 - DESARROLLO DE SOLUCIONES IoT</strong>
-</p>
-
-<p align="center">
   <span style="font-size: 2em;"><em><strong>MaceTy</strong></em></span><br>
   <span style="font-size: 2em;"><em><strong>TB1</strong></em></span>
 </p>
@@ -1803,3 +1793,4 @@ Wireframes y mockups de alta fidelidad para:
 - **Onboarding Flow**: Proceso de configuración inicial paso a paso
 
 Estos anexos proporcionan documentación completa y detallada que complementa el informe principal, facilitando la implementación y el mantenimiento futuro del sistema MaceTy.
+
