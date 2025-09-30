@@ -1197,28 +1197,38 @@ El **Diagrama de Contenedores** describe los principales bloques funcionales del
 **Leyenda del diagrama:**  
 ![ContainerKey](assets/structurizr-106169-DiagramaDeContenedores-key.png)  
 
-#### Software Component Diagram  
+#### Software IoT System Diagram  
 
-El Diagrama de Componentes detalla la lógica interna de los microservicios en el **MaceTy API Gateway**, como:  
+El **Diagrama IoT System** muestra el flujo completo de comunicación entre las aplicaciones de usuario y el dispositivo Edge.  
+El recorrido de datos se realiza de la siguiente manera:  
 
-- Procesamiento de datos de sensores.  
-- Módulo de alertas inteligentes de riego.  
-- Módulo de recomendaciones basadas en patrones urbanos y clima.  
-- API de integración con aplicaciones móviles y web.  
+1. **Aplicación Web y Aplicación Móvil** → Envían solicitudes y reciben datos a través del **API Gateway**.  
+2. El **API Gateway** → Publica los eventos hacia el **Message Broker**.  
+3. El **Message Broker** → Dirige los mensajes al **IoT Connector Service**, encargado de la gestión de telemetría y comandos.  
+4. El **IoT Connector Service** ↔ **Maceta Inteligente (Edge Device)** → intercambio de **Telemetría MQTT/WiFi** y **Comandos MQTT**.  
+5. El **IoT Connector Service** → se despliega sobre el **Proveedor Cloud (AWS/GCP)**, asegurando escalabilidad y resiliencia de la comunicación IoT.  
 
-![Component](assets/structurizr-106169-ComponentesGatewayAPI.png)  
+![IoTSystem](assets/structurizr-106169-IoTSystemDiagram.png)  
 
-**Leyenda del diagrama:**   
-![ComponentKey](assets/structurizr-106169-ComponentesGatewayAPI-key.png)  
+**Leyenda del diagrama:**  
+![IoTSystemKey](assets/structurizr-106169-IoTSystemDiagram-key.png)  
 
-#### Software IoT Diagram  
+---
 
-El **Diagrama IoT** representa el **MaceTy Urban IoT Device**, un dispositivo basado en ESP32 con sensores de humedad, temperatura y luz ambiental, además de una mini bomba de riego controlada automáticamente. Este dispositivo envía telemetría cada 15–30 minutos mediante protocolos como MQTT/HTTP, asegurando comunicación confiable con el API Gateway y retroalimentación en tiempo real hacia las aplicaciones.  
+#### Software Edge Diagram  
 
-![Landscape](assets/structurizr-106169-ComponentesMacetaInteligente.png)  
+El **Diagrama Edge** describe la estructura interna del dispositivo **Maceta Inteligente (Edge Device)**.  
+Este dispositivo integra sensores y actuadores conectados a un procesador **ESP32** con base de datos local (**SQLite**), capaz de operar en modo offline y sincronizar datos al recuperar conexión.  
+
+- **Sensores:** Humedad, Temperatura y Luz Ambiental.  
+- **Actuadores:** Bomba de agua (riego automático) y LED indicadores de estado.  
+- **Procesamiento Local:** El ESP32 gestiona la lógica básica de riego y almacenamiento temporal de métricas.  
+- **Conectividad:** Comunicación vía WiFi y sincronización mediante MQTT hacia el IoT Connector.  
+
+![Edge](assets/structurizr-106169-ComponentesEdge.png)  
 
 **Índice:**  
-![Landscape](assets/structurizr-106169-ComponentesMacetaInteligente-key.png)  
+![EdgeKey](assets/structurizr-106169-ComponentesEdge-key.png)  
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams  
 
