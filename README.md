@@ -1743,7 +1743,25 @@ Naturafy transmite una identidad **eco-tecnológica, fresca y confiable**. El to
 - Grid en 12 columnas para web.  
 - Márgenes consistentes en todas las vistas (16–24px en mobile, 32–64px en desktop).  
 
----
+**Branding y Comunicación:**  
+Naturafy proyecta una identidad **eco‑tecnológica, cercana y confiable**. El tono comunicacional es **claro, directo y amable**, evitando tecnicismos innecesarios y transmitiendo apoyo constante al usuario. El uso de un avatar (Macety) humaniza la interacción y refuerza la promesa de simplicidad y acompañamiento continuo.  
+
+**Mascota / Asistente (“Macety”)**  
+Macety es la personificación del producto y actúa como **guía visual y asistente contextual** dentro del ecosistema (app, web y material educativo).  
+Principios de diseño y uso:  
+- Rol principal: educar, orientar y dar retroalimentación rápida sin saturar.  
+- Aparición: onboarding, estados clave (riego necesario, valores fuera de rango, logro alcanzado) y micro‑tips.  
+- Estilos visuales: formas redondeadas, proporciones amigables, expresiones simples (neutral / feliz / alerta / crítico), paleta basada en Verde Naturafy (#4CAF50) + acentos Tierra Suave (#8D6E63) y fondos neutros claros.  
+- Comunicación: mensajes cortos (≤ 90 caracteres), tono motivador (“Tu planta está bien”, “Necesita un poco de agua”, “Excelente: humedad óptima”).  
+- Estados sugeridos:  
+  - Normal: postura neutra / sonrisa ligera.  
+  - Necesita riego: gesto de atención + icono de gota.  
+  - Alerta ambiental: cejas elevadas + icono (sol / termómetro).  
+  - Logro / progreso: expresión alegre + pequeña insignia.  
+- Objetivo UX: reducir fricción cognitiva, aumentar confianza y fomentar continuidad de uso (retención y reducción de abandono inicial).  
+- Accesibilidad: contraste suficiente en fondos claros; evitar depender solo del color (usar íconos).  
+
+![Mascota Macety](assets/MaceTy.png)
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines  
 
@@ -1822,7 +1840,61 @@ La landing page de Naturafy será la puerta de entrada al ecosistema digital. De
 
 ### 5.3.1. Landing Page Wireframe  
 
+Flujo general (scroll natural o anclas del menú): Hero → Funcionalidades → Comunidad → Recursos (App Web / App Móvil) → Contacto / Conversión (Compra – Iniciar Sesión).
+
+![Wireframe General](assets/wireframe-landing.png)  
+*Estructura completa: valida jerarquía, ritmo visual y orden de conversión. Sirve como mapa de flujo antes del detalle.*
+
+![Hero Wireframe](assets/hero-wire.png)  
+*Hero inicial: presenta la propuesta de valor (maceta inteligente + asistente Macety). CTA primario: Comprar / Pre‑orden. CTA secundario: Ver funcionalidades (scroll).*
+
+![Funcionalidades Wireframe](assets/Producto-wire.png)  
+*Bloque de funcionalidad: sensores, riego automático, monitoreo en app, sostenibilidad. Refuerza valor antes de pedir acción de compra.*
+
+![Comunidad Wireframe](assets/comunity-wire.png)  
+*Validación social: testimonios, métricas y presencia de Macety para generar confianza y reducir fricción.*
+
+![Recursos / Ecosistema Wireframe](assets/recurso-wire.png)  
+*Recursos y plataforma: muestra que Macety vive también en Web App y App Móvil. Educa y extiende percepción de valor continuo.*
+
+![Contacto / Conversión Wireframe](assets/contact-wire.png)  
+*Contacto + última oportunidad de acción: formulario (soporte / interés), CTA Comprar y enlace Iniciar Sesión (dirige a versión web). Cierra el funnel.*
+
+**Enlace Wireframes (Balsamiq):** https://balsamiq.cloud/s3loccn/pwlu008  
+
 ### 5.3.2. Landing Page Mock-up  
+
+Mock-ups de alta fidelidad siguiendo el mismo flujo: Hero → Funcionalidades → Comunidad → Recursos → Contacto.
+
+![Landing Completa Mock](assets/complete-mock-landing.png)  
+*Vista ensamblada: confirma coherencia visual, espaciado, contraste y consistencia de la paleta.*
+
+![Hero Mock](assets/mock-hero.png)  
+*Hero final: mensaje claro + Macety presente como refuerzo de identidad. Doble CTA (Comprar ahora / Ver funcionalidades).*
+
+![Funcionalidades Mock](assets/funcinalidades-landing.png)  
+*Detalle visual de beneficios clave con iconografía y microcopys orientados a valor inmediato.*
+
+![Comunidad Mock](assets/comunidad-mock.png)  
+*Testimonios, métricas y avatar → social proof para convertir usuarios indecisos.*
+
+![Recursos / Ecosistema Mock](assets/recursos-mock.png)  
+*Demuestra continuidad: acceso vía Web y Mobile. CTA secundario: Iniciar Sesión / Explorar App.*
+
+![Contacto Mock](assets/contact-mock.png)  
+*Formulario limpio + CTA final (Comprar) + acceso directo a Login para usuarios existentes.*
+
+![Wireframe Contacto Referencia](assets/contact-wire.png)  
+*Comparativa con wireframe inicial: evidencia evolución de baja a alta fidelidad.*
+
+**Enlace Mockups (Figma):** https://www.figma.com/design/M7mqqSWc46nRv7qbZzVoYx/NaturaFy?node-id=0-1&t=D7usla6cNWPquEgW-1  
+
+**Resumen de Conversión:**
+- CTAs principales: Comprar (Hero, Funcionalidades, Contacto).
+- CTAs de exploración: Ver funcionalidades, Iniciar sesión.
+- Refuerzos de confianza: Comunidad + Recursos + Avatar Macety.
+
+...existing code...
 
 ## Conclusiones
 
