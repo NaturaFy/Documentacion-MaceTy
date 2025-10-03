@@ -1688,6 +1688,142 @@ La **Infrastructure Layer** implementa los canales de entrega y persistencia de 
 
 ![Notification Management Database Design](assets/notification-management-database.png)
 
+
+# Capítulo V: Solution UI/UX Design  
+
+En este capítulo se desarrolla la propuesta de **UI/UX Design** para Naturafy – Powered by MaceTy, abarcando los lineamientos de estilo, la arquitectura de información y el diseño de la landing page. El objetivo es garantizar una experiencia de usuario consistente, clara y centrada en el valor agregado del producto: una maceta inteligente con identidad eco-tecnológica y amigable.  
+
+## 5.1. Style Guidelines  
+
+Esta sección sienta las bases visuales y de interacción que guiarán el desarrollo de todas las interfaces (web, móvil e IoT). Se definen **colores, tipografía, branding, tono comunicacional y patrones visuales**, garantizando consistencia en todo el ecosistema digital de Naturafy.  
+
+### 5.1.1. General Style Guidelines  
+
+**Branding y Comunicación:**  
+Naturafy transmite una identidad **eco-tecnológica, fresca y confiable**. El tono será **formal pero amigable**, con un lenguaje claro, respetuoso y cercano al usuario. La mascota **Macety** refuerza la cercanía y la simplicidad de la experiencia.  
+
+**Colores principales:**  
+
+<table>
+  <tr>
+    <td align="center" style="padding:12px;">
+      <div style="width:140px;height:70px;background:#4CAF50;border-radius:8px;border:1px solid #ddd;"></div>
+      <br><b>Verde Naturafy</b><br><code>#4CAF50</code><br><small>Crecimiento / Sostenibilidad</small>
+    </td>
+    <td align="center" style="padding:12px;">
+      <div style="width:140px;height:70px;background:#2E7D32;border-radius:8px;border:1px solid #ddd;"></div>
+      <br><b>Verde Oscuro</b><br><code>#2E7D32</code><br><small>Confianza / Tecnología</small>
+    </td>
+    <td align="center" style="padding:12px;">
+      <div style="width:140px;height:70px;background:#F5F5F5;border-radius:8px;border:1px solid #ccc;"></div>
+      <br><b>Blanco</b><br><code>#F5F5F5</code><br><small>Limpieza / Minimalismo</small>
+    </td>
+    <td align="center" style="padding:12px;">
+      <div style="width:140px;height:70px;background:#8D6E63;border-radius:8px;border:1px solid #ddd;"></div>
+      <br><b>Tierra Suave</b><br><code>#8D6E63</code><br><small>Natural / Orgánico</small>
+    </td>
+  </tr>
+</table>
+
+**Uso sugerido**
+- Primario (acciones y acentos): #4CAF50  
+- Secundario / Hover / Énfasis estructural: #2E7D32  
+- Fondo principal: #F5F5F5  
+- Fondos neutros, bloques y contraste cálido: #8D6E63  
+
+**Tipografía:**  
+- Fuente principal: *Sans-serif moderna (ejemplo: Poppins o Inter)*.  
+- Jerarquía:  
+  - Títulos grandes → Bold, contraste fuerte en verde oscuro.  
+  - Subtítulos → Semibold en verde claro.  
+  - Cuerpo → Regular, gris oscuro para legibilidad.  
+
+**Espaciado y Layout:**  
+- Uso de espacios amplios y aireados.  
+- Grid en 12 columnas para web.  
+- Márgenes consistentes en todas las vistas (16–24px en mobile, 32–64px en desktop).  
+
+---
+
+### 5.1.2. Web, Mobile and IoT Style Guidelines  
+
+**Web:**  
+- Interfaces limpias, con secciones bien delimitadas en fondos blancos o suaves.  
+- Botones verdes primarios con bordes redondeados.  
+- Animaciones sutiles (fade-in, hover con sombras).  
+
+**Mobile:**  
+- Diseño **responsive first**.  
+- Navegación con barra inferior fija en la app.  
+- Uso de **Macety como asistente virtual dentro de la app**, con burbujas de ayuda para notificaciones de humedad, riego o estado de la planta.  
+
+**IoT (Pantalla de la Maceta Inteligente):**  
+- Interfaz minimalista en display integrado (si aplica).  
+- Iconografía universal: gota  (riego), sol  (luz), hoja  (crecimiento).  
+- Colores simplificados: verde para “ok”, amarillo para “alerta”, rojo para “crítico”.  
+
+
+## 5.2. Information Architecture  
+
+La arquitectura de información asegura que los usuarios encuentren fácilmente lo que buscan, navegando sin fricciones por la landing page, la app móvil y la interfaz IoT.  
+
+### 5.2.1. Organization Systems  
+
+- **Jerárquico:**  
+  - Secciones principales (Inicio, Beneficios, Cómo funciona, App & Web, Impacto Verde, Testimonios, Contacto).  
+- **Secuencial:**  
+  - Paso a paso del proceso de conexión y uso de la maceta inteligente.  
+- **Categorización:**  
+  - Por tópicos (Beneficios, Impacto Verde).  
+  - Por audiencia (usuarios domésticos, jardineros tecnológicos, familias).  
+
+### 5.2.2. Labeling Systems  
+
+- Uso de etiquetas simples y claras en los menús: “Inicio”, “Beneficios”, “Cómo Funciona”, “Contacto”.  
+- En la app, etiquetas directas: *“Estado actual”*, *“Historial de riego”*, *“Notificaciones”*.  
+- Evitar términos técnicos complejos, usando un lenguaje amigable y cercano.  
+
+### 5.2.3. SEO Tags and Meta Tags  
+
+- **Landing Page Title:** *Naturafy – Maceta Inteligente con Asistente Virtual Macety*.  
+- **Meta Description:** *Naturafy conecta tecnología e innovación para el cuidado de tus plantas. Riego automático, energía solar y un asistente virtual amigable: Macety.*  
+- **Keywords:** Naturafy, Maceta Inteligente, IoT Plant Care, Riego Automático, Macety.  
+- **Meta Author:** Naturafy Team.  
+- **App Store Optimization (ASO):**  
+  - App Title: *Naturafy: Plant Care IoT*.  
+  - App Subtitle: *Cuidado de plantas con riego inteligente*.  
+  - App Description: *Gestiona la salud de tus plantas con Naturafy y Macety: monitoreo, alertas y riego automático en tu móvil.*  
+
+### 5.2.4. Searching Systems  
+
+- **Web:**  
+  - Barra de búsqueda en la sección *Recursos/FAQ*.  
+  - Filtros por tema (riego, energía solar, soporte técnico).  
+- **App Móvil:**  
+  - Búsqueda por nombre de planta o estado de la maceta.  
+  - Filtros: *Plantas con falta de agua*, *Plantas saludables*, *Alertas recientes*.  
+
+### 5.2.5. Navigation Systems  
+
+- **Web:**  
+  - Menú superior fijo (navbar) con secciones clave.  
+  - Scroll suave entre secciones.  
+- **App:**  
+  - Barra inferior con pestañas: Inicio | Mis Plantas | Historial | Perfil.  
+  - Atajos directos desde notificaciones push.  
+- **IoT:**  
+  - Botones físicos simples en la maceta (riego manual, reset).  
+  - Indicadores luminosos en el borde superior.  
+
+
+## 5.3. Landing Page UI Design  
+
+La landing page de Naturafy será la puerta de entrada al ecosistema digital. Debe transmitir confianza, innovación y el propósito eco-friendly de la marca.  
+
+### 5.3.1. Landing Page Wireframe  
+
+### 5.3.2. Landing Page Mock-up  
+
 ## Conclusiones
 
 Existe un problema real y validado en el mercado peruano, donde la mayoría de usuarios urbanos pierde sus plantas por falta de tiempo o conocimiento, lo que abre una oportunidad clara para soluciones IoT accesibles como MaceTy.
