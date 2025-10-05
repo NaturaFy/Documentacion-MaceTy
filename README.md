@@ -1688,6 +1688,214 @@ La **Infrastructure Layer** implementa los canales de entrega y persistencia de 
 
 ![Notification Management Database Design](assets/notification-management-database.png)
 
+
+# Capítulo V: Solution UI/UX Design  
+
+En este capítulo se desarrolla la propuesta de **UI/UX Design** para Naturafy – Powered by MaceTy, abarcando los lineamientos de estilo, la arquitectura de información y el diseño de la landing page. El objetivo es garantizar una experiencia de usuario consistente, clara y centrada en el valor agregado del producto: una maceta inteligente con identidad eco-tecnológica y amigable.  
+
+## 5.1. Style Guidelines  
+
+Esta sección sienta las bases visuales y de interacción que guiarán el desarrollo de todas las interfaces (web, móvil e IoT). Se definen **colores, tipografía, branding, tono comunicacional y patrones visuales**, garantizando consistencia en todo el ecosistema digital de Naturafy.  
+
+### 5.1.1. General Style Guidelines  
+
+**Branding y Comunicación:**  
+Naturafy transmite una identidad **eco-tecnológica, fresca y confiable**. El tono será **formal pero amigable**, con un lenguaje claro, respetuoso y cercano al usuario. La mascota **Macety** refuerza la cercanía y la simplicidad de la experiencia.  
+
+**Colores principales:**  
+
+<table>
+  <tr>
+    <td align="center" style="padding:12px;">
+      <div style="width:140px;height:70px;background:#4CAF50;border-radius:8px;border:1px solid #ddd;"></div>
+      <br><b>Verde Naturafy</b><br><code>#4CAF50</code><br><small>Crecimiento / Sostenibilidad</small>
+    </td>
+    <td align="center" style="padding:12px;">
+      <div style="width:140px;height:70px;background:#2E7D32;border-radius:8px;border:1px solid #ddd;"></div>
+      <br><b>Verde Oscuro</b><br><code>#2E7D32</code><br><small>Confianza / Tecnología</small>
+    </td>
+    <td align="center" style="padding:12px;">
+      <div style="width:140px;height:70px;background:#F5F5F5;border-radius:8px;border:1px solid #ccc;"></div>
+      <br><b>Blanco</b><br><code>#F5F5F5</code><br><small>Limpieza / Minimalismo</small>
+    </td>
+    <td align="center" style="padding:12px;">
+      <div style="width:140px;height:70px;background:#8D6E63;border-radius:8px;border:1px solid #ddd;"></div>
+      <br><b>Tierra Suave</b><br><code>#8D6E63</code><br><small>Natural / Orgánico</small>
+    </td>
+  </tr>
+</table>
+
+**Uso sugerido**
+- Primario (acciones y acentos): #4CAF50  
+- Secundario / Hover / Énfasis estructural: #2E7D32  
+- Fondo principal: #F5F5F5  
+- Fondos neutros, bloques y contraste cálido: #8D6E63  
+
+**Tipografía:**  
+- Fuente principal: *Sans-serif moderna (ejemplo: Poppins o Inter)*.  
+- Jerarquía:  
+  - Títulos grandes → Bold, contraste fuerte en verde oscuro.  
+  - Subtítulos → Semibold en verde claro.  
+  - Cuerpo → Regular, gris oscuro para legibilidad.  
+
+**Espaciado y Layout:**  
+- Uso de espacios amplios y aireados.  
+- Grid en 12 columnas para web.  
+- Márgenes consistentes en todas las vistas (16–24px en mobile, 32–64px en desktop).  
+
+**Branding y Comunicación:**  
+Naturafy proyecta una identidad **eco‑tecnológica, cercana y confiable**. El tono comunicacional es **claro, directo y amable**, evitando tecnicismos innecesarios y transmitiendo apoyo constante al usuario. El uso de un avatar (Macety) humaniza la interacción y refuerza la promesa de simplicidad y acompañamiento continuo.  
+
+**Mascota / Asistente (“Macety”)**  
+Macety es la personificación del producto y actúa como **guía visual y asistente contextual** dentro del ecosistema (app, web y material educativo).  
+Principios de diseño y uso:  
+- Rol principal: educar, orientar y dar retroalimentación rápida sin saturar.  
+- Aparición: onboarding, estados clave (riego necesario, valores fuera de rango, logro alcanzado) y micro‑tips.  
+- Estilos visuales: formas redondeadas, proporciones amigables, expresiones simples (neutral / feliz / alerta / crítico), paleta basada en Verde Naturafy (#4CAF50) + acentos Tierra Suave (#8D6E63) y fondos neutros claros.  
+- Comunicación: mensajes cortos (≤ 90 caracteres), tono motivador (“Tu planta está bien”, “Necesita un poco de agua”, “Excelente: humedad óptima”).  
+- Estados sugeridos:  
+  - Normal: postura neutra / sonrisa ligera.  
+  - Necesita riego: gesto de atención + icono de gota.  
+  - Alerta ambiental: cejas elevadas + icono (sol / termómetro).  
+  - Logro / progreso: expresión alegre + pequeña insignia.  
+- Objetivo UX: reducir fricción cognitiva, aumentar confianza y fomentar continuidad de uso (retención y reducción de abandono inicial).  
+- Accesibilidad: contraste suficiente en fondos claros; evitar depender solo del color (usar íconos).  
+
+![Mascota Macety](assets/MaceTy.png)
+
+### 5.1.2. Web, Mobile and IoT Style Guidelines  
+
+**Web:**  
+- Interfaces limpias, con secciones bien delimitadas en fondos blancos o suaves.  
+- Botones verdes primarios con bordes redondeados.  
+- Animaciones sutiles (fade-in, hover con sombras).  
+
+**Mobile:**  
+- Diseño **responsive first**.  
+- Navegación con barra inferior fija en la app.  
+- Uso de **Macety como asistente virtual dentro de la app**, con burbujas de ayuda para notificaciones de humedad, riego o estado de la planta.  
+
+**IoT (Pantalla de la Maceta Inteligente):**  
+- Interfaz minimalista en display integrado (si aplica).  
+- Iconografía universal: gota  (riego), sol  (luz), hoja  (crecimiento).  
+- Colores simplificados: verde para “ok”, amarillo para “alerta”, rojo para “crítico”.  
+
+
+## 5.2. Information Architecture  
+
+La arquitectura de información asegura que los usuarios encuentren fácilmente lo que buscan, navegando sin fricciones por la landing page, la app móvil y la interfaz IoT.  
+
+### 5.2.1. Organization Systems  
+
+- **Jerárquico:**  
+  - Secciones principales (Inicio, Beneficios, Cómo funciona, App & Web, Impacto Verde, Testimonios, Contacto).  
+- **Secuencial:**  
+  - Paso a paso del proceso de conexión y uso de la maceta inteligente.  
+- **Categorización:**  
+  - Por tópicos (Beneficios, Impacto Verde).  
+  - Por audiencia (usuarios domésticos, jardineros tecnológicos, familias).  
+
+### 5.2.2. Labeling Systems  
+
+- Uso de etiquetas simples y claras en los menús: “Inicio”, “Beneficios”, “Cómo Funciona”, “Contacto”.  
+- En la app, etiquetas directas: *“Estado actual”*, *“Historial de riego”*, *“Notificaciones”*.  
+- Evitar términos técnicos complejos, usando un lenguaje amigable y cercano.  
+
+### 5.2.3. SEO Tags and Meta Tags  
+
+- **Landing Page Title:** *Naturafy – Maceta Inteligente con Asistente Virtual Macety*.  
+- **Meta Description:** *Naturafy conecta tecnología e innovación para el cuidado de tus plantas. Riego automático, energía solar y un asistente virtual amigable: Macety.*  
+- **Keywords:** Naturafy, Maceta Inteligente, IoT Plant Care, Riego Automático, Macety.  
+- **Meta Author:** Naturafy Team.  
+- **App Store Optimization (ASO):**  
+  - App Title: *Naturafy: Plant Care IoT*.  
+  - App Subtitle: *Cuidado de plantas con riego inteligente*.  
+  - App Description: *Gestiona la salud de tus plantas con Naturafy y Macety: monitoreo, alertas y riego automático en tu móvil.*  
+
+### 5.2.4. Searching Systems  
+
+- **Web:**  
+  - Barra de búsqueda en la sección *Recursos/FAQ*.  
+  - Filtros por tema (riego, energía solar, soporte técnico).  
+- **App Móvil:**  
+  - Búsqueda por nombre de planta o estado de la maceta.  
+  - Filtros: *Plantas con falta de agua*, *Plantas saludables*, *Alertas recientes*.  
+
+### 5.2.5. Navigation Systems  
+
+- **Web:**  
+  - Menú superior fijo (navbar) con secciones clave.  
+  - Scroll suave entre secciones.  
+- **App:**  
+  - Barra inferior con pestañas: Inicio | Mis Plantas | Historial | Perfil.  
+  - Atajos directos desde notificaciones push.  
+- **IoT:**  
+  - Botones físicos simples en la maceta (riego manual, reset).  
+  - Indicadores luminosos en el borde superior.  
+
+
+## 5.3. Landing Page UI Design  
+
+La landing page de Naturafy será la puerta de entrada al ecosistema digital. Debe transmitir confianza, innovación y el propósito eco-friendly de la marca.  
+
+### 5.3.1. Landing Page Wireframe  
+
+Flujo general (scroll natural o anclas del menú): Hero → Funcionalidades → Comunidad → Recursos (App Web / App Móvil) → Contacto / Conversión (Compra – Iniciar Sesión).
+
+![Wireframe General](assets/wireframe-landing.png)  
+*Estructura completa: valida jerarquía, ritmo visual y orden de conversión. Sirve como mapa de flujo antes del detalle.*
+
+![Hero Wireframe](assets/hero-wire.png)  
+*Hero inicial: presenta la propuesta de valor (maceta inteligente + asistente Macety). CTA primario: Comprar / Pre‑orden. CTA secundario: Ver funcionalidades (scroll).*
+
+![Funcionalidades Wireframe](assets/Producto-wire.png)  
+*Bloque de funcionalidad: sensores, riego automático, monitoreo en app, sostenibilidad. Refuerza valor antes de pedir acción de compra.*
+
+![Comunidad Wireframe](assets/comunity-wire.png)  
+*Validación social: testimonios, métricas y presencia de Macety para generar confianza y reducir fricción.*
+
+![Recursos / Ecosistema Wireframe](assets/recurso-wire.png)  
+*Recursos y plataforma: muestra que Macety vive también en Web App y App Móvil. Educa y extiende percepción de valor continuo.*
+
+![Contacto / Conversión Wireframe](assets/contact-wire.png)  
+*Contacto + última oportunidad de acción: formulario (soporte / interés), CTA Comprar y enlace Iniciar Sesión (dirige a versión web). Cierra el funnel.*
+
+**Enlace Wireframes (Balsamiq):** https://balsamiq.cloud/s3loccn/pwlu008  
+
+### 5.3.2. Landing Page Mock-up  
+
+Mock-ups de alta fidelidad siguiendo el mismo flujo: Hero → Funcionalidades → Comunidad → Recursos → Contacto.
+
+![Landing Completa Mock](assets/complete-mock-landing.png)  
+*Vista ensamblada: confirma coherencia visual, espaciado, contraste y consistencia de la paleta.*
+
+![Hero Mock](assets/mock-hero.png)  
+*Hero final: mensaje claro + Macety presente como refuerzo de identidad. Doble CTA (Comprar ahora / Ver funcionalidades).*
+
+![Funcionalidades Mock](assets/funcinalidades-landing.png)  
+*Detalle visual de beneficios clave con iconografía y microcopys orientados a valor inmediato.*
+
+![Comunidad Mock](assets/comunidad-mock.png)  
+*Testimonios, métricas y avatar → social proof para convertir usuarios indecisos.*
+
+![Recursos / Ecosistema Mock](assets/recursos-mock.png)  
+*Demuestra continuidad: acceso vía Web y Mobile. CTA secundario: Iniciar Sesión / Explorar App.*
+
+![Contacto Mock](assets/contact-mock.png)  
+*Formulario limpio + CTA final (Comprar) + acceso directo a Login para usuarios existentes.*
+
+![Wireframe Contacto Referencia](assets/contact-wire.png)  
+*Comparativa con wireframe inicial: evidencia evolución de baja a alta fidelidad.*
+
+**Enlace Mockups (Figma):** https://www.figma.com/design/M7mqqSWc46nRv7qbZzVoYx/NaturaFy?node-id=0-1&t=D7usla6cNWPquEgW-1  
+
+**Resumen de Conversión:**
+- CTAs principales: Comprar (Hero, Funcionalidades, Contacto).
+- CTAs de exploración: Ver funcionalidades, Iniciar sesión.
+- Refuerzos de confianza: Comunidad + Recursos + Avatar Macety.
+
+...existing code...
+
 ## Conclusiones
 
 Existe un problema real y validado en el mercado peruano, donde la mayoría de usuarios urbanos pierde sus plantas por falta de tiempo o conocimiento, lo que abre una oportunidad clara para soluciones IoT accesibles como MaceTy.
