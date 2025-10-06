@@ -1,4 +1,4 @@
-<p align="center">
+<img width="1667" height="895" alt="image" src="https://github.com/user-attachments/assets/86f2941c-f7b1-4b48-95ae-5f3d0438a921" /><p align="center">
   <img src="assets/upc_logo.png" alt="Logo de la UPC" />
 </p>
 <p align="center">
@@ -1895,6 +1895,61 @@ Mock-ups de alta fidelidad siguiendo el mismo flujo: Hero → Funcionalidades �
 - Refuerzos de confianza: Comunidad + Recursos + Avatar Macety.
 
 ...existing code...
+
+## 5.4. Applications UX/UI Design
+
+
+### 5.4.1. Applications Wireframes 
+
+
+### 5.4.2. Applications Wireflow Diagrams
+
+
+
+### 5.4.3. Applications Mock-ups
+
+Mock-ups de alta fidelidad:
+
+![Application Mockups Complete](assets/wireframes-MaceTy.png)  
+*Vista ensamblada: confirma coherencia visual, espaciado, contraste y consistencia de la paleta.*
+
+![Mis-PLantas](assets/mis-plantas.png)  
+*Pagina de mis plantas: Información clara y descripción de cada planta añadida + historial de riego *
+
+![Pasos-plantas](assets/pasos-plantas.png)  
+*Detalle visual de los pasos para añadir una planta*
+
+![Comunidad Mock](assets/mi-planta.png)  
+*Detalle de la planta, datos a tiempo real, resumen y consejo*
+
+![Recursos / Ecosistema Mock](assets/tienda-maceTY.png)  
+*Tienda MaceTy, lista de macetas, accesorios, servicio, etc*
+
+![Contacto Mock](assets/comunidad.png)  
+*Red social donde interactua cada usuario entre si dando consejos o preguntas*
+
+![Wireframe Contacto Referencia](assets/perfil.png)  
+*Perfil de usuario donde podra editar o ajustar su perfil a su preferencia*
+
+**Enlace Mockups (Figma):** https://www.figma.com/design/kjhLgtfA7pXzI9p6LPzLhP/MaceTy?node-id=8-1137&t=uydPwnc1KxRqxDnH-1
+
+### 5.4.4. Applications User Flow Diagrams
+
+## 5.5. Applications Prototyping
+
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management
+
+### 6.1.1. Software Development Environment Configuration
+
+### 6.1.2. Source Code Management
+
+### 6.1.3. Source Code Style Guide & Conventions
+
+### 6.1.4. Software Deployment Configuration
+
+
 
 ## Conclusiones
 
