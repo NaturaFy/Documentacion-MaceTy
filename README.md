@@ -1,59 +1,52 @@
 <p align="center">
-  <img src="assets/upc_logo.png" alt="Logo de la UPC" />
+<img src="https://hackmd.io/_uploads/ryJoz7YcR.png" alt="Logo" style="width:200px;height:auto;"></p>
+
+<br><br>
+
+<p align="center">
+  <strong style="font-size: 20px;">UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</strong><br>
+  <strong style="font-size: 18px;">FACULTAD DE INGENIERÍA</strong><br>
+  <strong style="font-size: 16px;">PROGRAMA ACADÉMICO DE INGENIERÍA DE SOFTWARE</strong><br>
+  <strong style="font-size: 14px;">1ASI0572-2520-3414 - DESARROLLO DE SOLUCIONES IoT</strong>
 </p>
 <p align="center">
-  <strong>UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</strong><br>
-  <strong>FACULTAD DE INGENIERÍA</strong><br>
-  <strong>PROGRAMA ACADÉMICO DE INGENIERÍA DE SOFTWARE</strong><br>
-  <strong>1ASI0572-2520-3414 - DESARROLLO DE SOLUCIONES IoT</strong>
-</p>
-<p align="center">
-  <span style="font-size: 2em;"><em><strong>MaceTy</strong></em></span><br>
-  <span style="font-size: 2em;"><em><strong>TB1</strong></em></span>
+  <span style="font-size: 2.5em; font-weight: bold; font-style: italic;">MaceTy</span><br>
+  <span style="font-size: 1.8em; font-weight: bold; font-style: italic;">TP</span>
 </p>
 
 <p align="center">
-  <strong>DOCENTE:</strong><br>
-  Marco Antonio Leon Baca
+  <strong style="font-size: 18px;">DOCENTE:</strong><br>
+  <span style="font-size: 16px;">  Marco Antonio Leon Baca </span>
 </p>
-
 <p align="center">
-  <strong>STARTUP:</strong><br>
-  NaturaFy
+  <strong style="font-size: 18px;">STARTUP:</strong><br>
+  <span style="font-size: 16px;">NaturaFy</span>
+</p>
+<p align="center">
+  <strong style="font-size: 18px;">INTEGRANTES DEL EQUIPO:</strong>
 </p>
 
-<h3 align="center">Team Members:</h3>
+<div align="center">
 
-<div align="center" style="display: flex; justify-content: center;">
-<table style="margin: 0 auto;">
-<tr>
-<th><b>Member</b></th>
-<th><b>Code</b></th>
-</tr>
-<tr>
-<td>Rojas Velasquez, Maycol</td>
-<td>U202219984</td>
-</tr>
-<tr>
-<td>Gómez Vallejos, Sergio</td>
-<td>U20221D401</td>
-</tr>
-<tr>
-<td>Leon Rioja, Carlos Andres</td>
-<td>U202111451</td>
-</tr>
-<tr>
-<td>Valera Garces, Samuel</td>
-<td>U202111952</td>
-</tr>
-<tr>
-<td>Jaque Peña, Estefano</td>
-<td>U202225466</td>
-</tr>
-</table>
+**Gómez Vallejos, Sergio**  
+`Código: U20221D401`
+
+**Leon Rioja, Carlos Andres**  
+`Código: U202111451`
+
+**Rojas Velasquez, Maycol**  
+`Código: U202219984`
+
+**Valera Garces, Samuel**  
+`Código: U202111952`
+
+**Jaque Peña, Estefano**  
+`Código: U202225466`
+
 </div>
+<p align="center"><strong style="font-size: 18px;">Septiembre 2025</strong></p>
 
-<p align="center"><strong>Septiembre 2025</strong></p>
+<div style="page-break-before: always;"></div>
 
 # Registro de Versiones del Informe
 | Versión | Fecha       | Autor                         | Descripción de modificación                |
@@ -82,8 +75,13 @@
 | TB1     | 20/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Context Level Diagrams |
 | TB1     | 20/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Container Level Diagrams |
 | TB1     | 20/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Deployment Diagrams |
-| TB1     | 20/09/2025  | Carlos Andres Leon Rioja | Context Mapping |
+| TB1     | /09/2025  | Carlos Andres Leon Rioja | Context Mapping |
 | TB1     | 20/09/2025  | Carlos Andres Leon Rioja | Impact Mapping |
+| TP     | 01/10/2025  | Maycol Jhordan Rojas Velásquez | Style Guidelines |
+| TP     | 02/10/2025  | Maycol Jhordan Rojas Velásquez | Information Architecture |
+| TP     | 04/10/2025  | Maycol Jhordan Rojas Velásquez | Landing Page UI Design  |
+| TP     | 04/10/2025  | Maycol Jhordan Rojas Velásquez | Deploy Landing |
+
 # Project Report Collaboration Insights
 #### 1. URL del Repositorio en GitHub
 | Repositorio del Informe en GitHub |
@@ -213,9 +211,49 @@
     - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)  
       - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)  
       - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)    
-- [Conclusiones](#61-conclusiones)  
-- [Bibliografía](#62-bibliografía)  
-- [Anexos](#63-anexos)  
+
+## Capítulo V: Solution UI/UX Design
+
+- [5.1. Style Guidelines](#51-style-guidelines)  
+  - [5.1.1. General Style Guidelines](#511-general-style-guidelines)  
+  - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)  
+- [5.2. Information Architecture](#52-information-architecture)  
+  - [5.2.1. Organization Systems](#521-organization-systems)  
+  - [5.2.2. Labeling Systems](#522-labeling-systems)  
+  - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)  
+  - [5.2.4. Searching Systems](#524-searching-systems)  
+  - [5.2.5. Navigation Systems](#525-navigation-systems)  
+- [5.3. Landing Page UI Design](#53-landing-page-ui-design)  
+  - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)  
+  - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)  
+- [5.4. Applications UX/UI Design](#54-applications-uxui-design)  
+  - [5.4.1. Applications Wireframes](#541-applications-wireframes)  
+  - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)  
+  - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)  
+  - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)  
+- [5.5. Applications Prototyping](#55-applications-prototyping)  
+
+## Capítulo VI: Product Implementation, Validation & Deployment
+
+- [6.1. Software Configuration Management](#61-software-configuration-management)  
+  - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)  
+  - [6.1.2. Source Code Management](#612-source-code-management)  
+  - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)  
+  - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)  
+- [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)  
+  - [6.2.1. Sprint 1](#621-sprint-1)  
+    - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)  
+    - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)  
+    - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)  
+    - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)  
+    - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)  
+    - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)  
+    - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)  
+    - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)  
+    - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)  
+- [Conclusiones](#71-conclusiones)  
+- [Bibliografía](#72-bibliografía)  
+- [Anexos](#73-anexos)  
 
 # STUDENT OUTCOME
 El curso contribuye al cumplimiento del Student Outcome ABET: 
@@ -226,8 +264,8 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |  
 |-------------------------|------------------------|------------------|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta |<br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué liderazgo conjunto durante el desarrollo del proyecto MaceTy, coordinando con todo el equipo la distribución de tareas técnicas y de investigación. Lideré la arquitectura de software, diagramas C4 y el diseño del sistema IoT, mientras facilitaba la integración del trabajo de los cinco miembros del equipo, asegurando coherencia entre los bounded contexts y componentes técnicos.<br><br> 2. Gómez Vallejos, Sergio André<br>*TB1:*<br> Ejercí liderazgo compartido en la investigación de mercado y análisis competitivo. Coordiné con el equipo completo para asegurar coherencia entre los antecedentes, problemática y la propuesta técnica, liderando las secciones de competidores y análisis de entrevistas. Facilité la comunicación entre todos los miembros para mantener una visión unificada del proyecto.<br><br> 3. Valera Garcés, Samuel Ignacio<br>*TB1:*<br> Lideré la elaboración de **2.3 Needfinding**, **2.3.1 User Personas**, **2.3.2 User Task Matrix**, **2.3.3 User Journey Mapping**, **2.3.4 Empathy Mapping**, **2.5 Big Picture EventStorming**, la **entrevista con el segmento 1**, así como **3.1 User Stories** y **3.2 Product Backlog**. Coordiné con los cinco integrantes del equipo para integrar estos insumos al documento final, asegurando coherencia y cumplimiento de los objetivos del proyecto MaceTy.<br><br> 4. Leon Rioja, Carlos Andres<br>*TB1:*<br> Asumí el liderazgo en el diseño de contextos delimitados y modelado de dominios. Desarrollé el **4.1.1.1 Candidate Context Discovery**, **4.1.1.2 Domain Message Flows Modeling** y **4.1.1.3 Bounded Context Canvases**. Colaboré estrechamente con todo el equipo para asegurar que los bounded contexts reflejaran correctamente los procesos de negocio identificados en las fases previas del proyecto.<br><br> 5. Jaque Peña, Estefano Oscar<br>*TB1:*<br> Lideré la conceptualización y desarrollo del **1.2.2 Lean UX Process**, incluyendo problem statements, assumptions y hypothesis statements que sirvieron como base fundamental para todo el proyecto. Coordiné con los demás miembros para asegurar que el enfoque Lean UX se mantuviera consistente a lo largo de todas las fases del desarrollo, desde la investigación hasta la arquitectura técnica. | Durante el TB1, los cinco miembros del equipo demostraron capacidades de liderazgo complementarias y distribuidas estratégicamente. Maycol lideró los aspectos técnicos y arquitecturales, Sergio dirigió la investigación de mercado y análisis competitivo, Samuel se enfocó en el needfinding y especificación de requerimientos, Carlos desarrolló el modelado de dominio y contextos delimitados, mientras que Estefano estableció las bases metodológicas con Lean UX. Esta distribución de liderazgo permitió aprovechar las fortalezas individuales y crear un producto integral que combina solidez técnica, investigación de mercado robusta, análisis de usuarios profundo, arquitectura de dominio bien estructurada y metodología ágil sólida. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué metodologías colaborativas estableciendo reuniones regulares de sincronización con los cinco miembros del equipo, utilizando GitHub para el control de versiones colaborativo y creando un ambiente donde todos pudieran contribuir según sus fortalezas técnicas. Establecí metas claras para cada sprint: definición de segmentos objetivo, arquitectura del sistema y documentación técnica, coordinando con Carlos para los bounded contexts y con Samuel para la integración de user stories.<br><br> 2. Gómez Vallejos, Sergio André<br>*TB1:*<br> Contribuí a crear un entorno inclusivo donde cada uno de los cinco miembros del equipo pudo aportar desde sus habilidades específicas. Planifiqué las tareas de investigación y análisis competitivo en coordinación con Samuel para las entrevistas y Estefano para el marco Lean UX, estableciendo metas semanales para el levantamiento de información. Cumplí con todos los objetivos propuestos facilitando la integración de todos los componentes del proyecto.<br><br> 3. Valera Garcés, Samuel Ignacio<br>*TB1:*<br> Organicé y planifiqué reuniones de coordinación con todos los integrantes del equipo, definí metas por sección a mi cargo y utilicé herramientas colaborativas (GitHub, documentos compartidos) para facilitar la integración y retroalimentación entre los cinco miembros. Cumplí los plazos acordados para cada entrega, manteniendo una comunicación constante y un ambiente inclusivo en el desarrollo del proyecto, especialmente coordinando con Sergio para las entrevistas y con Carlos para alinear el needfinding con los bounded contexts.<br><br> 4. Leon Rioja, Carlos Andres<br>*TB1:*<br> Establecí un ambiente colaborativo para el desarrollo de la arquitectura de dominio, coordinando estrechamente con Maycol para alinear los bounded contexts con la arquitectura técnica y con Samuel para asegurar que los contextos reflejaran las necesidades identificadas en el needfinding. Planifiqué las tareas de modelado de dominio con metas específicas semanales y mantuve comunicación constante con todo el equipo para validar los diseños propuestos.<br><br> 5. Jaque Peña, Estefano Oscar<br>*TB1:*<br> Creé un marco metodológico colaborativo basado en Lean UX que facilitó la participación equitativa de los cinco miembros del equipo. Establecí metas claras para cada fase del proceso Lean UX y planifiqué la integración de los aportes de cada integrante: coordinando con Sergio para los antecedentes, con Samuel para el needfinding, con Carlos para el domain modeling y con Maycol para la arquitectura técnica. Mantuve un ambiente inclusivo donde todas las perspectivas fueran valoradas y consideradas en las decisiones del proyecto. | El equipo de cinco integrantes logró crear un entorno altamente colaborativo donde cada miembro aportó desde sus fortalezas específicas: técnicas, de investigación, de análisis de usuarios, de modelado de dominio y metodológicas. La planificación clara y coordinada de tareas permitió cumplir con todos los objetivos del TB1: documentación completa del startup profile, análisis competitivo exhaustivo, needfinding profundo, arquitectura de software bien definida, bounded contexts coherentes, segmentos objetivo validados y un marco Lean UX sólido. La comunicación constante entre los cinco miembros y el uso de herramientas colaborativas como GitHub facilitaron la integración exitosa de todos los componentes del proyecto MaceTy, demostrando que un liderazgo distribuido y colaborativo puede generar resultados superiores a la suma de las contribuciones individuales. |
+|Trabaja en equipo para proporcionar liderazgo en forma conjunta |<br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué liderazgo conjunto durante el desarrollo del proyecto MaceTy, coordinando con todo el equipo la distribución de tareas técnicas y de investigación. Lideré la arquitectura de software, diagramas C4 y el diseño del sistema IoT, mientras facilitaba la integración del trabajo de los cinco miembros del equipo, asegurando coherencia entre los bounded contexts y componentes técnicos.<br>*TP:*<br> Apliqué los mocks up de la landing page, con el diseño de los wireframes y los mockups diseñando una pagina de contacto y mencionar temas importantes,.<br><br> 2. Gómez Vallejos, Sergio André<br>*TB1:*<br> Ejercí liderazgo compartido en la investigación de mercado y análisis competitivo. Coordiné con el equipo completo para asegurar coherencia entre los antecedentes, problemática y la propuesta técnica, liderando las secciones de competidores y análisis de entrevistas. Facilité la comunicación entre todos los miembros para mantener una visión unificada del proyecto.<br><br> 3. Valera Garcés, Samuel Ignacio<br>*TB1:*<br> Lideré la elaboración de **2.3 Needfinding**, **2.3.1 User Personas**, **2.3.2 User Task Matrix**, **2.3.3 User Journey Mapping**, **2.3.4 Empathy Mapping**, **2.5 Big Picture EventStorming**, la **entrevista con el segmento 1**, así como **3.1 User Stories** y **3.2 Product Backlog**. Coordiné con los cinco integrantes del equipo para integrar estos insumos al documento final, asegurando coherencia y cumplimiento de los objetivos del proyecto MaceTy.<br><br> 4. Leon Rioja, Carlos Andres<br>*TB1:*<br> Asumí el liderazgo en el diseño de contextos delimitados y modelado de dominios. Desarrollé el **4.1.1.1 Candidate Context Discovery**, **4.1.1.2 Domain Message Flows Modeling** y **4.1.1.3 Bounded Context Canvases**. Colaboré estrechamente con todo el equipo para asegurar que los bounded contexts reflejaran correctamente los procesos de negocio identificados en las fases previas del proyecto.<br><br> 5. Jaque Peña, Estefano Oscar<br>*TB1:*<br> Lideré la conceptualización y desarrollo del **1.2.2 Lean UX Process**, incluyendo problem statements, assumptions y hypothesis statements que sirvieron como base fundamental para todo el proyecto. Coordiné con los demás miembros para asegurar que el enfoque Lean UX se mantuviera consistente a lo largo de todas las fases del desarrollo, desde la investigación hasta la arquitectura técnica. | Durante el TB1, los cinco miembros del equipo demostraron capacidades de liderazgo complementarias y distribuidas estratégicamente. Maycol lideró los aspectos técnicos y arquitecturales, Sergio dirigió la investigación de mercado y análisis competitivo, Samuel se enfocó en el needfinding y especificación de requerimientos, Carlos desarrolló el modelado de dominio y contextos delimitados, mientras que Estefano estableció las bases metodológicas con Lean UX. Esta distribución de liderazgo permitió aprovechar las fortalezas individuales y crear un producto integral que combina solidez técnica, investigación de mercado robusta, análisis de usuarios profundo, arquitectura de dominio bien estructurada y metodología ágil sólida. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué metodologías colaborativas estableciendo reuniones regulares de sincronización con los cinco miembros del equipo, utilizando GitHub para el control de versiones colaborativo y creando un ambiente donde todos pudieran contribuir según sus fortalezas técnicas. Establecí metas claras para cada sprint: definición de segmentos objetivo, arquitectura del sistema y documentación técnica, coordinando con Carlos para los bounded contexts y con Samuel para la integración de user stories.<br>*Tp:*<br> Aplique  metodologias en trabajo en grupo, planificando metas, y diseñando colaborativo, con metologias en grupo.<br><br> 2. Gómez Vallejos, Sergio André<br>*TB1:*<br> Contribuí a crear un entorno inclusivo donde cada uno de los cinco miembros del equipo pudo aportar desde sus habilidades específicas. Planifiqué las tareas de investigación y análisis competitivo en coordinación con Samuel para las entrevistas y Estefano para el marco Lean UX, estableciendo metas semanales para el levantamiento de información. Cumplí con todos los objetivos propuestos facilitando la integración de todos los componentes del proyecto.<br><br> 3. Valera Garcés, Samuel Ignacio<br>*TB1:*<br> Organicé y planifiqué reuniones de coordinación con todos los integrantes del equipo, definí metas por sección a mi cargo y utilicé herramientas colaborativas (GitHub, documentos compartidos) para facilitar la integración y retroalimentación entre los cinco miembros. Cumplí los plazos acordados para cada entrega, manteniendo una comunicación constante y un ambiente inclusivo en el desarrollo del proyecto, especialmente coordinando con Sergio para las entrevistas y con Carlos para alinear el needfinding con los bounded contexts.<br><br> 4. Leon Rioja, Carlos Andres<br>*TB1:*<br> Establecí un ambiente colaborativo para el desarrollo de la arquitectura de dominio, coordinando estrechamente con Maycol para alinear los bounded contexts con la arquitectura técnica y con Samuel para asegurar que los contextos reflejaran las necesidades identificadas en el needfinding. Planifiqué las tareas de modelado de dominio con metas específicas semanales y mantuve comunicación constante con todo el equipo para validar los diseños propuestos.<br><br> 5. Jaque Peña, Estefano Oscar<br>*TB1:*<br> Creé un marco metodológico colaborativo basado en Lean UX que facilitó la participación equitativa de los cinco miembros del equipo. Establecí metas claras para cada fase del proceso Lean UX y planifiqué la integración de los aportes de cada integrante: coordinando con Sergio para los antecedentes, con Samuel para el needfinding, con Carlos para el domain modeling y con Maycol para la arquitectura técnica. Mantuve un ambiente inclusivo donde todas las perspectivas fueran valoradas y consideradas en las decisiones del proyecto. | El equipo de cinco integrantes logró crear un entorno altamente colaborativo donde cada miembro aportó desde sus fortalezas específicas: técnicas, de investigación, de análisis de usuarios, de modelado de dominio y metodológicas. La planificación clara y coordinada de tareas permitió cumplir con todos los objetivos del TB1: documentación completa del startup profile, análisis competitivo exhaustivo, needfinding profundo, arquitectura de software bien definida, bounded contexts coherentes, segmentos objetivo validados y un marco Lean UX sólido. La comunicación constante entre los cinco miembros y el uso de herramientas colaborativas como GitHub facilitaron la integración exitosa de todos los componentes del proyecto MaceTy, demostrando que un liderazgo distribuido y colaborativo puede generar resultados superiores a la suma de las contribuciones individuales. |
 # Capítulo I: Introducción  
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
@@ -1206,28 +1244,38 @@ El **Diagrama de Contenedores** describe los principales bloques funcionales del
 **Leyenda del diagrama:**  
 ![ContainerKey](assets/structurizr-106169-DiagramaDeContenedores-key.png)  
 
-#### Software Component Diagram  
+#### Software IoT System Diagram  
 
-El Diagrama de Componentes detalla la lógica interna de los microservicios en el **MaceTy API Gateway**, como:  
+El **Diagrama IoT System** muestra el flujo completo de comunicación entre las aplicaciones de usuario y el dispositivo Edge.  
+El recorrido de datos se realiza de la siguiente manera:  
 
-- Procesamiento de datos de sensores.  
-- Módulo de alertas inteligentes de riego.  
-- Módulo de recomendaciones basadas en patrones urbanos y clima.  
-- API de integración con aplicaciones móviles y web.  
+1. **Aplicación Web y Aplicación Móvil** → Envían solicitudes y reciben datos a través del **API Gateway**.  
+2. El **API Gateway** → Publica los eventos hacia el **Message Broker**.  
+3. El **Message Broker** → Dirige los mensajes al **IoT Connector Service**, encargado de la gestión de telemetría y comandos.  
+4. El **IoT Connector Service** ↔ **Maceta Inteligente (Edge Device)** → intercambio de **Telemetría MQTT/WiFi** y **Comandos MQTT**.  
+5. El **IoT Connector Service** → se despliega sobre el **Proveedor Cloud (AWS/GCP)**, asegurando escalabilidad y resiliencia de la comunicación IoT.  
 
-![Component](assets/structurizr-106169-ComponentesGatewayAPI.png)  
+![IoTSystem](assets/structurizr-106169-IoTSystemDiagram.png)  
 
-**Leyenda del diagrama:**   
-![ComponentKey](assets/structurizr-106169-ComponentesGatewayAPI-key.png)  
+**Leyenda del diagrama:**  
+![IoTSystemKey](assets/structurizr-106169-IoTSystemDiagram-key.png)  
 
-#### Software IoT Diagram  
+---
 
-El **Diagrama IoT** representa el **MaceTy Urban IoT Device**, un dispositivo basado en ESP32 con sensores de humedad, temperatura y luz ambiental, además de una mini bomba de riego controlada automáticamente. Este dispositivo envía telemetría cada 15–30 minutos mediante protocolos como MQTT/HTTP, asegurando comunicación confiable con el API Gateway y retroalimentación en tiempo real hacia las aplicaciones.  
+#### Software Edge Diagram  
 
-![Landscape](assets/structurizr-106169-ComponentesMacetaInteligente.png)  
+El **Diagrama Edge** describe la estructura interna del dispositivo **Maceta Inteligente (Edge Device)**.  
+Este dispositivo integra sensores y actuadores conectados a un procesador **ESP32** con base de datos local (**SQLite**), capaz de operar en modo offline y sincronizar datos al recuperar conexión.  
+
+- **Sensores:** Humedad, Temperatura y Luz Ambiental.  
+- **Actuadores:** Bomba de agua (riego automático) y LED indicadores de estado.  
+- **Procesamiento Local:** El ESP32 gestiona la lógica básica de riego y almacenamiento temporal de métricas.  
+- **Conectividad:** Comunicación vía WiFi y sincronización mediante MQTT hacia el IoT Connector.  
+
+![Edge](assets/structurizr-106169-ComponentesEdge.png)  
 
 **Índice:**  
-![Landscape](assets/structurizr-106169-ComponentesMacetaInteligente-key.png)  
+![EdgeKey](assets/structurizr-106169-ComponentesEdge-key.png)  
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams  
 
@@ -1884,7 +1932,6 @@ Mock-ups de alta fidelidad siguiendo el mismo flujo: Hero → Funcionalidades �
 ![Contacto Mock](assets/contact-mock.png)  
 *Formulario limpio + CTA final (Comprar) + acceso directo a Login para usuarios existentes.*
 
-![Wireframe Contacto Referencia](assets/contact-wire.png)  
 *Comparativa con wireframe inicial: evidencia evolución de baja a alta fidelidad.*
 
 **Enlace Mockups (Figma):** https://www.figma.com/design/M7mqqSWc46nRv7qbZzVoYx/NaturaFy?node-id=0-1&t=D7usla6cNWPquEgW-1  
@@ -1894,19 +1941,10 @@ Mock-ups de alta fidelidad siguiendo el mismo flujo: Hero → Funcionalidades �
 - CTAs de exploración: Ver funcionalidades, Iniciar sesión.
 - Refuerzos de confianza: Comunidad + Recursos + Avatar Macety.
 
-...existing code...
-
-## 5.4. Applications UX/UI Design
-
-
-### 5.4.1. Applications Wireframes 
-
-
-### 5.4.2. Applications Wireflow Diagrams
-
-
-
-### 5.4.3. Applications Mock-ups
+### 5.4. Applications UX/UI Design  
+#### 5.4.1. Applications Wireframes  
+#### 5.4.2. Applications Wireflow Diagrams  
+#### 5.4.3. Applications Mock-ups  
 
 Mock-ups de alta fidelidad:
 
@@ -1932,10 +1970,9 @@ Mock-ups de alta fidelidad:
 *Perfil de usuario donde podra editar o ajustar su perfil a su preferencia*
 
 **Enlace Mockups (Figma):** https://www.figma.com/design/kjhLgtfA7pXzI9p6LPzLhP/MaceTy?node-id=8-1137&t=uydPwnc1KxRqxDnH-1
+#### 5.4.4. Applications User Flow Diagrams  
 
-### 5.4.4. Applications User Flow Diagrams
-
-## 5.5. Applications Prototyping
+### 5.5. Applications Prototyping  
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
@@ -2069,10 +2106,21 @@ Adoptamos esta metodología para estructurar los mensajes de confirmación de ca
 
 **Tecnologías utilizadas:**  
 El proyecto utiliza **React + Tailwind CSS** para la **landing page**, **Vue.js** para el **frontend principal**, **Java** para el **backend**, y **Flutter** para el **desarrollo móvil**.
+ 
+#### 6.1.4. Software Deployment Configuration  
 
+### 6.2. Landing Page, Services & Applications Implementation  
 
-### 6.1.4. Software Deployment Configuration
-
+#### 6.2.1. Sprint 1  
+##### 6.2.1.1. Sprint Planning 1  
+##### 6.2.1.2. Aspect Leaders and Collaborators  
+##### 6.2.1.3. Sprint Backlog 1  
+##### 6.2.1.4. Development Evidence for Sprint Review  
+##### 6.2.1.5. Testing Suite Evidence for Sprint Review  
+##### 6.2.1.6. Execution Evidence for Sprint Review  
+##### 6.2.1.7. Services Documentation Evidence for Sprint Review  
+##### 6.2.1.8. Software Deployment Evidence for Sprint Review  
+##### 6.2.1.9. Team Collaboration Insights during Sprint  
 
 
 ## Conclusiones
