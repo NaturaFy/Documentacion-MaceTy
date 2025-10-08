@@ -1969,6 +1969,12 @@ Mock-ups de alta fidelidad:
 ![Wireframe Contacto Referencia](assets/perfil.png)  
 *Perfil de usuario donde podra editar o ajustar su perfil a su preferencia*
 
+![Contacto Mock](assets/login.png)  
+*Formulario para el logueo de cada usuario*
+
+![Wireframe Contacto Referencia](assets/register.png)  
+*Formulario para registrarse en la apliocación*
+
 **Enlace Mockups (Figma):** https://www.figma.com/design/kjhLgtfA7pXzI9p6LPzLhP/MaceTy?node-id=8-1137&t=uydPwnc1KxRqxDnH-1
 #### 5.4.4. Applications User Flow Diagrams  
 
