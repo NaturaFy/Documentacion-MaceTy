@@ -1852,12 +1852,46 @@ A continuación, se presenta el detalle del **Sprint Backlog 1** con las User St
 | | | **TA016** | Diseño UI/UX final de la Landing | Incorporar diseño visual responsive y animaciones suaves. | 5 | Maycol Jhordan Rojas Velasquez | Done |
 | | | **TA017** | Despliegue en entorno de prueba | Publicar versión inicial en GitHub Pages o Vercel. | 2 | Maycol Jhordan Rojas Velasquez | Done |
 
-Link de Trello: ANEXO M
-
+Link de Trello: ANEXO X
 
 #### 6.2.1.4. Development Evidence for Sprint Review  
+
+Landing Page:
+
+| Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
+| ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
+| MaceTy-landing | dev   | 1b462d3                                  | feat: add dates of timeline  |Se añade los datos para el db timeline  | 08/10/2025  |
+
+Frontend:
+
+| Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
+| ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
+| MaceTy-frontend | dev   | 1b462d3                                  | feat: add dates of timeline  |Se añade los datos para el db timeline  | 08/10/2025  |
+
+Backend:
+
+| Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
+| ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
+| MaceTy-backend | dev   | 1b462d3                                  | feat: add dates of timeline  |Se añade los datos para el db timeline  | 08/10/2025  |
+
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review  
+
+| Repository                                                            | Branch             | Commit Id                                | Commit Message           | Commit Message Body                         | Committed on (Date)     |
+| --------------------------------------------------------------------- | ------------------ | ---------------------------------------- | ------------------------ | ------------------------------------------- | ----------------------- |
+| https://github.com/Horizon-ManageWise/Testing/tree/feature/TF                         | feature/TF  | 1ffda47a4cd0b4bbb26ea2b3e94dae52c554c12d                                  | Initial commit           | Created the README file.                    | 08/10/2025              |
+
+Link del repositorio del testing: ANEXO X
 #### 6.2.1.6. Execution Evidence for Sprint Review  
+
+**URL FRONTEND Y BACKEND DESPLEGADO**: []
+
+**URL FRONTEND**: []
+
+**URL BACKEND**: []
+
+## **IAM BOUNDED CONTEXT**
+
+
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review  
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review  
 #### 6.2.1.9. Team Collaboration Insights during Sprint 
