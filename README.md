@@ -2085,7 +2085,57 @@ Backend:
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint 
 
+En esta sección, se presenta un análisis detallado de la colaboración del equipo durante el Sprint. Durante este Sprint, las actividades se organizaron siguiendo una metodología ágil, lo que permitió una coordinación efectiva entre los miembros del equipo. Se incluyen capturas de los analíticos de colaboración y de los commits realizados en GitHub, evidenciando la contribución individual.
 
+Diseño y Desarrollo:
+
+- Frontend: Desarrollo y diseño completo de la landing page, incluyendo la creación de secciones, estilos y estructura responsive.
+
+- Backend: Implementación de funcionalidades básicas y configuración inicial del servidor y servicios necesarios.
+
+- Codificación: Ejecución de tareas de programación, pruebas funcionales y ajustes iterativos.
+
+Documentación y Despliegue:
+
+- Documentación: Elaboración de documentación técnica y visual, incluyendo descripciones y capturas de pantalla del proceso.
+
+- Despliegue: Configuración del entorno y despliegue tanto del frontend como del backend en un entorno de pruebas, asegurando la operatividad conjunta.
+
+**Landing Page**
+
+[FOTO COMMITS EN LANDING]
+
+- Maycol Jhordan Rojas Velasquez: X
+
+**Report:**
+
+[FOTO COMMITS EN Report]
+
+- Maycol Jhordan Rojas Velasquez: X
+- Sergio Andre Gomez Vallejos:X 
+- Estefano Oscar Jaque Pena
+- Carlos Andres Rojas Ccama: X 
+- Samuel Ignacio Valera Garcés: X
+
+<br>**Backend:**
+
+[FOTO COMMITS EN Backend]
+
+- Maycol Jhordan Rojas Velasquez: X
+- Sergio Andre Gomez Vallejos:X 
+- Estefano Oscar Jaque Pena
+- Carlos Andres Rojas Ccama: X 
+- Samuel Ignacio Valera Garcés: X
+
+<br>**Frontend:**
+
+[FOTO COMMITS EN Frontend]
+
+- Maycol Jhordan Rojas Velasquez: X
+- Sergio Andre Gomez Vallejos:X
+- Estefano Oscar Jaque Pena
+- Carlos Andres Rojas Ccama: X 
+- Samuel Ignacio Valera Garcés: X
 
 ## Conclusiones
 
