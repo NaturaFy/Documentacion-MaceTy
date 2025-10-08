@@ -1819,6 +1819,42 @@ Cada miembro asume roles específicos según su experiencia y dominio técnico, 
 El **Team Leader (Maycol Jhordan Rojas Velasquez)** supervisa la integración de los diferentes aspectos y asegura la coherencia técnica entre los módulos.
 
 #### 6.2.1.3. Sprint Backlog 1  
+
+Para el **primer Sprint**, el equipo se centró en desarrollar la **Landing Page** del proyecto MaceTy y avanzar con la primera fase de los **Bounded Contexts IAM y Applications**, incluyendo tanto el **frontend** como el **backend**.  
+Durante este Sprint, las **User Stories** fueron seleccionadas del *Product Backlog* priorizando las funcionalidades esenciales que permiten mostrar el propósito del sistema y asegurar una base técnica sólida para los siguientes ciclos de desarrollo.
+
+El trabajo se organizó y distribuyó entre los miembros del equipo mediante la herramienta **Trello**, lo cual permitió una gestión visual de las tareas, un seguimiento colaborativo y una comunicación fluida entre los integrantes.  
+El **objetivo principal** del Sprint fue crear una **Landing Page funcional y atractiva**, acompañada del avance en los módulos iniciales del backend y del sistema de autenticación (IAM), asegurando que la estructura base del proyecto estuviera correctamente configurada.
+
+A continuación, se presenta el detalle del **Sprint Backlog 1** con las User Stories seleccionadas, sus tareas asociadas, responsables y estado de avance:
+
+
+
+| **Sprint #** | **Sprint 1** | | | | | | |
+|--------------|--------------|--------------------|-----------------------------------|-----------------------------------------------------------|-----------------------|------------------------------|-------------|
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **ID** | **Title** | **ID** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| ST-13 | Registro y login de usuario | **TA001** | Implementar pantalla de login y registro | Crear los formularios principales del módulo IAM y conectarlos al backend. | 6 | Estefano Oscar Jaque Peña | Done |
+| | | **TA002** | Configuración del endpoint de autenticación | Desarrollar el servicio REST `/api/auth` para login y registro. | 5 | Sergio Andre Gomez Vallejos | Done |
+| | | **TA003** | Validación de usuarios registrados | Implementar verificación de credenciales y manejo de errores. | 3 | Carlos Andres Rojas Ccama | Done |
+| ST-14 | Dashboard de métricas | **TA004** | Creación de componente base del dashboard | Configurar vista base para métricas de humedad, luz y temperatura. | 5 | Estefano Oscar Jaque Peña | In Progress |
+| ST-01 | Lectura de humedad en tiempo real | **TA005** | Simulación de sensor de humedad | Conectar lectura simulada a endpoint temporal `/api/sensors/humidity`. | 3 | Sergio Andre Gomez Vallejos | In Progress |
+| ST-03 | Lectura de luz | **TA006** | Diseño de interfaz para medición de luz | Mostrar lectura del sensor de luminosidad en dashboard. | 3 | Carlos Andres Rojas Ccama | Done |
+| ST-05 | Lectura de temperatura | **TA007** | Configuración de sensor de temperatura | Simular lectura de temperatura y desplegar valor en la interfaz. | 3 | Sergio Andre Gomez Vallejos | Done |
+| ST-07 | Configurar umbral de riego | **TA008** | Creación de formulario de configuración de riego | Permitir que el usuario establezca el umbral mínimo de humedad. | 4 | Estefano Oscar Jaque Peña | Done |
+| ST-08 | Activar riego automático | **TA009** | Lógica de activación automática de riego | Implementar función que dispare evento cuando humedad < umbral. | 5 | Carlos Andres Rojas Ccama | In Progress |
+| ST-09 | Riego manual desde app | **TA010** | Botón de riego manual | Desarrollar control manual de riego en la UI. | 3 | Estefano Oscar Jaque Peña | Done |
+| ST-10 | Alerta de humedad crítica | **TA011** | Sistema de alertas básicas | Notificar al usuario cuando la humedad sea inferior al rango. | 2 | Samuel Ignacio Valera Garcés | In Progress |
+| ST-04 | Alertas de luz insuficiente | **TA012** | Implementación de aviso visual | Mostrar mensaje de advertencia en caso de poca luz. | 2 | Samuel Ignacio Valera Garcés | Done |
+| ST-20 | Notificación de mantenimiento | **TA013** | Configurar módulo de notificaciones | Crear lógica inicial para alertas de mantenimiento (batería baja, limpieza). | 3 | Sergio Andre Gomez Vallejos | Done |
+| ST-14 | Dashboard de métricas | **TA014** | Integración de métricas visuales en Landing Page | Mostrar resumen de datos en sección “Estado del sistema”. | 3 | Maycol Jhordan Rojas Velasquez | Done |
+| LP-01 | Diseño de Landing Page | **TA015** | Estructura base y wireframe | Implementar estructura HTML/CSS inicial de la Landing Page. | 4 | Maycol Jhordan Rojas Velasquez | Done |
+| | | **TA016** | Diseño UI/UX final de la Landing | Incorporar diseño visual responsive y animaciones suaves. | 5 | Maycol Jhordan Rojas Velasquez | Done |
+| | | **TA017** | Despliegue en entorno de prueba | Publicar versión inicial en GitHub Pages o Vercel. | 2 | Maycol Jhordan Rojas Velasquez | Done |
+
+Link de Trello: ANEXO M
+
+
 #### 6.2.1.4. Development Evidence for Sprint Review  
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review  
 #### 6.2.1.6. Execution Evidence for Sprint Review  
