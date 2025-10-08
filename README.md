@@ -213,6 +213,46 @@
     - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)  
       - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)  
       - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)    
+
+## Capítulo V: Solution UI/UX Design  
+
+- [5.1. Style Guidelines](#51-style-guidelines)  
+  - [5.1.1. General Style Guidelines](#511-general-style-guidelines)  
+  - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)  
+- [5.2. Information Architecture](#52-information-architecture)  
+  - [5.2.1. Organization Systems](#521-organization-systems)  
+  - [5.2.2. Labeling Systems](#522-labeling-systems)  
+  - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)  
+  - [5.2.4. Searching Systems](#524-searching-systems)  
+  - [5.2.5. Navigation Systems](#525-navigation-systems)  
+- [5.3. Landing Page UI Design](#53-landing-page-ui-design)  
+  - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)  
+  - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)  
+- [5.4. Applications UX/UI Design](#54-applications-uxui-design)  
+  - [5.4.1. Applications Wireframes](#541-applications-wireframes)  
+  - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)  
+  - [5.4.3. Applications User Flow Diagrams](#543-applications-user-flow-diagrams)  
+  - [5.4.4. Applications Mock-ups](#544-applications-mock-ups)  
+- [5.5. Applications Prototyping](#55-applications-prototyping) 
+
+## Capítulo VI: Product Implementation, Validation & Deployment  
+
+- [6.1. Software Configuration Management](#61-software-configuration-management)  
+  - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)  
+  - [6.1.2. Source Code Management](#612-source-code-management)  
+  - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)  
+  - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)  
+- [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)  
+  - [6.2.1. Sprint 1](#621-sprint-1)  
+    - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)  
+    - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)  
+    - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)  
+    - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)  
+    - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)  
+    - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)  
+    - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)  
+    - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)  
+    - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)   
 - [Conclusiones](#61-conclusiones)  
 - [Bibliografía](#62-bibliografía)  
 - [Anexos](#63-anexos)  
@@ -1697,6 +1737,405 @@ La **Infrastructure Layer** implementa los canales de entrega y persistencia de 
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram
 
 ![Notification Management Database Design](assets/notification-management-database.png)
+
+# Capítulo V: Solution UI/UX Design  
+
+## 5.1. Style Guidelines  
+
+### 5.1.1. General Style Guidelines  
+### 5.1.2. Web, Mobile and IoT Style Guidelines  
+
+## 5.2. Information Architecture  
+
+### 5.2.1. Organization Systems  
+### 5.2.2. Labeling Systems  
+### 5.2.3. SEO Tags and Meta Tags  
+### 5.2.4. Searching Systems  
+### 5.2.5. Navigation Systems  
+
+## 5.3. Landing Page UI Design  
+
+### 5.3.1. Landing Page Wireframe  
+### 5.3.2. Landing Page Mock-up  
+
+## 5.4. Applications UX/UI Design  
+
+### 5.4.1. Applications Wireframes  
+### 5.4.2. Applications Wireflow Diagrams  
+### 5.4.3. Applications User Flow Diagrams  
+### 5.4.4. Applications Mock-ups  
+
+## 5.5. Applications Prototyping  
+
+
+# Capítulo VI: Product Implementation, Validation & Deployment  
+
+## 6.1. Software Configuration Management  
+
+### 6.1.1. Software Development Environment Configuration  
+### 6.1.2. Source Code Management  
+### 6.1.3. Source Code Style Guide & Conventions  
+### 6.1.4. Software Deployment Configuration  
+
+## 6.2. Landing Page, Services & Applications Implementation  
+
+### 6.2.1. Sprint 1  
+El primer sprint es una etapa importante en nuestro marco de gestión de proyectos de metodología ágil Scrum. En este periodo, agendamos reuniones con el objetivo de conocer mejor las características de cada integrante, y delegamos tareas para materializar el diseño y funcionalidades ya establecidas, para transformarlos en un landing page funcional y que cumple las heurísticas.
+#### 6.2.1.1. Sprint Planning 1  
+El sprint planning es una reunion antes de cada sprint en la metodologia Scrum donde el equipo elige las user stories que va a transformar en un producto tangible. Tambien define que como se van a separar los trabajos y quien sera responsable. Nuestro objetivo sera construir un plan resolubre en un tiempo determinado que sera lo que dure el sprint, para crearlo fomentaremos la colaboracion para que todos sepan y entiendas los objetivos y prioridades.
+
+| Sprint #| Sprint 1|
+| -- | -- |
+| **Sprint Planning Background**||
+| **Date**| 01/10/2025|
+| **Time**| 12:00 AM|
+| **Location**| Discord (Reunión virtual)|
+| **Prepared By**| Jaque Peña, Estefano Oscar|
+| **Attendees (to planning meeting)** | Maycol Jhordan Rojas Velasquez, Sergio Andre Gomez Vallejos, Estefano Oscar Jaque Pena, Carlos Andres Rojas Ccama, Samuel Ignacio Valera Garcés|
+| **Sprint Goal & User Stories**||
+| **Sprint 1 Goal**| Nuestro enfoque está en finalizar el informe , desplegar nuestra Landing Page desde el repositorio de GitHub y avanzar bounded context del aplicativo (Tanto IAM como applications). Creemos que esto entrega una experiencia de usuario optimizada a nuestros clientes. Esto se confirmará cuando todas las tareas se muevan a la columna "Terminado" en Trello. |
+| **Sprint 1 Velocity**| ------ |
+| **Sum of Story Points**| 19 |  
+
+#### 6.2.1.2. Aspect Leaders and Collaborators  
+En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**, la cual permite identificar los roles de liderazgo y colaboración dentro del Sprint.  
+Este artefacto muestra, por cada aspecto abordado en el desarrollo, quién asume el rol de **líder (L)** y quiénes participan como **colaboradores (C)**, con el objetivo de optimizar la comunicación, la distribución de tareas y la eficiencia del trabajo en equipo.  
+
+Cada aspecto corresponde a un ámbito funcional del proyecto (por ejemplo: Frontend, Backend, Base de Datos, UI/UX, Deploy, etc.).  
+El liderazgo asignado se basa en las fortalezas técnicas de cada integrante y la organización general de trabajo definida por el **Team Leader**, quien coordina la integración y revisión final de los entregables.  
+
+A continuación, se presenta la matriz correspondiente al Sprint actual:
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **UI/UX Design** | **Frontend Development** | **Backend Development** | **Database Management** | **Deployment & Documentation** |
+|----------------------------------------|---------------------|------------------|--------------------------|--------------------------|--------------------------|-------------------------------|
+| **Rojas Velasquez, Maycol Jhordan**    | mjrojasv            | C                | L                        | C                        | C                        | C                             |
+| **Gomez Vallejos, Sergio Andre**       | sgomezv             | C                | C                        | L                        | L                        | C                             |
+| **Jaque Pena, Estefano Oscar**         | ejaquep             | C                | L                        | C                        | C                        | L                             |
+| **Rojas Ccama, Carlos Andres**         | crojasc             | C                | C                        | L                        | L                        | L                             |
+| **Valera Garcés, Samuel Ignacio**      | svalerag            | L                | C                        | C                        | C                        | C                             |
+
+La organización de líderes y colaboradores guarda relación directa con la planificación de tareas y la distribución de responsabilidades dentro del **Sprint Backlog**.  
+Cada miembro asume roles específicos según su experiencia y dominio técnico, contribuyendo a una ejecución coordinada y efectiva del desarrollo del proyecto.  
+El **Team Leader (Maycol Jhordan Rojas Velasquez)** supervisa la integración de los diferentes aspectos y asegura la coherencia técnica entre los módulos.
+
+#### 6.2.1.3. Sprint Backlog 1  
+
+Para el **primer Sprint**, el equipo se centró en desarrollar la **Landing Page** del proyecto MaceTy y avanzar con la primera fase de los **Bounded Contexts IAM y Applications**, incluyendo tanto el **frontend** como el **backend**.  
+Durante este Sprint, las **User Stories** fueron seleccionadas del *Product Backlog* priorizando las funcionalidades esenciales que permiten mostrar el propósito del sistema y asegurar una base técnica sólida para los siguientes ciclos de desarrollo.
+
+El trabajo se organizó y distribuyó entre los miembros del equipo mediante la herramienta **Trello**, lo cual permitió una gestión visual de las tareas, un seguimiento colaborativo y una comunicación fluida entre los integrantes.  
+El **objetivo principal** del Sprint fue crear una **Landing Page funcional y atractiva**, acompañada del avance en los módulos iniciales del backend y del sistema de autenticación (IAM), asegurando que la estructura base del proyecto estuviera correctamente configurada.
+
+A continuación, se presenta el detalle del **Sprint Backlog 1** con las User Stories seleccionadas, sus tareas asociadas, responsables y estado de avance:
+
+
+
+| **Sprint #** | **Sprint 1** | | | | | | |
+|--------------|--------------|--------------------|-----------------------------------|-----------------------------------------------------------|-----------------------|------------------------------|-------------|
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **ID** | **Title** | **ID** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| ST-13 | Registro y login de usuario | **TA001** | Implementar pantalla de login y registro | Crear los formularios principales del módulo IAM y conectarlos al backend. | 6 | Estefano Oscar Jaque Peña | Done |
+| | | **TA002** | Configuración del endpoint de autenticación | Desarrollar el servicio REST `/api/auth` para login y registro. | 5 | Sergio Andre Gomez Vallejos | Done |
+| | | **TA003** | Validación de usuarios registrados | Implementar verificación de credenciales y manejo de errores. | 3 | Carlos Andres Rojas Ccama | Done |
+| ST-14 | Dashboard de métricas | **TA004** | Creación de componente base del dashboard | Configurar vista base para métricas de humedad, luz y temperatura. | 5 | Estefano Oscar Jaque Peña | In Progress |
+| ST-01 | Lectura de humedad en tiempo real | **TA005** | Simulación de sensor de humedad | Conectar lectura simulada a endpoint temporal `/api/sensors/humidity`. | 3 | Sergio Andre Gomez Vallejos | In Progress |
+| ST-03 | Lectura de luz | **TA006** | Diseño de interfaz para medición de luz | Mostrar lectura del sensor de luminosidad en dashboard. | 3 | Carlos Andres Rojas Ccama | Done |
+| ST-05 | Lectura de temperatura | **TA007** | Configuración de sensor de temperatura | Simular lectura de temperatura y desplegar valor en la interfaz. | 3 | Sergio Andre Gomez Vallejos | Done |
+| ST-07 | Configurar umbral de riego | **TA008** | Creación de formulario de configuración de riego | Permitir que el usuario establezca el umbral mínimo de humedad. | 4 | Estefano Oscar Jaque Peña | Done |
+| ST-08 | Activar riego automático | **TA009** | Lógica de activación automática de riego | Implementar función que dispare evento cuando humedad < umbral. | 5 | Carlos Andres Rojas Ccama | In Progress |
+| ST-09 | Riego manual desde app | **TA010** | Botón de riego manual | Desarrollar control manual de riego en la UI. | 3 | Estefano Oscar Jaque Peña | Done |
+| ST-10 | Alerta de humedad crítica | **TA011** | Sistema de alertas básicas | Notificar al usuario cuando la humedad sea inferior al rango. | 2 | Samuel Ignacio Valera Garcés | In Progress |
+| ST-04 | Alertas de luz insuficiente | **TA012** | Implementación de aviso visual | Mostrar mensaje de advertencia en caso de poca luz. | 2 | Samuel Ignacio Valera Garcés | Done |
+| ST-20 | Notificación de mantenimiento | **TA013** | Configurar módulo de notificaciones | Crear lógica inicial para alertas de mantenimiento (batería baja, limpieza). | 3 | Sergio Andre Gomez Vallejos | Done |
+| ST-14 | Dashboard de métricas | **TA014** | Integración de métricas visuales en Landing Page | Mostrar resumen de datos en sección “Estado del sistema”. | 3 | Maycol Jhordan Rojas Velasquez | Done |
+| LP-01 | Diseño de Landing Page | **TA015** | Estructura base y wireframe | Implementar estructura HTML/CSS inicial de la Landing Page. | 4 | Maycol Jhordan Rojas Velasquez | Done |
+| | | **TA016** | Diseño UI/UX final de la Landing | Incorporar diseño visual responsive y animaciones suaves. | 5 | Maycol Jhordan Rojas Velasquez | Done |
+| | | **TA017** | Despliegue en entorno de prueba | Publicar versión inicial en GitHub Pages o Vercel. | 2 | Maycol Jhordan Rojas Velasquez | Done |
+
+Link de Trello: ANEXO X
+
+#### 6.2.1.4. Development Evidence for Sprint Review  
+
+Landing Page:
+
+| Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
+| ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
+| MaceTy-landing | dev   | 1b462d3                                  | feat: add dates of timeline  |Se añade los datos para el db timeline  | 08/10/2025  |
+
+Frontend:
+
+| Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
+| ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
+| MaceTy-frontend | dev   | 1b462d3                                  | feat: add dates of timeline  |Se añade los datos para el db timeline  | 08/10/2025  |
+
+Backend:
+
+| Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
+| ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
+| MaceTy-backend | dev   | 1b462d3                                  | feat: add dates of timeline  |Se añade los datos para el db timeline  | 08/10/2025  |
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review  
+
+| Repository                                                            | Branch             | Commit Id                                | Commit Message           | Commit Message Body                         | Committed on (Date)     |
+| --------------------------------------------------------------------- | ------------------ | ---------------------------------------- | ------------------------ | ------------------------------------------- | ----------------------- |
+| https://github.com/Horizon-ManageWise/Testing/tree/feature/TF                         | feature/TF  | 1ffda47a4cd0b4bbb26ea2b3e94dae52c554c12d                                  | Initial commit           | Created the README file.                    | 08/10/2025              |
+
+Link del repositorio del testing: ANEXO X
+#### 6.2.1.6. Execution Evidence for Sprint Review  
+En este Sprint, los miembros del equipo de desarrollo de software de NaturaFy han completado y desplegado la Landing Page. A continuación, mostramos imágenes que demuestran cómo nuestra página presenta de manera clara e intuitiva la información sobre nuestro producto y nuestra empresa.
+
+[FOTO LANDING PAGE]
+
+**URL LANDING PAGE DESPLEGADO**: [https://naturafy.netlify.app/](https://naturafy.netlify.app/)
+
+En segundo lugar ,se avanzo el bounded context IAM y applications tanto en backend como en frontend :
+
+Backend - Swagger:
+
+[FOTO SWAGGER BACKEND]
+
+**URL BACKEND DESPLEGADO**: []
+
+Frontend :
+
+[FOTO Frontend]
+
+**URL FRONTEND DESPLEGADO**: []
+
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review  
+
+**Introducción:**   
+Durante este Sprint, se logró la documentación y despliegue de varios Endpoints correspondientes a los diferentes bounded contexts implementados por el equipo. Se utilizó OpenAPI para describir de forma estructurada los servicios Web desarrollados. A continuación, se presenta la relación de los Endpoints, las acciones soportadas y la respectiva documentación disponible.
+
+Esta documentación incluye los verbos HTTP utilizados, sintaxis de llamadas, parámetros, ejemplos de respuesta, así como capturas de la interacción con los Web Services utilizando datos de muestra. También se proporciona el URL del repositorio de los Web Services y los commit IDs correspondientes al trabajo realizado en la documentación durante este Sprint. 
+
+**Sección IAM (Identity and Access Management)**
+
+---
+
+### **Introducción**
+El módulo IAM (Identity and Access Management) implementa la gestión centralizada de usuarios, roles y autenticación en la plataforma Scholr. A continuación se detallan los endpoints desarrollados, su funcionalidad y documentación técnica.
+
+---
+
+### **Tabla de Endpoints IAM**
+
+| Bounded Context | Endpoint | Acción | Verbo HTTP | Parámetros | Ejemplo de Respuesta | Documentación |
+|-----------------|----------|--------|------------|------------|----------------------|---------------|
+| **Autenticación** | `/api/v1/authentication/sign-in` | Inicio de sesión | POST | `{"username": "string","password": "string"}` | `{"id": 0,"username": "string","token": "string"}` | [Swagger](#) | 
+|  | `/api/v1/authentication/sign-up` | Registro de usuario | POST | `{"username": "string","password": "string","compania": "string","dni": "string","cod_colaborador": "string","roles": ["string"]}` | `{"id": 0,"username": "string","roles": ["string"],"proofingEntrepreneure": "string"}` | [Swagger](#) |
+| **Usuarios** | `/api/v1/users` | Listar usuarios | GET | - | `[{"id": 0,"username": "string","roles": ["string"],"proofingEntrepreneure": "string"}]` | [Swagger](#) |
+|  | `/api/v1/users/{userId}` | Obtener usuario por ID | GET | `userId: long` | `{"id": 0,"username": "string","roles": ["string"],"proofingEntrepreneure": "string"}` | [Swagger](#) |
+|  | `/api/v1/users/{userId}/update-proofing` | Actualizar verificación | PUT | `{"proofingStatus": string}` | `{"message": "Proofing updated"}` | [Swagger](#) |
+| **Roles** | `/api/v1/roles` | Listar roles | GET | - | `  {"id": 0,"name": "string"}]` | [Swagger](#) |
+---
+
+### **Ejemplos de Uso**
+
+#### **1. Autenticación (JWT)**
+```java
+// Sign-Up Request
+POST /api/v1/authentication/sign-up
+Body: {
+  "username": "Estefano",
+  "password": "12345",
+  "compania": "backus",
+  "dni": "72260921",
+  "cod_colaborador": "ABC123",
+  "roles": [
+    "ROLE_APODERADO"
+  ]
+}
+
+// Response (201 Created)
+{
+  "id": 1,
+  "username": "Estefano",
+  "roles": [
+    "ROLE_APODERADO"
+  ],
+  "proofingEntrepreneure": null
+}
+```
+
+#### **2. Gestión de Usuarios**
+```java
+// Actualizar verificación de emprendedor
+PUT /api/v1/users/1/update-proofing
+Body: {
+  "proofingStatus": "VERIFIED"
+}
+
+// Response (200 OK)
+{
+  "message": "ProofingEntrepreneure updated successfully."
+}
+```
+
+---
+
+### **Arquitectura y Patrones**
+1. **CQRS**: Separación clara entre:
+   - `UserCommandService`: Manejo de escritura (sign-up, update-proofing)
+   - `UserQueryService`: Consultas (getAllUsers, getUserById)
+
+2. **DTO Pattern**: Uso de `*Resource` para transferencia de datos:
+   ```java
+   public record UserResource(Long id, String email, String name) {}
+   ```
+
+3. **Swagger Integration**: Documentación automática con `@Tag` y OpenAPI.
+
+---
+
+### **Seguridad**
+- **JWT**: Implementado en `AuthenticationController`.
+- **Validaciones**: 
+  - Campos obligatorios con `@Valid`
+  - Manejo de errores (404 para usuarios no encontrados)
+
+---
+
+### **Validación de Colaboradores en Registro (Sign-Up)**  
+Se implementó un **mecanismo de validación corporativa** que verifica la identidad de colaboradores antes de permitir su registro. Este proceso:
+
+1. **Consulta tablas dinámicas** por compañía (`{compania}_colaboradores`)
+2. **Valida coincidencia** entre:  
+   - DNI del usuario  
+   - Código de colaborador  
+3. **Flujo técnico**:  
+   ```java
+   // Ejemplo de validación
+   if (!colaboradorValidationService.validarColaborador(
+       "backus", 
+       "72260921", 
+       "ABC123")) {
+       throw new InvalidColaboradorException();
+   }
+   ```
+
+**Impacto**:  
+- ✔️ Asegura que solo personal autorizado se registre  
+- ✔️ Integración transparente con el endpoint existente `/sign-up`  
+- ✔️ Prevención de SQL Injection mediante parámetros con `EntityManager`
+
+### **Repositorio y Commits**
+| Endpoint | Commit ID | Cambios Realizados |
+|----------|-----------|---------------------|
+| Autenticación | `a1b2c3d` | Implementación JWT |
+| Users | `e4f5g6h` | Add proofing feature |
+| Roles | `i7j8k9l` | Listado de roles |
+
+---
+
+**Repositorio Principal**: [https://github.com/Aventis-Scholr/scholr-backend.git](https://github.com/Aventis-Scholr/scholr-backend.git)
+
+---
+
+### **Conclusión**
+El módulo IAM proporciona:
+- ✅ Autenticación segura con JWT
+- ✅ Gestión granular de usuarios y roles
+- ✅ Escalabilidad mediante CQRS
+- ✅ Documentación completa con Swagger
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review  
+
+**Resumen**
+Durante este Sprint, nos hemos enfocado en el despliegue de la landing page. Las actividades realizadas incluyen la configuración del entorno de desarrollo y el despliegue inicial del sitio. A continuación, se detalla el proceso seguido para el despliegue de la landing page.
+
+**Actividades Realizadas**
+
+- Creación de Cuentas y Configuración de Recursos:
+
+Proveedor de Hosting: Selección y configuración de la cuenta en el proveedor de hosting para desplegar la landing page.
+Configuración del Entorno: Establecimiento del entorno de desarrollo y producción para la landing page.
+
+- Configuración de Proyectos para Integración:
+
+Repositorio de Código: Configuración del repositorio en GitHub para la integración continua y despliegue automático.
+Automatización: Configuración de scripts y herramientas para la automatización del despliegue.
+
+- Despliegue de la Landing Page:
+
+Subida de Archivos: Transferencia de archivos y recursos al servidor de hosting.
+Verificación: Comprobación de que la landing page se despliega correctamente y está accesible en la web.
+
+**Deploy del Landing Page**
+[FOTO PASOS PARA DEPLOY 1 GITHUB]
+
+[FOTO PASOS PARA DEPLOY 2 GITHUB]
+
+**Capturas de Pantalla**
+
+- Repositorio de Landing Page:
+[FOTO REPOSITORIO DE LANDING EN GITHUB]
+
+**Enlace al Repositorio**: --X--
+
+**Link deploy Landing Page:** ANEXO X
+
+Backend:
+
+[FOTO SWAGGER]
+
+
+**Link deploy Landing Page:** ANEXO X
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint 
+
+En esta sección, se presenta un análisis detallado de la colaboración del equipo durante el Sprint. Durante este Sprint, las actividades se organizaron siguiendo una metodología ágil, lo que permitió una coordinación efectiva entre los miembros del equipo. Se incluyen capturas de los analíticos de colaboración y de los commits realizados en GitHub, evidenciando la contribución individual.
+
+Diseño y Desarrollo:
+
+- Frontend: Desarrollo y diseño completo de la landing page, incluyendo la creación de secciones, estilos y estructura responsive.
+
+- Backend: Implementación de funcionalidades básicas y configuración inicial del servidor y servicios necesarios.
+
+- Codificación: Ejecución de tareas de programación, pruebas funcionales y ajustes iterativos.
+
+Documentación y Despliegue:
+
+- Documentación: Elaboración de documentación técnica y visual, incluyendo descripciones y capturas de pantalla del proceso.
+
+- Despliegue: Configuración del entorno y despliegue tanto del frontend como del backend en un entorno de pruebas, asegurando la operatividad conjunta.
+
+**Landing Page**
+
+[FOTO COMMITS EN LANDING]
+
+- Maycol Jhordan Rojas Velasquez: X
+
+**Report:**
+
+[FOTO COMMITS EN Report]
+
+- Maycol Jhordan Rojas Velasquez: X
+- Sergio Andre Gomez Vallejos:X 
+- Estefano Oscar Jaque Pena
+- Carlos Andres Rojas Ccama: X 
+- Samuel Ignacio Valera Garcés: X
+
+<br>**Backend:**
+
+[FOTO COMMITS EN Backend]
+
+- Maycol Jhordan Rojas Velasquez: X
+- Sergio Andre Gomez Vallejos:X 
+- Estefano Oscar Jaque Pena
+- Carlos Andres Rojas Ccama: X 
+- Samuel Ignacio Valera Garcés: X
+
+<br>**Frontend:**
+
+[FOTO COMMITS EN Frontend]
+
+- Maycol Jhordan Rojas Velasquez: X
+- Sergio Andre Gomez Vallejos:X
+- Estefano Oscar Jaque Pena
+- Carlos Andres Rojas Ccama: X 
+- Samuel Ignacio Valera Garcés: X
 
 ## Conclusiones
 
