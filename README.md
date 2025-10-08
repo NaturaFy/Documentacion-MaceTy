@@ -1943,9 +1943,133 @@ Mock-ups de alta fidelidad:
 
 ### 6.1.1. Software Development Environment Configuration
 
+* **Visual Studio Code:** Desarrollo para aplicaciones mobiles.\
+![image](https://hackmd.io/_uploads/Hy8d2y7lR.png)
+* **GitHub:** Repositorio colaborativo en la nube.\
+![image](https://cdn-1.webcatalog.io/catalog/github/github-icon-filled-256.png?v=1744774208192)
+* **Netifly:** Plataforma que facilita implementar despliegues sencillos para nuestras páginas web.\
+![image](https://cmscritic.com/ms-content/uploads/2023/11/netlifty-icon.png?format=auto&width=256)
+* **Vertabelo:** Plataforma colaborativa para la creación de diagramas de base de datos.\
+![image](https://hackmd.io/_uploads/r1BjjyQgC.png)
+* **Figma:** Herramienta colaborativa que permite elaborar wireframes y mockups.\
+![image](https://hackmd.io/_uploads/BJ99okXeR.png)
+* **Azure:** Herramienta para subir nuestros servicios web en la nube.\
+[![Azure.jpg](https://i.postimg.cc/Mpjc355p/Azure.jpg)](https://postimg.cc/k2qXBxL0)
+* **Visual Studio Code:** Desarrollo para Frontend.\
+![image](https://i.imgur.com/b76hG4H.png)
+
+
 ### 6.1.2. Source Code Management
+**Repositorio de la Landing Page:** 
+**Implementación de GitFlow:**
+Para nuestra estrategia de gestión de versiones con Git, nos hemos inspirado en el artículo "A successful Git branching model" de Vincent Driessen, adoptando el modelo de ramificación GitFlow. Este enfoque nos permite establecer claramente las convenciones de ramificación que aplicamos en nuestro proyecto.
+![image](https://hackmd.io/_uploads/rJt95BobA.png)
+* **Rama Principal (Main branch):** Contiene el código en producción y se conoce como la Master branch o Main branch.
+    * Notación: main
+* **Rama de Desarrollo (Develop branch):** Acumula las últimas actualizaciones y cambios para la próxima versión. Funciona como un entorno de integración y prueba continua.
+    * Notación: develop
+* **Rama de Lanzamiento (Release branch):** Facilita la preparación de una nueva versión del producto, permitiendo correcciones de errores y recibiendo más actualizaciones de Develop.
+    * Debe derivarse de: develop
+    * Debe fusionarse con: develop y master/main
+    * Notación: release
+* **Rama de Características (Feature branch):** Se utiliza para desarrollar nuevas funcionalidades para la siguiente versión o futuras iteraciones.
+    * Debe derivarse de: develop
+    * Debe fusionarse de vuelta a: develop
+    * Notación: feature
+* **Rama de Corrección Rápida (Hotfix branch):** Aborda errores críticos en producción, permitiendo la implementación rápida de soluciones.
+    * Debe derivarse de: master/main
+    * Debe fusionarse con: develop y master/main
+    * Notación: hotfix
+
+**Conventional Commits:** 
+Adoptamos esta metodología para estructurar los mensajes de confirmación de cambios de manera estándar y semántica, lo que facilita la comunicación y la automatización de registros de cambios.
+**Tipos de Commits Convencionales:**
+* feat: Nuevas características o funcionalidades.
+* fix: Correcciones de errores.
+* docs: Cambios o mejoras en la documentación.
+* style: Cambios de formato que no afectan la funcionalidad.
+* refactor: Mejoras en la estructura o legibilidad del código.
+* test: Adición o modificación de pruebas.
+* chore: Cambios en el proceso de construcción o tareas de mantenimiento.
+* perf: Mejoras de rendimiento en el código.
 
 ### 6.1.3. Source Code Style Guide & Conventions
+
+---
+
+### Landing Page – React con Tailwind CSS
+
+| Regla                                   | Ejemplo / Explicación                                                   |
+|----------------------------------------|--------------------------------------------------------------------------|
+| Componentes en `PascalCase`            | `function HeroSection() {}`                                            |
+| Archivos nombrados igual que el componente | `HeroSection.jsx`                                                      |
+| Uso de `className` con utilidades Tailwind | `<div className="flex justify-center items-center p-4 bg-gray-100">`   |
+| Uso de fragmentos `<>...</>`           | Para evitar `div` innecesarios                                          |
+| Props en `camelCase`                   | `<HeroSection title="Bienvenido" description="Explora más" />`         |
+| Indentación consistente (2 espacios)   | Mantener la misma estructura en todo el proyecto                        |
+| Comentarios en JSX                     | `{/* Comentario de ejemplo */}`                                        |
+| Uso de `const` y `arrow functions`     | `const handleClick = () => { ... }`                                    |
+
+---
+
+### Frontend – Vue.js
+
+| Regla                                   | Ejemplo / Explicación                                                   |
+|----------------------------------------|--------------------------------------------------------------------------|
+| Componentes en `PascalCase`            | `<UserProfileCard />`, `UserProfileCard.vue`                            |
+| Nombres de variables y métodos en `camelCase` | `data() { return { userName: "Juan" }; }`, `methods: { getUserData() {} }` |
+| Archivos nombrados igual que el componente | `UserProfileCard.vue`                                                   |
+| Uso de `v-bind` y `v-on` abreviados     | `:prop="value"` y `@click="handleClick"`                                |
+| Separar el código en secciones `<template>`, `<script>`, `<style>` | Buenas prácticas de organización                                        |
+| Indentación consistente (2 espacios)    | Mantener uniformidad                                                   |
+| Uso de `const` y `let`                  | Evitar `var`                                                           |
+| Comentarios claros                      | `<!-- Sección del encabezado -->`                                      |
+
+---
+
+### CSS – Tailwind CSS
+
+| Regla                                   | Ejemplo / Explicación                                                   |
+|----------------------------------------|--------------------------------------------------------------------------|
+| Clases utilitarias en minúsculas       | `bg-brown-700 text-gray-100 rounded-xl p-4`                            |
+| Orden lógico de clases                 | De layout → color → texto → borde → espaciado                           |
+| Evitar estilos en línea (inline CSS)   | Usar clases Tailwind o archivos `.css` para excepciones                 |
+| Uso de variables personalizadas en `tailwind.config.js` | Definir colores del proyecto como `--brown`, `--beige`, etc.           |
+| Comentarios descriptivos               | `/* Estilos personalizados para el header */`                          |
+
+---
+
+### Backend – Java
+
+| Regla                                       | Ejemplo / Explicación                                                   |
+|--------------------------------------------|--------------------------------------------------------------------------|
+| Clases en `PascalCase`                     | `public class UserController {}`                                        |
+| Métodos y variables en `camelCase`         | `private String userName;`, `public void getUserData() {}`              |
+| Constantes en `UPPER_SNAKE_CASE`           | `private static final int MAX_USERS = 100;`                             |
+| Paquetes en minúsculas                     | `com.booksphere.api.controllers`                                       |
+| Indentación con 4 espacios                 | No usar tabs                                                           |
+| Uso de comentarios Javadoc                 | `/** Método que obtiene los datos del usuario */`                       |
+| Código limpio y modular                    | Separar controladores, servicios, repositorios y modelos                |
+
+---
+
+### Mobile – Flutter
+
+| Regla                                         | Ejemplo / Explicación                                                   |
+|----------------------------------------------|--------------------------------------------------------------------------|
+| Nombres de clases en `PascalCase`            | `class UserProfileScreen extends StatelessWidget {}`                    |
+| Variables y funciones en `camelCase`         | `final userName = "Juan";`, `void getUserData() {}`                     |
+| Constantes en `UPPER_SNAKE_CASE`             | `const MAX_USERS = 100;`                                                |
+| Widgets anidados con identación clara        | Mantener legibilidad al usar múltiples widgets                          |
+| Uso de `const` para widgets inmutables       | `const Text("Hola Mundo")`                                              |
+| Archivos nombrados en `snake_case`           | `user_profile_screen.dart`                                              |
+| Comentarios con `//` o `///`                 | `// Widget que muestra la información del usuario`                      |
+
+---
+
+**Tecnologías utilizadas:**  
+El proyecto utiliza **React + Tailwind CSS** para la **landing page**, **Vue.js** para el **frontend principal**, **Java** para el **backend**, y **Flutter** para el **desarrollo móvil**.
+
 
 ### 6.1.4. Software Deployment Configuration
 
