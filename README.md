@@ -1997,6 +1997,9 @@ Mock-ups de alta fidelidad:
 
 
 ### 6.1.2. Source Code Management
+La gestión de la configuración de software (Software Configuration Management, SCM) es un proceso esencial dentro del ciclo de desarrollo, ya que permite mantener el control y la organización de todos los elementos que componen el sistema. Su objetivo principal es asegurar que cada versión, cambio o actualización del software sea gestionado de manera estructurada, garantizando la trazabilidad, integridad y coherencia del producto final.
+
+Este proceso abarca desde la definición de estándares y convenciones de codificación hasta el control de versiones, documentación técnica y lineamientos para el mantenimiento del código fuente. Gracias al SCM, el equipo de desarrollo puede trabajar de forma colaborativa, minimizar errores, evitar conflictos de versiones y mantener la estabilidad del proyecto en todas sus fases.
 **Repositorio de la Landing Page:** 
 **Implementación de GitFlow:**
 Para nuestra estrategia de gestión de versiones con Git, nos hemos inspirado en el artículo "A successful Git branching model" de Vincent Driessen, adoptando el modelo de ramificación GitFlow. Este enfoque nos permite establecer claramente las convenciones de ramificación que aplicamos en nuestro proyecto.
