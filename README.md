@@ -1988,11 +1988,11 @@ A continuación, se presenta la matriz correspondiente al Sprint actual:
 
 | **Team Member (Last Name, First Name)** | **GitHub Username** | **UI/UX Design** | **Frontend Development** | **Backend Development** | **Database Management** | **Deployment & Documentation** |
 |----------------------------------------|---------------------|------------------|--------------------------|--------------------------|--------------------------|-------------------------------|
-| **Rojas Velasquez, Maycol Jhordan**    | mjrojasv            | C                | L                        | C                        | C                        | C                             |
-| **Gomez Vallejos, Sergio Andre**       | sgomezv             | C                | C                        | L                        | L                        | C                             |
-| **Jaque Pena, Estefano Oscar**         | ejaquep             | C                | L                        | C                        | C                        | L                             |
-| **Rojas Ccama, Carlos Andres**         | crojasc             | C                | C                        | L                        | L                        | L                             |
-| **Valera Garcés, Samuel Ignacio**      | svalerag            | L                | C                        | C                        | C                        | C                             |
+| **Rojas Velasquez, Maycol Jhordan**    | Kmykh            | C                | L                        | C                        | C                        | C                             |
+| **Gomez Vallejos, Sergio Andre**       | CB-Sergio-AGV             | C                | C                        | L                        | L                        | C                             |
+| **Jaque Pena, Estefano Oscar**         | estefanojaque             | C                | L                        | C                        | C                        | L                             |
+| **Rojas Ccama, Carlos Andres**         | Sr-Anonymus-make             | C                | C                        | L                        | L                        | L                             |
+| **Valera Garcés, Samuel Ignacio**      | SamuelValeraGarces            | L                | C                        | C                        | C                        | C                             |
 
 La organización de líderes y colaboradores guarda relación directa con la planificación de tareas y la distribución de responsabilidades dentro del **Sprint Backlog**.  
 Cada miembro asume roles específicos según su experiencia y dominio técnico, contribuyendo a una ejecución coordinada y efectiva del desarrollo del proyecto.  
@@ -2008,31 +2008,25 @@ El **objetivo principal** del Sprint fue crear una **Landing Page funcional y at
 
 A continuación, se presenta el detalle del **Sprint Backlog 1** con las User Stories seleccionadas, sus tareas asociadas, responsables y estado de avance:
 
+![assets/Trellofouto.png](assets/Trellofouto.png)
+
+| **Sprint #**   | **Sprint 1**                                   |                      |                                                   |                                                                                                      |                        |                                |            |
+| -------------- | ---------------------------------------------- | -------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------- | ------------------------------ | ---------- |
+| **User Story** |                                                | **Work-Item / Task** |                                                   |                                                                                                      |                        |                                |            |
+| **ID**         | **Title**                                      | **ID**               | **Title**                                         | **Description**                                                                                      | **Estimation (Hours)** | **Assigned To**                | **Status** |
+| ST-13          | Registro y login de usuario (IAM Front + Back) | **TA001**            | Implementar pantalla de login y registro          | Crear formularios de inicio de sesión y registro con validaciones en Vue y PrimeVue.                 | 6                      | Estefano Oscar Jaque Peña      | Done     |
+|                |                                                | **TA002**            | Configuración de servicios IAM en frontend        | Implementar `AuthenticationService`, `store` Pinia y conexión con API simulada (axios-mock-adapter). | 4                      | Estefano Oscar Jaque Peña      | Done     |
+|                |                                                | **TA003**            | Implementación de backend simulado (Fake API)     | Crear API mock con rutas `/authentication/sign-in`, `/authentication/sign-up`, `/users/:id`.         | 4                      | Sergio Andre Gomez Vallejos    | Done     |
+|                |                                                | **TA004**            | Persistencia de sesión con Cookies y LocalStorage | Guardar token, roles y usuario en cookies al autenticarse.                                           | 3                      | Carlos Andres Rojas Ccama      | Done     |
+|                |                                                | **TA005**            | Lógica de roles en frontend                       | Configurar redirecciones condicionales según `ROLE_USER`.               | 2                      | Carlos Andres Rojas Ccama      | Done     |
+| LP-01          | Landing Page completa                          | **TA006**            | Estructura base y wireframe                       | Crear estructura HTML, layout principal y navegación base.                                           | 4                      | Maycol Jhordan Rojas Velasquez | Done     |
+|                |                                                | **TA007**            | Diseño visual final y responsive                  | Aplicar estilos, animaciones suaves y coherencia visual con el tema del proyecto.                    | 5                      | Maycol Jhordan Rojas Velasquez | Done     |
+|                |                                                | **TA008**            | Integración de componentes interactivos           | Conectar botones de login/registro en el header con rutas de IAM.                                    | 3                      | Maycol Jhordan Rojas Velasquez      | Done     |
+|                |                                                | **TA009**            | Despliegue del proyecto                           | Configurar `firebase.json`, `.env.production` y publicar en Firebase Hosting.                        | 2                      | Maycol Jhordan Rojas Velasquez    | Done     |
+|                |                                                | **TA010**            | Pruebas de integración básicas                    | Validar flujo completo: registro → login → redirección según rol.                                    | 2                      | Maycol Jhordan Rojas Velasquez     | Done     |
 
 
-| **Sprint #** | **Sprint 1** | | | | | | |
-|--------------|--------------|--------------------|-----------------------------------|-----------------------------------------------------------|-----------------------|------------------------------|-------------|
-| **User Story** | | **Work-Item / Task** | | | | | |
-| **ID** | **Title** | **ID** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| ST-13 | Registro y login de usuario | **TA001** | Implementar pantalla de login y registro | Crear los formularios principales del módulo IAM y conectarlos al backend. | 6 | Estefano Oscar Jaque Peña | Done |
-| | | **TA002** | Configuración del endpoint de autenticación | Desarrollar el servicio REST `/api/auth` para login y registro. | 5 | Sergio Andre Gomez Vallejos | Done |
-| | | **TA003** | Validación de usuarios registrados | Implementar verificación de credenciales y manejo de errores. | 3 | Carlos Andres Rojas Ccama | Done |
-| ST-14 | Dashboard de métricas | **TA004** | Creación de componente base del dashboard | Configurar vista base para métricas de humedad, luz y temperatura. | 5 | Estefano Oscar Jaque Peña | In Progress |
-| ST-01 | Lectura de humedad en tiempo real | **TA005** | Simulación de sensor de humedad | Conectar lectura simulada a endpoint temporal `/api/sensors/humidity`. | 3 | Sergio Andre Gomez Vallejos | In Progress |
-| ST-03 | Lectura de luz | **TA006** | Diseño de interfaz para medición de luz | Mostrar lectura del sensor de luminosidad en dashboard. | 3 | Carlos Andres Rojas Ccama | Done |
-| ST-05 | Lectura de temperatura | **TA007** | Configuración de sensor de temperatura | Simular lectura de temperatura y desplegar valor en la interfaz. | 3 | Sergio Andre Gomez Vallejos | Done |
-| ST-07 | Configurar umbral de riego | **TA008** | Creación de formulario de configuración de riego | Permitir que el usuario establezca el umbral mínimo de humedad. | 4 | Estefano Oscar Jaque Peña | Done |
-| ST-08 | Activar riego automático | **TA009** | Lógica de activación automática de riego | Implementar función que dispare evento cuando humedad < umbral. | 5 | Carlos Andres Rojas Ccama | In Progress |
-| ST-09 | Riego manual desde app | **TA010** | Botón de riego manual | Desarrollar control manual de riego en la UI. | 3 | Estefano Oscar Jaque Peña | Done |
-| ST-10 | Alerta de humedad crítica | **TA011** | Sistema de alertas básicas | Notificar al usuario cuando la humedad sea inferior al rango. | 2 | Samuel Ignacio Valera Garcés | In Progress |
-| ST-04 | Alertas de luz insuficiente | **TA012** | Implementación de aviso visual | Mostrar mensaje de advertencia en caso de poca luz. | 2 | Samuel Ignacio Valera Garcés | Done |
-| ST-20 | Notificación de mantenimiento | **TA013** | Configurar módulo de notificaciones | Crear lógica inicial para alertas de mantenimiento (batería baja, limpieza). | 3 | Sergio Andre Gomez Vallejos | Done |
-| ST-14 | Dashboard de métricas | **TA014** | Integración de métricas visuales en Landing Page | Mostrar resumen de datos en sección “Estado del sistema”. | 3 | Maycol Jhordan Rojas Velasquez | Done |
-| LP-01 | Diseño de Landing Page | **TA015** | Estructura base y wireframe | Implementar estructura HTML/CSS inicial de la Landing Page. | 4 | Maycol Jhordan Rojas Velasquez | Done |
-| | | **TA016** | Diseño UI/UX final de la Landing | Incorporar diseño visual responsive y animaciones suaves. | 5 | Maycol Jhordan Rojas Velasquez | Done |
-| | | **TA017** | Despliegue en entorno de prueba | Publicar versión inicial en GitHub Pages o Vercel. | 2 | Maycol Jhordan Rojas Velasquez | Done |
-
-Link de Trello: ANEXO X
+Link de Trello: [https://trello.com/invite/b/68e7969bceaa056dc23cd0af/ATTI97b51e32677b328c9fabe30426da7ccbC9FB3ABF/macety-tablero-grupo](https://trello.com/invite/b/68e7969bceaa056dc23cd0af/ATTI97b51e32677b328c9fabe30426da7ccbC9FB3ABF/macety-tablero-grupo)
 
 #### 6.2.1.4. Development Evidence for Sprint Review  
 
@@ -2070,17 +2064,11 @@ En este Sprint, los miembros del equipo de desarrollo de software de NaturaFy ha
 
 En segundo lugar ,se avanzo el bounded context IAM y applications tanto en backend como en frontend :
 
-Backend - Swagger:
-
-[FOTO SWAGGER BACKEND]
-
-**URL BACKEND DESPLEGADO**: []
-
 Frontend :
 
-[FOTO Frontend]
+![alt text](assets/frontimage.png)
 
-**URL FRONTEND DESPLEGADO**: []
+**URL FRONTEND DESPLEGADO**: [https://naturafy-front.web.app/sign-up](https://naturafy-front.web.app/sign-up)
 
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review  
@@ -2250,9 +2238,9 @@ Verificación: Comprobación de que la landing page se despliega correctamente y
 **Capturas de Pantalla**
 
 - Repositorio de Landing Page:
-[FOTO REPOSITORIO DE LANDING EN GITHUB]
+![alt text](assets/landingfuto.png)
 
-**Enlace al Repositorio**: --X--
+**Enlace al Repositorio**: [https://github.com/NaturaFy/Landing-Page--Macety.git](https://github.com/NaturaFy/Landing-Page--Macety.git)
 
 **Link deploy Landing Page:** ANEXO X
 
@@ -2293,7 +2281,7 @@ Documentación y Despliegue:
 
 - Maycol Jhordan Rojas Velasquez: 22
 - Sergio Andre Gomez Vallejos:13 
-- Estefano Oscar Jaque Pena: 1
+- Estefano Oscar Jaque Peña: 1
 - Carlos Andres Rojas Ccama:  14
 - Samuel Ignacio Valera Garcés: 11
 
@@ -2303,7 +2291,7 @@ Documentación y Despliegue:
 
 - Maycol Jhordan Rojas Velasquez: 22
 - Sergio Andre Gomez Vallejos:13 
-- Estefano Oscar Jaque Pena: 1
+- Estefano Oscar Jaque Peña: 1
 - Carlos Andres Rojas Ccama:  14
 - Samuel Ignacio Valera Garcés: 11
 
@@ -2311,7 +2299,7 @@ Documentación y Despliegue:
 
 ![alt text](assets/webappcommit.png)
 
-- Estefano Oscar Jaque Pena: 1
+- Estefano Oscar Jaque Peña: 1
 
 
 ## Conclusiones
