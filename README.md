@@ -2291,31 +2291,28 @@ Documentación y Despliegue:
 
 ![alt text](assets/report-commit.png)
 
-- Maycol Jhordan Rojas Velasquez: X
-- Sergio Andre Gomez Vallejos:X 
-- Estefano Oscar Jaque Pena
-- Carlos Andres Rojas Ccama: X 
-- Samuel Ignacio Valera Garcés: X
+- Maycol Jhordan Rojas Velasquez: 22
+- Sergio Andre Gomez Vallejos:13 
+- Estefano Oscar Jaque Pena: 1
+- Carlos Andres Rojas Ccama:  14
+- Samuel Ignacio Valera Garcés: 11
 
 <br>**Backend:**
 
-[FOTO COMMITS EN Backend]
+![alt text](assets/report-commit.png)
 
-- Maycol Jhordan Rojas Velasquez: X
-- Sergio Andre Gomez Vallejos:X 
-- Estefano Oscar Jaque Pena
-- Carlos Andres Rojas Ccama: X 
-- Samuel Ignacio Valera Garcés: X
+- Maycol Jhordan Rojas Velasquez: 22
+- Sergio Andre Gomez Vallejos:13 
+- Estefano Oscar Jaque Pena: 1
+- Carlos Andres Rojas Ccama:  14
+- Samuel Ignacio Valera Garcés: 11
 
 <br>**Frontend:**
 
-[FOTO COMMITS EN Frontend]
+![alt text](assets/webappcommit.png)
 
-- Maycol Jhordan Rojas Velasquez: X
-- Sergio Andre Gomez Vallejos:X
-- Estefano Oscar Jaque Pena
-- Carlos Andres Rojas Ccama: X 
-- Samuel Ignacio Valera Garcés: X
+- Estefano Oscar Jaque Pena: 1
+
 
 ## Conclusiones
 
