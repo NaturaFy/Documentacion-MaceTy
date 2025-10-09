@@ -2034,31 +2034,36 @@ Landing Page:
 
 | Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
 | ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
-| MaceTy-landing | dev   | 1b462d3                                  | feat: add dates of timeline  |Se añade los datos para el db timeline  | 08/10/2025  |
+| Landing-Page--Macety | dev   | 0e55ec3006bdd0b151cf3281ab8c75dcebe5e1a2| feat: Initial commit: Naturafy landing page with modular tabs |Initial commit: Naturafy landing page with modular tabs  | 04/10/2025  |
+| Landing-Page--Macety | dev   | 8f608e0c40fc906dd600d480f50be3ac0f6a2a21| feat: Add auto-scroll navigation and animated footer  |Add auto-scroll navigation and animated footer  | 04/10/2025  |
+| Landing-Page--Macety | dev   | f366514f1d1757fff1dd989802cb177c997ebe67| feat: Refactor to single-page app with inline styles and i18n  |Refactor to single-page app with inline styles and i18n  | 05/10/2025  |
+| Landing-Page--Macety | dev   | 7cb492eae6bdc9dd2cac3d3309fd0758c7825929| feat:Redesign landing page and add Macety AI section  |Redesign landing page and add Macety AI section  | 05/10/2025  |
+| Landing-Page--Macety | dev   | f874772dd28a9b7cddf56144425be8a49733ccd5| feat: Send welcome email and improve SMS registration flow  |Send welcome email and improve SMS registration flow  | 05/10/2025  |
 
-Frontend:
+Frontend Web App:
 
 | Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
 | ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
-| MaceTy-frontend | dev   | 1b462d3                                  | feat: add dates of timeline  |Se añade los datos para el db timeline  | 08/10/2025  |
+| Web-app | dev   | a7e03b389b85df2e97543101ec303ac94dd5bc0d| feat: primera versión del frontend  |feat: primera versión del frontend  | 09/10/2025  |
 
 Backend:
 
 | Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
 | ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
-| MaceTy-backend | dev   | 1b462d3                                  | feat: add dates of timeline  |Se añade los datos para el db timeline  | 08/10/2025  |
+| Backend | dev   | w2312315df2e975434548as303ac94dd5bc0d| feat: primera versión del backend  |feat: primera versión del backend  | 09/10/2025  |
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review  
 
 | Repository                                                            | Branch             | Commit Id                                | Commit Message           | Commit Message Body                         | Committed on (Date)     |
 | --------------------------------------------------------------------- | ------------------ | ---------------------------------------- | ------------------------ | ------------------------------------------- | ----------------------- |
-| https://github.com/Horizon-ManageWise/Testing/tree/feature/TF                         | feature/TF  | 1ffda47a4cd0b4bbb26ea2b3e94dae52c554c12d                                  | Initial commit           | Created the README file.                    | 08/10/2025              |
+| Testing | dev   | w2312315df2e975434548as303ac94dd5bc0d| feat: Enviando los Test del Iam  |feat: Enviando los Test del Iam | 09/10/2025  |
 
-Link del repositorio del testing: ANEXO X
+Link del repositorio del testing: https://github.com/NaturaFy/Testing.git 
+
 #### 6.2.1.6. Execution Evidence for Sprint Review  
 En este Sprint, los miembros del equipo de desarrollo de software de NaturaFy han completado y desplegado la Landing Page. A continuación, mostramos imágenes que demuestran cómo nuestra página presenta de manera clara e intuitiva la información sobre nuestro producto y nuestra empresa.
 
-[FOTO LANDING PAGE]
+![alt text](assets/landingfotosrint.png)
 
 **URL LANDING PAGE DESPLEGADO**: [https://naturafy.netlify.app/](https://naturafy.netlify.app/)
 
@@ -2231,25 +2236,13 @@ Subida de Archivos: Transferencia de archivos y recursos al servidor de hosting.
 Verificación: Comprobación de que la landing page se despliega correctamente y está accesible en la web.
 
 **Deploy del Landing Page**
-[FOTO PASOS PARA DEPLOY 1 GITHUB]
-
-[FOTO PASOS PARA DEPLOY 2 GITHUB]
-
-**Capturas de Pantalla**
-
 - Repositorio de Landing Page:
 ![alt text](assets/landingfuto.png)
 
 **Enlace al Repositorio**: [https://github.com/NaturaFy/Landing-Page--Macety.git](https://github.com/NaturaFy/Landing-Page--Macety.git)
 
-**Link deploy Landing Page:** ANEXO X
+**Link deploy Landing Page:** [https://naturafy.netlify.app/](https://naturafy.netlify.app/)
 
-Backend:
-
-[FOTO SWAGGER]
-
-
-**Link deploy Landing Page:** ANEXO X
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint 
 
