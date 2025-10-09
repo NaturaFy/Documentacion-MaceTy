@@ -1959,33 +1959,518 @@ Mock-ups de alta fidelidad siguiendo el mismo flujo: Hero → Funcionalidades �
 ![](assets/wireflow2.png)
 ![](assets/wireflow3.png)
 #### 5.4.3. Applications Mock-ups  
+
+Mock-ups de alta fidelidad:
+
+![Application Mockups Complete](assets/wireframes-MaceTy.png)  
+*Vista ensamblada: confirma coherencia visual, espaciado, contraste y consistencia de la paleta.*
+
+![Mis-PLantas](assets/mis-plantas.png)  
+*Pagina de mis plantas: Información clara y descripción de cada planta añadida + historial de riego *
+
+![Pasos-plantas](assets/pasos-plantas.png)  
+*Detalle visual de los pasos para añadir una planta*
+
+![Comunidad Mock](assets/mi-planta.png)  
+*Detalle de la planta, datos a tiempo real, resumen y consejo*
+
+![Recursos / Ecosistema Mock](assets/tienda-maceTY.png)  
+*Tienda MaceTy, lista de macetas, accesorios, servicio, etc*
+
+![Contacto Mock](assets/comunidad.png)  
+*Red social donde interactua cada usuario entre si dando consejos o preguntas*
+
+![Wireframe Contacto Referencia](assets/perfil.png)  
+*Perfil de usuario donde podra editar o ajustar su perfil a su preferencia*
+
+![Contacto Mock](assets/login.png)  
+*Formulario para el logueo de cada usuario*
+
+![Wireframe Contacto Referencia](assets/register.png)  
+*Formulario para registrarse en la apliocación*
+
+**Enlace Mockups (Figma):** https://www.figma.com/design/kjhLgtfA7pXzI9p6LPzLhP/MaceTy?node-id=8-1137&t=uydPwnc1KxRqxDnH-1
 #### 5.4.4. Applications User Flow Diagrams 
 ![](assets/flow1.png)
 ![](assets/flow2.png)
 ![](assets/flow3.png)
 
+
 ### 5.5. Applications Prototyping  
 
-## Capítulo VI: Product Implementation, Validation & Deployment  
+# Capítulo VI: Product Implementation, Validation & Deployment
 
-### 6.1. Software Configuration Management  
-#### 6.1.1. Software Development Environment Configuration  
-#### 6.1.2. Source Code Management  
-#### 6.1.3. Source Code Style Guide & Conventions  
+## 6.1. Software Configuration Management
+
+### 6.1.1. Software Development Environment Configuration
+
+* **Visual Studio Code:** Desarrollo para aplicaciones mobiles.\
+![image](https://hackmd.io/_uploads/Hy8d2y7lR.png)
+* **GitHub:** Repositorio colaborativo en la nube.\
+![image](https://cdn-1.webcatalog.io/catalog/github/github-icon-filled-256.png?v=1744774208192)
+* **Netifly:** Plataforma que facilita implementar despliegues sencillos para nuestras páginas web.\
+![image](https://cmscritic.com/ms-content/uploads/2023/11/netlifty-icon.png?format=auto&width=256)
+* **Vertabelo:** Plataforma colaborativa para la creación de diagramas de base de datos.\
+![image](https://hackmd.io/_uploads/r1BjjyQgC.png)
+* **Figma:** Herramienta colaborativa que permite elaborar wireframes y mockups.\
+![image](https://hackmd.io/_uploads/BJ99okXeR.png)
+* **Azure:** Herramienta para subir nuestros servicios web en la nube.\
+[![Azure.jpg](https://i.postimg.cc/Mpjc355p/Azure.jpg)](https://postimg.cc/k2qXBxL0)
+* **Visual Studio Code:** Desarrollo para Frontend.\
+![image](https://i.imgur.com/b76hG4H.png)
+
+
+### 6.1.2. Source Code Management
+**Repositorio de la Landing Page:** 
+**Implementación de GitFlow:**
+Para nuestra estrategia de gestión de versiones con Git, nos hemos inspirado en el artículo "A successful Git branching model" de Vincent Driessen, adoptando el modelo de ramificación GitFlow. Este enfoque nos permite establecer claramente las convenciones de ramificación que aplicamos en nuestro proyecto.
+![image](https://hackmd.io/_uploads/rJt95BobA.png)
+* **Rama Principal (Main branch):** Contiene el código en producción y se conoce como la Master branch o Main branch.
+    * Notación: main
+* **Rama de Desarrollo (Develop branch):** Acumula las últimas actualizaciones y cambios para la próxima versión. Funciona como un entorno de integración y prueba continua.
+    * Notación: develop
+* **Rama de Lanzamiento (Release branch):** Facilita la preparación de una nueva versión del producto, permitiendo correcciones de errores y recibiendo más actualizaciones de Develop.
+    * Debe derivarse de: develop
+    * Debe fusionarse con: develop y master/main
+    * Notación: release
+* **Rama de Características (Feature branch):** Se utiliza para desarrollar nuevas funcionalidades para la siguiente versión o futuras iteraciones.
+    * Debe derivarse de: develop
+    * Debe fusionarse de vuelta a: develop
+    * Notación: feature
+* **Rama de Corrección Rápida (Hotfix branch):** Aborda errores críticos en producción, permitiendo la implementación rápida de soluciones.
+    * Debe derivarse de: master/main
+    * Debe fusionarse con: develop y master/main
+    * Notación: hotfix
+
+**Conventional Commits:** 
+Adoptamos esta metodología para estructurar los mensajes de confirmación de cambios de manera estándar y semántica, lo que facilita la comunicación y la automatización de registros de cambios.
+**Tipos de Commits Convencionales:**
+* feat: Nuevas características o funcionalidades.
+* fix: Correcciones de errores.
+* docs: Cambios o mejoras en la documentación.
+* style: Cambios de formato que no afectan la funcionalidad.
+* refactor: Mejoras en la estructura o legibilidad del código.
+* test: Adición o modificación de pruebas.
+* chore: Cambios en el proceso de construcción o tareas de mantenimiento.
+* perf: Mejoras de rendimiento en el código.
+
+### 6.1.3. Source Code Style Guide & Conventions
+
+---
+
+### Landing Page – React con Tailwind CSS
+
+| Regla                                   | Ejemplo / Explicación                                                   |
+|----------------------------------------|--------------------------------------------------------------------------|
+| Componentes en `PascalCase`            | `function HeroSection() {}`                                            |
+| Archivos nombrados igual que el componente | `HeroSection.jsx`                                                      |
+| Uso de `className` con utilidades Tailwind | `<div className="flex justify-center items-center p-4 bg-gray-100">`   |
+| Uso de fragmentos `<>...</>`           | Para evitar `div` innecesarios                                          |
+| Props en `camelCase`                   | `<HeroSection title="Bienvenido" description="Explora más" />`         |
+| Indentación consistente (2 espacios)   | Mantener la misma estructura en todo el proyecto                        |
+| Comentarios en JSX                     | `{/* Comentario de ejemplo */}`                                        |
+| Uso de `const` y `arrow functions`     | `const handleClick = () => { ... }`                                    |
+
+---
+
+### Frontend – Vue.js
+
+| Regla                                   | Ejemplo / Explicación                                                   |
+|----------------------------------------|--------------------------------------------------------------------------|
+| Componentes en `PascalCase`            | `<UserProfileCard />`, `UserProfileCard.vue`                            |
+| Nombres de variables y métodos en `camelCase` | `data() { return { userName: "Juan" }; }`, `methods: { getUserData() {} }` |
+| Archivos nombrados igual que el componente | `UserProfileCard.vue`                                                   |
+| Uso de `v-bind` y `v-on` abreviados     | `:prop="value"` y `@click="handleClick"`                                |
+| Separar el código en secciones `<template>`, `<script>`, `<style>` | Buenas prácticas de organización                                        |
+| Indentación consistente (2 espacios)    | Mantener uniformidad                                                   |
+| Uso de `const` y `let`                  | Evitar `var`                                                           |
+| Comentarios claros                      | `<!-- Sección del encabezado -->`                                      |
+
+---
+
+### CSS – Tailwind CSS
+
+| Regla                                   | Ejemplo / Explicación                                                   |
+|----------------------------------------|--------------------------------------------------------------------------|
+| Clases utilitarias en minúsculas       | `bg-brown-700 text-gray-100 rounded-xl p-4`                            |
+| Orden lógico de clases                 | De layout → color → texto → borde → espaciado                           |
+| Evitar estilos en línea (inline CSS)   | Usar clases Tailwind o archivos `.css` para excepciones                 |
+| Uso de variables personalizadas en `tailwind.config.js` | Definir colores del proyecto como `--brown`, `--beige`, etc.           |
+| Comentarios descriptivos               | `/* Estilos personalizados para el header */`                          |
+
+---
+
+### Backend – Java
+
+| Regla                                       | Ejemplo / Explicación                                                   |
+|--------------------------------------------|--------------------------------------------------------------------------|
+| Clases en `PascalCase`                     | `public class UserController {}`                                        |
+| Métodos y variables en `camelCase`         | `private String userName;`, `public void getUserData() {}`              |
+| Constantes en `UPPER_SNAKE_CASE`           | `private static final int MAX_USERS = 100;`                             |
+| Paquetes en minúsculas                     | `com.booksphere.api.controllers`                                       |
+| Indentación con 4 espacios                 | No usar tabs                                                           |
+| Uso de comentarios Javadoc                 | `/** Método que obtiene los datos del usuario */`                       |
+| Código limpio y modular                    | Separar controladores, servicios, repositorios y modelos                |
+
+---
+
+### Mobile – Flutter
+
+| Regla                                         | Ejemplo / Explicación                                                   |
+|----------------------------------------------|--------------------------------------------------------------------------|
+| Nombres de clases en `PascalCase`            | `class UserProfileScreen extends StatelessWidget {}`                    |
+| Variables y funciones en `camelCase`         | `final userName = "Juan";`, `void getUserData() {}`                     |
+| Constantes en `UPPER_SNAKE_CASE`             | `const MAX_USERS = 100;`                                                |
+| Widgets anidados con identación clara        | Mantener legibilidad al usar múltiples widgets                          |
+| Uso de `const` para widgets inmutables       | `const Text("Hola Mundo")`                                              |
+| Archivos nombrados en `snake_case`           | `user_profile_screen.dart`                                              |
+| Comentarios con `//` o `///`                 | `// Widget que muestra la información del usuario`                      |
+
+---
+
+**Tecnologías utilizadas:**  
+El proyecto utiliza **React + Tailwind CSS** para la **landing page**, **Vue.js** para el **frontend principal**, **Java** para el **backend**, y **Flutter** para el **desarrollo móvil**.
+ 
 #### 6.1.4. Software Deployment Configuration  
 
 ### 6.2. Landing Page, Services & Applications Implementation  
 
-#### 6.2.1. Sprint 1  
-##### 6.2.1.1. Sprint Planning 1  
-##### 6.2.1.2. Aspect Leaders and Collaborators  
-##### 6.2.1.3. Sprint Backlog 1  
-##### 6.2.1.4. Development Evidence for Sprint Review  
-##### 6.2.1.5. Testing Suite Evidence for Sprint Review  
-##### 6.2.1.6. Execution Evidence for Sprint Review  
-##### 6.2.1.7. Services Documentation Evidence for Sprint Review  
-##### 6.2.1.8. Software Deployment Evidence for Sprint Review  
-##### 6.2.1.9. Team Collaboration Insights during Sprint  
+### 6.2.1. Sprint 1  
+El primer sprint es una etapa importante en nuestro marco de gestión de proyectos de metodología ágil Scrum. En este periodo, agendamos reuniones con el objetivo de conocer mejor las características de cada integrante, y delegamos tareas para materializar el diseño y funcionalidades ya establecidas, para transformarlos en un landing page funcional y que cumple las heurísticas.
+#### 6.2.1.1. Sprint Planning 1  
+El sprint planning es una reunion antes de cada sprint en la metodologia Scrum donde el equipo elige las user stories que va a transformar en un producto tangible. Tambien define que como se van a separar los trabajos y quien sera responsable. Nuestro objetivo sera construir un plan resolubre en un tiempo determinado que sera lo que dure el sprint, para crearlo fomentaremos la colaboracion para que todos sepan y entiendas los objetivos y prioridades.
+
+| Sprint #| Sprint 1|
+| -- | -- |
+| **Sprint Planning Background**||
+| **Date**| 01/10/2025|
+| **Time**| 12:00 AM|
+| **Location**| Discord (Reunión virtual)|
+| **Prepared By**| Jaque Peña, Estefano Oscar|
+| **Attendees (to planning meeting)** | Maycol Jhordan Rojas Velasquez, Sergio Andre Gomez Vallejos, Estefano Oscar Jaque Pena, Carlos Andres Rojas Ccama, Samuel Ignacio Valera Garcés|
+| **Sprint Goal & User Stories**||
+| **Sprint 1 Goal**| Nuestro enfoque está en finalizar el informe , desplegar nuestra Landing Page desde el repositorio de GitHub y avanzar bounded context del aplicativo (Tanto IAM como applications). Creemos que esto entrega una experiencia de usuario optimizada a nuestros clientes. Esto se confirmará cuando todas las tareas se muevan a la columna "Terminado" en Trello. |
+| **Sprint 1 Velocity**| ------ |
+| **Sum of Story Points**| 19 |  
+
+#### 6.2.1.2. Aspect Leaders and Collaborators  
+En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**, la cual permite identificar los roles de liderazgo y colaboración dentro del Sprint.  
+Este artefacto muestra, por cada aspecto abordado en el desarrollo, quién asume el rol de **líder (L)** y quiénes participan como **colaboradores (C)**, con el objetivo de optimizar la comunicación, la distribución de tareas y la eficiencia del trabajo en equipo.  
+
+Cada aspecto corresponde a un ámbito funcional del proyecto (por ejemplo: Frontend, Backend, Base de Datos, UI/UX, Deploy, etc.).  
+El liderazgo asignado se basa en las fortalezas técnicas de cada integrante y la organización general de trabajo definida por el **Team Leader**, quien coordina la integración y revisión final de los entregables.  
+
+A continuación, se presenta la matriz correspondiente al Sprint actual:
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **UI/UX Design** | **Frontend Development** | **Backend Development** | **Database Management** | **Deployment & Documentation** |
+|----------------------------------------|---------------------|------------------|--------------------------|--------------------------|--------------------------|-------------------------------|
+| **Rojas Velasquez, Maycol Jhordan**    | Kmykh            | C                | L                        | C                        | C                        | C                             |
+| **Gomez Vallejos, Sergio Andre**       | CB-Sergio-AGV             | C                | C                        | L                        | L                        | C                             |
+| **Jaque Pena, Estefano Oscar**         | estefanojaque             | C                | L                        | C                        | C                        | L                             |
+| **Rojas Ccama, Carlos Andres**         | Sr-Anonymus-make             | C                | C                        | L                        | L                        | L                             |
+| **Valera Garcés, Samuel Ignacio**      | SamuelValeraGarces            | L                | C                        | C                        | C                        | C                             |
+
+La organización de líderes y colaboradores guarda relación directa con la planificación de tareas y la distribución de responsabilidades dentro del **Sprint Backlog**.  
+Cada miembro asume roles específicos según su experiencia y dominio técnico, contribuyendo a una ejecución coordinada y efectiva del desarrollo del proyecto.  
+El **Team Leader (Maycol Jhordan Rojas Velasquez)** supervisa la integración de los diferentes aspectos y asegura la coherencia técnica entre los módulos.
+
+#### 6.2.1.3. Sprint Backlog 1  
+
+Para el **primer Sprint**, el equipo se centró en desarrollar la **Landing Page** del proyecto MaceTy y avanzar con la primera fase de los **Bounded Contexts IAM y Applications**, incluyendo tanto el **frontend** como el **backend**.  
+Durante este Sprint, las **User Stories** fueron seleccionadas del *Product Backlog* priorizando las funcionalidades esenciales que permiten mostrar el propósito del sistema y asegurar una base técnica sólida para los siguientes ciclos de desarrollo.
+
+El trabajo se organizó y distribuyó entre los miembros del equipo mediante la herramienta **Trello**, lo cual permitió una gestión visual de las tareas, un seguimiento colaborativo y una comunicación fluida entre los integrantes.  
+El **objetivo principal** del Sprint fue crear una **Landing Page funcional y atractiva**, acompañada del avance en los módulos iniciales del backend y del sistema de autenticación (IAM), asegurando que la estructura base del proyecto estuviera correctamente configurada.
+
+A continuación, se presenta el detalle del **Sprint Backlog 1** con las User Stories seleccionadas, sus tareas asociadas, responsables y estado de avance:
+
+![assets/Trellofouto.png](assets/Trellofouto.png)
+
+| **Sprint #**   | **Sprint 1**                                   |                      |                                                   |                                                                                                      |                        |                                |            |
+| -------------- | ---------------------------------------------- | -------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------- | ------------------------------ | ---------- |
+| **User Story** |                                                | **Work-Item / Task** |                                                   |                                                                                                      |                        |                                |            |
+| **ID**         | **Title**                                      | **ID**               | **Title**                                         | **Description**                                                                                      | **Estimation (Hours)** | **Assigned To**                | **Status** |
+| ST-13          | Registro y login de usuario (IAM Front + Back) | **TA001**            | Implementar pantalla de login y registro          | Crear formularios de inicio de sesión y registro con validaciones en Vue y PrimeVue.                 | 6                      | Estefano Oscar Jaque Peña      | Done     |
+|                |                                                | **TA002**            | Configuración de servicios IAM en frontend        | Implementar `AuthenticationService`, `store` Pinia y conexión con API simulada (axios-mock-adapter). | 4                      | Estefano Oscar Jaque Peña      | Done     |
+|                |                                                | **TA003**            | Implementación de backend simulado (Fake API)     | Crear API mock con rutas `/authentication/sign-in`, `/authentication/sign-up`, `/users/:id`.         | 4                      | Sergio Andre Gomez Vallejos    | Done     |
+|                |                                                | **TA004**            | Persistencia de sesión con Cookies y LocalStorage | Guardar token, roles y usuario en cookies al autenticarse.                                           | 3                      | Carlos Andres Rojas Ccama      | Done     |
+|                |                                                | **TA005**            | Lógica de roles en frontend                       | Configurar redirecciones condicionales según `ROLE_USER`.               | 2                      | Carlos Andres Rojas Ccama      | Done     |
+| LP-01          | Landing Page completa                          | **TA006**            | Estructura base y wireframe                       | Crear estructura HTML, layout principal y navegación base.                                           | 4                      | Maycol Jhordan Rojas Velasquez | Done     |
+|                |                                                | **TA007**            | Diseño visual final y responsive                  | Aplicar estilos, animaciones suaves y coherencia visual con el tema del proyecto.                    | 5                      | Maycol Jhordan Rojas Velasquez | Done     |
+|                |                                                | **TA008**            | Integración de componentes interactivos           | Conectar botones de login/registro en el header con rutas de IAM.                                    | 3                      | Maycol Jhordan Rojas Velasquez      | Done     |
+|                |                                                | **TA009**            | Despliegue del proyecto                           | Configurar `firebase.json`, `.env.production` y publicar en Firebase Hosting.                        | 2                      | Maycol Jhordan Rojas Velasquez    | Done     |
+|                |                                                | **TA010**            | Pruebas de integración básicas                    | Validar flujo completo: registro → login → redirección según rol.                                    | 2                      | Maycol Jhordan Rojas Velasquez     | Done     |
+
+
+Link de Trello: [https://trello.com/invite/b/68e7969bceaa056dc23cd0af/ATTI97b51e32677b328c9fabe30426da7ccbC9FB3ABF/macety-tablero-grupo](https://trello.com/invite/b/68e7969bceaa056dc23cd0af/ATTI97b51e32677b328c9fabe30426da7ccbC9FB3ABF/macety-tablero-grupo)
+
+#### 6.2.1.4. Development Evidence for Sprint Review  
+
+Landing Page:
+
+| Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
+| ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
+| Landing-Page--Macety | dev   | 0e55ec3006bdd0b151cf3281ab8c75dcebe5e1a2| feat: Initial commit: Naturafy landing page with modular tabs |Initial commit: Naturafy landing page with modular tabs  | 04/10/2025  |
+| Landing-Page--Macety | dev   | 8f608e0c40fc906dd600d480f50be3ac0f6a2a21| feat: Add auto-scroll navigation and animated footer  |Add auto-scroll navigation and animated footer  | 04/10/2025  |
+| Landing-Page--Macety | dev   | f366514f1d1757fff1dd989802cb177c997ebe67| feat: Refactor to single-page app with inline styles and i18n  |Refactor to single-page app with inline styles and i18n  | 05/10/2025  |
+| Landing-Page--Macety | dev   | 7cb492eae6bdc9dd2cac3d3309fd0758c7825929| feat:Redesign landing page and add Macety AI section  |Redesign landing page and add Macety AI section  | 05/10/2025  |
+| Landing-Page--Macety | dev   | f874772dd28a9b7cddf56144425be8a49733ccd5| feat: Send welcome email and improve SMS registration flow  |Send welcome email and improve SMS registration flow  | 05/10/2025  |
+
+Frontend Web App:
+
+| Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
+| ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
+| Web-app | dev   | a7e03b389b85df2e97543101ec303ac94dd5bc0d| feat: primera versión del frontend  |feat: primera versión del frontend  | 09/10/2025  |
+
+Backend:
+
+| Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
+| ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
+| Backend | dev   | w2312315df2e975434548as303ac94dd5bc0d| feat: primera versión del backend  |feat: primera versión del backend  | 09/10/2025  |
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review  
+
+| Repository                                                            | Branch             | Commit Id                                | Commit Message           | Commit Message Body                         | Committed on (Date)     |
+| --------------------------------------------------------------------- | ------------------ | ---------------------------------------- | ------------------------ | ------------------------------------------- | ----------------------- |
+| Testing | dev   | w2312315df2e975434548as303ac94dd5bc0d| feat: Enviando los Test del Iam  |feat: Enviando los Test del Iam | 09/10/2025  |
+
+Link del repositorio del testing: https://github.com/NaturaFy/Testing.git 
+
+#### 6.2.1.6. Execution Evidence for Sprint Review  
+En este Sprint, los miembros del equipo de desarrollo de software de NaturaFy han completado y desplegado la Landing Page. A continuación, mostramos imágenes que demuestran cómo nuestra página presenta de manera clara e intuitiva la información sobre nuestro producto y nuestra empresa.
+
+![alt text](assets/landingfotosrint.png)
+
+**URL LANDING PAGE DESPLEGADO**: [https://naturafy.netlify.app/](https://naturafy.netlify.app/)
+
+En segundo lugar ,se avanzo el bounded context IAM y applications tanto en backend como en frontend :
+
+Frontend :
+
+![alt text](assets/frontimage.png)
+
+**URL FRONTEND DESPLEGADO**: [https://naturafy-front.web.app/sign-up](https://naturafy-front.web.app/sign-up)
+
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review  
+
+**Introducción:**   
+Durante este Sprint, se logró la documentación y despliegue de varios Endpoints correspondientes a los diferentes bounded contexts implementados por el equipo. Se utilizó OpenAPI para describir de forma estructurada los servicios Web desarrollados. A continuación, se presenta la relación de los Endpoints, las acciones soportadas y la respectiva documentación disponible.
+
+Esta documentación incluye los verbos HTTP utilizados, sintaxis de llamadas, parámetros, ejemplos de respuesta, así como capturas de la interacción con los Web Services utilizando datos de muestra. También se proporciona el URL del repositorio de los Web Services y los commit IDs correspondientes al trabajo realizado en la documentación durante este Sprint. 
+
+**Sección IAM (Identity and Access Management)**
+
+---
+
+### **Introducción**
+El módulo IAM (Identity and Access Management) implementa la gestión centralizada de usuarios, roles y autenticación en la plataforma Scholr. A continuación se detallan los endpoints desarrollados, su funcionalidad y documentación técnica.
+
+---
+
+### **Tabla de Endpoints IAM**
+
+| Bounded Context | Endpoint | Acción | Verbo HTTP | Parámetros | Ejemplo de Respuesta | Documentación |
+|-----------------|----------|--------|------------|------------|----------------------|---------------|
+| **Autenticación** | `/api/v1/authentication/sign-in` | Inicio de sesión | POST | `{"username": "string","password": "string"}` | `{"id": 0,"username": "string","token": "string"}` | [Swagger](#) | 
+|  | `/api/v1/authentication/sign-up` | Registro de usuario | POST | `{"username": "string","password": "string","compania": "string","dni": "string","cod_colaborador": "string","roles": ["string"]}` | `{"id": 0,"username": "string","roles": ["string"],"proofingEntrepreneure": "string"}` | [Swagger](#) |
+| **Usuarios** | `/api/v1/users` | Listar usuarios | GET | - | `[{"id": 0,"username": "string","roles": ["string"],"proofingEntrepreneure": "string"}]` | [Swagger](#) |
+|  | `/api/v1/users/{userId}` | Obtener usuario por ID | GET | `userId: long` | `{"id": 0,"username": "string","roles": ["string"],"proofingEntrepreneure": "string"}` | [Swagger](#) |
+|  | `/api/v1/users/{userId}/update-proofing` | Actualizar verificación | PUT | `{"proofingStatus": string}` | `{"message": "Proofing updated"}` | [Swagger](#) |
+| **Roles** | `/api/v1/roles` | Listar roles | GET | - | `  {"id": 0,"name": "string"}]` | [Swagger](#) |
+---
+
+### **Ejemplos de Uso**
+
+#### **1. Autenticación (JWT)**
+```java
+// Sign-Up Request
+POST /api/v1/authentication/sign-up
+Body: {
+  "username": "Estefano",
+  "password": "12345",
+  "compania": "backus",
+  "dni": "72260921",
+  "cod_colaborador": "ABC123",
+  "roles": [
+    "ROLE_APODERADO"
+  ]
+}
+
+// Response (201 Created)
+{
+  "id": 1,
+  "username": "Estefano",
+  "roles": [
+    "ROLE_APODERADO"
+  ],
+  "proofingEntrepreneure": null
+}
+```
+
+#### **2. Gestión de Usuarios**
+```java
+// Actualizar verificación de emprendedor
+PUT /api/v1/users/1/update-proofing
+Body: {
+  "proofingStatus": "VERIFIED"
+}
+
+// Response (200 OK)
+{
+  "message": "ProofingEntrepreneure updated successfully."
+}
+```
+
+---
+
+### **Arquitectura y Patrones**
+1. **CQRS**: Separación clara entre:
+   - `UserCommandService`: Manejo de escritura (sign-up, update-proofing)
+   - `UserQueryService`: Consultas (getAllUsers, getUserById)
+
+2. **DTO Pattern**: Uso de `*Resource` para transferencia de datos:
+   ```java
+   public record UserResource(Long id, String email, String name) {}
+   ```
+
+3. **Swagger Integration**: Documentación automática con `@Tag` y OpenAPI.
+
+---
+
+### **Seguridad**
+- **JWT**: Implementado en `AuthenticationController`.
+- **Validaciones**: 
+  - Campos obligatorios con `@Valid`
+  - Manejo de errores (404 para usuarios no encontrados)
+
+---
+
+### **Validación de Colaboradores en Registro (Sign-Up)**  
+Se implementó un **mecanismo de validación corporativa** que verifica la identidad de colaboradores antes de permitir su registro. Este proceso:
+
+1. **Consulta tablas dinámicas** por compañía (`{compania}_colaboradores`)
+2. **Valida coincidencia** entre:  
+   - DNI del usuario  
+   - Código de colaborador  
+3. **Flujo técnico**:  
+   ```java
+   // Ejemplo de validación
+   if (!colaboradorValidationService.validarColaborador(
+       "backus", 
+       "72260921", 
+       "ABC123")) {
+       throw new InvalidColaboradorException();
+   }
+   ```
+
+**Impacto**:  
+- ✔️ Asegura que solo personal autorizado se registre  
+- ✔️ Integración transparente con el endpoint existente `/sign-up`  
+- ✔️ Prevención de SQL Injection mediante parámetros con `EntityManager`
+
+### **Repositorio y Commits**
+| Endpoint | Commit ID | Cambios Realizados |
+|----------|-----------|---------------------|
+| Autenticación | `a1b2c3d` | Implementación JWT |
+| Users | `e4f5g6h` | Add proofing feature |
+| Roles | `i7j8k9l` | Listado de roles |
+
+---
+
+**Repositorio Principal**: [https://github.com/Aventis-Scholr/scholr-backend.git](https://github.com/Aventis-Scholr/scholr-backend.git)
+
+---
+
+### **Conclusión**
+El módulo IAM proporciona:
+- ✅ Autenticación segura con JWT
+- ✅ Gestión granular de usuarios y roles
+- ✅ Escalabilidad mediante CQRS
+- ✅ Documentación completa con Swagger
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review  
+
+**Resumen**
+Durante este Sprint, nos hemos enfocado en el despliegue de la landing page. Las actividades realizadas incluyen la configuración del entorno de desarrollo y el despliegue inicial del sitio. A continuación, se detalla el proceso seguido para el despliegue de la landing page.
+
+**Actividades Realizadas**
+
+- Creación de Cuentas y Configuración de Recursos:
+
+Proveedor de Hosting: Selección y configuración de la cuenta en el proveedor de hosting para desplegar la landing page.
+Configuración del Entorno: Establecimiento del entorno de desarrollo y producción para la landing page.
+
+- Configuración de Proyectos para Integración:
+
+Repositorio de Código: Configuración del repositorio en GitHub para la integración continua y despliegue automático.
+Automatización: Configuración de scripts y herramientas para la automatización del despliegue.
+
+- Despliegue de la Landing Page:
+
+Subida de Archivos: Transferencia de archivos y recursos al servidor de hosting.
+Verificación: Comprobación de que la landing page se despliega correctamente y está accesible en la web.
+
+**Deploy del Landing Page**
+- Repositorio de Landing Page:
+![alt text](assets/landingfuto.png)
+
+**Enlace al Repositorio**: [https://github.com/NaturaFy/Landing-Page--Macety.git](https://github.com/NaturaFy/Landing-Page--Macety.git)
+
+**Link deploy Landing Page:** [https://naturafy.netlify.app/](https://naturafy.netlify.app/)
+
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint 
+
+En esta sección, se presenta un análisis detallado de la colaboración del equipo durante el Sprint. Durante este Sprint, las actividades se organizaron siguiendo una metodología ágil, lo que permitió una coordinación efectiva entre los miembros del equipo. Se incluyen capturas de los analíticos de colaboración y de los commits realizados en GitHub, evidenciando la contribución individual.
+
+Diseño y Desarrollo:
+
+- Frontend: Desarrollo y diseño completo de la landing page, incluyendo la creación de secciones, estilos y estructura responsive.
+
+- Backend: Implementación de funcionalidades básicas y configuración inicial del servidor y servicios necesarios.
+
+- Codificación: Ejecución de tareas de programación, pruebas funcionales y ajustes iterativos.
+
+Documentación y Despliegue:
+
+- Documentación: Elaboración de documentación técnica y visual, incluyendo descripciones y capturas de pantalla del proceso.
+
+- Despliegue: Configuración del entorno y despliegue tanto del frontend como del backend en un entorno de pruebas, asegurando la operatividad conjunta.
+
+**Landing Page**
+
+![alt text](assets/landingcommit.png)
+
+- Maycol Jhordan Rojas Velasquez: 14
+
+**Report:**
+
+![alt text](assets/report-commit.png)
+
+- Maycol Jhordan Rojas Velasquez: 22
+- Sergio Andre Gomez Vallejos:13 
+- Estefano Oscar Jaque Peña: 1
+- Carlos Andres Rojas Ccama:  14
+- Samuel Ignacio Valera Garcés: 11
+
+<br>**Backend:**
+
+![alt text](assets/report-commit.png)
+
+- Maycol Jhordan Rojas Velasquez: 22
+- Sergio Andre Gomez Vallejos:13 
+- Estefano Oscar Jaque Peña: 1
+- Carlos Andres Rojas Ccama:  14
+- Samuel Ignacio Valera Garcés: 11
+
+<br>**Frontend:**
+
+![alt text](assets/webappcommit.png)
+
+- Estefano Oscar Jaque Peña: 1
+
+
 
 ## Conclusiones
 
