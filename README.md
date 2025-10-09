@@ -1943,7 +1943,21 @@ Mock-ups de alta fidelidad siguiendo el mismo flujo: Hero → Funcionalidades �
 
 ### 5.4. Applications UX/UI Design  
 #### 5.4.1. Applications Wireframes  
+![](assets/webwireframelogin.png)
+![](assets/webwireframeregister.png)
+![](assets/webwireframemisplantas.png)
+![](assets/webwireframeprofile.png)
+![](assets/webwireframepaso1.png)
+![](assets/webwireframepaso2.png)
+![](assets/webwireframepaso3.png)
+![](assets/webwireframepaso4.png)
+![](assets/webwireframemiplanta.png)
+![](assets/webwireframetienda.png)
+![](assets/webwireframecomunidad.png)
 #### 5.4.2. Applications Wireflow Diagrams  
+![](assets/wireflow1.png)
+![](assets/wireflow2.png)
+![](assets/wireflow3.png)
 #### 5.4.3. Applications Mock-ups  
 
 Mock-ups de alta fidelidad:
@@ -1976,7 +1990,11 @@ Mock-ups de alta fidelidad:
 *Formulario para registrarse en la apliocación*
 
 **Enlace Mockups (Figma):** https://www.figma.com/design/kjhLgtfA7pXzI9p6LPzLhP/MaceTy?node-id=8-1137&t=uydPwnc1KxRqxDnH-1
-#### 5.4.4. Applications User Flow Diagrams  
+#### 5.4.4. Applications User Flow Diagrams 
+![](assets/flow1.png)
+![](assets/flow2.png)
+![](assets/flow3.png)
+
 
 ### 5.5. Applications Prototyping  
 
