@@ -2283,13 +2283,13 @@ Documentación y Despliegue:
 
 **Landing Page**
 
-[FOTO COMMITS EN LANDING]
+![alt text](assets/landingcommit.png)
 
-- Maycol Jhordan Rojas Velasquez: X
+- Maycol Jhordan Rojas Velasquez: 14
 
 **Report:**
 
-[FOTO COMMITS EN Report]
+![alt text](assets/report-commit.png)
 
 - Maycol Jhordan Rojas Velasquez: X
 - Sergio Andre Gomez Vallejos:X 
