@@ -2181,25 +2181,6 @@ Este proceso garantiza el despliegue satisfactorio de nuestra landing page en la
 **About the product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EZx-ceZHStFPqgkagaiSvGcBpIWm-dPkjkSKroYvhyGnGA?e=dXThQN**
 <br>
 
-**Deployment Backend:**
-En esta sección, detallamos el proceso de implementación de nuestro backend en la plataforma de Microsoft Azure.
-
-1. Se crea un servicio web alojado en azure y afiliado a un grupo de recursos determinado
-
-[![azure-app-service.jpg](https://i.postimg.cc/NMPBcqfq/azure-app-service.jpg)](https://postimg.cc/WFrQGykX)
-
-2. Con la herramienta Azure Tool Kit, un plugin disponible en los entornos de desarrollo de jetbrains, podemos habilitar una vista con los recursos y elementos creados en nuestra cuenta de Azure. Esto nos permite poder publicar el backend directamente al servicio en la nube de Azure.
-
-[![publicar-al-app-service.jpg](https://i.postimg.cc/SQMxhR8g/publicar-al-app-service.jpg)](https://postimg.cc/CdwgCFc8)
-
-3. Una vez realizado de manera satisfactoria este proceso, resolviendo errores y añadiendo configuraciones adicionales de ser requeridas, podremos confirmar que el enlace muestre correctamente los endpoints y observaremos nuestro backend desplegado en un browser predeterminado.
-
-[![swagger-deployed.png](https://i.postimg.cc/Sxs0m13m/swagger-deployed.png)](https://postimg.cc/SJw1rdmP)
-
-**Enlace del backend: https://vacappapi.azurewebsites.net/swagger/index.html** 
-
-
-
 ### 6.2. Landing Page, Services & Applications Implementation  
 
 ### 6.2.1. Sprint 1  
