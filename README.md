@@ -10,17 +10,20 @@
   <strong style="font-size: 14px;">1ASI0572-2520-3414 - DESARROLLO DE SOLUCIONES IoT</strong>
 </p>
 <p align="center">
-  <span style="font-size: 2.5em; font-weight: bold; font-style: italic;">MaceTy</span><br>
-  <span style="font-size: 1.8em; font-weight: bold; font-style: italic;">TP</span>
+  <strong style="font-size: 18px;">DOCENTE:</strong><br>
+  <span style="font-size: 16px;">  Marco Antonio Leon Baca </span>
 </p>
 
 <p align="center">
-  <strong style="font-size: 18px;">DOCENTE:</strong><br>
-  <span style="font-size: 16px;">  Marco Antonio Leon Baca </span>
+<span style="font-size: 1.8em; font-weight: bold; font-style: italic;">Informe de Trabajo Final</span><br>
 </p>
 <p align="center">
   <strong style="font-size: 18px;">STARTUP:</strong><br>
   <span style="font-size: 16px;">NaturaFy</span>
+</p>
+<p align="center">
+  <strong style="font-size: 18px;">Producto:</strong><br>
+  <span style="font-size: 16px;">MaceTy</span>
 </p>
 <p align="center">
   <strong style="font-size: 18px;">INTEGRANTES DEL EQUIPO:</strong>
@@ -28,23 +31,16 @@
 
 <div align="center">
 
-**Gómez Vallejos, Sergio**  
-`Código: U20221D401`
-
-**Leon Rioja, Carlos Andres**  
-`Código: U202111451`
-
-**Rojas Velasquez, Maycol**  
-`Código: U202219984`
-
-**Valera Garces, Samuel**  
-`Código: U202111952`
-
-**Jaque Peña, Estefano**  
-`Código: U202225466`
+| Código     | Apellidos y Nombres            |
+|-----------|---------------------------------|
+| U20221D401 | Gómez Vallejos, Sergio         |
+| U202111451 | Leon Rioja, Carlos Andres      |
+| U202219984 | Rojas Velasquez, Maycol        |
+| U202111952 | Valera Garces, Samuel          |
+| U202225466 | Jaque Peña, Estefano           |
 
 </div>
-<p align="center"><strong style="font-size: 18px;">Septiembre 2025</strong></p>
+<p align="center"><strong style="font-size: 18px;">Noviembre 2025</strong></p>
 
 <div style="page-break-before: always;"></div>
 
@@ -81,6 +77,26 @@
 | TP     | 02/10/2025  | Maycol Jhordan Rojas Velásquez | Information Architecture |
 | TP     | 04/10/2025  | Maycol Jhordan Rojas Velásquez | Landing Page UI Design  |
 | TP     | 04/10/2025  | Maycol Jhordan Rojas Velásquez | Deploy Landing |
+| TP       | 05/10/2025  | Samuel Valera                        | Applications Wireframes |
+| TP       | 06/10/2025  | Samuel Valera                        | Applications Wireflow Diagrams |
+| TP       | 06/10/2025  | Sergio Valera                      | Applications Mock-ups |
+| TP       | 07/10/2025  | Samuel Valera                        | Applications User Flow Diagrams |
+| TP       | 07/10/2025  | Samuel Valera                        | Applications Prototyping |
+| TP       | 08/10/2025  | Sergio Gomez                      | Software Development Environment Configuration |
+| TP       | 08/10/2025  | Sergio Gomez                      | Source Code Management |
+| TP       | 08/10/2025  | Sergio Gomez                      | Source Code Style Guide & Conventions |
+| TP       | 08/10/2025  | Sergio Gomez                        | Software Deployment Configuration |
+| TP       | 09/10/2025  | Stefano Jaque                        | Landing Page, Services & Applications Implementation |
+| TP       | 09/10/2025  | Stefano Jaque                        | Sprint 1 – Planning |
+| TP       | 09/10/2025  | Stefano Jaque                        | Aspect Leaders and Collaborators |
+| TP       | 09/10/2025  | Stefano Jaque                        | Sprint Backlog 1 |
+| TP       | 09/10/2025  | Carlos León                       | Development Evidence for Sprint Review |
+| TP       | 09/10/2025  | Carlos León                       | Testing Suite Evidence for Sprint Review |
+| TP       | 09/10/2025  | Carlos León                       | Execution Evidence for Sprint Review |
+| TP       | 09/10/2025  | Carlos León                       | Services Documentation Evidence for Sprint Review |
+| TP       | 09/10/2025  | Carlos León                       | Software Deployment Evidence for Sprint Review |
+| TP       | 09/10/2025  | Carlos León                       | Team Collaboration Insights during Sprint |
+
 
 # Project Report Collaboration Insights
 #### 1. URL del Repositorio en GitHub
@@ -98,8 +114,8 @@
 #### 3. Capturas de Imagen de los Analíticos de Colaboración y Commits en GitHub
 | Métrica                         | Descripción                                                                                          |
 |---------------------------------|------------------------------------------------------------------------------------------------------|
-| Número de commits por autor     | ![Commits por autor](assets/insghits.png) |
-| Historial de cambios            | ![Historial de cambios](assets/network.png) |
+| Número de commits por autor     | ![Commits por autor](assets/insghits2.png) |
+| Historial de cambios            | ![Historial de cambios](assets/network2.png) |
 #### 4. Participación de Todos los Miembros del Equipo
 | Evidencia                       | Descripción                                                                                          |
 |---------------------------------|------------------------------------------------------------------------------------------------------|
@@ -251,6 +267,22 @@
     - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)  
     - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)  
     - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)  
+  - [6.2.2. Sprint 2](#622-sprint-2)  
+    - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)  
+    - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)  
+    - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)  
+    - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)  
+    - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)  
+    - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)  
+    - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)  
+    - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)  
+    - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)  
+- [6.3. Validation Interviews](#63-validation-interviews)  
+  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)  
+  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)  
+  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)  
+- [6.4. Video About-the-Product](#64-video-about-the-product)  
+  
 - [Conclusiones](#71-conclusiones)  
 - [Bibliografía](#72-bibliografía)  
 - [Anexos](#73-anexos)  
@@ -264,8 +296,9 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |  
 |-------------------------|------------------------|------------------|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta |<br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué liderazgo conjunto durante el desarrollo del proyecto MaceTy, coordinando con todo el equipo la distribución de tareas técnicas y de investigación. Lideré la arquitectura de software, diagramas C4 y el diseño del sistema IoT, mientras facilitaba la integración del trabajo de los cinco miembros del equipo, asegurando coherencia entre los bounded contexts y componentes técnicos.<br>*TP:*<br> Apliqué los mocks up de la landing page, con el diseño de los wireframes y los mockups diseñando una pagina de contacto y mencionar temas importantes,.<br><br> 2. Gómez Vallejos, Sergio André<br>*TB1:*<br> Ejercí liderazgo compartido en la investigación de mercado y análisis competitivo. Coordiné con el equipo completo para asegurar coherencia entre los antecedentes, problemática y la propuesta técnica, liderando las secciones de competidores y análisis de entrevistas. Facilité la comunicación entre todos los miembros para mantener una visión unificada del proyecto.<br><br> 3. Valera Garcés, Samuel Ignacio<br>*TB1:*<br> Lideré la elaboración de **2.3 Needfinding**, **2.3.1 User Personas**, **2.3.2 User Task Matrix**, **2.3.3 User Journey Mapping**, **2.3.4 Empathy Mapping**, **2.5 Big Picture EventStorming**, la **entrevista con el segmento 1**, así como **3.1 User Stories** y **3.2 Product Backlog**. Coordiné con los cinco integrantes del equipo para integrar estos insumos al documento final, asegurando coherencia y cumplimiento de los objetivos del proyecto MaceTy.<br><br> 4. Leon Rioja, Carlos Andres<br>*TB1:*<br> Asumí el liderazgo en el diseño de contextos delimitados y modelado de dominios. Desarrollé el **4.1.1.1 Candidate Context Discovery**, **4.1.1.2 Domain Message Flows Modeling** y **4.1.1.3 Bounded Context Canvases**. Colaboré estrechamente con todo el equipo para asegurar que los bounded contexts reflejaran correctamente los procesos de negocio identificados en las fases previas del proyecto.<br><br> 5. Jaque Peña, Estefano Oscar<br>*TB1:*<br> Lideré la conceptualización y desarrollo del **1.2.2 Lean UX Process**, incluyendo problem statements, assumptions y hypothesis statements que sirvieron como base fundamental para todo el proyecto. Coordiné con los demás miembros para asegurar que el enfoque Lean UX se mantuviera consistente a lo largo de todas las fases del desarrollo, desde la investigación hasta la arquitectura técnica. | Durante el TB1, los cinco miembros del equipo demostraron capacidades de liderazgo complementarias y distribuidas estratégicamente. Maycol lideró los aspectos técnicos y arquitecturales, Sergio dirigió la investigación de mercado y análisis competitivo, Samuel se enfocó en el needfinding y especificación de requerimientos, Carlos desarrolló el modelado de dominio y contextos delimitados, mientras que Estefano estableció las bases metodológicas con Lean UX. Esta distribución de liderazgo permitió aprovechar las fortalezas individuales y crear un producto integral que combina solidez técnica, investigación de mercado robusta, análisis de usuarios profundo, arquitectura de dominio bien estructurada y metodología ágil sólida. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué metodologías colaborativas estableciendo reuniones regulares de sincronización con los cinco miembros del equipo, utilizando GitHub para el control de versiones colaborativo y creando un ambiente donde todos pudieran contribuir según sus fortalezas técnicas. Establecí metas claras para cada sprint: definición de segmentos objetivo, arquitectura del sistema y documentación técnica, coordinando con Carlos para los bounded contexts y con Samuel para la integración de user stories.<br>*Tp:*<br> Aplique  metodologias en trabajo en grupo, planificando metas, y diseñando colaborativo, con metologias en grupo.<br><br> 2. Gómez Vallejos, Sergio André<br>*TB1:*<br> Contribuí a crear un entorno inclusivo donde cada uno de los cinco miembros del equipo pudo aportar desde sus habilidades específicas. Planifiqué las tareas de investigación y análisis competitivo en coordinación con Samuel para las entrevistas y Estefano para el marco Lean UX, estableciendo metas semanales para el levantamiento de información. Cumplí con todos los objetivos propuestos facilitando la integración de todos los componentes del proyecto.<br><br> 3. Valera Garcés, Samuel Ignacio<br>*TB1:*<br> Organicé y planifiqué reuniones de coordinación con todos los integrantes del equipo, definí metas por sección a mi cargo y utilicé herramientas colaborativas (GitHub, documentos compartidos) para facilitar la integración y retroalimentación entre los cinco miembros. Cumplí los plazos acordados para cada entrega, manteniendo una comunicación constante y un ambiente inclusivo en el desarrollo del proyecto, especialmente coordinando con Sergio para las entrevistas y con Carlos para alinear el needfinding con los bounded contexts.<br><br> 4. Leon Rioja, Carlos Andres<br>*TB1:*<br> Establecí un ambiente colaborativo para el desarrollo de la arquitectura de dominio, coordinando estrechamente con Maycol para alinear los bounded contexts con la arquitectura técnica y con Samuel para asegurar que los contextos reflejaran las necesidades identificadas en el needfinding. Planifiqué las tareas de modelado de dominio con metas específicas semanales y mantuve comunicación constante con todo el equipo para validar los diseños propuestos.<br><br> 5. Jaque Peña, Estefano Oscar<br>*TB1:*<br> Creé un marco metodológico colaborativo basado en Lean UX que facilitó la participación equitativa de los cinco miembros del equipo. Establecí metas claras para cada fase del proceso Lean UX y planifiqué la integración de los aportes de cada integrante: coordinando con Sergio para los antecedentes, con Samuel para el needfinding, con Carlos para el domain modeling y con Maycol para la arquitectura técnica. Mantuve un ambiente inclusivo donde todas las perspectivas fueran valoradas y consideradas en las decisiones del proyecto. | El equipo de cinco integrantes logró crear un entorno altamente colaborativo donde cada miembro aportó desde sus fortalezas específicas: técnicas, de investigación, de análisis de usuarios, de modelado de dominio y metodológicas. La planificación clara y coordinada de tareas permitió cumplir con todos los objetivos del TB1: documentación completa del startup profile, análisis competitivo exhaustivo, needfinding profundo, arquitectura de software bien definida, bounded contexts coherentes, segmentos objetivo validados y un marco Lean UX sólido. La comunicación constante entre los cinco miembros y el uso de herramientas colaborativas como GitHub facilitaron la integración exitosa de todos los componentes del proyecto MaceTy, demostrando que un liderazgo distribuido y colaborativo puede generar resultados superiores a la suma de las contribuciones individuales. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta |<br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>*TB1:*<br> Apliqué liderazgo conjunto durante el desarrollo del proyecto **MaceTy**, coordinando con todo el equipo la distribución de tareas técnicas y de investigación. Lideré la **arquitectura de software**, diagramas **C4** y el **diseño del sistema IoT**, mientras facilitaba la integración del trabajo de los cinco miembros del equipo, asegurando coherencia entre los bounded contexts y componentes técnicos.<br>*TP:*<br> Diseñé los **wireframes y mockups** de la **landing page**, incluyendo la sección de contacto e interacción inicial con el usuario. Además, colaboré en la definición de los **estilos visuales (Style Guidelines)** y la **arquitectura de información (Information Architecture)**, garantizando la coherencia entre la parte visual, funcional y técnica del sistema.<br><br> **2. Gómez Vallejos, Sergio André**<br>*TB1:*<br> Ejercí liderazgo compartido en la **investigación de mercado y análisis competitivo**, coordinando con el equipo completo para asegurar coherencia entre los antecedentes, problemática y la propuesta técnica. Lideré las secciones de **competidores** y **análisis de entrevistas**, facilitando la comunicación entre todos los miembros para mantener una visión unificada del proyecto.<br>*TP:*<br> Lideré la **implementación del entorno de desarrollo y control de versiones**, documentando los apartados de **Software Development Environment Configuration**, **Source Code Management** y **Source Code Style Guide & Conventions**, garantizando buenas prácticas y estándares unificados durante la implementación del proyecto.<br><br> **3. Valera Garcés, Samuel Ignacio**<br>*TB1:*<br> Lideré la elaboración de **2.3 Needfinding**, **2.3.1 User Personas**, **2.3.2 User Task Matrix**, **2.3.3 User Journey Mapping**, **2.3.4 Empathy Mapping**, **2.5 Big Picture EventStorming**, la **entrevista con el segmento 1**, así como **3.1 User Stories** y **3.2 Product Backlog**. Coordiné con los cinco integrantes del equipo para integrar estos insumos al documento final, asegurando coherencia y cumplimiento de los objetivos del proyecto **MaceTy**.<br>*TP:*<br> Desarrollé los apartados de **Applications Wireframes**, **Wireflow Diagrams** y **User Flow Diagrams**, representando la experiencia de usuario y su interacción con las funcionalidades principales. Además, colaboré en el apartado de **Applications Prototyping**, integrando los flujos de navegación y validando la usabilidad general del sistema.<br><br> **4. Leon Rioja, Carlos Andres**<br>*TB1:*<br> Asumí el liderazgo en el diseño de **contextos delimitados y modelado de dominios**. Desarrollé el **4.1.1.1 Candidate Context Discovery**, **4.1.1.2 Domain Message Flows Modeling** y **4.1.1.3 Bounded Context Canvases**, colaborando estrechamente con el equipo para asegurar que los bounded contexts reflejaran correctamente los procesos de negocio identificados en las fases previas del proyecto.<br>*TP:*<br> Elaboré la evidencia técnica del **Testing Suite**, **Development Evidence**, **Execution Evidence** y **Services Documentation** para la **Sprint Review**, asegurando que los módulos del sistema cumplieran con los criterios de calidad y funcionalidad esperados.<br><br> **5. Jaque Peña, Estefano Oscar**<br>*TB1:*<br> Lideré la conceptualización y desarrollo del **1.2.2 Lean UX Process**, incluyendo **problem statements**, **assumptions** y **hypothesis statements**, que sirvieron como base metodológica del proyecto. Coordiné con los demás miembros para asegurar que el enfoque Lean UX se mantuviera consistente desde la investigación hasta la arquitectura técnica.<br>*TP:*<br> Me encargué del **despliegue de la Landing Page**, la **implementación de servicios** y la planificación del **Sprint 1**, detallando **Sprint Planning**, **Aspect Leaders**, **Sprint Backlog**, y la coordinación con Carlos para la revisión de evidencias. Documenté también la implementación completa de los módulos en el apartado **Landing Page, Services & Applications Implementation**. | **Conclusión TB1:**<br>Durante el TB1, los cinco miembros del equipo demostraron capacidades de liderazgo complementarias y distribuidas estratégicamente. **Maycol** lideró la arquitectura técnica e IoT, **Sergio** la investigación de mercado, **Samuel** el análisis de usuarios, **Carlos** el modelado de dominio, y **Estefano** el marco metodológico Lean UX. Esta sinergia permitió integrar conocimientos técnicos, analíticos y metodológicos en un producto sólido, coherente y escalable.<br><br> **Conclusión TP:**<br>En el TP, el equipo fortaleció su liderazgo conjunto aplicando los conocimientos técnicos adquiridos para la implementación del sistema **MaceTy**. Se logró una integración efectiva entre el diseño UX/UI, la configuración del entorno de desarrollo, la validación funcional mediante pruebas, y el despliegue final de la landing page y servicios. El liderazgo compartido permitió mantener una estructura organizada y colaborativa, logrando cumplir los objetivos de las secciones 5.4 y 6.2 con altos estándares de calidad técnica y visual. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |<br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>*TB1:*<br> Apliqué metodologías colaborativas estableciendo reuniones regulares con los cinco miembros del equipo, usando **GitHub** para el control de versiones y coordinación técnica. Establecí metas claras por sprint: definición de segmentos objetivo, arquitectura del sistema y documentación técnica, coordinando con **Carlos** para los bounded contexts y **Samuel** para la integración de user stories.<br>*TP:*<br> Fortalecí la colaboración durante la etapa de desarrollo visual y despliegue, coordinando el flujo de trabajo entre diseño, front-end y documentación técnica. Promoví la planificación ágil del equipo para cumplir los plazos establecidos y mantener la coherencia técnica en los entregables de la **Landing Page** y las **Applications UX/UI**.<br><br> **2. Gómez Vallejos, Sergio André**<br>*TB1:*<br> Fomenté un entorno inclusivo donde cada integrante aportó desde sus fortalezas. Planifiqué las tareas de investigación y análisis competitivo en coordinación con **Samuel** y **Estefano**, estableciendo metas semanales y cumpliendo con los objetivos del equipo.<br>*TP:*<br> Promoví la colaboración técnica en la **configuración del entorno de desarrollo** y la **gestión del código fuente**, guiando al equipo en la adopción de estándares de versionamiento y estructura de repositorios. Coordiné revisiones grupales para asegurar la uniformidad del código y cumplimiento de buenas prácticas.<br><br> **3. Valera Garcés, Samuel Ignacio**<br>*TB1:*<br> Organicé reuniones de coordinación semanales y definí metas por sección, promoviendo la comunicación continua. Utilicé herramientas colaborativas como **GitHub** y **Docs compartidos**, asegurando la integración y coherencia de las entregas.<br>*TP:*<br> Coordiné la creación de prototipos y diagramas de flujo, garantizando que la comunicación entre diseño y desarrollo fuera fluida. Mantuvimos revisiones conjuntas con **Maycol** y **Sergio** para unificar criterios visuales y de experiencia de usuario.<br><br> **4. Leon Rioja, Carlos Andres**<br>*TB1:*<br> Establecí un ambiente colaborativo para el desarrollo de la arquitectura de dominio, trabajando con **Maycol** y **Samuel** para alinear los bounded contexts con los requerimientos funcionales. Planifiqué tareas semanales y mantuve constante comunicación para validar avances.<br>*TP:*<br> Coordiné con **Estefano** y **Maycol** durante la etapa de pruebas y despliegue, planificando metas de testing y documentando resultados. Contribuí en la integración de evidencias para la **Sprint Review**, fortaleciendo la colaboración técnica en las fases finales del proyecto.<br><br> **5. Jaque Peña, Estefano Oscar**<br>*TB1:*<br> Creé un marco metodológico colaborativo basado en **Lean UX**, que permitió la participación equitativa del equipo. Establecí metas claras por fase y coordiné la integración de aportes con **Sergio**, **Samuel**, **Carlos** y **Maycol**, asegurando una participación balanceada.<br>*TP:*<br> Lideré la colaboración en el **despliegue de la aplicación** y la coordinación general de los **sprints**, planificando metas conjuntas con **Carlos** para evidencias y validaciones. Mantuvimos comunicación continua para asegurar la entrega completa y funcional del sistema **MaceTy**. | **Conclusión TB1:**<br>El equipo de cinco integrantes logró construir un entorno de trabajo colaborativo, estableciendo metas claras y cumpliendo objetivos mediante la comunicación constante, planificación efectiva y un liderazgo compartido. El uso de herramientas colaborativas y metodologías ágiles permitió mantener la cohesión y el cumplimiento de todos los entregables del TB1.<br><br> **Conclusión TP:**<br>Durante el TP, el equipo consolidó su entorno colaborativo al coordinar la implementación práctica del sistema. Cada integrante asumió responsabilidades específicas en diseño, desarrollo, pruebas y despliegue, demostrando un compromiso sólido y sinergia constante. El trabajo conjunto permitió cumplir exitosamente con las metas de las secciones 5.4 y 6.2, evidenciando una gestión de equipo madura y eficiente. |
+
 # Capítulo I: Introducción  
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
@@ -1215,19 +1248,19 @@ En esta sección se presentan los diagramas C4 que describen la arquitectura del
 
 El Diagrama del Paisaje del Sistema muestra la relación de MaceTy con actores externos, como usuarios urbanos y jardineros, así como aplicaciones móviles, servicios de notificación y bases de datos de especies. También ilustra la interacción con sistemas externos clave, como APIs climáticas y repositorios especializados, que enriquecen las recomendaciones de cuidado.  
 
-![Landscape](assets/structurizr-106169-PanoramaDelSistema.png)  
+![Landscape](assets/structurizr-106169-PanoramaSistema(5).png)  
 
 **Leyenda del diagrama:**  
-![Landscapekey](assets/structurizr-106169-PanoramaDelSistema-key.png)  
+![Landscapekey](assets/structurizr-106169-PanoramaSistema-key(2).png)  
 
 #### 4.1.3.2. Context Level Diagram  
 
 El Diagrama de Contexto detalla cómo los distintos actores (usuarios, jardineros) se comunican con el sistema a través de la aplicación móvil y la plataforma web. También representa la conexión con el MaceTy Urban IoT Device, que recolecta datos del entorno (humedad, temperatura, luz) y los transmite al ecosistema vía el MaceTy API Gateway.  
 
-![Context](assets/structurizr-106169-ContextoDelSistema.png)  
+![Context](assets/structurizr-106169-ContextoSistema%20(3).png)  
 
 **Leyenda del diagrama:**  
-![ContextKey](assets/structurizr-106169-ContextoDelSistema-key.png)  
+![ContextKey](assets/structurizr-106169-ContextoSistema-key(1).png)  
 
 #### 4.1.3.3. Container Level Diagram  
 
@@ -1239,28 +1272,10 @@ El **Diagrama de Contenedores** describe los principales bloques funcionales del
 - **MaceTy Urban Database**: Almacena información de sensores, preferencias del usuario y patrones urbanos.  
 - **Servicios externos**: Repositorios de especies que enriquecen las recomendaciones.  
 
-![Container](assets/structurizr-106169-DiagramaDeContenedores.png)  
+![IoTSystem](assets/structurizr-106169-ContenedoresCloud(2).png) 
 
 **Leyenda del diagrama:**  
-![ContainerKey](assets/structurizr-106169-DiagramaDeContenedores-key.png)  
-
-#### Software IoT System Diagram  
-
-El **Diagrama IoT System** muestra el flujo completo de comunicación entre las aplicaciones de usuario y el dispositivo Edge.  
-El recorrido de datos se realiza de la siguiente manera:  
-
-1. **Aplicación Web y Aplicación Móvil** → Envían solicitudes y reciben datos a través del **API Gateway**.  
-2. El **API Gateway** → Publica los eventos hacia el **Message Broker**.  
-3. El **Message Broker** → Dirige los mensajes al **IoT Connector Service**, encargado de la gestión de telemetría y comandos.  
-4. El **IoT Connector Service** ↔ **Maceta Inteligente (Edge Device)** → intercambio de **Telemetría MQTT/WiFi** y **Comandos MQTT**.  
-5. El **IoT Connector Service** → se despliega sobre el **Proveedor Cloud (AWS/GCP)**, asegurando escalabilidad y resiliencia de la comunicación IoT.  
-
-![IoTSystem](assets/structurizr-106169-IoTSystemDiagram.png)  
-
-**Leyenda del diagrama:**  
-![IoTSystemKey](assets/structurizr-106169-IoTSystemDiagram-key.png)  
-
----
+![ContainerKey](assets/structurizr-106169-ContenedoresCloud-key(1).png)  
 
 #### Software Edge Diagram  
 
@@ -1272,10 +1287,10 @@ Este dispositivo integra sensores y actuadores conectados a un procesador **ESP3
 - **Procesamiento Local:** El ESP32 gestiona la lógica básica de riego y almacenamiento temporal de métricas.  
 - **Conectividad:** Comunicación vía WiFi y sincronización mediante MQTT hacia el IoT Connector.  
 
-![Edge](assets/structurizr-106169-ComponentesEdge.png)  
+![Edge](assets/structurizr-106169-ComponentesEdge(5).png)  
 
 **Índice:**  
-![EdgeKey](assets/structurizr-106169-ComponentesEdge-key.png)  
+![EdgeKey](assets/structurizr-106169-ComponentesEdge-key(1).png)  
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams  
 
@@ -1943,32 +1958,656 @@ Mock-ups de alta fidelidad siguiendo el mismo flujo: Hero → Funcionalidades �
 
 ### 5.4. Applications UX/UI Design  
 #### 5.4.1. Applications Wireframes  
+![](assets/webwireframelogin.png)
+![](assets/webwireframeregister.png)
+![](assets/webwireframemisplantas.png)
+![](assets/webwireframeprofile.png)
+![](assets/webwireframepaso1.png)
+![](assets/webwireframepaso2.png)
+![](assets/webwireframepaso3.png)
+![](assets/webwireframepaso4.png)
+![](assets/webwireframemiplanta.png)
+![](assets/webwireframetienda.png)
+![](assets/webwireframecomunidad.png)
 #### 5.4.2. Applications Wireflow Diagrams  
+![](assets/wireflow1.png)
+![](assets/wireflow2.png)
+![](assets/wireflow3.png)
 #### 5.4.3. Applications Mock-ups  
-#### 5.4.4. Applications User Flow Diagrams  
+
+Mock-ups de alta fidelidad:
+
+![Application Mockups Complete](assets/wireframes-MaceTy.png)  
+*Vista ensamblada: confirma coherencia visual, espaciado, contraste y consistencia de la paleta.*
+
+![Mis-PLantas](assets/mis-plantas.png)  
+*Pagina de mis plantas: Información clara y descripción de cada planta añadida + historial de riego *
+
+![Pasos-plantas](assets/pasos-plantas.png)  
+*Detalle visual de los pasos para añadir una planta*
+
+![Comunidad Mock](assets/mi-planta.png)  
+*Detalle de la planta, datos a tiempo real, resumen y consejo*
+
+![Recursos / Ecosistema Mock](assets/tienda-maceTY.png)  
+*Tienda MaceTy, lista de macetas, accesorios, servicio, etc*
+
+![Contacto Mock](assets/comunidad.png)  
+*Red social donde interactua cada usuario entre si dando consejos o preguntas*
+
+![Wireframe Contacto Referencia](assets/perfil.png)  
+*Perfil de usuario donde podra editar o ajustar su perfil a su preferencia*
+
+![Contacto Mock](assets/login.png)  
+*Formulario para el logueo de cada usuario*
+
+![Wireframe Contacto Referencia](assets/register.png)  
+*Formulario para registrarse en la apliocación*
+
+**Enlace Mockups (Figma):** https://www.figma.com/design/kjhLgtfA7pXzI9p6LPzLhP/MaceTy?node-id=8-1137&t=uydPwnc1KxRqxDnH-1
+#### 5.4.4. Applications User Flow Diagrams 
+![](assets/flow1.png)
+![](assets/flow2.png)
+![](assets/flow3.png)
+
 
 ### 5.5. Applications Prototyping  
 
-## Capítulo VI: Product Implementation, Validation & Deployment  
+En esta sección se presenta el **prototipo interactivo** desarrollado en **Figma**, correspondiente a las principales funcionalidades y diseño de la **Landing Page de MaceTy**.  
+El prototipo tiene como propósito validar la experiencia de usuario y el flujo de interacción antes de la implementación final, asegurando coherencia visual, accesibilidad y alineación con los objetivos definidos en los apartados de **Style Guidelines**, **Information Architecture** y **Applications UX/UI Design**.
 
-### 6.1. Software Configuration Management  
-#### 6.1.1. Software Development Environment Configuration  
-#### 6.1.2. Source Code Management  
-#### 6.1.3. Source Code Style Guide & Conventions  
+El prototipo muestra las secciones principales de la landing, incluyendo:
+- **Encabezado interactivo** con navegación simplificada.  
+- **Sección de presentación** del producto MaceTy y su propuesta de valor.  
+- **Área de funcionalidades** con animaciones suaves y distribución intuitiva.  
+- **Formulario de contacto**, diseñado con un enfoque minimalista y adaptable a dispositivos móviles.  
+- **Footer informativo** con enlaces a redes, políticas y datos de contacto.  
+
+El prototipo fue elaborado en **Figma**, permitiendo la visualización dinámica del flujo de navegación y la experiencia de usuario en distintos dispositivos.
+
+**Prototipo en Figma (modo código):**
+```
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EZx-ceZHStFPqgkagaiSvGcBpIWm-dPkjkSKroYvhyGnGA?e=dXThQN
+```
+
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management
+
+### 6.1.1. Software Development Environment Configuration
+
+* **Visual Studio Code:** Desarrollo para aplicaciones mobiles.\
+![image](https://hackmd.io/_uploads/Hy8d2y7lR.png)
+* **GitHub:** Repositorio colaborativo en la nube.\
+![image](https://cdn-1.webcatalog.io/catalog/github/github-icon-filled-256.png?v=1744774208192)
+* **Netifly:** Plataforma que facilita implementar despliegues sencillos para nuestras páginas web.\
+![image](https://cmscritic.com/ms-content/uploads/2023/11/netlifty-icon.png?format=auto&width=256)
+* **Vertabelo:** Plataforma colaborativa para la creación de diagramas de base de datos.\
+![image](https://hackmd.io/_uploads/r1BjjyQgC.png)
+* **Figma:** Herramienta colaborativa que permite elaborar wireframes y mockups.\
+![image](https://hackmd.io/_uploads/BJ99okXeR.png)
+* **Azure:** Herramienta para subir nuestros servicios web en la nube.\
+[![Azure.jpg](https://i.postimg.cc/Mpjc355p/Azure.jpg)](https://postimg.cc/k2qXBxL0)
+* **Visual Studio Code:** Desarrollo para Frontend.\
+![image](https://i.imgur.com/b76hG4H.png)
+
+
+### 6.1.2. Source Code Management
+**Repositorio de la Landing Page:** 
+**Implementación de GitFlow:**
+Para nuestra estrategia de gestión de versiones con Git, nos hemos inspirado en el artículo "A successful Git branching model" de Vincent Driessen, adoptando el modelo de ramificación GitFlow. Este enfoque nos permite establecer claramente las convenciones de ramificación que aplicamos en nuestro proyecto.
+![image](https://hackmd.io/_uploads/rJt95BobA.png)
+* **Rama Principal (Main branch):** Contiene el código en producción y se conoce como la Master branch o Main branch.
+    * Notación: main
+* **Rama de Desarrollo (Develop branch):** Acumula las últimas actualizaciones y cambios para la próxima versión. Funciona como un entorno de integración y prueba continua.
+    * Notación: develop
+* **Rama de Lanzamiento (Release branch):** Facilita la preparación de una nueva versión del producto, permitiendo correcciones de errores y recibiendo más actualizaciones de Develop.
+    * Debe derivarse de: develop
+    * Debe fusionarse con: develop y master/main
+    * Notación: release
+* **Rama de Características (Feature branch):** Se utiliza para desarrollar nuevas funcionalidades para la siguiente versión o futuras iteraciones.
+    * Debe derivarse de: develop
+    * Debe fusionarse de vuelta a: develop
+    * Notación: feature
+* **Rama de Corrección Rápida (Hotfix branch):** Aborda errores críticos en producción, permitiendo la implementación rápida de soluciones.
+    * Debe derivarse de: master/main
+    * Debe fusionarse con: develop y master/main
+    * Notación: hotfix
+
+**Conventional Commits:** 
+Adoptamos esta metodología para estructurar los mensajes de confirmación de cambios de manera estándar y semántica, lo que facilita la comunicación y la automatización de registros de cambios.
+**Tipos de Commits Convencionales:**
+* feat: Nuevas características o funcionalidades.
+* fix: Correcciones de errores.
+* docs: Cambios o mejoras en la documentación.
+* style: Cambios de formato que no afectan la funcionalidad.
+* refactor: Mejoras en la estructura o legibilidad del código.
+* test: Adición o modificación de pruebas.
+* chore: Cambios en el proceso de construcción o tareas de mantenimiento.
+* perf: Mejoras de rendimiento en el código.
+
+### 6.1.3. Source Code Style Guide & Conventions
+
+---
+
+### Landing Page – React con Tailwind CSS
+
+| Regla                                   | Ejemplo / Explicación                                                   |
+|----------------------------------------|--------------------------------------------------------------------------|
+| Componentes en `PascalCase`            | `function HeroSection() {}`                                            |
+| Archivos nombrados igual que el componente | `HeroSection.jsx`                                                      |
+| Uso de `className` con utilidades Tailwind | `<div className="flex justify-center items-center p-4 bg-gray-100">`   |
+| Uso de fragmentos `<>...</>`           | Para evitar `div` innecesarios                                          |
+| Props en `camelCase`                   | `<HeroSection title="Bienvenido" description="Explora más" />`         |
+| Indentación consistente (2 espacios)   | Mantener la misma estructura en todo el proyecto                        |
+| Comentarios en JSX                     | `{/* Comentario de ejemplo */}`                                        |
+| Uso de `const` y `arrow functions`     | `const handleClick = () => { ... }`                                    |
+
+---
+
+### Frontend – Vue.js
+
+| Regla                                   | Ejemplo / Explicación                                                   |
+|----------------------------------------|--------------------------------------------------------------------------|
+| Componentes en `PascalCase`            | `<UserProfileCard />`, `UserProfileCard.vue`                            |
+| Nombres de variables y métodos en `camelCase` | `data() { return { userName: "Juan" }; }`, `methods: { getUserData() {} }` |
+| Archivos nombrados igual que el componente | `UserProfileCard.vue`                                                   |
+| Uso de `v-bind` y `v-on` abreviados     | `:prop="value"` y `@click="handleClick"`                                |
+| Separar el código en secciones `<template>`, `<script>`, `<style>` | Buenas prácticas de organización                                        |
+| Indentación consistente (2 espacios)    | Mantener uniformidad                                                   |
+| Uso de `const` y `let`                  | Evitar `var`                                                           |
+| Comentarios claros                      | `<!-- Sección del encabezado -->`                                      |
+
+---
+
+### CSS – Tailwind CSS
+
+| Regla                                   | Ejemplo / Explicación                                                   |
+|----------------------------------------|--------------------------------------------------------------------------|
+| Clases utilitarias en minúsculas       | `bg-brown-700 text-gray-100 rounded-xl p-4`                            |
+| Orden lógico de clases                 | De layout → color → texto → borde → espaciado                           |
+| Evitar estilos en línea (inline CSS)   | Usar clases Tailwind o archivos `.css` para excepciones                 |
+| Uso de variables personalizadas en `tailwind.config.js` | Definir colores del proyecto como `--brown`, `--beige`, etc.           |
+| Comentarios descriptivos               | `/* Estilos personalizados para el header */`                          |
+
+---
+
+### Backend – Java
+
+| Regla                                       | Ejemplo / Explicación                                                   |
+|--------------------------------------------|--------------------------------------------------------------------------|
+| Clases en `PascalCase`                     | `public class UserController {}`                                        |
+| Métodos y variables en `camelCase`         | `private String userName;`, `public void getUserData() {}`              |
+| Constantes en `UPPER_SNAKE_CASE`           | `private static final int MAX_USERS = 100;`                             |
+| Paquetes en minúsculas                     | `com.booksphere.api.controllers`                                       |
+| Indentación con 4 espacios                 | No usar tabs                                                           |
+| Uso de comentarios Javadoc                 | `/** Método que obtiene los datos del usuario */`                       |
+| Código limpio y modular                    | Separar controladores, servicios, repositorios y modelos                |
+
+---
+
+### Mobile – Flutter
+
+| Regla                                         | Ejemplo / Explicación                                                   |
+|----------------------------------------------|--------------------------------------------------------------------------|
+| Nombres de clases en `PascalCase`            | `class UserProfileScreen extends StatelessWidget {}`                    |
+| Variables y funciones en `camelCase`         | `final userName = "Juan";`, `void getUserData() {}`                     |
+| Constantes en `UPPER_SNAKE_CASE`             | `const MAX_USERS = 100;`                                                |
+| Widgets anidados con identación clara        | Mantener legibilidad al usar múltiples widgets                          |
+| Uso de `const` para widgets inmutables       | `const Text("Hola Mundo")`                                              |
+| Archivos nombrados en `snake_case`           | `user_profile_screen.dart`                                              |
+| Comentarios con `//` o `///`                 | `// Widget que muestra la información del usuario`                      |
+
+---
+
+**Tecnologías utilizadas:**  
+El proyecto utiliza **React + Tailwind CSS** para la **landing page**, **Vue.js** para el **frontend principal**, **Java** para el **backend**, y **Flutter** para el **desarrollo móvil**.
+ 
 #### 6.1.4. Software Deployment Configuration  
+
+**Deployment Landing Page:** 
+En esta sección, detallamos el proceso de implementación de nuestra landing page en la plataforma de GitHub.
+
+1. Se crea un repositorio en GitHub para alojar el código de nuestra landing page.
+
+![image](assets/macetylanding.png)
+
+2. Agregamos a los participantes:
+
+![image](assets/Participant.png)
+
+3. Habilitamos Netlifly para poder importar nuestro proyecto y deployamos:
+
+![image](assets/netifly.png)
+
+
+4. Finalmente, se confirma el despliegue de nuestra página web después de completar todo el procedimiento.
+
+![image](assets/pagenaturafy.png)
+
+
+
+Este proceso garantiza el despliegue satisfactorio de nuestra landing page en la plataforma de Netlifly, siguiendo las especificaciones y requisitos de nuestro proyecto.
+**Enlace de la Landing Page: https://naturafy.netlify.app/**
+<br>
+**About the product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EZx-ceZHStFPqgkagaiSvGcBpIWm-dPkjkSKroYvhyGnGA?e=dXThQN**
+<br>
 
 ### 6.2. Landing Page, Services & Applications Implementation  
 
-#### 6.2.1. Sprint 1  
-##### 6.2.1.1. Sprint Planning 1  
-##### 6.2.1.2. Aspect Leaders and Collaborators  
-##### 6.2.1.3. Sprint Backlog 1  
-##### 6.2.1.4. Development Evidence for Sprint Review  
-##### 6.2.1.5. Testing Suite Evidence for Sprint Review  
-##### 6.2.1.6. Execution Evidence for Sprint Review  
-##### 6.2.1.7. Services Documentation Evidence for Sprint Review  
-##### 6.2.1.8. Software Deployment Evidence for Sprint Review  
-##### 6.2.1.9. Team Collaboration Insights during Sprint  
+### 6.2.1. Sprint 1  
+El primer sprint es una etapa importante en nuestro marco de gestión de proyectos de metodología ágil Scrum. En este periodo, agendamos reuniones con el objetivo de conocer mejor las características de cada integrante, y delegamos tareas para materializar el diseño y funcionalidades ya establecidas, para transformarlos en un landing page funcional y que cumple las heurísticas.
+#### 6.2.1.1. Sprint Planning 1  
+El sprint planning es una reunion antes de cada sprint en la metodologia Scrum donde el equipo elige las user stories que va a transformar en un producto tangible. Tambien define que como se van a separar los trabajos y quien sera responsable. Nuestro objetivo sera construir un plan resolubre en un tiempo determinado que sera lo que dure el sprint, para crearlo fomentaremos la colaboracion para que todos sepan y entiendas los objetivos y prioridades.
+
+| Sprint #| Sprint 1|
+| -- | -- |
+| **Sprint Planning Background**||
+| **Date**| 01/10/2025|
+| **Time**| 12:00 AM|
+| **Location**| Discord (Reunión virtual)|
+| **Prepared By**| Jaque Peña, Estefano Oscar|
+| **Attendees (to planning meeting)** | Maycol Jhordan Rojas Velasquez, Sergio Andre Gomez Vallejos, Estefano Oscar Jaque Pena, Carlos Andres Rojas Ccama, Samuel Ignacio Valera Garcés|
+| **Sprint Goal & User Stories**||
+| **Sprint 1 Goal**| Nuestro enfoque está en finalizar el informe , desplegar nuestra Landing Page desde el repositorio de GitHub y avanzar bounded context del aplicativo (Tanto IAM como applications). Creemos que esto entrega una experiencia de usuario optimizada a nuestros clientes. Esto se confirmará cuando todas las tareas se muevan a la columna "Terminado" en Trello. |
+| **Sprint 1 Velocity**| ------ |
+| **Sum of Story Points**| 19 |  
+
+#### 6.2.1.2. Aspect Leaders and Collaborators  
+En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**, la cual permite identificar los roles de liderazgo y colaboración dentro del Sprint.  
+Este artefacto muestra, por cada aspecto abordado en el desarrollo, quién asume el rol de **líder (L)** y quiénes participan como **colaboradores (C)**, con el objetivo de optimizar la comunicación, la distribución de tareas y la eficiencia del trabajo en equipo.  
+
+Cada aspecto corresponde a un ámbito funcional del proyecto (por ejemplo: Frontend, Backend, Base de Datos, UI/UX, Deploy, etc.).  
+El liderazgo asignado se basa en las fortalezas técnicas de cada integrante y la organización general de trabajo definida por el **Team Leader**, quien coordina la integración y revisión final de los entregables.  
+
+A continuación, se presenta la matriz correspondiente al Sprint actual:
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **UI/UX Design** | **Frontend Development** | **Backend Development** | **Database Management** | **Deployment & Documentation** |
+|----------------------------------------|---------------------|------------------|--------------------------|--------------------------|--------------------------|-------------------------------|
+| **Rojas Velasquez, Maycol Jhordan**    | Kmykh            | C                | L                        | C                        | C                        | C                             |
+| **Gomez Vallejos, Sergio Andre**       | CB-Sergio-AGV             | C                | C                        | L                        | L                        | C                             |
+| **Jaque Pena, Estefano Oscar**         | estefanojaque             | C                | L                        | C                        | C                        | L                             |
+| **Rojas Ccama, Carlos Andres**         | Sr-Anonymus-make             | C                | C                        | L                        | L                        | L                             |
+| **Valera Garcés, Samuel Ignacio**      | SamuelValeraGarces            | L                | C                        | C                        | C                        | C                             |
+
+La organización de líderes y colaboradores guarda relación directa con la planificación de tareas y la distribución de responsabilidades dentro del **Sprint Backlog**.  
+Cada miembro asume roles específicos según su experiencia y dominio técnico, contribuyendo a una ejecución coordinada y efectiva del desarrollo del proyecto.  
+El **Team Leader (Maycol Jhordan Rojas Velasquez)** supervisa la integración de los diferentes aspectos y asegura la coherencia técnica entre los módulos.
+
+#### 6.2.1.3. Sprint Backlog 1  
+
+Para el **primer Sprint**, el equipo se centró en desarrollar la **Landing Page** del proyecto MaceTy y avanzar con la primera fase de los **Bounded Contexts IAM y Applications**, incluyendo tanto el **frontend** como el **backend**.  
+Durante este Sprint, las **User Stories** fueron seleccionadas del *Product Backlog* priorizando las funcionalidades esenciales que permiten mostrar el propósito del sistema y asegurar una base técnica sólida para los siguientes ciclos de desarrollo.
+
+El trabajo se organizó y distribuyó entre los miembros del equipo mediante la herramienta **Trello**, lo cual permitió una gestión visual de las tareas, un seguimiento colaborativo y una comunicación fluida entre los integrantes.  
+El **objetivo principal** del Sprint fue crear una **Landing Page funcional y atractiva**, acompañada del avance en los módulos iniciales del backend y del sistema de autenticación (IAM), asegurando que la estructura base del proyecto estuviera correctamente configurada.
+
+A continuación, se presenta el detalle del **Sprint Backlog 1** con las User Stories seleccionadas, sus tareas asociadas, responsables y estado de avance:
+
+![assets/Trellofouto.png](assets/Trellofouto.png)
+
+| **Sprint #**   | **Sprint 1**                                   |                      |                                                   |                                                                                                      |                        |                                |            |
+| -------------- | ---------------------------------------------- | -------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------- | ------------------------------ | ---------- |
+| **User Story** |                                                | **Work-Item / Task** |                                                   |                                                                                                      |                        |                                |            |
+| **ID**         | **Title**                                      | **ID**               | **Title**                                         | **Description**                                                                                      | **Estimation (Hours)** | **Assigned To**                | **Status** |
+| ST-13          | Registro y login de usuario (IAM Front + Back) | **TA001**            | Implementar pantalla de login y registro          | Crear formularios de inicio de sesión y registro con validaciones en Vue y PrimeVue.                 | 6                      | Estefano Oscar Jaque Peña      | Done     |
+|                |                                                | **TA002**            | Configuración de servicios IAM en frontend        | Implementar `AuthenticationService`, `store` Pinia y conexión con API simulada (axios-mock-adapter). | 4                      | Estefano Oscar Jaque Peña      | Done     |
+|                |                                                | **TA003**            | Implementación de backend simulado (Fake API)     | Crear API mock con rutas `/authentication/sign-in`, `/authentication/sign-up`, `/users/:id`.         | 4                      | Sergio Andre Gomez Vallejos    | Done     |
+|                |                                                | **TA004**            | Persistencia de sesión con Cookies y LocalStorage | Guardar token, roles y usuario en cookies al autenticarse.                                           | 3                      | Carlos Andres Rojas Ccama      | Done     |
+|                |                                                | **TA005**            | Lógica de roles en frontend                       | Configurar redirecciones condicionales según `ROLE_USER`.               | 2                      | Carlos Andres Rojas Ccama      | Done     |
+| LP-01          | Landing Page completa                          | **TA006**            | Estructura base y wireframe                       | Crear estructura HTML, layout principal y navegación base.                                           | 4                      | Maycol Jhordan Rojas Velasquez | Done     |
+|                |                                                | **TA007**            | Diseño visual final y responsive                  | Aplicar estilos, animaciones suaves y coherencia visual con el tema del proyecto.                    | 5                      | Maycol Jhordan Rojas Velasquez | Done     |
+|                |                                                | **TA008**            | Integración de componentes interactivos           | Conectar botones de login/registro en el header con rutas de IAM.                                    | 3                      | Maycol Jhordan Rojas Velasquez      | Done     |
+|                |                                                | **TA009**            | Despliegue del proyecto                           | Configurar `firebase.json`, `.env.production` y publicar en Firebase Hosting.                        | 2                      | Maycol Jhordan Rojas Velasquez    | Done     |
+|                |                                                | **TA010**            | Pruebas de integración básicas                    | Validar flujo completo: registro → login → redirección según rol.                                    | 2                      | Maycol Jhordan Rojas Velasquez     | Done     |
+
+
+Link de Trello: [https://trello.com/invite/b/68e7969bceaa056dc23cd0af/ATTI97b51e32677b328c9fabe30426da7ccbC9FB3ABF/macety-tablero-grupo](https://trello.com/invite/b/68e7969bceaa056dc23cd0af/ATTI97b51e32677b328c9fabe30426da7ccbC9FB3ABF/macety-tablero-grupo)
+
+#### 6.2.1.4. Development Evidence for Sprint Review  
+
+Landing Page:
+
+| Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
+| ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
+| Landing-Page--Macety | dev   | 0e55ec3006bdd0b151cf3281ab8c75dcebe5e1a2| feat: Initial commit: Naturafy landing page with modular tabs |Initial commit: Naturafy landing page with modular tabs  | 04/10/2025  |
+| Landing-Page--Macety | dev   | 8f608e0c40fc906dd600d480f50be3ac0f6a2a21| feat: Add auto-scroll navigation and animated footer  |Add auto-scroll navigation and animated footer  | 04/10/2025  |
+| Landing-Page--Macety | dev   | f366514f1d1757fff1dd989802cb177c997ebe67| feat: Refactor to single-page app with inline styles and i18n  |Refactor to single-page app with inline styles and i18n  | 05/10/2025  |
+| Landing-Page--Macety | dev   | 7cb492eae6bdc9dd2cac3d3309fd0758c7825929| feat:Redesign landing page and add Macety AI section  |Redesign landing page and add Macety AI section  | 05/10/2025  |
+| Landing-Page--Macety | dev   | f874772dd28a9b7cddf56144425be8a49733ccd5| feat: Send welcome email and improve SMS registration flow  |Send welcome email and improve SMS registration flow  | 05/10/2025  |
+
+Frontend Web App:
+
+| Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
+| ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
+| Web-app | dev   | a7e03b389b85df2e97543101ec303ac94dd5bc0d| feat: primera versión del frontend  |feat: primera versión del frontend  | 09/10/2025  |
+
+Backend:
+
+| Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
+| ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
+| Backend | dev   | w2312315df2e975434548as303ac94dd5bc0d| feat: primera versión del backend  |feat: primera versión del backend  | 09/10/2025  |
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review  
+
+| Repository                                                            | Branch             | Commit Id                                | Commit Message           | Commit Message Body                         | Committed on (Date)     |
+| --------------------------------------------------------------------- | ------------------ | ---------------------------------------- | ------------------------ | ------------------------------------------- | ----------------------- |
+| Testing | dev   | w2312315df2e975434548as303ac94dd5bc0d| feat: Enviando los Test del Iam  |feat: Enviando los Test del Iam | 09/10/2025  |
+
+Link del repositorio del testing: https://github.com/NaturaFy/Testing.git 
+
+#### 6.2.1.6. Execution Evidence for Sprint Review  
+En este Sprint, los miembros del equipo de desarrollo de software de NaturaFy han completado y desplegado la Landing Page. A continuación, mostramos imágenes que demuestran cómo nuestra página presenta de manera clara e intuitiva la información sobre nuestro producto y nuestra empresa.
+
+![alt text](assets/landingfotosrint.png)
+
+**URL LANDING PAGE DESPLEGADO**: [https://naturafy.netlify.app/](https://naturafy.netlify.app/)
+
+En segundo lugar ,se avanzo el bounded context IAM y applications tanto en backend como en frontend :
+
+Frontend :
+
+![alt text](assets/frontimage.png)
+
+**URL FRONTEND DESPLEGADO**: [https://naturafy-front.web.app/sign-up](https://naturafy-front.web.app/sign-up)
+
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review  
+
+**Introducción:**   
+Durante este Sprint, se logró la documentación y despliegue de varios Endpoints correspondientes a los diferentes bounded contexts implementados por el equipo. Se utilizó OpenAPI para describir de forma estructurada los servicios Web desarrollados. A continuación, se presenta la relación de los Endpoints, las acciones soportadas y la respectiva documentación disponible.
+
+Esta documentación incluye los verbos HTTP utilizados, sintaxis de llamadas, parámetros, ejemplos de respuesta, así como capturas de la interacción con los Web Services utilizando datos de muestra. También se proporciona el URL del repositorio de los Web Services y los commit IDs correspondientes al trabajo realizado en la documentación durante este Sprint. 
+
+**Sección IAM (Identity and Access Management)**
+
+---
+
+### **Introducción**
+El módulo IAM (Identity and Access Management) implementa la gestión centralizada de usuarios, roles y autenticación en la plataforma Scholr. A continuación se detallan los endpoints desarrollados, su funcionalidad y documentación técnica.
+
+---
+
+### **Tabla de Endpoints IAM**
+
+| Bounded Context | Endpoint | Acción | Verbo HTTP | Parámetros | Ejemplo de Respuesta | Documentación |
+|-----------------|----------|--------|------------|------------|----------------------|---------------|
+| **Autenticación** | `/api/v1/authentication/sign-in` | Inicio de sesión | POST | `{"username": "string","password": "string"}` | `{"id": 0,"username": "string","token": "string"}` | [Swagger](#) | 
+|  | `/api/v1/authentication/sign-up` | Registro de usuario | POST | `{"username": "string","password": "string","compania": "string","dni": "string","cod_colaborador": "string","roles": ["string"]}` | `{"id": 0,"username": "string","roles": ["string"],"proofingEntrepreneure": "string"}` | [Swagger](#) |
+| **Usuarios** | `/api/v1/users` | Listar usuarios | GET | - | `[{"id": 0,"username": "string","roles": ["string"],"proofingEntrepreneure": "string"}]` | [Swagger](#) |
+|  | `/api/v1/users/{userId}` | Obtener usuario por ID | GET | `userId: long` | `{"id": 0,"username": "string","roles": ["string"],"proofingEntrepreneure": "string"}` | [Swagger](#) |
+|  | `/api/v1/users/{userId}/update-proofing` | Actualizar verificación | PUT | `{"proofingStatus": string}` | `{"message": "Proofing updated"}` | [Swagger](#) |
+| **Roles** | `/api/v1/roles` | Listar roles | GET | - | `  {"id": 0,"name": "string"}]` | [Swagger](#) |
+---
+
+### **Ejemplos de Uso**
+
+#### **1. Autenticación (JWT)**
+```java
+// Sign-Up Request
+POST /api/v1/authentication/sign-up
+Body: {
+  "username": "Estefano",
+  "password": "12345",
+  "compania": "backus",
+  "dni": "72260921",
+  "cod_colaborador": "ABC123",
+  "roles": [
+    "ROLE_APODERADO"
+  ]
+}
+
+// Response (201 Created)
+{
+  "id": 1,
+  "username": "Estefano",
+  "roles": [
+    "ROLE_APODERADO"
+  ],
+  "proofingEntrepreneure": null
+}
+```
+
+#### **2. Gestión de Usuarios**
+```java
+// Actualizar verificación de emprendedor
+PUT /api/v1/users/1/update-proofing
+Body: {
+  "proofingStatus": "VERIFIED"
+}
+
+// Response (200 OK)
+{
+  "message": "ProofingEntrepreneure updated successfully."
+}
+```
+
+---
+
+### **Arquitectura y Patrones**
+1. **CQRS**: Separación clara entre:
+   - `UserCommandService`: Manejo de escritura (sign-up, update-proofing)
+   - `UserQueryService`: Consultas (getAllUsers, getUserById)
+
+2. **DTO Pattern**: Uso de `*Resource` para transferencia de datos:
+   ```java
+   public record UserResource(Long id, String email, String name) {}
+   ```
+
+3. **Swagger Integration**: Documentación automática con `@Tag` y OpenAPI.
+
+---
+
+### **Seguridad**
+- **JWT**: Implementado en `AuthenticationController`.
+- **Validaciones**: 
+  - Campos obligatorios con `@Valid`
+  - Manejo de errores (404 para usuarios no encontrados)
+
+---
+
+### **Validación de Colaboradores en Registro (Sign-Up)**  
+Se implementó un **mecanismo de validación corporativa** que verifica la identidad de colaboradores antes de permitir su registro. Este proceso:
+
+1. **Consulta tablas dinámicas** por compañía (`{compania}_colaboradores`)
+2. **Valida coincidencia** entre:  
+   - DNI del usuario  
+   - Código de colaborador  
+3. **Flujo técnico**:  
+   ```java
+   // Ejemplo de validación
+   if (!colaboradorValidationService.validarColaborador(
+       "backus", 
+       "72260921", 
+       "ABC123")) {
+       throw new InvalidColaboradorException();
+   }
+   ```
+
+**Impacto**:  
+- ✔️ Asegura que solo personal autorizado se registre  
+- ✔️ Integración transparente con el endpoint existente `/sign-up`  
+- ✔️ Prevención de SQL Injection mediante parámetros con `EntityManager`
+
+### **Repositorio y Commits**
+| Endpoint | Commit ID | Cambios Realizados |
+|----------|-----------|---------------------|
+| Autenticación | `a1b2c3d` | Implementación JWT |
+| Users | `e4f5g6h` | Add proofing feature |
+| Roles | `i7j8k9l` | Listado de roles |
+
+---
+
+**Repositorio Principal**: [https://github.com/Aventis-Scholr/scholr-backend.git](https://github.com/Aventis-Scholr/scholr-backend.git)
+
+---
+
+### **Conclusión**
+El módulo IAM proporciona:
+- ✅ Autenticación segura con JWT
+- ✅ Gestión granular de usuarios y roles
+- ✅ Escalabilidad mediante CQRS
+- ✅ Documentación completa con Swagger
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review  
+
+**Resumen**
+Durante este Sprint, nos hemos enfocado en el despliegue de la landing page. Las actividades realizadas incluyen la configuración del entorno de desarrollo y el despliegue inicial del sitio. A continuación, se detalla el proceso seguido para el despliegue de la landing page.
+
+**Actividades Realizadas**
+
+- Creación de Cuentas y Configuración de Recursos:
+
+Proveedor de Hosting: Selección y configuración de la cuenta en el proveedor de hosting para desplegar la landing page.
+Configuración del Entorno: Establecimiento del entorno de desarrollo y producción para la landing page.
+
+- Configuración de Proyectos para Integración:
+
+Repositorio de Código: Configuración del repositorio en GitHub para la integración continua y despliegue automático.
+Automatización: Configuración de scripts y herramientas para la automatización del despliegue.
+
+- Despliegue de la Landing Page:
+
+Subida de Archivos: Transferencia de archivos y recursos al servidor de hosting.
+Verificación: Comprobación de que la landing page se despliega correctamente y está accesible en la web.
+
+**Deploy del Landing Page**
+- Repositorio de Landing Page:
+![alt text](assets/landingfuto.png)
+
+**Enlace al Repositorio**: [https://github.com/NaturaFy/Landing-Page--Macety.git](https://github.com/NaturaFy/Landing-Page--Macety.git)
+
+**Link deploy Landing Page:** [https://naturafy.netlify.app/](https://naturafy.netlify.app/)
+
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint 
+
+En esta sección, se presenta un análisis detallado de la colaboración del equipo durante el Sprint. Durante este Sprint, las actividades se organizaron siguiendo una metodología ágil, lo que permitió una coordinación efectiva entre los miembros del equipo. Se incluyen capturas de los analíticos de colaboración y de los commits realizados en GitHub, evidenciando la contribución individual.
+
+Diseño y Desarrollo:
+
+- Frontend: Desarrollo y diseño completo de la landing page, incluyendo la creación de secciones, estilos y estructura responsive.
+
+- Backend: Implementación de funcionalidades básicas y configuración inicial del servidor y servicios necesarios.
+
+- Codificación: Ejecución de tareas de programación, pruebas funcionales y ajustes iterativos.
+
+Documentación y Despliegue:
+
+- Documentación: Elaboración de documentación técnica y visual, incluyendo descripciones y capturas de pantalla del proceso.
+
+- Despliegue: Configuración del entorno y despliegue tanto del frontend como del backend en un entorno de pruebas, asegurando la operatividad conjunta.
+
+**Landing Page**
+
+![alt text](assets/landingcommit.png)
+
+- Maycol Jhordan Rojas Velasquez: 14
+
+**Report:**
+
+![alt text](assets/report-commit.png)
+
+- Maycol Jhordan Rojas Velasquez: 22
+- Sergio Andre Gomez Vallejos:13 
+- Estefano Oscar Jaque Peña: 1
+- Carlos Andres Rojas Ccama:  14
+- Samuel Ignacio Valera Garcés: 11
+
+<br>**Backend:**
+
+![alt text](assets/report-commit.png)
+
+- Maycol Jhordan Rojas Velasquez: 22
+- Sergio Andre Gomez Vallejos:13 
+- Estefano Oscar Jaque Peña: 1
+- Carlos Andres Rojas Ccama:  14
+- Samuel Ignacio Valera Garcés: 11
+
+<br>**Frontend:**
+
+![alt text](assets/webappcommit.png)
+
+- Estefano Oscar Jaque Peña: 1
+
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2
+Objetivo del sprint, alcance y criterios de éxito.
+- Fecha/hora/lugar:
+- Meta del Sprint:
+- Historias seleccionadas:
+- Definición de Hecho (DoD):
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+Matriz L/C por aspecto técnico (UI/UX, Frontend, Backend, DB, Deploy, QA).
+| Team Member | GitHub | UI/UX | Frontend | Backend | DB | Deploy | QA |
+|-------------|--------|-------|----------|---------|----|--------|----|
+| ... | ... | ... | ... | ... | ... | ... | ... |
+
+#### 6.2.2.3. Sprint Backlog 2
+Historias, tareas, estimación, responsables y estado.
+| User Story | Task ID | Tarea | Estimación | Responsable | Estado |
+|-----------|---------|-------|------------|-------------|--------|
+| ... | ... | ... | ...h | ... | To Do/In Prog/Done |
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+Evidencias de desarrollo con repositorio/branch/commit.
+| Repo | Branch | Commit Id | Mensaje | Fecha |
+|------|--------|-----------|---------|-------|
+| ...  | ...    | ...       | ...     | ...   |
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+Resultados de pruebas unitarias/integración/end-to-end.
+- Cobertura:
+- Suites ejecutadas:
+- Evidencias: capturas/logs/enlaces.
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+Capturas de la aplicación ejecutándose y URLs públicas.
+- URL App/Web:
+- Screens/Video demo:
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+Endpoints y Swagger/OpenAPI.
+- URL Swagger:
+- Endpoints clave: métodos, payloads y ejemplos.
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+Pipeline, entorno y resultado del despliegue.
+- Plataforma (Netlify/Azure/etc.):
+- Logs de deploy:
+- URL producción/staging:
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+Analítica de colaboración, commits y retrospectiva.
+- Qué salió bien / por mejorar / acciones:
+
+### 6.3. Validation Interviews
+
+#### 6.3.1. Diseño de Entrevistas
+Objetivo, guion, criterios de reclutamiento y métricas de éxito.
+- Perfil participante:
+- Guion (tareas/escenarios):
+- Métricas (SUS, Tasa éxito, Tiempo tarea):
+
+#### 6.3.2. Registro de Entrevistas
+Tabla de participantes y hallazgos.
+| Participante | Perfil | Duración | Principales hallazgos |
+|--------------|--------|----------|------------------------|
+| ... | ... | ... | ... |
+
+#### 6.3.3. Evaluaciones según heurísticas
+Evaluación Nielsen/ISO, severidad y recomendaciones.
+| Heurística | Hallazgo | Severidad | Recomendación |
+|-----------|----------|-----------|---------------|
+| ... | ... | Baja/Media/Alta | ... |
+
+### 6.4. Video About-the-Product
+Video demostrativo del producto y recorrido funcional.
+- Enlace al video:
+- Contenido mínimo: problema → propuesta de valor → demo (landing, app web/móvil, Macety) → CTA.
+- Duración sugerida: 2–4 min.
 
 ## Conclusiones
 
@@ -1978,6 +2617,11 @@ La diferenciación local es la clave competitiva, ya que MaceTy se adapta al con
 
 El proyecto no solo es comercialmente viable, sino también sostenible y escalable, al contar con una arquitectura tecnológica robusta, segmentación clara de usuarios y un impacto positivo en el uso eficiente de recursos y la conexión de las personas con la naturaleza.
 
+El desarrollo del prototipo en Figma permitió validar la experiencia de usuario diseñada en los apartados de Style Guidelines, Information Architecture y Applications UX/UI Design, comprobando la coherencia visual, la fluidez de navegación y la accesibilidad en distintos dispositivos. Este proceso aseguró que las decisiones tomadas en el diseño conceptual se traduzcan efectivamente en una experiencia funcional y atractiva para el usuario final.
+
+La implementación de la arquitectura técnica documentada en los capítulos de Software Configuration Management y Applications Implementation evidenció la madurez del proyecto, integrando entornos de desarrollo estandarizados, control de versiones, y despliegue ordenado de los servicios y aplicaciones. Esta base técnica garantiza la escalabilidad, mantenibilidad y seguridad del sistema en entornos reales.
+
+La colaboración multidisciplinaria entre los miembros del equipo durante las etapas de diseño, desarrollo y pruebas permitió consolidar un flujo de trabajo ágil y cohesionado. Gracias a la planificación en sprints, el uso de herramientas colaborativas y la comunicación continua, se alcanzó una integración efectiva entre las áreas de UX/UI, backend, IoT y documentación técnica, consolidando un producto final sólido y alineado con los objetivos del proyecto MaceTy.
 
 ## Bibliografía
 
