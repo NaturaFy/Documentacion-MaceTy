@@ -10,17 +10,20 @@
   <strong style="font-size: 14px;">1ASI0572-2520-3414 - DESARROLLO DE SOLUCIONES IoT</strong>
 </p>
 <p align="center">
-  <span style="font-size: 2.5em; font-weight: bold; font-style: italic;">MaceTy</span><br>
-  <span style="font-size: 1.8em; font-weight: bold; font-style: italic;">TP</span>
+  <strong style="font-size: 18px;">DOCENTE:</strong><br>
+  <span style="font-size: 16px;">  Marco Antonio Leon Baca </span>
 </p>
 
 <p align="center">
-  <strong style="font-size: 18px;">DOCENTE:</strong><br>
-  <span style="font-size: 16px;">  Marco Antonio Leon Baca </span>
+<span style="font-size: 1.8em; font-weight: bold; font-style: italic;">Informe de Trabajo Final</span><br>
 </p>
 <p align="center">
   <strong style="font-size: 18px;">STARTUP:</strong><br>
   <span style="font-size: 16px;">NaturaFy</span>
+</p>
+<p align="center">
+  <strong style="font-size: 18px;">Producto:</strong><br>
+  <span style="font-size: 16px;">MaceTy</span>
 </p>
 <p align="center">
   <strong style="font-size: 18px;">INTEGRANTES DEL EQUIPO:</strong>
@@ -28,23 +31,16 @@
 
 <div align="center">
 
-**Gómez Vallejos, Sergio**  
-`Código: U20221D401`
-
-**Leon Rioja, Carlos Andres**  
-`Código: U202111451`
-
-**Rojas Velasquez, Maycol**  
-`Código: U202219984`
-
-**Valera Garces, Samuel**  
-`Código: U202111952`
-
-**Jaque Peña, Estefano**  
-`Código: U202225466`
+| Código     | Apellidos y Nombres            |
+|-----------|---------------------------------|
+| U20221D401 | Gómez Vallejos, Sergio         |
+| U202111451 | Leon Rioja, Carlos Andres      |
+| U202219984 | Rojas Velasquez, Maycol        |
+| U202111952 | Valera Garces, Samuel          |
+| U202225466 | Jaque Peña, Estefano           |
 
 </div>
-<p align="center"><strong style="font-size: 18px;">Septiembre 2025</strong></p>
+<p align="center"><strong style="font-size: 18px;">Noviembre 2025</strong></p>
 
 <div style="page-break-before: always;"></div>
 
@@ -271,6 +267,22 @@
     - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)  
     - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)  
     - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)  
+  - [6.2.2. Sprint 2](#622-sprint-2)  
+    - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)  
+    - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)  
+    - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)  
+    - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)  
+    - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)  
+    - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)  
+    - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)  
+    - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)  
+    - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)  
+- [6.3. Validation Interviews](#63-validation-interviews)  
+  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)  
+  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)  
+  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)  
+- [6.4. Video About-the-Product](#64-video-about-the-product)  
+  
 - [Conclusiones](#71-conclusiones)  
 - [Bibliografía](#72-bibliografía)  
 - [Anexos](#73-anexos)  
@@ -2518,7 +2530,84 @@ Documentación y Despliegue:
 
 - Estefano Oscar Jaque Peña: 1
 
+### 6.2.2. Sprint 2
 
+#### 6.2.2.1. Sprint Planning 2
+Objetivo del sprint, alcance y criterios de éxito.
+- Fecha/hora/lugar:
+- Meta del Sprint:
+- Historias seleccionadas:
+- Definición de Hecho (DoD):
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+Matriz L/C por aspecto técnico (UI/UX, Frontend, Backend, DB, Deploy, QA).
+| Team Member | GitHub | UI/UX | Frontend | Backend | DB | Deploy | QA |
+|-------------|--------|-------|----------|---------|----|--------|----|
+| ... | ... | ... | ... | ... | ... | ... | ... |
+
+#### 6.2.2.3. Sprint Backlog 2
+Historias, tareas, estimación, responsables y estado.
+| User Story | Task ID | Tarea | Estimación | Responsable | Estado |
+|-----------|---------|-------|------------|-------------|--------|
+| ... | ... | ... | ...h | ... | To Do/In Prog/Done |
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+Evidencias de desarrollo con repositorio/branch/commit.
+| Repo | Branch | Commit Id | Mensaje | Fecha |
+|------|--------|-----------|---------|-------|
+| ...  | ...    | ...       | ...     | ...   |
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+Resultados de pruebas unitarias/integración/end-to-end.
+- Cobertura:
+- Suites ejecutadas:
+- Evidencias: capturas/logs/enlaces.
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+Capturas de la aplicación ejecutándose y URLs públicas.
+- URL App/Web:
+- Screens/Video demo:
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+Endpoints y Swagger/OpenAPI.
+- URL Swagger:
+- Endpoints clave: métodos, payloads y ejemplos.
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+Pipeline, entorno y resultado del despliegue.
+- Plataforma (Netlify/Azure/etc.):
+- Logs de deploy:
+- URL producción/staging:
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+Analítica de colaboración, commits y retrospectiva.
+- Qué salió bien / por mejorar / acciones:
+
+### 6.3. Validation Interviews
+
+#### 6.3.1. Diseño de Entrevistas
+Objetivo, guion, criterios de reclutamiento y métricas de éxito.
+- Perfil participante:
+- Guion (tareas/escenarios):
+- Métricas (SUS, Tasa éxito, Tiempo tarea):
+
+#### 6.3.2. Registro de Entrevistas
+Tabla de participantes y hallazgos.
+| Participante | Perfil | Duración | Principales hallazgos |
+|--------------|--------|----------|------------------------|
+| ... | ... | ... | ... |
+
+#### 6.3.3. Evaluaciones según heurísticas
+Evaluación Nielsen/ISO, severidad y recomendaciones.
+| Heurística | Hallazgo | Severidad | Recomendación |
+|-----------|----------|-----------|---------------|
+| ... | ... | Baja/Media/Alta | ... |
+
+### 6.4. Video About-the-Product
+Video demostrativo del producto y recorrido funcional.
+- Enlace al video:
+- Contenido mínimo: problema → propuesta de valor → demo (landing, app web/móvil, Macety) → CTA.
+- Duración sugerida: 2–4 min.
 
 ## Conclusiones
 
