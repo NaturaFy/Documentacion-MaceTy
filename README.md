@@ -2586,16 +2586,187 @@ Analítica de colaboración, commits y retrospectiva.
 ### 6.3. Validation Interviews
 
 #### 6.3.1. Diseño de Entrevistas
-Objetivo, guion, criterios de reclutamiento y métricas de éxito.
-- Perfil participante:
-- Guion (tareas/escenarios):
-- Métricas (SUS, Tasa éxito, Tiempo tarea):
+El objetivo de estas entrevistas es validar la usabilidad, claridad y valor percibido del prototipo interactivo de MaceTy con usuarios representativos de los segmentos objetivo.
+
+- **Perfil del participante:** Usuarios que coincidan con las personas de "Personas Ocupadas en la Ciudad" y "Jardineros". Se buscará un mix de 3-4 participantes por segmento.
+- **Metodología:** Sesiones de usabilidad moderadas (presenciales o remotas) donde el usuario interactúa con el prototipo de Figma mientras piensa en voz alta.
+- **Métricas Clave:**
+  - **System Usability Scale (SUS):** Para medir la usabilidad general.
+  - **Tasa de éxito de tareas:** Porcentaje de usuarios que completan tareas clave sin ayuda.
+  - **Tiempo en la tarea:** Tiempo promedio para completar tareas como "conectar una nueva maceta".
+  - **Feedback cualitativo:** Respuestas a las preguntas del guion.
+
+**Guion de Entrevista de Validación:**
+
+**Fase 1: Onboarding y Primera Impresión**
+1.  ¿Qué tan fácil fue para ti registrarte y conectar la maceta inteligente con la aplicación? (Tarea: Conectar una nueva maceta).
+2.  ¿El diseño visual (colores, íconos, texto) te ayudó a entender fácilmente qué hacer desde el principio?
+
+**Fase 2: Uso del Dashboard y Monitoreo**
+3.  Viendo el panel principal, ¿entendiste claramente qué representa cada indicador (humedad, temperatura, luz)?
+4.  ¿Te resultó útil la forma en que la app muestra el estado general de tu planta? ¿Hay algo que falte o sobre?
+
+**Fase 3: Interacción con Alertas y Asistente**
+5.  Cuando recibiste una alerta o recomendación, ¿te pareció clara y confiable?
+6.  ¿Seguirías las recomendaciones de Macety sin dudar o necesitarías más información para confiar en ellas?
+7.  ¿Cómo describirías tu experiencia conversando con el asistente MacetyBot? ¿Fue natural o confuso?
+
+**Fase 4: Cierre y Percepción General**
+8.  ¿Hubo algún momento en que te sentiste confundido o no supiste cómo avanzar? ¿Dónde?
+9.  ¿Qué parte de toda la experiencia te pareció más valiosa o innovadora? ¿Y la menos útil?
+10. En una escala del 1 al 5 (donde 1 es "muy insatisfecho" y 5 "muy satisfecho"), ¿qué tan satisfecho/a estás con tu experiencia general usando Macety?
 
 #### 6.3.2. Registro de Entrevistas
-Tabla de participantes y hallazgos.
-| Participante | Perfil | Duración | Principales hallazgos |
-|--------------|--------|----------|------------------------|
-| ... | ... | ... | ... |
+#### **Entrevista #1**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Camila Morales Farias |
+|  **Edad** | 21 |
+|  **Rol / Experiencia** | Persona Ocupada |
+| **Fecha de Entrevista** | 10/11/2020 |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | zoom |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 1](assets/entrevista-validation1.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+#### **Entrevista #2**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+#### **Entrevista #3**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+#### **Entrevista #4**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+#### **Entrevista #5**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+#### **Entrevista #6**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
 
 #### 6.3.3. Evaluaciones según heurísticas
 Evaluación Nielsen/ISO, severidad y recomendaciones.
