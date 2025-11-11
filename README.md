@@ -2599,19 +2599,23 @@ El objetivo de estas entrevistas es validar la usabilidad, claridad y valor perc
 **Guion de Entrevista de Validación:**
 
 **Fase 1: Onboarding y Primera Impresión**
+
 1.  ¿Qué tan fácil fue para ti registrarte y conectar la maceta inteligente con la aplicación? (Tarea: Conectar una nueva maceta).
 2.  ¿El diseño visual (colores, íconos, texto) te ayudó a entender fácilmente qué hacer desde el principio?
 
 **Fase 2: Uso del Dashboard y Monitoreo**
+
 3.  Viendo el panel principal, ¿entendiste claramente qué representa cada indicador (humedad, temperatura, luz)?
 4.  ¿Te resultó útil la forma en que la app muestra el estado general de tu planta? ¿Hay algo que falte o sobre?
 
 **Fase 3: Interacción con Alertas y Asistente**
+
 5.  Cuando recibiste una alerta o recomendación, ¿te pareció clara y confiable?
 6.  ¿Seguirías las recomendaciones de Macety sin dudar o necesitarías más información para confiar en ellas?
 7.  ¿Cómo describirías tu experiencia conversando con el asistente MacetyBot? ¿Fue natural o confuso?
 
 **Fase 4: Cierre y Percepción General**
+
 8.  ¿Hubo algún momento en que te sentiste confundido o no supiste cómo avanzar? ¿Dónde?
 9.  ¿Qué parte de toda la experiencia te pareció más valiosa o innovadora? ¿Y la menos útil?
 10. En una escala del 1 al 5 (donde 1 es "muy insatisfecho" y 5 "muy satisfecho"), ¿qué tan satisfecho/a estás con tu experiencia general usando Macety?
@@ -2625,9 +2629,9 @@ El objetivo de estas entrevistas es validar la usabilidad, claridad y valor perc
 |  **Edad** | 21 |
 |  **Rol / Experiencia** | Persona Ocupada |
 | **Fecha de Entrevista** | 10/11/2020 |
-|  **Duración** | `[HH:MM:SS]` |
+|  **Duración** | 5:28 |
 |  **Tecnologías Usadas** | zoom |
-|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+|  **Enlace a Grabación** | https://drive.google.com/file/d/13b4uefu0Nl7Z_FgoQw1bgFFKKU7_HIFB/view?usp=sharing |
 
 <br>
 
@@ -2640,6 +2644,23 @@ El objetivo de estas entrevistas es validar la usabilidad, claridad y valor perc
 
 **Resumen de Hallazgos Clave:**
 
+Camila calificó la experiencia general con un **4 sobre 5**, considerándola positiva, fluida y con gran potencial. Destacó como lo más valioso la sensación de que la planta "le habla" a través de una guía personalizada.
+
+**Puntos Fuertes Identificados:**
+- **Propuesta de Valor:** La idea de una guía personalizada para el cuidado de la planta fue percibida como la característica más innovadora y valiosa.
+- **Diseño y Usabilidad:** El diseño visual es claro y moderno. El proceso de registro fue fácil (4/5) y el asistente MacetyBot se sintió natural y comprensible.
+- **Alertas:** Las notificaciones fueron claras y directas.
+
+**Oportunidades de Mejora Sugeridas:**
+- **Claridad en los Datos:**
+    - **Historial:** El gráfico de historial generó confusión al no ser clara la escala de tiempo (diaria, semanal). Se recomienda añadir un selector de tiempo visible.
+    - **Indicadores:** El indicador de "luz" fue ambiguo. Un tooltip explicativo que aclare si es luz ambiental o directa sería útil.
+- **Profundidad de las Recomendaciones:**
+    - Las alertas, aunque claras, se perciben como genéricas. Se sugiere añadir el "porqué" de la recomendación y cuantificar la acción (ej. "regar con 70 ml").
+    - Un botón de "más información" aumentaría la confianza del usuario en las sugerencias del sistema.
+- **Refinamiento de la Interfaz:**
+    - Se podría mejorar la legibilidad del estado general de la planta usando un código de colores simple (tipo semáforo: verde/amarillo/rojo).
+    - Agrupar mejor algunos elementos en el dashboard para evitar una sensación de dispersión.
 
 ---
 #### **Entrevista #2**
@@ -2662,9 +2683,6 @@ El objetivo de estas entrevistas es validar la usabilidad, claridad y valor perc
 `![Evidencia Entrevista 1](assets/entrevista_1.png)`
 
 <br>
-
-**Resumen de Hallazgos Clave:**
-
 
 ---
 #### **Entrevista #3**
