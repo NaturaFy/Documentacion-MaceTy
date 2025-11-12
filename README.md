@@ -2667,22 +2667,41 @@ Camila calificó la experiencia general con un **4 sobre 5**, considerándola po
 
 | Detalle | Información |
 | :--- | :--- |
-|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
-|  **Edad** | `[Edad]` |
-|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
-| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
-|  **Duración** | `[HH:MM:SS]` |
-|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
-|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+|  **Entrevistado** | Marllely Arias Segil |
+|  **Edad** | 22 |
+|  **Rol / Experiencia** | Jardinero/a |
+| **Fecha de Entrevista** | 12/11/2025 |
+|  **Duración** | 5:33 |
+|  **Tecnologías Usadas** | Zoom |
+|  **Enlace a Grabación** | https://drive.google.com/file/d/1PqOclBgduUB5YgxvUxDfHNZ-twvoTRPe/view?usp=sharing |
 
 <br>
 
 **Evidencia de la Entrevista:**
 
 
-`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+![Evidencia Entrevista 1](assets/validation1-jardinero.png)
 
 <br>
+
+**Resumen de Hallazgos Clave:**
+
+Marllely calificó la experiencia general con un **5 sobre 5**, describiéndola como "práctica, moderna y muy útil". El valor principal que identificó fue la innovadora combinación de tecnología y naturaleza, que permite "ver el estado de ánimo de la planta en tiempo real".
+
+**Puntos Fuertes Identificados:**
+- **Onboarding y Usabilidad:** El proceso de registro y conexión fue "bastante fácil" y rápido, sin requerir conocimientos técnicos.
+- **Diseño de Interfaz (UI):** El diseño visual es "muy claro y armonioso", con colores, íconos y textos que facilitan la orientación desde el primer momento.
+- **Claridad de la Información:** Los indicadores del dashboard son intuitivos y las explicaciones adicionales al tocarlos fueron muy valoradas.
+- **Confianza en las Alertas:** Las notificaciones son "claras y directas", generando confianza al indicar exactamente qué acción tomar.
+- **Asistente MacetyBot:** La interacción con el bot se percibió como natural y útil para resolver dudas básicas.
+
+**Oportunidades de Mejora Sugeridas:**
+- **Identificación de Plantas:** Durante la configuración, se sintió insegura al elegir la especie. Sugiere añadir una **función para identificar la planta mediante una foto**.
+- **Profundidad de las Recomendaciones:** Aunque confía en las alertas, le gustaría que incluyeran un breve contexto o el "porqué" de la recomendación para fomentar el aprendizaje.
+- **Visualización de Datos:** Sugiere añadir un pequeño **gráfico histórico en el dashboard principal** para observar la evolución de los indicadores a lo largo del tiempo.
+- **Simplificación:** La sección con datos muy técnicos podría simplificarse para ser más accesible.
+
+
 
 ---
 #### **Entrevista #3**
