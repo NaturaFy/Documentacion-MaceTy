@@ -2710,7 +2710,7 @@ Marllely calificó la experiencia general con un **5 sobre 5**, describiéndola 
 | :--- | :--- |
 |  **Entrevistado** | Christian André Matos Fernández |
 |  **Edad** | 20 |
-|  **Rol / Experiencia** | Jardinero |
+|  **Rol / Experiencia** | Persona Ocupada |
 | **Fecha de Entrevista** | 11/11/2025 |
 |  **Duración** | 04:53 |
 |  **Tecnologías Usadas** | Google Meet |
