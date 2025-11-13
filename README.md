@@ -2708,24 +2708,40 @@ Marllely calificó la experiencia general con un **5 sobre 5**, describiéndola 
 
 | Detalle | Información |
 | :--- | :--- |
-|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
-|  **Edad** | `[Edad]` |
-|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
-| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
-|  **Duración** | `[HH:MM:SS]` |
-|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
-|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+|  **Entrevistado** | Christian André Matos Fernández |
+|  **Edad** | 20 |
+|  **Rol / Experiencia** | Jardinero |
+| **Fecha de Entrevista** | 11/11/2025 |
+|  **Duración** | 04:53 |
+|  **Tecnologías Usadas** | Google Meet |
+|  **Enlace a Grabación** | https://youtu.be/yVsWmHW6aWs |
 
 <br>
 
 **Evidencia de la Entrevista:**
 
 
-`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+![Evidencia Entrevista 3](assets/entrevista_3.png)
 
 <br>
 
 **Resumen de Hallazgos Clave:**
+Cristian Matos calificó su experiencia general con la aplicación de IoT como **4.5/5**, describiéndola como *"sencilla, práctica y útil"* para el cuidado de sus plantas. Destacó el valor de tener la información accesible en tiempo real, lo que le permite monitorear el bienestar de sus plantas de manera eficiente.
+
+**Puntos Fuertes Identificados**
+
+- **Onboarding y Usabilidad:** El proceso de registro fue *"bastante fácil"* e intuitivo, permitiendo una conexión rápida que no generó frustraciones.
+- **Diseño de Interfaz (UI):** La aplicación tiene un diseño visual *"agradable e intuitivo"*, donde los colores y los iconos facilitan la comprensión de las acciones a realizar.
+- **Claridad de Indicadores:** Los indicadores en el panel principal son *"fáciles de entender"*, ofreciendo información clara sobre el estado de la planta con iconos y colores que indican si está sana.
+- **Alertas de Recomendación:** Las notificaciones son *"claras y directas"*, generando confianza en la información brindada sobre las acciones a seguir.
+- **Interacción con Macetti Bot:** Cristian encontró la interacción con el asistente bastante *"natural y útil"*, facilitando la resolución de dudas sin complicaciones.
+
+**Oportunidades de Mejora Sugeridas**
+
+- **Tutorial Interactivo:** Se sugiere añadir un tutorial inicial para ayudar a nuevos usuarios a familiarizarse con las funcionalidades sin exploración excesiva.
+- **Mayor Claridad en Indicaciones:** Aunque los indicadores son comprensibles, Cristian comentó que a veces necesita más contexto sobre ciertos aspectos, como la luz solar.
+- **Modo Resumen para Múltiples Plantas:** Propone la posibilidad de tener un modo resumen para monitorear varias plantas simultáneamente desde una sola vista.
+- **Personalización de Respuestas:** Se podría mejorar la personalización de las respuestas del asistente para que estas se adapten más al tipo de planta específica.
 
 
 ---
