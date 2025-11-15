@@ -2766,12 +2766,12 @@ Cristian Matos calificó su experiencia general con la aplicación de IoT como *
 
 | Detalle | Información |
 | :--- | :--- |
-|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
-|  **Edad** | `[Edad]` |
-|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
-| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Entrevistado** | Ariana Martínez |
+|  **Edad** | 25 |
+|  **Rol / Experiencia** | Persona Ocupada |
+| **Fecha de Entrevista** | 14/11/2025 |
 |  **Duración** | `[HH:MM:SS]` |
-|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Tecnologías Usadas** | Google Meet |
 |  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
 
 <br>
@@ -2779,12 +2779,59 @@ Cristian Matos calificó su experiencia general con la aplicación de IoT como *
 **Evidencia de la Entrevista:**
 
 
-`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+![Evidencia Entrevista 1](assets/valit_4_entrevista.png)
 
 <br>
 
 **Resumen de Hallazgos Clave:**
 
+Ariana evaluó la propuesta de una maceta inteligente como altamente atractiva, percibiéndola como una solución útil para su estilo de vida ocupado. Considera que la característica más valiosa es la capacidad del sistema para automatizar el riego y, al mismo tiempo, notificarle sobre el estado de su planta, lo cual reduciría olvidos y pérdida de plantas. Para ella, la propuesta combina practicidad con una mejora en la experiencia de tener plantas en casa.
+
+**Puntos Fuertes Identificados**
+
+- Propuesta de Valor:
+La idea de una maceta que se riegue automáticamente y detecte necesidades como luz o nutrientes fue considerada altamente relevante. Ariana valoró especialmente que la maceta pueda alertarla y mantenerla informada, incluso si realiza el trabajo por ella.
+
+- Diseño y Percepción del Producto:
+Dado que le importa la estética del hogar, resalta la importancia de que el producto sea visualmente atractivo, moderno y sostenible. Materiales seguros y sin químicos son factores decisivos para ella.
+
+- Experiencia Esperada:
+Ariana mostró preferencia por un sistema automático asistido, es decir, uno que realice el riego por sí mismo, pero que también brinde actualizaciones sobre el estado de la planta. Le resulta importante sentir que puede supervisar sin tener que intervenir constantemente.
+
+**Oportunidades de Mejora Sugeridas**
+
+Instalación y Configuración:
+Su principal preocupación es la complejidad inicial. Comentó que podría sentirse insegura al instalar o configurar el producto. Esto indica la necesidad de:
+
+**Tutorial paso a paso**
+
+- Manual visual
+
+- Setup guiado desde la app
+
+**Educación del Usuario:**
+Aunque entiende la utilidad, expresó que a veces no sabe exactamente qué necesita una planta. El sistema podría ofrecer:
+
+- Consejos personalizados
+
+- Explicaciones del estado de la planta
+
+- Lenguaje simple y no técnico (ej. “tu planta necesita más luz indirecta porque…”)
+
+- Precio y Valor Percibido:
+Su disposición de pago se ubica en un rango máximo de S/ 200, lo que indica que el producto debe ser percibido como accesible y con beneficios claros desde el primer uso.
+
+**Recomendaciones Estratégicas**
+
+Incluir asistente configurador o video onboarding que reduzca la percepción de dificultad técnica.
+
+Presentar un diseño sostenible, estético y compatible con decoración moderna esto influye significativamente en la decisión de compra.
+
+Integrar notificaciones amables y personalizadas para mantener cercanía emocional (no solo alertas técnicas).
+
+Considerar un plan de precios que permita percibir accesibilidad, por ejemplo:
+
+Versión base + features adicionales premium.
 
 ---
 #### **Entrevista #5**
