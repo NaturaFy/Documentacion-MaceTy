@@ -1,59 +1,48 @@
 <p align="center">
-  <img src="assets/upc_logo.png" alt="Logo de la UPC" />
+<img src="https://hackmd.io/_uploads/ryJoz7YcR.png" alt="Logo" style="width:200px;height:auto;"></p>
+
+<br><br>
+
+<p align="center">
+  <strong style="font-size: 20px;">UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</strong><br>
+  <strong style="font-size: 18px;">FACULTAD DE INGENIERÍA</strong><br>
+  <strong style="font-size: 16px;">PROGRAMA ACADÉMICO DE INGENIERÍA DE SOFTWARE</strong><br>
+  <strong style="font-size: 14px;">1ASI0572-2520-3414 - DESARROLLO DE SOLUCIONES IoT</strong>
 </p>
 <p align="center">
-  <strong>UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</strong><br>
-  <strong>FACULTAD DE INGENIERÍA</strong><br>
-  <strong>PROGRAMA ACADÉMICO DE INGENIERÍA DE SOFTWARE</strong><br>
-  <strong>1ASI0572-2520-3414 - DESARROLLO DE SOLUCIONES IoT</strong>
-</p>
-<p align="center">
-  <span style="font-size: 2em;"><em><strong>MaceTy</strong></em></span><br>
-  <span style="font-size: 2em;"><em><strong>TB1</strong></em></span>
+  <strong style="font-size: 18px;">DOCENTE:</strong><br>
+  <span style="font-size: 16px;">  Marco Antonio Leon Baca </span>
 </p>
 
 <p align="center">
-  <strong>DOCENTE:</strong><br>
-  Marco Antonio Leon Baca
+<span style="font-size: 1.8em; font-weight: bold; font-style: italic;">Informe de Trabajo Final</span><br>
 </p>
-
 <p align="center">
-  <strong>STARTUP:</strong><br>
-  NaturaFy
+  <strong style="font-size: 18px;">STARTUP:</strong><br>
+  <span style="font-size: 16px;">NaturaFy</span>
+</p>
+<p align="center">
+  <strong style="font-size: 18px;">Producto:</strong><br>
+  <span style="font-size: 16px;">MaceTy</span>
+</p>
+<p align="center">
+  <strong style="font-size: 18px;">INTEGRANTES DEL EQUIPO:</strong>
 </p>
 
-<h3 align="center">Team Members:</h3>
+<div align="center">
 
-<div align="center" style="display: flex; justify-content: center;">
-<table style="margin: 0 auto;">
-<tr>
-<th><b>Member</b></th>
-<th><b>Code</b></th>
-</tr>
-<tr>
-<td>Rojas Velasquez, Maycol</td>
-<td>U202219984</td>
-</tr>
-<tr>
-<td>Gómez Vallejos, Sergio</td>
-<td>U20221D401</td>
-</tr>
-<tr>
-<td>Leon Rioja, Carlos Andres</td>
-<td>U202111451</td>
-</tr>
-<tr>
-<td>Valera Garces, Samuel</td>
-<td>U202111952</td>
-</tr>
-<tr>
-<td>Jaque Peña, Estefano</td>
-<td>U202225466</td>
-</tr>
-</table>
+| Código     | Apellidos y Nombres            |
+|-----------|---------------------------------|
+| U20221D401 | Gómez Vallejos, Sergio         |
+| U202111451 | Leon Rioja, Carlos Andres      |
+| U202219984 | Rojas Velasquez, Maycol        |
+| U202111952 | Valera Garces, Samuel          |
+| U202225466 | Jaque Peña, Estefano           |
+
 </div>
+<p align="center"><strong style="font-size: 18px;">Noviembre 2025</strong></p>
 
-<p align="center"><strong>Septiembre 2025</strong></p>
+<div style="page-break-before: always;"></div>
 
 # Registro de Versiones del Informe
 | Versión | Fecha       | Autor                         | Descripción de modificación                |
@@ -82,26 +71,66 @@
 | TB1     | 20/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Context Level Diagrams |
 | TB1     | 20/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Container Level Diagrams |
 | TB1     | 20/09/2025  | Maycol Jhordan Rojas Velásquez | Software Architecture Deployment Diagrams |
-| TB1     | 20/09/2025  | Carlos Andres Leon Rioja | Context Mapping |
+| TB1     | /09/2025  | Carlos Andres Leon Rioja | Context Mapping |
 | TB1     | 20/09/2025  | Carlos Andres Leon Rioja | Impact Mapping |
+| TP     | 01/10/2025  | Maycol Jhordan Rojas Velásquez | Style Guidelines |
+| TP     | 02/10/2025  | Maycol Jhordan Rojas Velásquez | Information Architecture |
+| TP     | 04/10/2025  | Maycol Jhordan Rojas Velásquez | Landing Page UI Design  |
+| TP     | 04/10/2025  | Maycol Jhordan Rojas Velásquez | Deploy Landing |
+| TP       | 05/10/2025  | Samuel Valera                        | Applications Wireframes |
+| TP       | 06/10/2025  | Samuel Valera                        | Applications Wireflow Diagrams |
+| TP       | 06/10/2025  | Sergio Valera                      | Applications Mock-ups |
+| TP       | 07/10/2025  | Samuel Valera                        | Applications User Flow Diagrams |
+| TP       | 07/10/2025  | Samuel Valera                        | Applications Prototyping |
+| TP       | 08/10/2025  | Sergio Gomez                      | Software Development Environment Configuration |
+| TP       | 08/10/2025  | Sergio Gomez                      | Source Code Management |
+| TP       | 08/10/2025  | Sergio Gomez                      | Source Code Style Guide & Conventions |
+| TP       | 08/10/2025  | Sergio Gomez                        | Software Deployment Configuration |
+| TP       | 09/10/2025  | Stefano Jaque                        | Landing Page, Services & Applications Implementation |
+| TP       | 09/10/2025  | Stefano Jaque                        | Sprint 1 – Planning |
+| TP       | 09/10/2025  | Stefano Jaque                        | Aspect Leaders and Collaborators |
+| TP       | 09/10/2025  | Stefano Jaque                        | Sprint Backlog 1 |
+| TP       | 09/10/2025  | Carlos León                       | Development Evidence for Sprint Review |
+| TP       | 09/10/2025  | Carlos León                       | Testing Suite Evidence for Sprint Review |
+| TP       | 09/10/2025  | Carlos León                       | Execution Evidence for Sprint Review |
+| TP       | 09/10/2025  | Carlos León                       | Services Documentation Evidence for Sprint Review |
+| TP       | 09/10/2025  | Carlos León                       | Software Deployment Evidence for Sprint Review |
+| TP       | 09/10/2025  | Carlos León                       | Team Collaboration Insights during Sprint |
+| TB2      | 13/11/2025  | Estefano Jaque                    | Sprint Planning 2 |
+| TB2      | 13/11/2025  | Estefano Jaque                    | Aspect Leaders and Collaborators |
+| TB2      | 13/11/2025  | Estefano Jaque                    | Sprint Backlog 2 |
+| TB2      | 14/11/2025  | Sergio Gomez                      | Development Evidence for Sprint Review |
+| TB2      | 14/11/2025  | Carlos León                       | Execution Evidence for Sprint Review |
+| TB2      | 14/11/2025  | Maycol Rojas                      | Software Deployment Evidence for Sprint Review |
+| TB2      | 14/11/2025  | Carlos León                       | Team Collaboration Insights during Sprint |
+| TB2      | 14/11/2025  | Maycol Rojas                      | Diseño de Entrevistas |
+| TB2      | 14/11/2025  | Todos los integrantes             | Registro de Entrevistas |
+| TB2      | 15/11/2025  | Estefano Jaque                    | Testing Suite Evidence for Sprint Review |
+| TB2      | 15/11/2025  | Estefano Jaque                    | Services Documentation Evidence for Sprint Review |
+| TB2      | 15/11/2025  | Maycol Rojas                      | Evaluaciones según heurísticas |
+| TB2      | 15/11/2025  | Samuel Valera                     | Video About-the-Product |
+| TB2      | 15/11/2025  | Maycol Rojas                      | Conclusiones |
+
 # Project Report Collaboration Insights
 #### 1. URL del Repositorio en GitHub
 | Repositorio del Informe en GitHub |
 |-----------------------------------|
 | https://github.com/orgs/NaturaFy/repositories |
 #### 2. Actividades de Elaboración del Informe
-
 | Actividad                           | Descripción                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Comunicación de avances            | Se realizaron breves reuniones donde se comentaban los avances de cada integrante para garantizar un trabajo en equipo sincronizado y estar al tanto de cada modificación.                                |
-| Delegación de responsabilidades    | Se organizaron charlas y reuniones para la delegación de tareas, promoviendo el trabajo en equipo y el avance continuo de manera asíncrona.                            |
-| Recopilación de datos              | Se realizó un estudio del mercado, utilizando los segmentos objetivos para extraer datos significativos mediante entrevistas. Además, se utilizaron referencias bibliográficas para investigar información relevante dentro del desarrollo del informe                                                          |
-| Documentación             | Se desarrollaron diferentes capítulos del informe, utilizando las técnicas, herramientas y metodologías requeridas.                                                         |
+| Planificación y Ejecución del Sprint 2 | Se coordinó y ejecutó el segundo sprint de desarrollo, enfocándose en la implementación de funcionalidades clave de la aplicación web y móvil, siguiendo la planificación establecida en Trello. |
+| Diseño y Ejecución de Entrevistas de Validación | Se diseñó un guion estructurado para validar el prototipo con usuarios de los segmentos objetivo. Se realizaron y grabaron sesiones de usabilidad para recopilar feedback cualitativo sobre la experiencia. |
+| Análisis de Feedback y Hallazgos   | Se sintetizaron los resultados de las entrevistas de validación para identificar fortalezas, debilidades y oportunidades de mejora, consolidando los hallazgos en el informe. |
+| Implementación y Despliegue        | Se continuó con el desarrollo de componentes del frontend y backend, y se realizaron despliegues en los entornos de prueba para la revisión de avances funcionales. |
+| Creación de Contenido Multimedia   | Se produjo el video "About-the-Product", incluyendo la grabación de un demo funcional de la aplicación y la edición final para presentar la propuesta de valor. |
+| Documentación y Consolidación      | Se documentaron todas las evidencias del Sprint 2 (desarrollo, pruebas, despliegue) y los resultados de la validación. Se redactaron las conclusiones finales del proyecto. |
+
 #### 3. Capturas de Imagen de los Analíticos de Colaboración y Commits en GitHub
 | Métrica                         | Descripción                                                                                          |
 |---------------------------------|------------------------------------------------------------------------------------------------------|
-| Número de commits por autor     | ![Commits por autor](assets/insghits.png) |
-| Historial de cambios            | ![Historial de cambios](assets/network.png) |
+| Número de commits por autor     | ![Commits por autor](assets/insghits3.png) |
+| Historial de cambios            | ![Historial de cambios](assets/network3.png) |
 #### 4. Participación de Todos los Miembros del Equipo
 | Evidencia                       | Descripción                                                                                          |
 |---------------------------------|------------------------------------------------------------------------------------------------------|
@@ -213,9 +242,65 @@
     - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)  
       - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)  
       - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)    
-- [Conclusiones](#61-conclusiones)  
-- [Bibliografía](#62-bibliografía)  
-- [Anexos](#63-anexos)  
+
+## Capítulo V: Solution UI/UX Design
+
+- [5.1. Style Guidelines](#51-style-guidelines)  
+  - [5.1.1. General Style Guidelines](#511-general-style-guidelines)  
+  - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)  
+- [5.2. Information Architecture](#52-information-architecture)  
+  - [5.2.1. Organization Systems](#521-organization-systems)  
+  - [5.2.2. Labeling Systems](#522-labeling-systems)  
+  - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)  
+  - [5.2.4. Searching Systems](#524-searching-systems)  
+  - [5.2.5. Navigation Systems](#525-navigation-systems)  
+- [5.3. Landing Page UI Design](#53-landing-page-ui-design)  
+  - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)  
+  - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)  
+- [5.4. Applications UX/UI Design](#54-applications-uxui-design)  
+  - [5.4.1. Applications Wireframes](#541-applications-wireframes)  
+  - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)  
+  - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)  
+  - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)  
+- [5.5. Applications Prototyping](#55-applications-prototyping)  
+
+## Capítulo VI: Product Implementation, Validation & Deployment
+
+- [6.1. Software Configuration Management](#61-software-configuration-management)  
+  - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)  
+  - [6.1.2. Source Code Management](#612-source-code-management)  
+  - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)  
+  - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)  
+- [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)  
+  - [6.2.1. Sprint 1](#621-sprint-1)  
+    - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)  
+    - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)  
+    - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)  
+    - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)  
+    - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)  
+    - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)  
+    - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)  
+    - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)  
+    - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)  
+  - [6.2.2. Sprint 2](#622-sprint-2)  
+    - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)  
+    - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)  
+    - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)  
+    - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)  
+    - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)  
+    - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)  
+    - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)  
+    - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)  
+    - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)  
+- [6.3. Validation Interviews](#63-validation-interviews)  
+  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)  
+  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)  
+  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)  
+- [6.4. Video About-the-Product](#64-video-about-the-product)  
+  
+- [Conclusiones](#71-conclusiones)  
+- [Bibliografía](#72-bibliografía)  
+- [Anexos](#73-anexos)  
 
 # STUDENT OUTCOME
 El curso contribuye al cumplimiento del Student Outcome ABET: 
@@ -226,8 +311,9 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |  
 |-------------------------|------------------------|------------------|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta |<br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué liderazgo conjunto durante el desarrollo del proyecto MaceTy, coordinando con todo el equipo la distribución de tareas técnicas y de investigación. Lideré la arquitectura de software, diagramas C4 y el diseño del sistema IoT, mientras facilitaba la integración del trabajo de los cinco miembros del equipo, asegurando coherencia entre los bounded contexts y componentes técnicos.<br><br> 2. Gómez Vallejos, Sergio André<br>*TB1:*<br> Ejercí liderazgo compartido en la investigación de mercado y análisis competitivo. Coordiné con el equipo completo para asegurar coherencia entre los antecedentes, problemática y la propuesta técnica, liderando las secciones de competidores y análisis de entrevistas. Facilité la comunicación entre todos los miembros para mantener una visión unificada del proyecto.<br><br> 3. Valera Garcés, Samuel Ignacio<br>*TB1:*<br> Lideré la elaboración de **2.3 Needfinding**, **2.3.1 User Personas**, **2.3.2 User Task Matrix**, **2.3.3 User Journey Mapping**, **2.3.4 Empathy Mapping**, **2.5 Big Picture EventStorming**, la **entrevista con el segmento 1**, así como **3.1 User Stories** y **3.2 Product Backlog**. Coordiné con los cinco integrantes del equipo para integrar estos insumos al documento final, asegurando coherencia y cumplimiento de los objetivos del proyecto MaceTy.<br><br> 4. Leon Rioja, Carlos Andres<br>*TB1:*<br> Asumí el liderazgo en el diseño de contextos delimitados y modelado de dominios. Desarrollé el **4.1.1.1 Candidate Context Discovery**, **4.1.1.2 Domain Message Flows Modeling** y **4.1.1.3 Bounded Context Canvases**. Colaboré estrechamente con todo el equipo para asegurar que los bounded contexts reflejaran correctamente los procesos de negocio identificados en las fases previas del proyecto.<br><br> 5. Jaque Peña, Estefano Oscar<br>*TB1:*<br> Lideré la conceptualización y desarrollo del **1.2.2 Lean UX Process**, incluyendo problem statements, assumptions y hypothesis statements que sirvieron como base fundamental para todo el proyecto. Coordiné con los demás miembros para asegurar que el enfoque Lean UX se mantuviera consistente a lo largo de todas las fases del desarrollo, desde la investigación hasta la arquitectura técnica. | Durante el TB1, los cinco miembros del equipo demostraron capacidades de liderazgo complementarias y distribuidas estratégicamente. Maycol lideró los aspectos técnicos y arquitecturales, Sergio dirigió la investigación de mercado y análisis competitivo, Samuel se enfocó en el needfinding y especificación de requerimientos, Carlos desarrolló el modelado de dominio y contextos delimitados, mientras que Estefano estableció las bases metodológicas con Lean UX. Esta distribución de liderazgo permitió aprovechar las fortalezas individuales y crear un producto integral que combina solidez técnica, investigación de mercado robusta, análisis de usuarios profundo, arquitectura de dominio bien estructurada y metodología ágil sólida. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| <br><br> 1. Rojas Velasquez, Maycol Jhordan<br>*TB1:*<br> Apliqué metodologías colaborativas estableciendo reuniones regulares de sincronización con los cinco miembros del equipo, utilizando GitHub para el control de versiones colaborativo y creando un ambiente donde todos pudieran contribuir según sus fortalezas técnicas. Establecí metas claras para cada sprint: definición de segmentos objetivo, arquitectura del sistema y documentación técnica, coordinando con Carlos para los bounded contexts y con Samuel para la integración de user stories.<br><br> 2. Gómez Vallejos, Sergio André<br>*TB1:*<br> Contribuí a crear un entorno inclusivo donde cada uno de los cinco miembros del equipo pudo aportar desde sus habilidades específicas. Planifiqué las tareas de investigación y análisis competitivo en coordinación con Samuel para las entrevistas y Estefano para el marco Lean UX, estableciendo metas semanales para el levantamiento de información. Cumplí con todos los objetivos propuestos facilitando la integración de todos los componentes del proyecto.<br><br> 3. Valera Garcés, Samuel Ignacio<br>*TB1:*<br> Organicé y planifiqué reuniones de coordinación con todos los integrantes del equipo, definí metas por sección a mi cargo y utilicé herramientas colaborativas (GitHub, documentos compartidos) para facilitar la integración y retroalimentación entre los cinco miembros. Cumplí los plazos acordados para cada entrega, manteniendo una comunicación constante y un ambiente inclusivo en el desarrollo del proyecto, especialmente coordinando con Sergio para las entrevistas y con Carlos para alinear el needfinding con los bounded contexts.<br><br> 4. Leon Rioja, Carlos Andres<br>*TB1:*<br> Establecí un ambiente colaborativo para el desarrollo de la arquitectura de dominio, coordinando estrechamente con Maycol para alinear los bounded contexts con la arquitectura técnica y con Samuel para asegurar que los contextos reflejaran las necesidades identificadas en el needfinding. Planifiqué las tareas de modelado de dominio con metas específicas semanales y mantuve comunicación constante con todo el equipo para validar los diseños propuestos.<br><br> 5. Jaque Peña, Estefano Oscar<br>*TB1:*<br> Creé un marco metodológico colaborativo basado en Lean UX que facilitó la participación equitativa de los cinco miembros del equipo. Establecí metas claras para cada fase del proceso Lean UX y planifiqué la integración de los aportes de cada integrante: coordinando con Sergio para los antecedentes, con Samuel para el needfinding, con Carlos para el domain modeling y con Maycol para la arquitectura técnica. Mantuve un ambiente inclusivo donde todas las perspectivas fueran valoradas y consideradas en las decisiones del proyecto. | El equipo de cinco integrantes logró crear un entorno altamente colaborativo donde cada miembro aportó desde sus fortalezas específicas: técnicas, de investigación, de análisis de usuarios, de modelado de dominio y metodológicas. La planificación clara y coordinada de tareas permitió cumplir con todos los objetivos del TB1: documentación completa del startup profile, análisis competitivo exhaustivo, needfinding profundo, arquitectura de software bien definida, bounded contexts coherentes, segmentos objetivo validados y un marco Lean UX sólido. La comunicación constante entre los cinco miembros y el uso de herramientas colaborativas como GitHub facilitaron la integración exitosa de todos los componentes del proyecto MaceTy, demostrando que un liderazgo distribuido y colaborativo puede generar resultados superiores a la suma de las contribuciones individuales. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta |<br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>*TB1:*<br> Apliqué liderazgo conjunto durante el desarrollo del proyecto **MaceTy**, coordinando con todo el equipo la distribución de tareas técnicas y de investigación. Lideré la **arquitectura de software**, diagramas **C4** y el **diseño del sistema IoT**, mientras facilitaba la integración del trabajo de los cinco miembros del equipo, asegurando coherencia entre los bounded contexts y componentes técnicos.<br>*TP:*<br> Diseñé los **wireframes y mockups** de la **landing page**, incluyendo la sección de contacto e interacción inicial con el usuario. Además, colaboré en la definición de los **estilos visuales (Style Guidelines)** y la **arquitectura de información (Information Architecture)**, garantizando la coherencia entre la parte visual, funcional y técnica del sistema.<br>*TB2:*<br> Lideré la fase de validación del producto, diseñando las **entrevistas de usuario** y realizando la **evaluación heurística** para analizar el feedback. Además, gestioné la evidencia de **despliegue de software** del Sprint 2 y redacté las **conclusiones finales** del proyecto, colaborando con todo el equipo en el registro de las entrevistas.<br><br> **2. Gómez Vallejos, Sergio André**<br>*TB1:*<br> Ejercí liderazgo compartido en la **investigación de mercado y análisis competitivo**, coordinando con el equipo completo para asegurar coherencia entre los antecedentes, problemática y la propuesta técnica. Lideré las secciones de **competidores** y **análisis de entrevistas**, facilitando la comunicación entre todos los miembros para mantener una visión unificada del proyecto.<br>*TP:*<br> Lideré la **implementación del entorno de desarrollo y control de versiones**, documentando los apartados de **Software Development Environment Configuration**, **Source Code Management** y **Source Code Style Guide & Conventions**, garantizando buenas prácticas y estándares unificados durante la implementación del proyecto.<br>*TB2:*<br> Me encargué de recopilar y documentar la **evidencia de desarrollo** para el Sprint 2, asegurando que los avances de codificación estuvieran correctamente registrados para la revisión. Colaboré activamente con el equipo en la ejecución de las **entrevistas de validación**.<br><br> **3. Valera Garcés, Samuel Ignacio**<br>*TB1:*<br> Lideré la elaboración de **2.3 Needfinding**, **2.3.1 User Personas**, **2.3.2 User Task Matrix**, **2.3.3 User Journey Mapping**, **2.3.4 Empathy Mapping**, **2.5 Big Picture EventStorming**, la **entrevista con el segmento 1**, así como **3.1 User Stories** y **3.2 Product Backlog**. Coordiné con los cinco integrantes del equipo para integrar estos insumos al documento final, asegurando coherencia y cumplimiento de los objetivos del proyecto **MaceTy**.<br>*TP:*<br> Desarrollé los apartados de **Applications Wireframes**, **Wireflow Diagrams** y **User Flow Diagrams**, representando la experiencia de usuario y su interacción con las funcionalidades principales. Además, colaboré en el apartado de **Applications Prototyping**, integrando los flujos de navegación y validando la usabilidad general del sistema.<br>*TB2:*<br> Lideré la creación del video **About-the-Product**, un entregable clave que resume la propuesta de valor y el funcionamiento del sistema. Participé junto al resto del equipo en la realización de las **entrevistas de validación** con usuarios.<br><br> **4. Leon Rioja, Carlos Andres**<br>*TB1:*<br> Asumí el liderazgo en el diseño de **contextos delimitados y modelado de dominios**. Desarrollé el **4.1.1.1 Candidate Context Discovery**, **4.1.1.2 Domain Message Flows Modeling** y **4.1.1.3 Bounded Context Canvases**, colaborando estrechamente con el equipo para asegurar que los bounded contexts reflejaran correctamente los procesos de negocio identificados en las fases previas del proyecto.<br>*TP:*<br> Elaboré la evidencia técnica del **Testing Suite**, **Development Evidence**, **Execution Evidence** y **Services Documentation** para la **Sprint Review**, asegurando que los módulos del sistema cumplieran con los criterios de calidad y funcionalidad esperados.<br>*TB2:*<br> Fui responsable de documentar la **evidencia de ejecución** y los **insights de colaboración** del equipo durante el Sprint 2, demostrando el funcionamiento del producto y analizando la dinámica del equipo. Colaboré en el **registro de entrevistas** de validación.<br><br> **5. Jaque Peña, Estefano Oscar**<br>*TB1:*<br> Lideré la conceptualización y desarrollo del **1.2.2 Lean UX Process**, incluyendo **problem statements**, **assumptions** y **hypothesis statements**, que sirvieron como base metodológica del proyecto. Coordiné con los demás miembros para asegurar que el enfoque Lean UX se mantuviera consistente desde la investigación hasta la arquitectura técnica.<br>*TP:*<br> Me encargué del **despliegue de la Landing Page**, la **implementación de servicios** y la planificación del **Sprint 1**, detallando **Sprint Planning**, **Aspect Leaders**, **Sprint Backlog**, y la coordinación con Carlos para la revisión de evidencias. Documenté también la implementación completa de los módulos en el apartado **Landing Page, Services & Applications Implementation**.<br>*TB2:*<br> Lideré la planificación y documentación del **Sprint 2**, gestionando el **Sprint Planning**, **Aspect Leaders**, y el **Sprint Backlog**. También me encargué de la evidencia de **pruebas (Testing Suite)** y la **documentación de servicios**, colaborando con el equipo en las entrevistas de validación. | **Conclusión TB1:**<br>Durante el TB1, los cinco miembros del equipo demostraron capacidades de liderazgo complementarias y distribuidas estratégicamente. **Maycol** lideró la arquitectura técnica e IoT, **Sergio** la investigación de mercado, **Samuel** el análisis de usuarios, **Carlos** el modelado de dominio, y **Estefano** el marco metodológico Lean UX. Esta sinergia permitió integrar conocimientos técnicos, analíticos y metodológicos en un producto sólido, coherente y escalable.<br><br> **Conclusión TP:**<br>En el TP, el equipo fortaleció su liderazgo conjunto aplicando los conocimientos técnicos adquiridos para la implementación del sistema **MaceTy**. Se logró una integración efectiva entre el diseño UX/UI, la configuración del entorno de desarrollo, la validación funcional mediante pruebas, y el despliegue final de la landing page y servicios. El liderazgo compartido permitió mantener una estructura organizada y colaborativa, logrando cumplir los objetivos de las secciones 5.4 y 6.2 con altos estándares de calidad técnica y visual.<br><br> **Conclusión TB2:**<br>Para la entrega final (TB2), el equipo demostró madurez en la gestión del ciclo de vida del producto. El liderazgo se distribuyó eficazmente para cubrir la planificación y ejecución del Sprint 2, la validación del producto con usuarios reales y la consolidación de entregables finales. **Estefano** lideró la planificación del sprint, **Sergio** y **Carlos** las evidencias de desarrollo y ejecución, **Maycol** la fase de validación y despliegue, y **Samuel** la creación del video del producto. La colaboración de todo el equipo en las entrevistas de validación fue clave para obtener insights valiosos, demostrando una sinergia efectiva que permitió cerrar el proyecto cumpliendo con todos los objetivos. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |<br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>*TB1:*<br> Apliqué metodologías colaborativas estableciendo reuniones regulares con los cinco miembros del equipo, usando **GitHub** para el control de versiones y coordinación técnica. Establecí metas claras por sprint: definición de segmentos objetivo, arquitectura del sistema y documentación técnica, coordinando con **Carlos** para los bounded contexts y **Samuel** para la integración de user stories.<br>*TP:*<br> Fortalecí la colaboración durante la etapa de desarrollo visual y despliegue, coordinando el flujo de trabajo entre diseño, front-end y documentación técnica. Promoví la planificación ágil del equipo para cumplir los plazos establecidos y mantener la coherencia técnica en los entregables de la **Landing Page** y las **Applications UX/UI**.<br>*TB2:*<br> Fomenté un entorno colaborativo durante la fase de validación, organizando las sesiones de entrevistas con usuarios y estableciendo metas claras para la recopilación y análisis de feedback. Planifiqué las tareas de documentación final y despliegue, asegurando que el equipo cumpliera con los objetivos de la entrega final.<br><br> **2. Gómez Vallejos, Sergio André**<br>*TB1:*<br> Fomenté un entorno inclusivo donde cada integrante aportó desde sus fortalezas. Planifiqué las tareas de investigación y análisis competitivo en coordinación con **Samuel** y **Estefano**, estableciendo metas semanales y cumpliendo con los objetivos del equipo.<br>*TP:*<br> Promoví la colaboración técnica en la **configuración del entorno de desarrollo** y la **gestión del código fuente**, guiando al equipo en la adopción de estándares de versionamiento y estructura de repositorios. Coordiné revisiones grupales para asegurar la uniformidad del código y cumplimiento de buenas prácticas.<br>*TB2:*<br> Colaboré activamente en la planificación de tareas del Sprint 2, estableciendo metas para la generación de evidencia de desarrollo. Participé en las reuniones de equipo para sincronizar avances y asegurar el cumplimiento de los objetivos de validación con usuarios.<br><br> **3. Valera Garcés, Samuel Ignacio**<br>*TB1:*<br> Organicé reuniones de coordinación semanales y definí metas por sección, promoviendo la comunicación continua. Utilicé herramientas colaborativas como **GitHub** y **Docs compartidos**, asegurando la integración y coherencia de las entregas.<br>*TP:*<br> Coordiné la creación de prototipos y diagramas de flujo, garantizando que la comunicación entre diseño y desarrollo fuera fluida. Mantuvimos revisiones conjuntas con **Maycol** y **Sergio** para unificar criterios visuales y de experiencia de usuario.<br>*TB2:*<br> Establecí metas claras para la producción del video del producto, planificando las tareas de guion, grabación y edición. Participé en un entorno colaborativo durante las entrevistas, aportando a la discusión y al análisis de los resultados para cumplir los objetivos de validación.<br><br> **4. Leon Rioja, Carlos Andres**<br>*TB1:*<br> Establecí un ambiente colaborativo para el desarrollo de la arquitectura de dominio, trabajando con **Maycol** y **Samuel** para alinear los bounded contexts con los requerimientos funcionales. Planifiqué tareas semanales y mantuve constante comunicación para validar avances.<br>*TP:*<br> Coordiné con **Estefano** y **Maycol** durante la etapa de pruebas y despliegue, planificando metas de testing y documentando resultados. Contribuí en la integración de evidencias para la **Sprint Review**, fortaleciendo la colaboración técnica en las fases finales del proyecto.<br>*TB2:*<br> Promoví la colaboración para la recolección de evidencias de ejecución y análisis del equipo. Planifiqué las tareas de documentación de la colaboración y participé activamente en las reuniones para establecer metas y cumplir con los objetivos del Sprint 2.<br><br> **5. Jaque Peña, Estefano Oscar**<br>*TB1:*<br> Creé un marco metodológico colaborativo basado en **Lean UX**, que permitió la participación equitativa del equipo. Establecí metas claras por fase y coordiné la integración de aportes con **Sergio**, **Samuel**, **Carlos** y **Maycol**, asegurando una participación balanceada.<br>*TP:*<br> Lideré la colaboración en el **despliegue de la aplicación** y la coordinación general de los **sprints**, planificando metas conjuntas con **Carlos** para evidencias y validaciones. Mantuvimos comunicación continua para asegurar la entrega completa y funcional del sistema **MaceTy**.<br>*TB2:*<br> Organicé el entorno colaborativo para el Sprint 2, utilizando Trello para planificar tareas y establecer metas claras. Fomenté la participación de todos en la definición del backlog y en las revisiones de pruebas y servicios, asegurando el cumplimiento de los objetivos del sprint. | **Conclusión TB1:**<br>El equipo de cinco integrantes logró construir un entorno de trabajo colaborativo, estableciendo metas claras y cumpliendo objetivos mediante la comunicación constante, planificación efectiva y un liderazgo compartido. El uso de herramientas colaborativas y metodologías ágiles permitió mantener la cohesión y el cumplimiento de todos los entregables del TB1.<br><br> **Conclusión TP:**<br>Durante el TP, el equipo consolidó su entorno colaborativo al coordinar la implementación práctica del sistema. Cada integrante asumió responsabilidades específicas en diseño, desarrollo, pruebas y despliegue, demostrando un compromiso sólido y sinergia constante. El trabajo conjunto permitió cumplir exitosamente con las metas de las secciones 5.4 y 6.2, evidenciando una gestión de equipo madura y eficiente.<br><br> **Conclusión TB2:**<br>En la fase final, el equipo operó en un entorno altamente colaborativo para ejecutar el Sprint 2 y la validación con usuarios. Se establecieron metas claras para cada actividad, desde la planificación del sprint hasta la producción del video final. La planificación de tareas en Trello y las reuniones de sincronización permitieron cumplir con todos los objetivos de la entrega, demostrando una capacidad consolidada para trabajar de manera inclusiva y orientada a resultados. |
+
 # Capítulo I: Introducción  
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
@@ -954,37 +1040,41 @@ Para MaceTy, las User Stories se organizan en **Épicas** (EP) que representan f
 Las historias han sido priorizadas considerando los hallazgos de nuestras entrevistas y análisis de usuarios: los **usuarios ocupados urbanos** requieren automatización máxima y simplicidad de uso, mientras que los **jardineros tecnológicos** valoran el control granular y acceso a datos detallados. Esta diferenciación se refleja en nuestras épicas, que abarcan desde funcionalidades core como monitoreo de sensores y riego automático, hasta características avanzadas como integración con ecosistemas smart home y análisis predictivo.
 
 Cada User Story incluye **Criterios de Aceptación** claros y medibles que definen exactamente cuándo una funcionalidad se considera completada y lista para ser entregada a nuestros usuarios. Estos criterios aseguran que el producto final no solo cumpla con las expectativas técnicas, sino que realmente resuelva los problemas identificados durante la fase de investigación de usuarios y proporcione una experiencia excepcional en el cuidado automatizado de plantas urbanas.
+
+
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |-----------------|-------|------------|-------------------------|---------------------------|
 | **EP-01** | Monitoreo de Humedad | Como usuario quiero que la maceta mida la humedad del suelo para conocer el nivel de riego necesario. | - La app muestra en tiempo real el porcentaje de humedad.<br>- Actualización mínima cada 5 min. | — |
-| ST-01 | Lectura de humedad en tiempo real | Mostrar el nivel actual de humedad del sustrato. | - Datos en % visibles en la app y web.<br>- Error máximo de ±5%. | EP-01 |
-| ST-02 | Historial de humedad | Guardar registros diarios de humedad. | - Consulta de gráficos por día/semana/mes.<br>- Exportable en .csv. | EP-01 |
+| ST-01 | Lectura de humedad en tiempo real | Mostrar el nivel actual de humedad del sustrato. |**-Scenario 1: Visualización de humedad actual en la app**</p>Dado que el usuario abrió la sección “Humedad Actual” en la app</p>Cuando el sensor envía el porcentaje de humedad en tiempo real</p>Entonces el Sistema muestra el valor en % en la app</p>Y el Sistema verifica que el error máximo sea de ±5%.</p>**-Scenario 2: Actualización periódica del valor de humedad**</p>Dado que el usuario se encuentra en la vista de humedad</p>Cuando transcurren 5 minutos desde la última lectura</p>Entonces el Sistema actualiza automáticamente el porcentaje de humedad</p>Y el Sistema muestra la nueva lectura en la app y la plataforma web. | EP-01 |
+| ST-02 | Historial de humedad | Guardar registros diarios de humedad. |**-Scenario 1: Registro diario de humedad**</p>Dado que el sistema recibe mediciones de humedad durante el día</p>Cuando se completa el día calendario</p>Entonces el Sistema guarda los valores diarios en el historial</p>Y el Sistema los muestra en gráficos por día, semana y mes.<p/>**- Scenario 2: Exportación del historial** <p/>Dado que el usuario accede a la sección “Historial de Humedad”<p/>Cuando selecciona la opción “Exportar en .csv”<p/>Entonces el Sistema genera un archivo .csv con los registros almacenados<p/>Y el Sistema permite descargar el archivo en la app o web. | EP-01 |
 | **EP-02** | Monitoreo de Luz | Como usuario quiero conocer la cantidad de luz recibida para asegurar el crecimiento óptimo. | - Lectura en lux disponible en app/web.<br>- Actualización cada 10 min. | — |
-| ST-03 | Lectura de luz | Mostrar luminosidad actual. | - Datos en lux con precisión ±10%. | EP-02 |
-| ST-04 | Alertas de luz insuficiente | Enviar alerta si la luz está fuera del rango óptimo configurado. | - Notificación push en <30 s del evento. | EP-02 |
+| ST-03 | Lectura de luz | Mostrar luminosidad actual. | **- Scenario 1: Mostrar luminosidad actual**<p/>Dado que el usuario está en la sección “Luz Actual”<p/>Cuando el sensor envía la lectura de luminosidad<p/>Entonces el Sistema muestra el valor en lux<p/>Y verifica que la precisión sea de ±10%.<p/>**- Scenario 2: Actualización periódica de luminosidad**<p/>Dado que la app se encuentra mostrando la lectura de luz<p/>Cuando transcurren 10 minutos desde la última actualización<p/>Entonces el Sistema solicita una nueva lectura al sensor<p/>Y muestra el nuevo valor en lux en la app y web.| EP-02 |
+| ST-04 | Alertas de luz insuficiente | Enviar alerta si la luz está fuera del rango óptimo configurado. | **- Scenario 1: Alerta por luz bajo el umbral**<p*>Dado que el usuario configuró un rango mínimo de luminosidad<p*>Cuando el sensor detecta que la luz está por debajo del rango óptimo<p*>Entonces el Sistema envía una notificación push en menos de 30 segundos<p*>Y registra el evento en el historial de alertas.<p/>**- Scenario 2: Alerta por luz excesiva**<p/>Dado que el usuario configuró un rango máximo de luminosidad<p/>Cuando la lectura del sensor excede el límite superior<p/>Entonces el Sistema envía una notificación push al usuario en menos de 30 segundos<p/>Y muestra en la app el valor de lux detectado.| EP-02 |
 | **EP-03** | Monitoreo de Temperatura | Como usuario quiero medir la temperatura ambiental de la planta para protegerla de cambios bruscos. | - Sensor registra temperatura °C cada 5 min. | — |
-| ST-05 | Lectura de temperatura | Visualizar temperatura en tiempo real. | - Rango de 0–50 °C con precisión ±1 °C. | EP-03 |
-| ST-06 | Historial de temperatura | Guardar histórico diario/semanal. | - Consulta de gráficos en la app. | EP-03 |
+| ST-05 | Lectura de temperatura | Visualizar temperatura en tiempo real. | **- Scenario 1: Visualización de temperatura actual**<p/>Dado que el usuario abrió la sección “Temperatura Actual”<p/>Cuando el sensor envía la lectura de temperatura<p/>Entonces el Sistema muestra el valor en °C<p/>Y verifica que esté dentro del rango 0–50 °C.<p/>**- Scenario 2: Actualización periódica de temperatura**<p/>Dado que el sistema recibe valores de temperatura cada 5 minutos<p/>Cuando se recibe una nueva lectura<p/>Entonces la app actualiza el valor mostrado en tiempo real<p/>Y registra la lectura en memoria temporal. | EP-03 |
+| ST-06 | Historial de temperatura | Guardar histórico diario/semanal. | **- Scenario 1: Registro diario del historial**<p/>Dado que existe medición continua durante el día<p/>Cuando termina el día calendario<p/>Entonces el Sistema almacena el promedio, mínimo y máximo diario<p/>Y los muestra en gráficos consultables en la app.<p/>**- Scenario 2: Consulta del historial**<p/>Dado que el usuario accede al módulo “Historial de Temperatura”<p/>Cuando selecciona un rango de días<p/>Entonces el Sistema muestra gráficos del periodo seleccionado<p/>Y presenta la variación diaria de manera detallada. | EP-03 |
 | **EP-04** | Riego Automático | Como usuario quiero que la maceta riegue automáticamente cuando la humedad esté por debajo del umbral. | - Bomba de agua se activa/desactiva según umbral. | — |
-| ST-07 | Configurar umbral de riego | Permitir al usuario fijar % de humedad mínimo. | - Umbral configurable en la app. | EP-04 |
-| ST-08 | Activar riego automático | Riego se activa cuando humedad < umbral. | - Log en la app de cada riego realizado. | EP-04 |
-| ST-09 | Riego manual desde app | Permitir riego inmediato desde app. | - Botón “Regar ahora” ejecuta riego y confirma finalización. | EP-04 |
+| ST-07 | Configurar umbral de riego | Permitir al usuario fijar % de humedad mínimo. |**- Scenario 1: Configuración de umbral por el usuario**<p/>Dado que el usuario abrió la sección “Configuración de Riego”<p/>Cuando ingresa un porcentaje mínimo de humedad<p/>Entonces el Sistema guarda el nuevo umbral<p/>Y confirma la configuración mediante un mensaje en pantalla.<p/>**- Scenario 2: Validación de umbral ingresado**<p/>Dado que el usuario ingresa un valor de umbral fuera del rango permitido<p/>Cuando hace clic en “Guardar”<p/>Entonces el Sistema muestra un mensaje de error<p/>Y no permite guardar la configuración.<p/>| EP-04 |
+| ST-08 | Activar riego automático | Riego se activa cuando humedad < umbral. |**- Scenario 1: Activación automática por humedad baja**<p/>Dado que el usuario configuró un umbral mínimo de humedad<p/>Cuando el sensor detecta un valor inferior al umbral<p/>Entonces el Sistema activa automáticamente la bomba de riego<p/>Y registra en la app un log de inicio del riego.<p/>**- Scenario 2: Finalización automática del riego**<p/>Dado que la bomba de riego está activa<p/>Cuando la humedad alcanza nuevamente el umbral mínimo establecido<p/>Entonces el Sistema detiene la bomba<p/>Y registra un log de finalización de riego en la app.<p/>| EP-04 |
+| ST-09 | Riego manual desde app | Permitir riego inmediato desde app. | **- Scenario 1: Activación manual**<p/>Dado que el usuario está en la sección “Riego Manual”<p/>Cuando presiona el botón “Regar ahora”<p/>Entonces el Sistema activa inmediatamente la bomba<p/>Y muestra un mensaje de “Riego iniciado”.<p/>**- Scenario 2: Confirmación de finalización**<p/>Dado que se activó el riego manual<p/>Cuando la acción termina su ciclo predefinido<p/>Entonces el Sistema muestra un mensaje de “Riego completado”<p/>Y registra el evento en el historial de riegos.<p/>| EP-04 |
 | **EP-05** | Notificaciones y Alertas | Como usuario quiero recibir alertas ante cambios críticos para actuar a tiempo. | - Push/email ante condiciones fuera de rango. | — |
-| ST-10 | Alerta de humedad crítica | Enviar notificación si humedad < umbral de seguridad. | - Notificación push en <30 s. | EP-05 |
-| ST-11 | Alerta de temperatura extrema | Avisar si temperatura excede rangos definidos. | - Mensaje claro con datos actuales. | EP-05 |
-| ST-12 | Confirmación de envío | Registrar confirmación de que la alerta fue entregada. | - Estado “enviada” en panel. | EP-05 |
+| ST-10 | Alerta de humedad crítica | Enviar notificación si humedad < umbral de seguridad. | **- Scenario 1: Envío de alerta por humedad crítica**<p/>Dado que el sistema monitorea la humedad continuamente<p/>Cuando la humedad cae por debajo del umbral crítico<p/>Entonces el Sistema envía una notificación push en menos de 30 segundos<p/>Y muestra en pantalla el valor detectado.<p/>**- Scenario 2: Registro del evento**<p/>Dado que ocurrió una alerta de humedad crítica<p/>Cuando el usuario revisa el historial de alertas<p/>Entonces el Sistema muestra el evento registrado<p/>Y permite visualizar fecha y hora del evento.<p/> | EP-05 |
+| ST-11 | Alerta de temperatura extrema | Avisar si temperatura excede rangos definidos. | **- Scenario 1: Alerta por temperatura alta**<p/>Dado que el sensor detecta la temperatura actual<p/>Cuando supera el rango máximo permitido<p/>Entonces el Sistema envía una alerta inmediata<p/>Y muestra la temperatura exacta en la notificación.<p/>**- Scenario 2: Alerta por temperatura baja**<p/>Dado que existe un rango mínimo configurado<p/>Cuando la temperatura cae por debajo de dicho rango<p/>Entonces el Sistema envía una notificación push<p/>Y marca el evento como “temperatura extrema” en el historial.<p/> | EP-05 |
+| ST-12 | Confirmación de envío | Registrar confirmación de que la alerta fue entregada. | **- Scenario 1: Registro de entrega de alerta**<p/>Dado que se envió una notificación al usuario<p/>Cuando el sistema recibe confirmación del proveedor de envío<p/>Entonces marca el estado como “Enviada”<p/>Y actualiza el panel de alertas.<p/>**- Scenario 2: Error en el envío**<p/>Dado que se intentó enviar una alerta<p/>Cuando el proveedor devuelve un error<p/>Entonces el Sistema muestra estado “Error de envío”<p/>Y registra el fallo en el panel.<p/> | EP-05 |
 | **EP-06** | App/Web y Comunidad | Como usuario quiero administrar y compartir datos de mis plantas desde app y web. | - Acceso multiplataforma (iOS/Android/Web). | — |
-| ST-13 | Registro y login de usuario | Permitir crear cuenta y autenticarse. | - Validar email/contraseña.<br>- Mensajes de error claros. | EP-06 |
-| ST-14 | Dashboard de métricas | Mostrar humedad, luz, temperatura y riego. | - Datos en tiempo real y gráficos. | EP-06 |
-| ST-15 | Comunidad de usuarios | Compartir consejos y fotos. | - Publicar y comentar en foros internos. | EP-06 |
+| ST-13 | Registro y login de usuario | Permitir crear cuenta y autenticarse. |**- Scenario 1: Registro exitoso**<p/>Dado que el usuario se encuentra en el formulario de registro<p/>Cuando ingresa email válido y contraseña<p/>Entonces el Sistema crea la cuenta<p/>Y muestra un mensaje de confirmación.<p/>**- Scenario 2: Error en login**<p/>Dado que el usuario está en la pantalla de login<p/>Cuando ingresa credenciales incorrectas<p/>Entonces el Sistema muestra un mensaje de error claro<p/>Y permanece en la misma pantalla.<p/> | EP-06 |
+| ST-14 | Dashboard de métricas | Mostrar humedad, luz, temperatura y riego. |**- Scenario 1: Visualización de métricas en tiempo real**<p/>Dado que el usuario accede al dashboard<p/>Cuando el sistema recibe datos de humedad, luz, temperatura y riego<p/>Entonces el Sistema muestra las métricas en tiempo real<p/>Y actualiza los gráficos correspondientes.<p/>**- Scenario 2: Error de obtención de datos**<p/>Dado que el dashboard requiere datos de sensores<p/>Cuando el Sistema no puede obtener una lectura<p/>Entonces muestra un mensaje de “Datos no disponibles”<p/>Y conserva la última lectura válida mostrada.<p/>| EP-06 |
+| ST-15 | Comunidad de usuarios | Compartir consejos y fotos. | **- Scenario 1: Publicación de contenido**<p/>Dado que el usuario accede a la sección Comunidad<p/>Cuando publica un consejo o foto<p/>Entonces el Sistema registra la publicación<p/>Y la muestra inmediatamente en el foro interno.<p/>**- Scenario 2: Comentario en una publicación**<p/>Dado que el usuario observa una publicación existente<p/>Cuando escribe un comentario<p/>Entonces el Sistema guarda el comentario<p/>Y lo muestra debajo de la publicación.<p/> | EP-06 |
 | **EP-07** | Integraciones Futuras | Como usuario quiero integrar la maceta con asistentes de voz y otros dispositivos smart home. | - API/documentación disponible. | — |
-| ST-16 | API para integraciones | Ofrecer endpoints REST/ MQTT para terceros. | - Autenticación segura (token). | EP-07 |
-| ST-17 | Compatibilidad con asistentes de voz | Enviar/recibir comandos básicos. | - Prueba con Alexa/Google Home. | EP-07 |
+| ST-16 | API para integraciones | Ofrecer endpoints REST/ MQTT para terceros. |**- Scenario 1: Acceso a endpoint seguro**<p/>Dado que un tercero desea consumir la API<p/>Cuando envía una solicitud con token válido<p/>Entonces el Sistema permite el acceso<p/>Y devuelve los datos solicitados.<p/>**- Scenario 2: Token inválido**<p/>Dado que un tercero realiza una solicitud<p/>Cuando envía un token inválido o expirado<p/>Entonces el Sistema rechaza la petición<p/>Y devuelve un mensaje de error de autenticación.<p/> | EP-07 |
+| ST-17 | Compatibilidad con asistentes de voz | Enviar/recibir comandos básicos. | **- Scenario 1: Recepción de comando de voz**<p/>Dado que el usuario configuró su asistente de voz<p/>Cuando envía un comando como “Consultar humedad”<p/>Entonces el Sistema procesa la solicitud<p/>Y responde con los valores actuales de humedad.<p/>**- Scenario 2: Envío de comando hacia la maceta**<p/>Dado que el usuario usa un asistente compatible<p/>Cuando ordena “Activa el riego”<p/>Entonces el Sistema recibe el comando<p/>Y ejecuta la acción en la maceta inteligente.<p/> | EP-07 |
 | **EP-08** | Mantenimiento y Seguridad | Como usuario quiero asegurar el correcto funcionamiento y la protección de mis datos. | - Encriptación y respaldo de datos. | — |
-| ST-18 | Backup en la nube | Guardar configuraciones y métricas. | - Respaldo automático diario. | EP-08 |
-| ST-19 | Calibración de sensores | Permitir calibración desde app. | - Opción de calibrar con guía paso a paso. | EP-08 |
-| ST-20 | Notificación de mantenimiento | Avisar cuando se requiera limpieza/batería. | - Push y correo de recordatorio. | EP-08 |
-| ST-21 | Gestión de usuarios y roles | Permitir varios usuarios por maceta con permisos. | - Rol administrador/invitado configurable. | EP-08 |
+| ST-18 | Backup en la nube | Guardar configuraciones y métricas. | **- Scenario 1: Backup diario automático**<p/>Dado que el día calendario llega a su fin<p/>Cuando el proceso programado se ejecuta<p/>Entonces el Sistema realiza un respaldo automático<p/>Y guarda métricas y configuraciones en la nube.<p/>**- Scenario 2: Restaurar desde backup**<p/>Dado que existe un respaldo previo<p/>Cuando el usuario selecciona “Restaurar configuración”<p/>Entonces el Sistema recupera los datos<p/>Y restaura las configuraciones anteriores.<p/> | EP-08 |
+| ST-19 | Calibración de sensores | Permitir calibración desde app. | **- Scenario 1: Iniciar calibración**<p/>Dado que el usuario abre la sección “Calibración”<p/>Cuando presiona “Iniciar calibración”<p/>Entonces el Sistema muestra una guía paso a paso<p/>Y comienza el proceso de ajuste del sensor.<p/>**- Scenario 2: Confirmar calibración**<p/>Dado que el proceso de calibración ha finalizado<p/>Cuando el usuario confirma la lectura obtenida<p/>Entonces el Sistema guarda los nuevos parámetros<p/>Y muestra un mensaje de calibración exitosa.<p/> | EP-08 |
+| ST-20 | Notificación de mantenimiento | Avisar cuando se requiera limpieza/batería. | **- Scenario 1: Aviso por limpieza necesaria**<p/>Dado que el sistema detecta acumulación de suciedad o reducción de rendimiento<p/>Cuando la condición alcanza nivel crítico<p/>Entonces el Sistema envía un push y correo de recordatorio<p/>Y registra el evento en el historial de mantenimiento.<p/>**- Scenario 2: Aviso por batería baja**<p/>Dado que la batería de la maceta se encuentra en nivel mínimo<p/>Cuando el sensor reporta carga inferior al umbral<p/>Entonces el Sistema envía un aviso al usuario<p/>Y recomienda acciones para mantener el equipo operativo.<p/> | EP-08 |
+| ST-21 | Gestión de usuarios y roles | Permitir varios usuarios por maceta con permisos. | **- Scenario 1: Añadir usuario invitado**<p/>Dado que el usuario administrador accede a “Gestión de usuarios”<p/>Cuando ingresa el email de un nuevo invitado<p/>Entonces el Sistema agrega al usuario con rol invitado<p/>Y le otorga permisos limitados.<p/>**- Scenario 2: Cambio de rol**<p/>Dado que existe un usuario invitado<p/>Cuando el administrador modifica su rol a “Administrador”<p/>Entonces el Sistema actualiza los permisos asignados<p/>Y muestra la confirmación de cambio de rol.<p/> | EP-08 |
+
+
 
 ## 3.2. Product Backlog
 
@@ -1177,19 +1267,15 @@ En esta sección se presentan los diagramas C4 que describen la arquitectura del
 
 El Diagrama del Paisaje del Sistema muestra la relación de MaceTy con actores externos, como usuarios urbanos y jardineros, así como aplicaciones móviles, servicios de notificación y bases de datos de especies. También ilustra la interacción con sistemas externos clave, como APIs climáticas y repositorios especializados, que enriquecen las recomendaciones de cuidado.  
 
-![Landscape](assets/structurizr-106169-PanoramaDelSistema.png)  
-
-**Leyenda del diagrama:**  
-![Landscapekey](assets/structurizr-106169-PanoramaDelSistema-key.png)  
+![Landscape](assets/newsystem.png)  
+ 
 
 #### 4.1.3.2. Context Level Diagram  
 
 El Diagrama de Contexto detalla cómo los distintos actores (usuarios, jardineros) se comunican con el sistema a través de la aplicación móvil y la plataforma web. También representa la conexión con el MaceTy Urban IoT Device, que recolecta datos del entorno (humedad, temperatura, luz) y los transmite al ecosistema vía el MaceTy API Gateway.  
 
-![Context](assets/structurizr-106169-ContextoDelSistema.png)  
+![Context](assets/newcontexr.png)  
 
-**Leyenda del diagrama:**  
-![ContextKey](assets/structurizr-106169-ContextoDelSistema-key.png)  
 
 #### 4.1.3.3. Container Level Diagram  
 
@@ -1201,33 +1287,21 @@ El **Diagrama de Contenedores** describe los principales bloques funcionales del
 - **MaceTy Urban Database**: Almacena información de sensores, preferencias del usuario y patrones urbanos.  
 - **Servicios externos**: Repositorios de especies que enriquecen las recomendaciones.  
 
-![Container](assets/structurizr-106169-DiagramaDeContenedores.png)  
+![IoTSystem](assets/newcontenedores.png) 
+ 
 
-**Leyenda del diagrama:**  
-![ContainerKey](assets/structurizr-106169-DiagramaDeContenedores-key.png)  
+#### Software Edge Diagram  
 
-#### Software Component Diagram  
+El **Diagrama Edge** describe la estructura interna del dispositivo **Maceta Inteligente (Edge Device)**.  
+Este dispositivo integra sensores y actuadores conectados a un procesador **ESP32** con base de datos local (**SQLite**), capaz de operar en modo offline y sincronizar datos al recuperar conexión.  
 
-El Diagrama de Componentes detalla la lógica interna de los microservicios en el **MaceTy API Gateway**, como:  
+- **Sensores:** Humedad, Temperatura y Luz Ambiental.  
+- **Actuadores:** Bomba de agua (riego automático) y LED indicadores de estado.  
+- **Procesamiento Local:** El ESP32 gestiona la lógica básica de riego y almacenamiento temporal de métricas.  
+- **Conectividad:** Comunicación vía WiFi y sincronización mediante MQTT hacia el IoT Connector.  
 
-- Procesamiento de datos de sensores.  
-- Módulo de alertas inteligentes de riego.  
-- Módulo de recomendaciones basadas en patrones urbanos y clima.  
-- API de integración con aplicaciones móviles y web.  
-
-![Component](assets/structurizr-106169-ComponentesGatewayAPI.png)  
-
-**Leyenda del diagrama:**   
-![ComponentKey](assets/structurizr-106169-ComponentesGatewayAPI-key.png)  
-
-#### Software IoT Diagram  
-
-El **Diagrama IoT** representa el **MaceTy Urban IoT Device**, un dispositivo basado en ESP32 con sensores de humedad, temperatura y luz ambiental, además de una mini bomba de riego controlada automáticamente. Este dispositivo envía telemetría cada 15–30 minutos mediante protocolos como MQTT/HTTP, asegurando comunicación confiable con el API Gateway y retroalimentación en tiempo real hacia las aplicaciones.  
-
-![Landscape](assets/structurizr-106169-ComponentesMacetaInteligente.png)  
-
-**Índice:**  
-![Landscape](assets/structurizr-106169-ComponentesMacetaInteligente-key.png)  
+![Edge](assets/newito.png)  
+ ![Edge](assets/newedge.png)  
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams  
 
@@ -1688,15 +1762,1628 @@ La **Infrastructure Layer** implementa los canales de entrega y persistencia de 
 
 ![Notification Management Database Design](assets/notification-management-database.png)
 
+
+# Capítulo V: Solution UI/UX Design  
+
+En este capítulo se desarrolla la propuesta de **UI/UX Design** para Naturafy – Powered by MaceTy, abarcando los lineamientos de estilo, la arquitectura de información y el diseño de la landing page. El objetivo es garantizar una experiencia de usuario consistente, clara y centrada en el valor agregado del producto: una maceta inteligente con identidad eco-tecnológica y amigable.  
+
+## 5.1. Style Guidelines  
+
+Esta sección sienta las bases visuales y de interacción que guiarán el desarrollo de todas las interfaces (web, móvil e IoT). Se definen **colores, tipografía, branding, tono comunicacional y patrones visuales**, garantizando consistencia en todo el ecosistema digital de Naturafy.  
+
+### 5.1.1. General Style Guidelines  
+
+**Branding y Comunicación:**  
+Naturafy transmite una identidad **eco-tecnológica, fresca y confiable**. El tono será **formal pero amigable**, con un lenguaje claro, respetuoso y cercano al usuario. La mascota **Macety** refuerza la cercanía y la simplicidad de la experiencia.  
+
+**Colores principales:**  
+
+<table>
+  <tr>
+    <td align="center" style="padding:12px;">
+      <div style="width:140px;height:70px;background:#4CAF50;border-radius:8px;border:1px solid #ddd;"></div>
+      <br><b>Verde Naturafy</b><br><code>#4CAF50</code><br><small>Crecimiento / Sostenibilidad</small>
+    </td>
+    <td align="center" style="padding:12px;">
+      <div style="width:140px;height:70px;background:#2E7D32;border-radius:8px;border:1px solid #ddd;"></div>
+      <br><b>Verde Oscuro</b><br><code>#2E7D32</code><br><small>Confianza / Tecnología</small>
+    </td>
+    <td align="center" style="padding:12px;">
+      <div style="width:140px;height:70px;background:#F5F5F5;border-radius:8px;border:1px solid #ccc;"></div>
+      <br><b>Blanco</b><br><code>#F5F5F5</code><br><small>Limpieza / Minimalismo</small>
+    </td>
+    <td align="center" style="padding:12px;">
+      <div style="width:140px;height:70px;background:#8D6E63;border-radius:8px;border:1px solid #ddd;"></div>
+      <br><b>Tierra Suave</b><br><code>#8D6E63</code><br><small>Natural / Orgánico</small>
+    </td>
+  </tr>
+</table>
+
+**Uso sugerido**
+- Primario (acciones y acentos): #4CAF50  
+- Secundario / Hover / Énfasis estructural: #2E7D32  
+- Fondo principal: #F5F5F5  
+- Fondos neutros, bloques y contraste cálido: #8D6E63  
+
+**Tipografía:**  
+- Fuente principal: *Sans-serif moderna (ejemplo: Poppins o Inter)*.  
+- Jerarquía:  
+  - Títulos grandes → Bold, contraste fuerte en verde oscuro.  
+  - Subtítulos → Semibold en verde claro.  
+  - Cuerpo → Regular, gris oscuro para legibilidad.  
+
+**Espaciado y Layout:**  
+- Uso de espacios amplios y aireados.  
+- Grid en 12 columnas para web.  
+- Márgenes consistentes en todas las vistas (16–24px en mobile, 32–64px en desktop).  
+
+**Branding y Comunicación:**  
+Naturafy proyecta una identidad **eco‑tecnológica, cercana y confiable**. El tono comunicacional es **claro, directo y amable**, evitando tecnicismos innecesarios y transmitiendo apoyo constante al usuario. El uso de un avatar (Macety) humaniza la interacción y refuerza la promesa de simplicidad y acompañamiento continuo.  
+
+**Mascota / Asistente (“Macety”)**  
+Macety es la personificación del producto y actúa como **guía visual y asistente contextual** dentro del ecosistema (app, web y material educativo).  
+Principios de diseño y uso:  
+- Rol principal: educar, orientar y dar retroalimentación rápida sin saturar.  
+- Aparición: onboarding, estados clave (riego necesario, valores fuera de rango, logro alcanzado) y micro‑tips.  
+- Estilos visuales: formas redondeadas, proporciones amigables, expresiones simples (neutral / feliz / alerta / crítico), paleta basada en Verde Naturafy (#4CAF50) + acentos Tierra Suave (#8D6E63) y fondos neutros claros.  
+- Comunicación: mensajes cortos (≤ 90 caracteres), tono motivador (“Tu planta está bien”, “Necesita un poco de agua”, “Excelente: humedad óptima”).  
+- Estados sugeridos:  
+  - Normal: postura neutra / sonrisa ligera.  
+  - Necesita riego: gesto de atención + icono de gota.  
+  - Alerta ambiental: cejas elevadas + icono (sol / termómetro).  
+  - Logro / progreso: expresión alegre + pequeña insignia.  
+- Objetivo UX: reducir fricción cognitiva, aumentar confianza y fomentar continuidad de uso (retención y reducción de abandono inicial).  
+- Accesibilidad: contraste suficiente en fondos claros; evitar depender solo del color (usar íconos).  
+
+![Mascota Macety](assets/MaceTy.png)
+
+### 5.1.2. Web, Mobile and IoT Style Guidelines  
+
+**Web:**  
+- Interfaces limpias, con secciones bien delimitadas en fondos blancos o suaves.  
+- Botones verdes primarios con bordes redondeados.  
+- Animaciones sutiles (fade-in, hover con sombras).  
+
+**Mobile:**  
+- Diseño **responsive first**.  
+- Navegación con barra inferior fija en la app.  
+- Uso de **Macety como asistente virtual dentro de la app**, con burbujas de ayuda para notificaciones de humedad, riego o estado de la planta.  
+
+**IoT (Pantalla de la Maceta Inteligente):**  
+- Interfaz minimalista en display integrado (si aplica).  
+- Iconografía universal: gota  (riego), sol  (luz), hoja  (crecimiento).  
+- Colores simplificados: verde para “ok”, amarillo para “alerta”, rojo para “crítico”.  
+
+
+## 5.2. Information Architecture  
+
+La arquitectura de información asegura que los usuarios encuentren fácilmente lo que buscan, navegando sin fricciones por la landing page, la app móvil y la interfaz IoT.  
+
+### 5.2.1. Organization Systems  
+
+- **Jerárquico:**  
+  - Secciones principales (Inicio, Beneficios, Cómo funciona, App & Web, Impacto Verde, Testimonios, Contacto).  
+- **Secuencial:**  
+  - Paso a paso del proceso de conexión y uso de la maceta inteligente.  
+- **Categorización:**  
+  - Por tópicos (Beneficios, Impacto Verde).  
+  - Por audiencia (usuarios domésticos, jardineros tecnológicos, familias).  
+
+### 5.2.2. Labeling Systems  
+
+- Uso de etiquetas simples y claras en los menús: “Inicio”, “Beneficios”, “Cómo Funciona”, “Contacto”.  
+- En la app, etiquetas directas: *“Estado actual”*, *“Historial de riego”*, *“Notificaciones”*.  
+- Evitar términos técnicos complejos, usando un lenguaje amigable y cercano.  
+
+### 5.2.3. SEO Tags and Meta Tags  
+
+- **Landing Page Title:** *Naturafy – Maceta Inteligente con Asistente Virtual Macety*.  
+- **Meta Description:** *Naturafy conecta tecnología e innovación para el cuidado de tus plantas. Riego automático, energía solar y un asistente virtual amigable: Macety.*  
+- **Keywords:** Naturafy, Maceta Inteligente, IoT Plant Care, Riego Automático, Macety.  
+- **Meta Author:** Naturafy Team.  
+- **App Store Optimization (ASO):**  
+  - App Title: *Naturafy: Plant Care IoT*.  
+  - App Subtitle: *Cuidado de plantas con riego inteligente*.  
+  - App Description: *Gestiona la salud de tus plantas con Naturafy y Macety: monitoreo, alertas y riego automático en tu móvil.*  
+
+### 5.2.4. Searching Systems  
+
+- **Web:**  
+  - Barra de búsqueda en la sección *Recursos/FAQ*.  
+  - Filtros por tema (riego, energía solar, soporte técnico).  
+- **App Móvil:**  
+  - Búsqueda por nombre de planta o estado de la maceta.  
+  - Filtros: *Plantas con falta de agua*, *Plantas saludables*, *Alertas recientes*.  
+
+### 5.2.5. Navigation Systems  
+
+- **Web:**  
+  - Menú superior fijo (navbar) con secciones clave.  
+  - Scroll suave entre secciones.  
+- **App:**  
+  - Barra inferior con pestañas: Inicio | Mis Plantas | Historial | Perfil.  
+  - Atajos directos desde notificaciones push.  
+- **IoT:**  
+  - Botones físicos simples en la maceta (riego manual, reset).  
+  - Indicadores luminosos en el borde superior.  
+
+
+## 5.3. Landing Page UI Design  
+
+La landing page de Naturafy será la puerta de entrada al ecosistema digital. Debe transmitir confianza, innovación y el propósito eco-friendly de la marca.  
+
+### 5.3.1. Landing Page Wireframe  
+
+Flujo general (scroll natural o anclas del menú): Hero → Funcionalidades → Comunidad → Recursos (App Web / App Móvil) → Contacto / Conversión (Compra – Iniciar Sesión).
+
+![Wireframe General](assets/wireframe-landing.png)  
+*Estructura completa: valida jerarquía, ritmo visual y orden de conversión. Sirve como mapa de flujo antes del detalle.*
+
+![Hero Wireframe](assets/hero-wire.png)  
+*Hero inicial: presenta la propuesta de valor (maceta inteligente + asistente Macety). CTA primario: Comprar / Pre‑orden. CTA secundario: Ver funcionalidades (scroll).*
+
+![Funcionalidades Wireframe](assets/Producto-wire.png)  
+*Bloque de funcionalidad: sensores, riego automático, monitoreo en app, sostenibilidad. Refuerza valor antes de pedir acción de compra.*
+
+![Comunidad Wireframe](assets/comunity-wire.png)  
+*Validación social: testimonios, métricas y presencia de Macety para generar confianza y reducir fricción.*
+
+![Recursos / Ecosistema Wireframe](assets/recurso-wire.png)  
+*Recursos y plataforma: muestra que Macety vive también en Web App y App Móvil. Educa y extiende percepción de valor continuo.*
+
+![Contacto / Conversión Wireframe](assets/contact-wire.png)  
+*Contacto + última oportunidad de acción: formulario (soporte / interés), CTA Comprar y enlace Iniciar Sesión (dirige a versión web). Cierra el funnel.*
+
+**Enlace Wireframes (Balsamiq):** https://balsamiq.cloud/s3loccn/pwlu008  
+
+### 5.3.2. Landing Page Mock-up  
+
+Mock-ups de alta fidelidad siguiendo el mismo flujo: Hero → Funcionalidades → Comunidad → Recursos → Contacto.
+
+![Landing Completa Mock](assets/complete-mock-landing.png)  
+*Vista ensamblada: confirma coherencia visual, espaciado, contraste y consistencia de la paleta.*
+
+![Hero Mock](assets/mock-hero.png)  
+*Hero final: mensaje claro + Macety presente como refuerzo de identidad. Doble CTA (Comprar ahora / Ver funcionalidades).*
+
+![Funcionalidades Mock](assets/funcinalidades-landing.png)  
+*Detalle visual de beneficios clave con iconografía y microcopys orientados a valor inmediato.*
+
+![Comunidad Mock](assets/comunidad-mock.png)  
+*Testimonios, métricas y avatar → social proof para convertir usuarios indecisos.*
+
+![Recursos / Ecosistema Mock](assets/recursos-mock.png)  
+*Demuestra continuidad: acceso vía Web y Mobile. CTA secundario: Iniciar Sesión / Explorar App.*
+
+![Contacto Mock](assets/contact-mock.png)  
+*Formulario limpio + CTA final (Comprar) + acceso directo a Login para usuarios existentes.*
+
+*Comparativa con wireframe inicial: evidencia evolución de baja a alta fidelidad.*
+
+**Enlace Mockups (Figma):** https://www.figma.com/design/M7mqqSWc46nRv7qbZzVoYx/NaturaFy?node-id=0-1&t=D7usla6cNWPquEgW-1  
+
+**Resumen de Conversión:**
+- CTAs principales: Comprar (Hero, Funcionalidades, Contacto).
+- CTAs de exploración: Ver funcionalidades, Iniciar sesión.
+- Refuerzos de confianza: Comunidad + Recursos + Avatar Macety.
+
+### 5.4. Applications UX/UI Design  
+#### 5.4.1. Applications Wireframes  
+![](assets/webwireframelogin.png)
+![](assets/webwireframeregister.png)
+![](assets/webwireframemisplantas.png)
+![](assets/webwireframeprofile.png)
+![](assets/webwireframepaso1.png)
+![](assets/webwireframepaso2.png)
+![](assets/webwireframepaso3.png)
+![](assets/webwireframepaso4.png)
+![](assets/webwireframemiplanta.png)
+![](assets/webwireframetienda.png)
+![](assets/webwireframecomunidad.png)
+#### 5.4.2. Applications Wireflow Diagrams  
+![](assets/wireflow1.png)
+![](assets/wireflow2.png)
+![](assets/wireflow3.png)
+#### 5.4.3. Applications Mock-ups  
+
+Mock-ups de alta fidelidad:
+
+![Application Mockups Complete](assets/wireframes-MaceTy.png)  
+*Vista ensamblada: confirma coherencia visual, espaciado, contraste y consistencia de la paleta.*
+
+![Mis-PLantas](assets/mis-plantas.png)  
+*Pagina de mis plantas: Información clara y descripción de cada planta añadida + historial de riego *
+
+![Pasos-plantas](assets/pasos-plantas.png)  
+*Detalle visual de los pasos para añadir una planta*
+
+![Comunidad Mock](assets/mi-planta.png)  
+*Detalle de la planta, datos a tiempo real, resumen y consejo*
+
+![Recursos / Ecosistema Mock](assets/tienda-maceTY.png)  
+*Tienda MaceTy, lista de macetas, accesorios, servicio, etc*
+
+![Contacto Mock](assets/comunidad.png)  
+*Red social donde interactua cada usuario entre si dando consejos o preguntas*
+
+![Wireframe Contacto Referencia](assets/perfil.png)  
+*Perfil de usuario donde podra editar o ajustar su perfil a su preferencia*
+
+![Contacto Mock](assets/login.png)  
+*Formulario para el logueo de cada usuario*
+
+![Wireframe Contacto Referencia](assets/register.png)  
+*Formulario para registrarse en la apliocación*
+
+**Enlace Mockups (Figma):** https://www.figma.com/design/kjhLgtfA7pXzI9p6LPzLhP/MaceTy?node-id=8-1137&t=uydPwnc1KxRqxDnH-1
+#### 5.4.4. Applications User Flow Diagrams 
+![](assets/flow1.png)
+![](assets/flow2.png)
+![](assets/flow3.png)
+
+
+### 5.5. Applications Prototyping  
+
+En esta sección se presenta el **prototipo interactivo** desarrollado en **Figma**, correspondiente a las principales funcionalidades y diseño de la **Landing Page de MaceTy**.  
+El prototipo tiene como propósito validar la experiencia de usuario y el flujo de interacción antes de la implementación final, asegurando coherencia visual, accesibilidad y alineación con los objetivos definidos en los apartados de **Style Guidelines**, **Information Architecture** y **Applications UX/UI Design**.
+
+El prototipo muestra las secciones principales de la landing, incluyendo:
+- **Encabezado interactivo** con navegación simplificada.  
+- **Sección de presentación** del producto MaceTy y su propuesta de valor.  
+- **Área de funcionalidades** con animaciones suaves y distribución intuitiva.  
+- **Formulario de contacto**, diseñado con un enfoque minimalista y adaptable a dispositivos móviles.  
+- **Footer informativo** con enlaces a redes, políticas y datos de contacto.  
+
+El prototipo fue elaborado en **Figma**, permitiendo la visualización dinámica del flujo de navegación y la experiencia de usuario en distintos dispositivos.
+
+**Prototipo en Figma (modo código):**
+```
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EZx-ceZHStFPqgkagaiSvGcBpIWm-dPkjkSKroYvhyGnGA?e=dXThQN
+```
+
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management
+
+### 6.1.1. Software Development Environment Configuration
+
+* **Visual Studio Code:** Desarrollo para aplicaciones mobiles.\
+![image](https://hackmd.io/_uploads/Hy8d2y7lR.png)
+* **GitHub:** Repositorio colaborativo en la nube.\
+![image](https://cdn-1.webcatalog.io/catalog/github/github-icon-filled-256.png?v=1744774208192)
+* **Netifly:** Plataforma que facilita implementar despliegues sencillos para nuestras páginas web.\
+![image](https://cmscritic.com/ms-content/uploads/2023/11/netlifty-icon.png?format=auto&width=256)
+* **Vertabelo:** Plataforma colaborativa para la creación de diagramas de base de datos.\
+![image](https://hackmd.io/_uploads/r1BjjyQgC.png)
+* **Figma:** Herramienta colaborativa que permite elaborar wireframes y mockups.\
+![image](https://hackmd.io/_uploads/BJ99okXeR.png)
+* **Azure:** Herramienta para subir nuestros servicios web en la nube.\
+[![Azure.jpg](https://i.postimg.cc/Mpjc355p/Azure.jpg)](https://postimg.cc/k2qXBxL0)
+* **Visual Studio Code:** Desarrollo para Frontend.\
+![image](https://i.imgur.com/b76hG4H.png)
+
+
+### 6.1.2. Source Code Management
+**Repositorio de la Landing Page:** 
+**Implementación de GitFlow:**
+Para nuestra estrategia de gestión de versiones con Git, nos hemos inspirado en el artículo "A successful Git branching model" de Vincent Driessen, adoptando el modelo de ramificación GitFlow. Este enfoque nos permite establecer claramente las convenciones de ramificación que aplicamos en nuestro proyecto.
+![image](https://hackmd.io/_uploads/rJt95BobA.png)
+* **Rama Principal (Main branch):** Contiene el código en producción y se conoce como la Master branch o Main branch.
+    * Notación: main
+* **Rama de Desarrollo (Develop branch):** Acumula las últimas actualizaciones y cambios para la próxima versión. Funciona como un entorno de integración y prueba continua.
+    * Notación: develop
+* **Rama de Lanzamiento (Release branch):** Facilita la preparación de una nueva versión del producto, permitiendo correcciones de errores y recibiendo más actualizaciones de Develop.
+    * Debe derivarse de: develop
+    * Debe fusionarse con: develop y master/main
+    * Notación: release
+* **Rama de Características (Feature branch):** Se utiliza para desarrollar nuevas funcionalidades para la siguiente versión o futuras iteraciones.
+    * Debe derivarse de: develop
+    * Debe fusionarse de vuelta a: develop
+    * Notación: feature
+* **Rama de Corrección Rápida (Hotfix branch):** Aborda errores críticos en producción, permitiendo la implementación rápida de soluciones.
+    * Debe derivarse de: master/main
+    * Debe fusionarse con: develop y master/main
+    * Notación: hotfix
+
+**Conventional Commits:** 
+Adoptamos esta metodología para estructurar los mensajes de confirmación de cambios de manera estándar y semántica, lo que facilita la comunicación y la automatización de registros de cambios.
+**Tipos de Commits Convencionales:**
+* feat: Nuevas características o funcionalidades.
+* fix: Correcciones de errores.
+* docs: Cambios o mejoras en la documentación.
+* style: Cambios de formato que no afectan la funcionalidad.
+* refactor: Mejoras en la estructura o legibilidad del código.
+* test: Adición o modificación de pruebas.
+* chore: Cambios en el proceso de construcción o tareas de mantenimiento.
+* perf: Mejoras de rendimiento en el código.
+
+### 6.1.3. Source Code Style Guide & Conventions
+
+---
+
+### Landing Page – React con Tailwind CSS
+
+| Regla                                   | Ejemplo / Explicación                                                   |
+|----------------------------------------|--------------------------------------------------------------------------|
+| Componentes en `PascalCase`            | `function HeroSection() {}`                                            |
+| Archivos nombrados igual que el componente | `HeroSection.jsx`                                                      |
+| Uso de `className` con utilidades Tailwind | `<div className="flex justify-center items-center p-4 bg-gray-100">`   |
+| Uso de fragmentos `<>...</>`           | Para evitar `div` innecesarios                                          |
+| Props en `camelCase`                   | `<HeroSection title="Bienvenido" description="Explora más" />`         |
+| Indentación consistente (2 espacios)   | Mantener la misma estructura en todo el proyecto                        |
+| Comentarios en JSX                     | `{/* Comentario de ejemplo */}`                                        |
+| Uso de `const` y `arrow functions`     | `const handleClick = () => { ... }`                                    |
+
+---
+
+### Frontend – Vue.js
+
+| Regla                                   | Ejemplo / Explicación                                                   |
+|----------------------------------------|--------------------------------------------------------------------------|
+| Componentes en `PascalCase`            | `<UserProfileCard />`, `UserProfileCard.vue`                            |
+| Nombres de variables y métodos en `camelCase` | `data() { return { userName: "Juan" }; }`, `methods: { getUserData() {} }` |
+| Archivos nombrados igual que el componente | `UserProfileCard.vue`                                                   |
+| Uso de `v-bind` y `v-on` abreviados     | `:prop="value"` y `@click="handleClick"`                                |
+| Separar el código en secciones `<template>`, `<script>`, `<style>` | Buenas prácticas de organización                                        |
+| Indentación consistente (2 espacios)    | Mantener uniformidad                                                   |
+| Uso de `const` y `let`                  | Evitar `var`                                                           |
+| Comentarios claros                      | `<!-- Sección del encabezado -->`                                      |
+
+---
+
+### CSS – Tailwind CSS
+
+| Regla                                   | Ejemplo / Explicación                                                   |
+|----------------------------------------|--------------------------------------------------------------------------|
+| Clases utilitarias en minúsculas       | `bg-brown-700 text-gray-100 rounded-xl p-4`                            |
+| Orden lógico de clases                 | De layout → color → texto → borde → espaciado                           |
+| Evitar estilos en línea (inline CSS)   | Usar clases Tailwind o archivos `.css` para excepciones                 |
+| Uso de variables personalizadas en `tailwind.config.js` | Definir colores del proyecto como `--brown`, `--beige`, etc.           |
+| Comentarios descriptivos               | `/* Estilos personalizados para el header */`                          |
+
+---
+
+### Backend – Java
+
+| Regla                                       | Ejemplo / Explicación                                                   |
+|--------------------------------------------|--------------------------------------------------------------------------|
+| Clases en `PascalCase`                     | `public class UserController {}`                                        |
+| Métodos y variables en `camelCase`         | `private String userName;`, `public void getUserData() {}`              |
+| Constantes en `UPPER_SNAKE_CASE`           | `private static final int MAX_USERS = 100;`                             |
+| Paquetes en minúsculas                     | `com.booksphere.api.controllers`                                       |
+| Indentación con 4 espacios                 | No usar tabs                                                           |
+| Uso de comentarios Javadoc                 | `/** Método que obtiene los datos del usuario */`                       |
+| Código limpio y modular                    | Separar controladores, servicios, repositorios y modelos                |
+
+---
+
+### Mobile – Flutter
+
+| Regla                                         | Ejemplo / Explicación                                                   |
+|----------------------------------------------|--------------------------------------------------------------------------|
+| Nombres de clases en `PascalCase`            | `class UserProfileScreen extends StatelessWidget {}`                    |
+| Variables y funciones en `camelCase`         | `final userName = "Juan";`, `void getUserData() {}`                     |
+| Constantes en `UPPER_SNAKE_CASE`             | `const MAX_USERS = 100;`                                                |
+| Widgets anidados con identación clara        | Mantener legibilidad al usar múltiples widgets                          |
+| Uso de `const` para widgets inmutables       | `const Text("Hola Mundo")`                                              |
+| Archivos nombrados en `snake_case`           | `user_profile_screen.dart`                                              |
+| Comentarios con `//` o `///`                 | `// Widget que muestra la información del usuario`                      |
+
+---
+
+**Tecnologías utilizadas:**  
+El proyecto utiliza **React + Tailwind CSS** para la **landing page**, **Vue.js** para el **frontend principal**, **Java** para el **backend**, y **Flutter** para el **desarrollo móvil**.
+ 
+#### 6.1.4. Software Deployment Configuration  
+
+**Deployment Landing Page:** 
+En esta sección, detallamos el proceso de implementación de nuestra landing page en la plataforma de GitHub.
+
+1. Se crea un repositorio en GitHub para alojar el código de nuestra landing page.
+
+![image](assets/macetylanding.png)
+
+2. Agregamos a los participantes:
+
+![image](assets/Participant.png)
+
+3. Habilitamos Netlifly para poder importar nuestro proyecto y deployamos:
+
+![image](assets/netifly.png)
+
+
+4. Finalmente, se confirma el despliegue de nuestra página web después de completar todo el procedimiento.
+
+![image](assets/pagenaturafy.png)
+
+
+
+Este proceso garantiza el despliegue satisfactorio de nuestra landing page en la plataforma de Netlifly, siguiendo las especificaciones y requisitos de nuestro proyecto.
+**Enlace de la Landing Page: https://naturafy.netlify.app/**
+<br>
+**About the product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EZx-ceZHStFPqgkagaiSvGcBpIWm-dPkjkSKroYvhyGnGA?e=dXThQN**
+<br>
+
+### 6.2. Landing Page, Services & Applications Implementation  
+
+### 6.2.1. Sprint 1  
+El primer sprint es una etapa importante en nuestro marco de gestión de proyectos de metodología ágil Scrum. En este periodo, agendamos reuniones con el objetivo de conocer mejor las características de cada integrante, y delegamos tareas para materializar el diseño y funcionalidades ya establecidas, para transformarlos en un landing page funcional y que cumple las heurísticas.
+#### 6.2.1.1. Sprint Planning 1  
+El sprint planning es una reunion antes de cada sprint en la metodologia Scrum donde el equipo elige las user stories que va a transformar en un producto tangible. Tambien define que como se van a separar los trabajos y quien sera responsable. Nuestro objetivo sera construir un plan resolubre en un tiempo determinado que sera lo que dure el sprint, para crearlo fomentaremos la colaboracion para que todos sepan y entiendas los objetivos y prioridades.
+
+| Sprint #| Sprint 1|
+| -- | -- |
+| **Sprint Planning Background**||
+| **Date**| 01/10/2025|
+| **Time**| 12:00 AM|
+| **Location**| Discord (Reunión virtual)|
+| **Prepared By**| Jaque Peña, Estefano Oscar|
+| **Attendees (to planning meeting)** | Maycol Jhordan Rojas Velasquez, Sergio Andre Gomez Vallejos, Estefano Oscar Jaque Pena, Carlos Andres Rojas Ccama, Samuel Ignacio Valera Garcés|
+| **Sprint Goal & User Stories**||
+| **Sprint 1 Goal**| Nuestro enfoque está en finalizar el informe , desplegar nuestra Landing Page desde el repositorio de GitHub y avanzar bounded context del aplicativo (Tanto IAM como applications). Creemos que esto entrega una experiencia de usuario optimizada a nuestros clientes. Esto se confirmará cuando todas las tareas se muevan a la columna "Terminado" en Trello. |
+| **Sprint 1 Velocity**| ------ |
+| **Sum of Story Points**| 19 |  
+
+#### 6.2.1.2. Aspect Leaders and Collaborators  
+En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**, la cual permite identificar los roles de liderazgo y colaboración dentro del Sprint.  
+Este artefacto muestra, por cada aspecto abordado en el desarrollo, quién asume el rol de **líder (L)** y quiénes participan como **colaboradores (C)**, con el objetivo de optimizar la comunicación, la distribución de tareas y la eficiencia del trabajo en equipo.  
+
+Cada aspecto corresponde a un ámbito funcional del proyecto (por ejemplo: Frontend, Backend, Base de Datos, UI/UX, Deploy, etc.).  
+El liderazgo asignado se basa en las fortalezas técnicas de cada integrante y la organización general de trabajo definida por el **Team Leader**, quien coordina la integración y revisión final de los entregables.  
+
+A continuación, se presenta la matriz correspondiente al Sprint actual:
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **UI/UX Design** | **Frontend Development** | **Backend Development** | **Database Management** | **Deployment & Documentation** |
+|----------------------------------------|---------------------|------------------|--------------------------|--------------------------|--------------------------|-------------------------------|
+| **Rojas Velasquez, Maycol Jhordan**    | Kmykh            | C                | L                        | C                        | C                        | C                             |
+| **Gomez Vallejos, Sergio Andre**       | CB-Sergio-AGV             | C                | C                        | L                        | L                        | C                             |
+| **Jaque Pena, Estefano Oscar**         | estefanojaque             | C                | L                        | C                        | C                        | L                             |
+| **Rojas Ccama, Carlos Andres**         | Sr-Anonymus-make             | C                | C                        | L                        | L                        | L                             |
+| **Valera Garcés, Samuel Ignacio**      | SamuelValeraGarces            | L                | C                        | C                        | C                        | C                             |
+
+La organización de líderes y colaboradores guarda relación directa con la planificación de tareas y la distribución de responsabilidades dentro del **Sprint Backlog**.  
+Cada miembro asume roles específicos según su experiencia y dominio técnico, contribuyendo a una ejecución coordinada y efectiva del desarrollo del proyecto.  
+El **Team Leader (Maycol Jhordan Rojas Velasquez)** supervisa la integración de los diferentes aspectos y asegura la coherencia técnica entre los módulos.
+
+#### 6.2.1.3. Sprint Backlog 1  
+
+Para el **primer Sprint**, el equipo se centró en desarrollar la **Landing Page** del proyecto MaceTy y avanzar con la primera fase de los **Bounded Contexts IAM y Applications**, incluyendo tanto el **frontend** como el **backend**.  
+Durante este Sprint, las **User Stories** fueron seleccionadas del *Product Backlog* priorizando las funcionalidades esenciales que permiten mostrar el propósito del sistema y asegurar una base técnica sólida para los siguientes ciclos de desarrollo.
+
+El trabajo se organizó y distribuyó entre los miembros del equipo mediante la herramienta **Trello**, lo cual permitió una gestión visual de las tareas, un seguimiento colaborativo y una comunicación fluida entre los integrantes.  
+El **objetivo principal** del Sprint fue crear una **Landing Page funcional y atractiva**, acompañada del avance en los módulos iniciales del backend y del sistema de autenticación (IAM), asegurando que la estructura base del proyecto estuviera correctamente configurada.
+
+A continuación, se presenta el detalle del **Sprint Backlog 1** con las User Stories seleccionadas, sus tareas asociadas, responsables y estado de avance:
+
+![assets/Trellofouto.png](assets/Trellofouto.png)
+
+| **Sprint #**   | **Sprint 1**                                   |                      |                                                   |                                                                                                      |                        |                                |            |
+| -------------- | ---------------------------------------------- | -------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------- | ------------------------------ | ---------- |
+| **User Story** |                                                | **Work-Item / Task** |                                                   |                                                                                                      |                        |                                |            |
+| **ID**         | **Title**                                      | **ID**               | **Title**                                         | **Description**                                                                                      | **Estimation (Hours)** | **Assigned To**                | **Status** |
+| ST-13          | Registro y login de usuario (IAM Front + Back) | **TA001**            | Implementar pantalla de login y registro          | Crear formularios de inicio de sesión y registro con validaciones en Vue y PrimeVue.                 | 6                      | Estefano Oscar Jaque Peña      | Done     |
+|                |                                                | **TA002**            | Configuración de servicios IAM en frontend        | Implementar `AuthenticationService`, `store` Pinia y conexión con API simulada (axios-mock-adapter). | 4                      | Estefano Oscar Jaque Peña      | Done     |
+|                |                                                | **TA003**            | Implementación de backend simulado (Fake API)     | Crear API mock con rutas `/authentication/sign-in`, `/authentication/sign-up`, `/users/:id`.         | 4                      | Sergio Andre Gomez Vallejos    | Done     |
+|                |                                                | **TA004**            | Persistencia de sesión con Cookies y LocalStorage | Guardar token, roles y usuario en cookies al autenticarse.                                           | 3                      | Carlos Andres Rojas Ccama      | Done     |
+|                |                                                | **TA005**            | Lógica de roles en frontend                       | Configurar redirecciones condicionales según `ROLE_USER`.               | 2                      | Carlos Andres Rojas Ccama      | Done     |
+| LP-01          | Landing Page completa                          | **TA006**            | Estructura base y wireframe                       | Crear estructura HTML, layout principal y navegación base.                                           | 4                      | Maycol Jhordan Rojas Velasquez | Done     |
+|                |                                                | **TA007**            | Diseño visual final y responsive                  | Aplicar estilos, animaciones suaves y coherencia visual con el tema del proyecto.                    | 5                      | Maycol Jhordan Rojas Velasquez | Done     |
+|                |                                                | **TA008**            | Integración de componentes interactivos           | Conectar botones de login/registro en el header con rutas de IAM.                                    | 3                      | Maycol Jhordan Rojas Velasquez      | Done     |
+|                |                                                | **TA009**            | Despliegue del proyecto                           | Configurar `firebase.json`, `.env.production` y publicar en Firebase Hosting.                        | 2                      | Maycol Jhordan Rojas Velasquez    | Done     |
+|                |                                                | **TA010**            | Pruebas de integración básicas                    | Validar flujo completo: registro → login → redirección según rol.                                    | 2                      | Maycol Jhordan Rojas Velasquez     | Done     |
+
+
+Link de Trello: [https://trello.com/invite/b/68e7969bceaa056dc23cd0af/ATTI97b51e32677b328c9fabe30426da7ccbC9FB3ABF/macety-tablero-grupo](https://trello.com/invite/b/68e7969bceaa056dc23cd0af/ATTI97b51e32677b328c9fabe30426da7ccbC9FB3ABF/macety-tablero-grupo)
+
+#### 6.2.1.4. Development Evidence for Sprint Review  
+
+Landing Page:
+
+| Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
+| ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
+| Landing-Page--Macety | dev   | 0e55ec3006bdd0b151cf3281ab8c75dcebe5e1a2| feat: Initial commit: Naturafy landing page with modular tabs |Initial commit: Naturafy landing page with modular tabs  | 04/10/2025  |
+| Landing-Page--Macety | dev   | 8f608e0c40fc906dd600d480f50be3ac0f6a2a21| feat: Add auto-scroll navigation and animated footer  |Add auto-scroll navigation and animated footer  | 04/10/2025  |
+| Landing-Page--Macety | dev   | f366514f1d1757fff1dd989802cb177c997ebe67| feat: Refactor to single-page app with inline styles and i18n  |Refactor to single-page app with inline styles and i18n  | 05/10/2025  |
+| Landing-Page--Macety | dev   | 7cb492eae6bdc9dd2cac3d3309fd0758c7825929| feat:Redesign landing page and add Macety AI section  |Redesign landing page and add Macety AI section  | 05/10/2025  |
+| Landing-Page--Macety | dev   | f874772dd28a9b7cddf56144425be8a49733ccd5| feat: Send welcome email and improve SMS registration flow  |Send welcome email and improve SMS registration flow  | 05/10/2025  |
+
+Frontend Web App:
+
+| Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
+| ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
+| Web-app | dev   | a7e03b389b85df2e97543101ec303ac94dd5bc0d| feat: primera versión del frontend  |feat: primera versión del frontend  | 09/10/2025  |
+
+Backend:
+
+| Repository   | Branch | Commit Id                                | Commit Message                                                              | Commit Message Body                                                                                      | Committed on (Date)     |
+| ------------ | ------ | ---------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------- |
+| Backend | dev   | w2312315df2e975434548as303ac94dd5bc0d| feat: primera versión del backend  |feat: primera versión del backend  | 09/10/2025  |
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review  
+
+| Repository                                                            | Branch             | Commit Id                                | Commit Message           | Commit Message Body                         | Committed on (Date)     |
+| --------------------------------------------------------------------- | ------------------ | ---------------------------------------- | ------------------------ | ------------------------------------------- | ----------------------- |
+| Testing | dev   | w2312315df2e975434548as303ac94dd5bc0d| feat: Enviando los Test del Iam  |feat: Enviando los Test del Iam | 09/10/2025  |
+
+Link del repositorio del testing: https://github.com/NaturaFy/Testing.git 
+
+#### 6.2.1.6. Execution Evidence for Sprint Review  
+En este Sprint, los miembros del equipo de desarrollo de software de NaturaFy han completado y desplegado la Landing Page. A continuación, mostramos imágenes que demuestran cómo nuestra página presenta de manera clara e intuitiva la información sobre nuestro producto y nuestra empresa.
+
+![alt text](assets/landingfotosrint.png)
+
+**URL LANDING PAGE DESPLEGADO**: [https://naturafy.netlify.app/](https://naturafy.netlify.app/)
+
+En segundo lugar ,se avanzo el bounded context IAM y applications tanto en backend como en frontend :
+
+Frontend :
+
+![alt text](assets/frontimage.png)
+
+**URL FRONTEND DESPLEGADO**: [https://naturafy-front.web.app/sign-up](https://naturafy-front.web.app/sign-up)
+
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review  
+
+**Introducción:**   
+Durante este Sprint, se logró la documentación y despliegue de varios Endpoints correspondientes a los diferentes bounded contexts implementados por el equipo. Se utilizó OpenAPI para describir de forma estructurada los servicios Web desarrollados. A continuación, se presenta la relación de los Endpoints, las acciones soportadas y la respectiva documentación disponible.
+
+Esta documentación incluye los verbos HTTP utilizados, sintaxis de llamadas, parámetros, ejemplos de respuesta, así como capturas de la interacción con los Web Services utilizando datos de muestra. También se proporciona el URL del repositorio de los Web Services y los commit IDs correspondientes al trabajo realizado en la documentación durante este Sprint. 
+
+**Sección IAM (Identity and Access Management)**
+
+---
+
+### **Introducción**
+El módulo IAM (Identity and Access Management) implementa la gestión centralizada de usuarios, roles y autenticación en la plataforma Scholr. A continuación se detallan los endpoints desarrollados, su funcionalidad y documentación técnica.
+
+---
+
+### **Tabla de Endpoints IAM**
+
+| Bounded Context | Endpoint | Acción | Verbo HTTP | Parámetros | Ejemplo de Respuesta | Documentación |
+|-----------------|----------|--------|------------|------------|----------------------|---------------|
+| **Autenticación** | `/api/v1/authentication/sign-in` | Inicio de sesión | POST | `{"username": "string","password": "string"}` | `{"id": 0,"username": "string","token": "string"}` | [Swagger](#) | 
+|  | `/api/v1/authentication/sign-up` | Registro de usuario | POST | `{"username": "string","password": "string","compania": "string","dni": "string","cod_colaborador": "string","roles": ["string"]}` | `{"id": 0,"username": "string","roles": ["string"],"proofingEntrepreneure": "string"}` | [Swagger](#) |
+| **Usuarios** | `/api/v1/users` | Listar usuarios | GET | - | `[{"id": 0,"username": "string","roles": ["string"],"proofingEntrepreneure": "string"}]` | [Swagger](#) |
+|  | `/api/v1/users/{userId}` | Obtener usuario por ID | GET | `userId: long` | `{"id": 0,"username": "string","roles": ["string"],"proofingEntrepreneure": "string"}` | [Swagger](#) |
+|  | `/api/v1/users/{userId}/update-proofing` | Actualizar verificación | PUT | `{"proofingStatus": string}` | `{"message": "Proofing updated"}` | [Swagger](#) |
+| **Roles** | `/api/v1/roles` | Listar roles | GET | - | `  {"id": 0,"name": "string"}]` | [Swagger](#) |
+---
+
+### **Ejemplos de Uso**
+
+#### **1. Autenticación (JWT)**
+```java
+// Sign-Up Request
+POST /api/v1/authentication/sign-up
+Body: {
+  "username": "Estefano",
+  "password": "12345",
+  "compania": "backus",
+  "dni": "72260921",
+  "cod_colaborador": "ABC123",
+  "roles": [
+    "ROLE_APODERADO"
+  ]
+}
+
+// Response (201 Created)
+{
+  "id": 1,
+  "username": "Estefano",
+  "roles": [
+    "ROLE_APODERADO"
+  ],
+  "proofingEntrepreneure": null
+}
+```
+
+#### **2. Gestión de Usuarios**
+```java
+// Actualizar verificación de emprendedor
+PUT /api/v1/users/1/update-proofing
+Body: {
+  "proofingStatus": "VERIFIED"
+}
+
+// Response (200 OK)
+{
+  "message": "ProofingEntrepreneure updated successfully."
+}
+```
+
+---
+
+### **Arquitectura y Patrones**
+1. **CQRS**: Separación clara entre:
+   - `UserCommandService`: Manejo de escritura (sign-up, update-proofing)
+   - `UserQueryService`: Consultas (getAllUsers, getUserById)
+
+2. **DTO Pattern**: Uso de `*Resource` para transferencia de datos:
+   ```java
+   public record UserResource(Long id, String email, String name) {}
+   ```
+
+3. **Swagger Integration**: Documentación automática con `@Tag` y OpenAPI.
+
+---
+
+### **Seguridad**
+- **JWT**: Implementado en `AuthenticationController`.
+- **Validaciones**: 
+  - Campos obligatorios con `@Valid`
+  - Manejo de errores (404 para usuarios no encontrados)
+
+---
+
+### **Validación de Colaboradores en Registro (Sign-Up)**  
+Se implementó un **mecanismo de validación corporativa** que verifica la identidad de colaboradores antes de permitir su registro. Este proceso:
+
+1. **Consulta tablas dinámicas** por compañía (`{compania}_colaboradores`)
+2. **Valida coincidencia** entre:  
+   - DNI del usuario  
+   - Código de colaborador  
+3. **Flujo técnico**:  
+   ```java
+   // Ejemplo de validación
+   if (!colaboradorValidationService.validarColaborador(
+       "backus", 
+       "72260921", 
+       "ABC123")) {
+       throw new InvalidColaboradorException();
+   }
+   ```
+
+**Impacto**:  
+- ✔️ Asegura que solo personal autorizado se registre  
+- ✔️ Integración transparente con el endpoint existente `/sign-up`  
+- ✔️ Prevención de SQL Injection mediante parámetros con `EntityManager`
+
+### **Repositorio y Commits**
+| Endpoint | Commit ID | Cambios Realizados |
+|----------|-----------|---------------------|
+| Autenticación | `a1b2c3d` | Implementación JWT |
+| Users | `e4f5g6h` | Add proofing feature |
+| Roles | `i7j8k9l` | Listado de roles |
+
+---
+
+**Repositorio Principal**: [https://github.com/Aventis-Scholr/scholr-backend.git](https://github.com/Aventis-Scholr/scholr-backend.git)
+
+---
+
+### **Conclusión**
+El módulo IAM proporciona:
+- ✅ Autenticación segura con JWT
+- ✅ Gestión granular de usuarios y roles
+- ✅ Escalabilidad mediante CQRS
+- ✅ Documentación completa con Swagger
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review  
+
+**Resumen**
+Durante este Sprint, nos hemos enfocado en el despliegue de la landing page. Las actividades realizadas incluyen la configuración del entorno de desarrollo y el despliegue inicial del sitio. A continuación, se detalla el proceso seguido para el despliegue de la landing page.
+
+**Actividades Realizadas**
+
+- Creación de Cuentas y Configuración de Recursos:
+
+Proveedor de Hosting: Selección y configuración de la cuenta en el proveedor de hosting para desplegar la landing page.
+Configuración del Entorno: Establecimiento del entorno de desarrollo y producción para la landing page.
+
+- Configuración de Proyectos para Integración:
+
+Repositorio de Código: Configuración del repositorio en GitHub para la integración continua y despliegue automático.
+Automatización: Configuración de scripts y herramientas para la automatización del despliegue.
+
+- Despliegue de la Landing Page:
+
+Subida de Archivos: Transferencia de archivos y recursos al servidor de hosting.
+Verificación: Comprobación de que la landing page se despliega correctamente y está accesible en la web.
+
+**Deploy del Landing Page**
+- Repositorio de Landing Page:
+![alt text](assets/landingfuto.png)
+
+**Enlace al Repositorio**: [https://github.com/NaturaFy/Landing-Page--Macety.git](https://github.com/NaturaFy/Landing-Page--Macety.git)
+
+**Link deploy Landing Page:** [https://naturafy.netlify.app/](https://naturafy.netlify.app/)
+
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint 
+
+En esta sección, se presenta un análisis detallado de la colaboración del equipo durante el Sprint. Durante este Sprint, las actividades se organizaron siguiendo una metodología ágil, lo que permitió una coordinación efectiva entre los miembros del equipo. Se incluyen capturas de los analíticos de colaboración y de los commits realizados en GitHub, evidenciando la contribución individual.
+
+Diseño y Desarrollo:
+
+- Frontend: Desarrollo y diseño completo de la landing page, incluyendo la creación de secciones, estilos y estructura responsive.
+
+- Backend: Implementación de funcionalidades básicas y configuración inicial del servidor y servicios necesarios.
+
+- Codificación: Ejecución de tareas de programación, pruebas funcionales y ajustes iterativos.
+
+Documentación y Despliegue:
+
+- Documentación: Elaboración de documentación técnica y visual, incluyendo descripciones y capturas de pantalla del proceso.
+
+- Despliegue: Configuración del entorno y despliegue tanto del frontend como del backend en un entorno de pruebas, asegurando la operatividad conjunta.
+
+**Landing Page**
+
+![alt text](assets/landingcommit.png)
+
+- Maycol Jhordan Rojas Velasquez: 14
+
+**Report:**
+
+![alt text](assets/report-commit.png)
+
+- Maycol Jhordan Rojas Velasquez: 22
+- Sergio Andre Gomez Vallejos:13 
+- Estefano Oscar Jaque Peña: 1
+- Carlos Andres Rojas Ccama:  14
+- Samuel Ignacio Valera Garcés: 11
+
+<br>**Backend:**
+
+![alt text](assets/report-commit.png)
+
+- Maycol Jhordan Rojas Velasquez: 22
+- Sergio Andre Gomez Vallejos:13 
+- Estefano Oscar Jaque Peña: 1
+- Carlos Andres Rojas Ccama:  14
+- Samuel Ignacio Valera Garcés: 11
+
+<br>**Frontend:**
+
+![alt text](assets/webappcommit.png)
+
+- Estefano Oscar Jaque Peña: 1
+
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2
+El sprint planning es una reunion antes de cada sprint en la metodologia Scrum donde el equipo elige las user stories que va a transformar en un producto tangible. Tambien define que como se van a separar los trabajos y quien sera responsable. Nuestro objetivo sera construir un plan resolubre en un tiempo determinado que sera lo que dure el sprint, para crearlo fomentaremos la colaboracion para que todos sepan y entiendas los objetivos y prioridades.
+
+| Sprint #| Sprint 2 |
+| -- | -- |
+| **Sprint Planning Background** | |
+| **Date** | 15/10/2025 |
+| **Time** | 12:00 AM |
+| **Location** | Discord (Reunión virtual) |
+| **Prepared By** | Jaque Peña, Estefano Oscar |
+| **Attendees (to planning meeting)** | Maycol Jhordan Rojas Velasquez, Sergio Andre Gomez Vallejos, Estefano Oscar Jaque Peña, Carlos Andres Rojas Ccama, Samuel Ignacio Valera Garcés |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | Nuestro enfoque para este Sprint 2 está en avanzar de manera integrada en los bounded contexts del ecosistema MaceTy, fortaleciendo tanto el backend monolítico como los microservicios ya iniciados. Continuaremos la implementación de las funcionalidades clave de medición de sensores (humedad, luz y temperatura), automatización del riego y visualización de métricas en tiempo real dentro de la Web App. Además, integraremos el trabajo ya realizado en los servicios del backend —incluyendo el Profile (user-service), IAM-OUT (IAM Service) y IoT Connection Service— con el backend monolito que contiene los módulos de User Service, IAM Service y Plant Management. En el frontend, ampliaremos las vistas y lógica del Web App basadas en lo implementado previamente por el equipo, agregando el historial ambiental, las alertas críticas y la primera interacción del módulo de comunidad. El objetivo es consolidar una versión funcional que permita medir, registrar y actuar sobre las condiciones de la maceta inteligente, conectando de forma real los microservicios, el monolito y la interfaz de usuario. |
+| **Sprint 2 Velocity** | ------ |
+| **Sum of Story Points** | 45 |
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**, la cual permite identificar los roles de liderazgo y colaboración dentro del Sprint.  
+Este artefacto muestra, por cada aspecto abordado en el desarrollo, quién asume el rol de **líder (L)** y quiénes participan como **colaboradores (C)**, con el objetivo de optimizar la comunicación, la distribución de tareas y la eficiencia del trabajo en equipo.  
+
+Cada aspecto corresponde a un ámbito funcional del proyecto (por ejemplo: Frontend, Backend, Base de Datos, UI/UX, Deploy, etc.).  
+El liderazgo asignado se basa en las fortalezas técnicas de cada integrante y la organización general de trabajo definida por el **Team Leader**, quien coordina la integración y revisión final de los entregables.  
+
+A continuación, se presenta la matriz correspondiente al Sprint actual:
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **UI/UX Design** | **Frontend Development** | **Backend Development** | **Database Management** | **Deployment & Documentation** |
+|----------------------------------------|---------------------|------------------|--------------------------|--------------------------|--------------------------|-------------------------------|
+| **Rojas Velasquez, Maycol Jhordan**    | Kmykh            | C                | L                        | C                        | C                        | C                             |
+| **Gomez Vallejos, Sergio Andre**       | CB-Sergio-AGV             | C                | C                        | L                        | L                        | C                             |
+| **Jaque Pena, Estefano Oscar**         | estefanojaque             | C                | L                        | C                        | C                        | L                             |
+| **Rojas Ccama, Carlos Andres**         | Sr-Anonymus-make             | C                | C                        | L                        | L                        | L                             |
+| **Valera Garcés, Samuel Ignacio**      | SamuelValeraGarces            | L                | C                        | C                        | C                        | C                             |
+
+La organización de líderes y colaboradores guarda relación directa con la planificación de tareas y la distribución de responsabilidades dentro del **Sprint Backlog**.  
+Cada miembro asume roles específicos según su experiencia y dominio técnico, contribuyendo a una ejecución coordinada y efectiva del desarrollo del proyecto.  
+El **Team Leader (Maycol Jhordan Rojas Velasquez)** supervisa la integración de los diferentes aspectos y asegura la coherencia técnica entre los módulos.
+
+#### 6.2.2.3. Sprint Backlog 2
+Para el segundo Sprint, el equipo orientó sus esfuerzos a implementar las funcionalidades centrales del sistema MaceTy relacionadas con el monitoreo ambiental, la automatización del riego y la visualización de métricas en tiempo real, tomando como base el progreso obtenido en el Sprint anterior.
+
+En esta iteración, se trabajó con las User Stories priorizadas desde el Product Backlog, enfocadas en habilitar la lectura de sensores (humedad, luz, temperatura), almacenar historial de mediciones, gestionar umbrales de riego, activar el riego automático o manual, enviar alertas al usuario y preparar los primeros módulos de interacción comunitaria.
+
+El desarrollo se apoyó en la arquitectura ya establecida del backend monolito (compuesto por User Service, IAM Service e IoT/Plant Management) y la integración continua del frontend, permitiendo cerrar el flujo completo desde los sensores físicos hasta la interfaz del usuario.
+El equipo continuó utilizando Trello como herramienta de planificación, lo cual facilitó la organización de tareas, la asignación por responsable y el seguimiento transparente del progreso.
+
+El Objetivo del Sprint 2 fue habilitar el funcionamiento inicial del ecosistema MaceTy, permitiendo que la maceta inteligente pueda medir su entorno, registrar información histórica, activar acciones automáticas como el riego, y notificar eventos críticos, consolidando la base funcional del producto.
+
+A continuación, se presenta el detalle del Sprint Backlog 2, con sus User Stories seleccionadas, tareas asociadas, responsables y estado:
+
+| **Sprint #**   | **Sprint 2**                                   |                      |                                                   |                                                                                                      |                        |                                |            |
+| -------------- | ---------------------------------------------- | -------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------- | ------------------------------ | ---------- |
+| **User Story** |                                                | **Work-Item / Task** |                                                   |                                                                                                      |                        |                                |            |
+| **ID**         | **Title**                                      | **ID**               | **Title**                                         | **Description**                                                                                      | **Estimation (Hours)** | **Assigned To**                | **Status** |
+| ST-01 | Lectura de humedad en tiempo real | **TA011** | Endpoint para humedad actual | Implementar API REST `/sensor/humidity/current` en el backend monolito (Plant Management), integrado con el microservicio IoT Connection ya desarrollado. | 4 | Samuel | To Do |
+|       |                                    | **TA012** | Servicio frontend de humedad | Crear `HumidityService` en el frontend existente, conectándolo al backend monolito (User Service / Plant Management) implementado en el sprint anterior. | 3 | Sergio | To Do |
+|       |                                    | **TA013** | Componente UI Humedad Actual | Crear componente en la Web App para mostrar humedad en tiempo real, reutilizando la infraestructura de autenticación (IAM Front) ya implementada. | 4 | Sergio | To Do |
+| ST-02 | Historial de humedad | **TA014** | Endpoint historial humedad | Crear endpoint `/sensor/humidity/history` en el backend monolito, conectado a la base de datos y consumiendo datos desde IoT Connection Service. | 5 | Samuel | To Do |
+|       |                       | **TA015** | Modelo y persistencia | Crear entidad `HumidityHistory` y repositorio en Spring Boot dentro del monolito, alineado con el bounded context de Plant Management. | 4 | Samuel | To Do |
+|       |                       | **TA016** | UI Historial + Gráficos | Implementar pantalla de gráficos diarios/semanales/mensuales en la Web App usando la sesión de usuario gestionada por el IAM Front existente. | 6 | Sergio | To Do |
+| ST-03 | Lectura de luz | **TA017** | Endpoint lectura de luz | Crear `/sensor/light/current` en el backend monolito, integrando la lectura con IoT Connection Service. | 3 | Samuel | To Do |
+|       |                | **TA018** | UI Luminosidad Actual | Crear componente de UI para mostrar la luminosidad actual (lux) en la Web App, siguiendo el diseño base ya aplicado en la Landing Page. | 3 | Sergio | To Do |
+| ST-04 | Alertas luz insuficiente | **TA019** | Lógica alertas luz | Implementar en el monolito la verificación de umbrales de luz y disparo de eventos de alerta usando datos de IoT Connection. | 5 | Samuel | To Do |
+|       |                          | **TA020** | Notificación frontend | Mostrar notificación en el frontend cuando la luz esté fuera del rango, integrando con la lógica de usuario autenticado provista por IAM Front. | 3 | Sergio | To Do |
+| ST-05 | Lectura de temperatura | **TA021** | Endpoint temperatura actual | Añadir `/sensor/temperature/current` en el backend monolito, utilizando el canal ya configurado con IoT Connection Service. | 3 | Samuel | To Do |
+|       |                        | **TA022** | UI Temperatura Actual | Crear componente para mostrar temperatura en °C, integrado al dashboard de métricas de la Web App. | 3 | Sergio | To Do |
+| ST-06 | Historial de temperatura | **TA023** | Almacenamiento histórico | Crear entidad `TemperatureHistory` y repositorio en el monolito, siguiendo el mismo patrón de persistencia que HumidityHistory. | 4 | Samuel | To Do |
+|       |                          | **TA024** | UI Historial Temperatura | Implementar gráficos de historial de temperatura en la Web App, reutilizando la estructura de navegación ya creada. | 5 | Sergio | To Do |
+| ST-07 | Configurar umbral de riego | **TA025** | Crear endpoint `/watering/threshold` | Agregar en el backend monolito el guardado de umbral de humedad, asociado al perfil del usuario (Profile user-service). | 4 | Samuel | To Do |
+|       |                            | **TA026** | UI Configuración de umbral | Crear formulario en la Web App para configurar el % mínimo de humedad, usando autenticación y roles ya gestionados por IAM. | 3 | Sergio | To Do |
+| ST-08 | Activar riego automático | **TA027** | Lógica automática de riego | Programar en el monolito la lógica que activa/desactiva la bomba según humedad y umbral, integrando sensores vía IoT Connection. | 6 | Samuel | To Do |
+|       |                          | **TA028** | Mostrar logs de riego | Implementar UI para ver registros de riegos automáticos, consumiendo los datos que exponga el módulo Plant Management del monolito. | 3 | Sergio | To Do |
+| ST-09 | Riego manual | **TA029** | Endpoint `/watering/manual` | Implementar endpoint en el backend monolito para activación manual del riego desde la Web App, respetando autenticación IAM. | 3 | Samuel | To Do |
+|       |              | **TA030** | Botón "Regar ahora" | Implementar botón y feedback visual de riego manual en el frontend, llamando al endpoint `/watering/manual`. | 3 | Sergio | To Do |
+| ST-10 | Alerta de humedad crítica | **TA031** | Sistema de eventos (humedad) | Implementar en el monolito la lógica que dispara alarma cuando humedad < umbral crítico, reutilizando infraestructura de notificaciones. | 5 | Samuel | To Do |
+|       |                          | **TA032** | UI alertas humedad | Mostrar notificaciones de humedad crítica en la Web App para el usuario autenticado. | 3 | Sergio | To Do |
+| ST-11 | Alerta de temperatura extrema | **TA033** | Lógica de detección extrema | Implementar en el monolito las reglas para temperatura muy baja/alta y generar eventos de alerta. | 4 | Samuel | To Do |
+|        |                            | **TA034** | UI mensajes temperatura | Mostrar notificación en la app cuando ocurra temperatura extrema, integrado en la misma experiencia de alertas. | 3 | Sergio | To Do |
+| ST-04 | Alertas de luz insuficiente | **TA035** | Registro de alertas luz | Guardar eventos de alertas de luz en la base de datos del monolito. | 3 | Samuel | To Do |
+|       |                            | **TA036** | UI historial alertas | Crear página en la Web App para ver el historial de alertas (humedad, luz, temperatura), integrando todos los tipos de eventos. | 4 | Sergio | To Do |
+| ST-15 | Comunidad de usuarios | **TA037** | Backend de publicaciones | Crear API para posts `/community/post` en el backend monolito, aprovechando el sistema de usuarios del IAM/USER Service. | 6 | Samuel | To Do |
+|       |                        | **TA038** | UI Comunidad | Implementar lista de publicaciones, fotos y comentarios en el frontend, utilizando la sesión de usuario ya gestionada por IAM Front. | 6 | Sergio | To Do |
+| ST-18 | Backup en la nube | **TA039** | Cron backup diario | Implementar backup automático diario en GCP/Firebase para métricas y configuraciones, sobre la estructura de datos del monolito. | 5 | Samuel | To Do |
+| ST-19 | Calibración de sensores | **TA040** | Flujo backend calibración | Implementar endpoints de calibración manual guiada en el backend monolito, integrados con IoT Connection para aplicar los ajustes. | 4 | Samuel | To Do |
+|       |                          | **TA041** | UI Calibración | Crear pantalla paso a paso en la Web App para calibrar sensores, reutilizando la navegación y estilos de la Landing Page. | 4 | Sergio | To Do |
+| ST-20 | Notificación de mantenimiento | **TA042** | Lógica de mantenimiento | Implementar en el monolito la detección de suciedad, batería baja y desgaste, generando eventos de mantenimiento. | 5 | Samuel | To Do |
+|       |                               | **TA043** | UI Mantenimiento | Mostrar recordatorios y mensajes de mantenimiento en el frontend, integrando las notificaciones con la cuenta del usuario. | 3 | Sergio | To Do |
+
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se explican y presentan los avances en la implementación de los productos de la solución correspondientes al Sprint 2. Los principales logros incluyen:
+
+*   **Landing Page:** Se ha finalizado y desplegado la versión definitiva de la landing page, consolidando la identidad visual y los flujos de conversión.
+![alt text](assets/sprint2-deve.png)
+
+*   **Frontend Web App:** Se desarrolló una nueva versión del frontend, mejorando la interfaz de usuario y la experiencia de navegación.
+![alt text](assets/sprint2-deve3.jpg)
+*   **Backend Monolítico:** Se creó una versión de respaldo del backend monolítico que incluye funcionalidades clave como el registro/login de usuarios, la gestión de perfiles y la capacidad de agregar plantas.
+![alt text](assets/sprint2-deve2.png)
+*   **Arquitectura de Microservicios:** Se inició la migración a una arquitectura de microservicios, creando los servicios de backend desacoplados.
+*   **API Gateway:** Se generó una API Gateway para gestionar la comunicación entre el prototipo y los nuevos microservicios de backend.
+
+*   **Prototipo de Hardware (MaceTy):** Se lograron avances significativos en el prototipo físico, incluyendo la conexión de los sensores de temperatura y humedad, la emisión de una red WiFi para la configuración inicial, la conexión con los microservicios a través de la API Gateway y la implementación de la lógica para los LEDs indicadores de estado.
+
+A continuación, se presenta la tabla con los commits correspondientes a estos avances.
+
+| Repo | Branch | Commit Id | Mensaje | Fecha |
+| :--- | :--- | :--- | :--- | :--- |
+|   https://github.com/NaturaFy/Landing-Page--Macety   |    main    |     ` 65bf22b45569bfd942c73bfadae9d268e365ae82`       |   Update login and signup links to new domain      |   10/11/2025    |
+|  https://github.com/NaturaFy/web-app-Macety    |  main      |     `fde1cf814e06eab97e912ed7f8b91b744cfc045e`    |   Subiendo proyecto desde cero      |   12/11/2025    |
+|  https://github.com/NaturaFy/Backend-backup-Monolito    |    main    |     `42c4ac0a64da5dc29e91fba28710f03ac700a78e`     |  VERSION 0.0.7       | 12/11/2025      |
+
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+En esta sección se presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados para los servicios web relacionados con las User Stories del Sprint 2. El objetivo es asegurar la calidad, robustez y correcto funcionamiento de las nuevas funcionalidades implementadas.
+
+**Pruebas de Comportamiento (BDD) con Gherkin**
+
+Para las pruebas de aceptación, se ha utilizado un enfoque de Desarrollo Guiado por Comportamiento (BDD). A continuación, se presentan los escenarios definidos en lenguaje Gherkin (`.feature` files), que describen el comportamiento esperado del sistema desde la perspectiva del usuario.
+
+```gherkin
+# Inserte aquí el contenido de los archivos .feature
+
+# Ejemplo de estructura:
+# Feature: Gestión de Perfil de Usuario
+# Como usuario registrado, quiero poder ver y editar mi perfil para mantener mi información actualizada.
+
+# Scenario: Visualizar perfil de usuario existente
+#   Given que soy un usuario autenticado con el id "1"
+#   When realizo una petición GET a "/api/v1/users/1"
+#   Then el código de estado de la respuesta debe ser 200
+#   And la respuesta debe incluir mi nombre de usuario "testuser"
+
+```
+
+**Pruebas Unitarias**
+
+Se realizaron pruebas unitarias para validar el correcto funcionamiento de las clases y métodos individuales en el backend, enfocándose en la lógica de negocio de los nuevos microservicios.
+
+*   **Servicio de Autenticación:** Se probaron los métodos de registro y login.
+*   **Servicio de Perfil:** Se validó la creación y actualización de perfiles de usuario.
+*   **Servicio de Plantas:** Se verificó la lógica para agregar y consultar plantas.
+
+A continuación, se muestran las evidencias de la ejecución de estas pruebas:
+
+![Pruebas Unitarias - Sprint 2](assets/testunitsprint2.png)
+![Pruebas Unitarias - Sprint 2.1](assets/testunitsprint2.1.png)
+
+**Pruebas de Sistema**
+
+Se ejecutaron pruebas de sistema para validar los flujos completos de la aplicación, asegurando que los diferentes componentes (frontend, backend, base de datos) se integren y funcionen correctamente.
+
+*   **Flujo de Registro y Login:** Se probó el ciclo completo desde el registro de un nuevo usuario hasta su autenticación exitosa.
+*   **Flujo de Gestión de Plantas:** Se validó el proceso de agregar una nueva planta al perfil de un usuario.
+
+Evidencias de la ejecución de las pruebas de sistema:
+
+![Pruebas de Sistema - Sprint 2](assets/testsystemsprint2.png)
+![Pruebas de Sistema - Sprint 2.1](assets/testsystemsprint2.1.png)
+![Pruebas de Sistema - Sprint 2.2](assets/testsystemsprint2.2.png)
+
+**Commits de Pruebas**
+
+A continuación, se presenta la tabla con los commits correspondientes a la implementación de las pruebas.
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- |
+| https://github.com/NaturaFy/Backend-backup-Monolito           |    main    |     `b070723bd077f32ec2bcb5f623d0dceda2e985a3`      |    test: añade tests para Plant y User            |      15/11/2025               |
+
+
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+En esta sección se presenta la evidencia de ejecución de los componentes desarrollados durante el Sprint 2. Los principales logros incluyen la finalización y despliegue de la **Landing Page**, el desarrollo de una **nueva versión de la aplicación web** con una interfaz mejorada, y la implementación de un **backend monolítico de respaldo** con funcionalidades esenciales como autenticación y gestión de plantas. Además, se avanzó en la migración a una **arquitectura de microservicios** y en el desarrollo del **prototipo de hardware**, integrando sensores y actuadores.
+
+A continuación, se muestran capturas de pantalla de las principales vistas implementadas y un video que demuestra el flujo de navegación y la funcionalidad del ecosistema MaceTy.
+
+**Vistas Principales Implementadas:**
+
+*   **Landing Page Finalizada:**
+    ![Landing Page Finalizada](assets/sprint2-deve.png)
+    Enlace: `https://naturafy.netlify.app/`
+*   **Nueva Versión de la Aplicación Web:**
+    ![Nueva Versión de la Aplicación Web](assets/sprint2-deve3.jpg)
+    Enlace: `https://macetyrrrrr.netlify.app/login`
+*   **Backend Monolítico de Respaldo (Código):**
+    ![Backend Monolítico de Respaldo](assets/sprint2-deve2.png)
+
+**Video de Demostración:**
+
+Un recorrido en video que ilustra la navegación entre la landing page y la aplicación web, mostrando el registro, inicio de sesión y el dashboard principal.
+- **Enlace al video de ejecución:** `https://1drv.ms/v/c/624a080810914df5/EVs_IKPqcfxGg4ODZVfvvSwBBAoQUpknCKd7cMgKlfV90w?e=HttPyW`
+
+`https://1drv.ms/v/c/624a080810914df5/ESxJ-e8KGrxGrUvXUm-9DX4BU4MhqweWkZSo7WhKLBo6sA?e=MCkz21`
+
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+Durante el presente Sprint, se ha desarrollado y documentado el núcleo de la API REST para la aplicación. Se han implementado los endpoints esenciales para la gestión de autenticación de usuarios, el manejo de perfiles y la administración de plantas. La API sigue un diseño RESTful, utiliza JSON para el intercambio de datos y está protegida mediante tokens JWT (JSON Web Tokens) para las rutas que requieren autenticación. Esta documentación sirve como evidencia del trabajo realizado y como guía para la integración con aplicaciones cliente.
+
+## Detalle de Endpoints
+
+### 1. Módulo de Autenticación (`/api/v1/auth`)
+
+#### Registrar Usuario
+* **Verbo:** `POST`
+* **Sintaxis:** `/api/v1/auth/register`
+* **Parámetros (Body):**
+    ```json
+    {
+      "name": "string",
+      "email": "string",
+      "password": "string"
+    }
+    ```
+* **Respuesta Exitosa (201 Created):**
+    ```json
+    {
+      "id": 1,
+      "name": "Kmykh",
+      "email": "kmykh@example.com",
+      "password": null,
+      "avatar": null,
+      "location": null,
+      "createdAt": "2023-10-27T10:00:00"
+    }
+    ```
+* **Explicación:** Crea un nuevo usuario. Devuelve el objeto del usuario creado sin la contraseña. Falla si el email ya existe (`409 Conflict`).
+
+#### Iniciar Sesión
+* **Verbo:** `POST`
+* **Sintaxis:** `/api/v1/auth/login`
+* **Parámetros (Body):**
+    ```json
+    {
+      "email": "string",
+      "password": "string"
+    }
+    ```
+* **Respuesta Exitosa (200 OK):**
+    ```json
+    {
+      "access_token": "ey...",
+      "refresh_token": "uuid...",
+      "token_type": "Bearer",
+      "expires_in": 3600,
+      "user": { ... }
+    }
+    ```
+* **ExplicACIÓN:** Autentica al usuario y devuelve un token de acceso (`access_token`) junto con los datos del usuario. Falla si las credenciales son incorrectas (`401 Unauthorized`).
+
+#### Obtener Usuario Actual
+* **Verbo:** `GET`
+* **Sintaxis:** `/api/v1/auth/me`
+* **Parámetros:** `Header: Authorization: Bearer <token>`
+* **Respuesta Exitosa (200 OK):**
+    ```json
+    {
+      "id": 1,
+      "name": "Kmykh",
+      "email": "kmykh@example.com",
+      ...
+    }
+    ```
+* **Explicación:** Devuelve los datos del usuario autenticado a partir del token JWT.
+
+#### Cerrar Sesión
+* **Verbo:** `POST`
+* **Sintaxis:** `/api/v1/auth/logout`
+* **Parámetros:** Ninguno
+* **Respuesta Exitosa (200 OK):**
+    ```json
+    {
+      "message": "Sesión cerrada correctamente"
+    }
+    ```
+* **Explicación:** Endpoint para invalidar la sesión en el cliente. Devuelve un mensaje de confirmación.
+
+---
+
+### 2. Módulo de Perfil de Usuario (`/api/v1/profile`)
+
+#### Obtener Perfil
+* **Verbo:** `GET`
+* **Sintaxis:** `/api/v1/profile`
+* **Parámetros:** `Header: Authorization: Bearer <token>`
+* **Respuesta Exitosa (200 OK):**
+    ```json
+    {
+      "id": 1,
+      "name": "Kmykh",
+      "email": "kmykh@example.com",
+      ...
+    }
+    ```
+* **Explicación:** Devuelve el perfil completo del usuario autenticado.
+
+#### Actualizar Perfil
+* **Verbo:** `PUT`
+* **Sintaxis:** `/api/v1/profile`
+* **Parámetros:**
+    * `Header: Authorization: Bearer <token>`
+    * `Body (JSON)`: (Campos opcionales)
+        ```json
+        {
+          "name": "string",
+          "avatar": "string",
+          "location": "string"
+        }
+        ```
+* **Respuesta Exitosa (200 OK):**
+    ```json
+    {
+      "message": "Perfil actualizado correctamente",
+      "user": { ... }
+    }
+    ```
+* **Explicación:** Actualiza los datos del perfil del usuario. Devuelve un mensaje y el perfil actualizado.
+
+#### Eliminar Perfil
+* **Verbo:** `DELETE`
+* **Sintaxis:** `/api/v1/profile`
+* **Parámetros:** `Header: Authorization: Bearer <token>`
+* **Respuesta Exitosa (200 OK):**
+    ```json
+    {
+      "message": "Cuenta y plantas eliminadas correctamente"
+    }
+    ```
+* **Explicación:** Elimina la cuenta del usuario autenticado y todas sus plantas asociadas.
+
+---
+
+### 3. Módulo de Plantas (`/api/v1/plants`)
+
+#### Añadir Planta
+* **Verbo:** `POST`
+* **Sintaxis:** `/api/v1/plants`
+* **Parámetros:**
+    * `Header: Authorization: Bearer <token>`
+    * `Body (JSON)`:
+        ```json
+        {
+          "name": "string",
+          "species": "string",
+          "description": "string",
+          "imageUrl": "string"
+        }
+        ```
+* **Respuesta Exitosa (200 OK):**
+    ```json
+    {
+      "message": "Planta añadida correctamente",
+      "plant": {
+        "id": 1,
+        "name": "Monstera",
+        ...
+        "user": { ... }
+      }
+    }
+    ```
+* **Explicación:** Añade una nueva planta a la colección del usuario autenticado.
+
+#### Obtener Mis Plantas
+* **Verbo:** `GET`
+* **Sintaxis:** `/api/v1/plants`
+* **Parámetros:** `Header: Authorization: Bearer <token>`
+* **Respuesta Exitosa (200 OK):**
+    ```json
+    [
+      {
+        "id": 1,
+        "name": "Monstera",
+        ...
+        "user": { ... }
+      },
+      { ... }
+    ]
+    ```
+* **Explicación:** Devuelve una lista con todas las plantas que pertenecen al usuario autenticado.
+
+---
+
+## Interacción con la API (Ejemplos de uso)
+
+Para interactuar con la API, se puede utilizar una herramienta como Postman o Insomnia. El flujo típico es:
+
+1.  **Registrar un usuario:** Enviar una petición `POST` a `/api/v1/auth/register` con los datos del nuevo usuario.
+2.  **Iniciar sesión:** Enviar una petición `POST` a `/api/v1/auth/login` con el email y contraseña. Copiar el `access_token` de la respuesta.
+3.  **Acceder a rutas protegidas:** Para cualquier otra petición (ej. `GET /api/v1/plants`), añadir un encabezado `Authorization` con el valor `Bearer <tu_access_token>`.
+
+#### Ejemplo: Añadir una planta en Postman
+* **Verbo y URL:** `POST http://localhost:8080/api/v1/plants`
+* **Pestaña Authorization:** Tipo "Bearer Token" y pegar el token.
+* **Pestaña Body:** Seleccionar `raw` y `JSON`, y pegar el cuerpo de la petición:
+
+    ```json
+    {
+        "name": "Sansevieria",
+        "species": "Trifasciata",
+        "description": "Conocida como lengua de suegra. Muy resistente.",
+        "imageUrl": "[https://example.com/sansevieria.jpg](https://example.com/sansevieria.jpg)"
+    }
+    ```
+Al enviar la petición, se recibirá una respuesta `200 OK` con los datos de la planta creada.
+
+---
+
+## Repositorio y Commits de Avance
+
+Se presenta la URL del repositorio y la tabla con los commits más relevantes que evidencian el trabajo de este Sprint.
+
+* **URL del Repositorio de Web Services:** `https://github.com/Kmykh/Backend-backup-Monolito.git`
+
+#### Tabla de Commits Relevantes del Sprint
+
+| Repositorio | Commit ID | Mensaje del Commit | Funcionalidad Relacionada |
+| :--- | :--- | :--- | :--- |
+| Backend-backup-Monolito | `f4a3b2c` | test: añade tests para Plant y User | Módulo de Plantas y Usuarios (Testing) |
+| Backend-backup-Monolito | `a1b2c3d` | feat: implementa endpoints de perfil de usuario | Módulo de Perfil de Usuario |
+| Backend-backup-Monolito | `d4e5f6g` | feat: añade autenticación y endpoints de plantas | Módulo de Autenticación y Plantas |
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+En esta sección se resume el proceso de despliegue (Deployment) de los productos digitales desarrollados durante el Sprint 2. El objetivo fue poner en producción la **Landing Page**, la **Aplicación Web** y el **Backend Monolítico de respaldo**, utilizando un flujo de integración y despliegue continuo (CI/CD).
+
+**Proceso de Despliegue de Frontend (Landing Page y Aplicación Web)**
+
+Para los componentes de frontend, se utilizó una combinación de GitHub y Netlify para automatizar el despliegue.
+
+1.  **Gestión de Código Fuente:** El código de la Landing Page y de la Aplicación Web se aloja en repositorios separados en GitHub.
+2.  **Integración con Netlify:** Cada repositorio de GitHub se conectó a un sitio en Netlify.
+3.  **Despliegue Continuo (CI/CD):** Se configuró un pipeline de despliegue automático. Cada vez que se realiza un `push` a la rama `main` del repositorio, Netlify detecta el cambio, construye el proyecto (compila los assets de React/Vue) y despliega la nueva versión en su red global (CDN).
+4.  **Resultado:** El sitio se actualiza automáticamente en la URL de producción sin intervención manual.
+
+*   **Plataforma:** Netlify
+*   **URL Landing Page:** `https://naturafy.netlify.app/`
+*   **URL Aplicación Web:** `https://macetyrrrrr.netlify.app/`
+
+![Despliegue de Landing Page en Netlify](assets/deploylanding.png)
+![Despliegue de Aplicación Web en Netlify](assets/deployawppweb.png)
+
+**Proceso de Despliegue de Backend (Monolítico)**
+
+Para el backend, se utilizó GitHub para el control de versiones y Microsoft Azure para el alojamiento del servicio.
+
+1.  **Gestión de Código Fuente:** El código del backend monolítico se gestiona en su propio repositorio de GitHub.
+2.  **Configuración en Azure:** Se creó un recurso de tipo "App Service" en Microsoft Azure, configurado para ejecutar la aplicación (ej. Java, Node.js, etc.).
+3.  **Integración y Despliegue:** Se utilizó el "Deployment Center" de Azure para conectar el App Service con el repositorio de GitHub. Esto permite que, tras un `push` a la rama `main`, Azure obtenga el código más reciente, lo compile (si es necesario) y lo despliegue en el entorno de producción.
+4.  **Resultado:** La API del backend queda expuesta y accesible a través de la URL proporcionada por Azure.
+
+*   **Plataforma:** Microsoft Azure (App Service)
+
+![Despliegue de Backend en Azure](assets/deploybackmonolito.png)
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+En esta sección, se analiza la dinámica de colaboración del equipo durante el Sprint 2. Se presentan las analíticas de commits de los repositorios de GitHub y una retrospectiva del sprint para identificar fortalezas y áreas de mejora en nuestro proceso de trabajo.
+
+**Analítica de Colaboración y Commits**
+
+La distribución del trabajo se evidencia a través de los commits realizados en los diferentes repositorios del proyecto.
+
+**1. Repositorio: Landing Page (`NaturaFy/Landing-Page--Macety`)**
+*   **Análisis:** Durante este sprint, los commits se centraron en ajustes finales y la actualización de enlaces para conectar con la nueva aplicación web. La actividad fue puntual, reflejando que la landing page estaba en una fase de mantenimiento y refinamiento.
+    ![Commits Landing Page](assets/insghits2.3.png)
+
+**2. Repositorio: Aplicación Web (`NaturaFy/web-app-Macety`)**
+*   **Análisis:** Este repositorio concentró la mayor parte de la actividad de desarrollo del frontend. Los commits muestran la construcción de la nueva interfaz, la integración de vistas como el dashboard, perfil, y el flujo para añadir plantas. La colaboración fue intensa para asegurar la coherencia visual y funcional.
+    ![Commits Backend](assets/insighits2.1.png)
+**3. Repositorio: Backend Monolítico (`NaturaFy/Backend-backup-Monolito`)**
+*   **Análisis:** El trabajo en el backend se enfocó en implementar los endpoints para autenticación, perfiles y gestión de plantas. Los commits reflejan la creación de la lógica de negocio, la configuración de la base de datos y la implementación de pruebas unitarias y de sistema.
+  ![Commits App Web](assets/isnghits2.png)
+
+**Retrospectiva del Sprint**
+
+### Interpretación de la Participación del Equipo
+
+Según las directrices del curso, se promovió que todos los miembros del equipo tuvieran participación en los diferentes productos (Landing, Web Services, App).
+
+Aunque los repositorios muestran una especialización (frontend/backend), la colaboración se gestionó mediante:
+* **Revisiones de Código (Pull Requests):** Todos los miembros participaron en la revisión de PRs de todos los repositorios.
+* **Commits Cruzados:** Se incentivó que miembros de frontend realizaran pequeños ajustes en el backend (ej. documentación o pruebas) y viceversa, para familiarizarse con todo el *stack*.
+
+Las siguientes analíticas de GitHub muestran la participación de los miembros en los reposositorios principales, demostrando el involucramiento colectivo.
+
+**Evidencia (Capturas de "Contributors" de GitHub):**
+
+![Gráfica de Contribuyentes - Backend](assets/isnghitscomitts2.png)
+
+
+Basado en la colaboración de este sprint, el equipo identificó las siguientes fortalezas y áreas de mejora:
+
+**Fortalezas:**
+* **Comunicación Fluida:** La definición de los contratos JSON entre el backend y el frontend fue exitosa y evitó bloqueos.
+* **Calidad del Código:** La implementación de pruebas unitarias en el backend permitió detectar errores a tiempo.
+
+**Áreas de Mejora:**
+* **Tiempos de Revisión de PRs:** Algunos *Pull Requests* tardaron más de 24 horas en ser revisados. Se debe asignar tiempo específico para esta tarea.
+* **Participación Cruzada:** Aunque hubo participación, puede ser más activa y no solo simbólica. Se implementará *pair programming* inter-roles en el próximo sprint.
+
+### 6.3. Validation Interviews
+
+#### 6.3.1. Diseño de Entrevistas
+El objetivo de estas entrevistas es validar la usabilidad, claridad y valor percibido del prototipo interactivo de MaceTy con usuarios representativos de los segmentos objetivo.
+
+- **Perfil del participante:** Usuarios que coincidan con las personas de "Personas Ocupadas en la Ciudad" y "Jardineros". Se buscará un mix de 3-4 participantes por segmento.
+- **Metodología:** Sesiones de usabilidad moderadas (presenciales o remotas) donde el usuario interactúa con el prototipo de Figma mientras piensa en voz alta.
+- **Métricas Clave:**
+  - **System Usability Scale (SUS):** Para medir la usabilidad general.
+  - **Tasa de éxito de tareas:** Porcentaje de usuarios que completan tareas clave sin ayuda.
+  - **Tiempo en la tarea:** Tiempo promedio para completar tareas como "conectar una nueva maceta".
+  - **Feedback cualitativo:** Respuestas a las preguntas del guion.
+
+**Guion de Entrevista de Validación:**
+
+**Fase 1: Onboarding y Primera Impresión**
+
+1.  ¿Qué tan fácil fue para ti registrarte y conectar la maceta inteligente con la aplicación? (Tarea: Conectar una nueva maceta).
+2.  ¿El diseño visual (colores, íconos, texto) te ayudó a entender fácilmente qué hacer desde el principio?
+
+**Fase 2: Uso del Dashboard y Monitoreo**
+
+3.  Viendo el panel principal, ¿entendiste claramente qué representa cada indicador (humedad, temperatura, luz)?
+4.  ¿Te resultó útil la forma en que la app muestra el estado general de tu planta? ¿Hay algo que falte o sobre?
+
+**Fase 3: Interacción con Alertas y Asistente**
+
+5.  Cuando recibiste una alerta o recomendación, ¿te pareció clara y confiable?
+6.  ¿Seguirías las recomendaciones de Macety sin dudar o necesitarías más información para confiar en ellas?
+7.  ¿Cómo describirías tu experiencia conversando con el asistente MacetyBot? ¿Fue natural o confuso?
+
+**Fase 4: Cierre y Percepción General**
+
+8.  ¿Hubo algún momento en que te sentiste confundido o no supiste cómo avanzar? ¿Dónde?
+9.  ¿Qué parte de toda la experiencia te pareció más valiosa o innovadora? ¿Y la menos útil?
+10. En una escala del 1 al 5 (donde 1 es "muy insatisfecho" y 5 "muy satisfecho"), ¿qué tan satisfecho/a estás con tu experiencia general usando Macety?
+
+#### 6.3.2. Registro de Entrevistas
+#### **Entrevista #1**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Camila Morales Farias |
+|  **Edad** | 21 |
+|  **Rol / Experiencia** | Persona Ocupada |
+| **Fecha de Entrevista** | 10/11/2020 |
+|  **Duración** | 0:00 -5:28 |
+|  **Tecnologías Usadas** | zoom |
+|  **Enlace a Grabación** | https://drive.google.com/file/d/1yy_AfA9DpWa_2o8bghnruyJmRwndLL08/view?usp=sharing |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 1](assets/entrevista-validation1.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+Camila calificó la experiencia general con un **4 sobre 5**, considerándola positiva, fluida y con gran potencial. Destacó como lo más valioso la sensación de que la planta "le habla" a través de una guía personalizada.
+
+**Puntos Fuertes Identificados:**
+- **Propuesta de Valor:** La idea de una guía personalizada para el cuidado de la planta fue percibida como la característica más innovadora y valiosa.
+- **Diseño y Usabilidad:** El diseño visual es claro y moderno. El proceso de registro fue fácil (4/5) y el asistente MacetyBot se sintió natural y comprensible.
+- **Alertas:** Las notificaciones fueron claras y directas.
+
+**Oportunidades de Mejora Sugeridas:**
+- **Claridad en los Datos:**
+    - **Historial:** El gráfico de historial generó confusión al no ser clara la escala de tiempo (diaria, semanal). Se recomienda añadir un selector de tiempo visible.
+    - **Indicadores:** El indicador de "luz" fue ambiguo. Un tooltip explicativo que aclare si es luz ambiental o directa sería útil.
+- **Profundidad de las Recomendaciones:**
+    - Las alertas, aunque claras, se perciben como genéricas. Se sugiere añadir el "porqué" de la recomendación y cuantificar la acción (ej. "regar con 70 ml").
+    - Un botón de "más información" aumentaría la confianza del usuario en las sugerencias del sistema.
+- **Refinamiento de la Interfaz:**
+    - Se podría mejorar la legibilidad del estado general de la planta usando un código de colores simple (tipo semáforo: verde/amarillo/rojo).
+    - Agrupar mejor algunos elementos en el dashboard para evitar una sensación de dispersión.
+
+---
+#### **Entrevista #2**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Marllely Arias Segil |
+|  **Edad** | 22 |
+|  **Rol / Experiencia** | Jardinero/a |
+| **Fecha de Entrevista** | 12/11/2025 |
+|  **Duración** | 5:28 - 10:58 |
+|  **Tecnologías Usadas** | Zoom |
+|  **Enlace a Grabación** | https://drive.google.com/file/d/1yy_AfA9DpWa_2o8bghnruyJmRwndLL08/view?usp=sharing |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 1](assets/validation1-jardinero.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+Marllely calificó la experiencia general con un **5 sobre 5**, describiéndola como "práctica, moderna y muy útil". El valor principal que identificó fue la innovadora combinación de tecnología y naturaleza, que permite "ver el estado de ánimo de la planta en tiempo real".
+
+**Puntos Fuertes Identificados:**
+- **Onboarding y Usabilidad:** El proceso de registro y conexión fue "bastante fácil" y rápido, sin requerir conocimientos técnicos.
+- **Diseño de Interfaz (UI):** El diseño visual es "muy claro y armonioso", con colores, íconos y textos que facilitan la orientación desde el primer momento.
+- **Claridad de la Información:** Los indicadores del dashboard son intuitivos y las explicaciones adicionales al tocarlos fueron muy valoradas.
+- **Confianza en las Alertas:** Las notificaciones son "claras y directas", generando confianza al indicar exactamente qué acción tomar.
+- **Asistente MacetyBot:** La interacción con el bot se percibió como natural y útil para resolver dudas básicas.
+
+**Oportunidades de Mejora Sugeridas:**
+- **Identificación de Plantas:** Durante la configuración, se sintió insegura al elegir la especie. Sugiere añadir una **función para identificar la planta mediante una foto**.
+- **Profundidad de las Recomendaciones:** Aunque confía en las alertas, le gustaría que incluyeran un breve contexto o el "porqué" de la recomendación para fomentar el aprendizaje.
+- **Visualización de Datos:** Sugiere añadir un pequeño **gráfico histórico en el dashboard principal** para observar la evolución de los indicadores a lo largo del tiempo.
+- **Simplificación:** La sección con datos muy técnicos podría simplificarse para ser más accesible.
+
+
+
+---
+#### **Entrevista #3**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Christian André Matos Fernández |
+|  **Edad** | 20 |
+|  **Rol / Experiencia** | Persona Ocupada |
+| **Fecha de Entrevista** | 11/11/2025 |
+|  **Duración** | 10:58 -15:51 |
+|  **Tecnologías Usadas** | Google Meet |
+|  **Enlace a Grabación** | https://drive.google.com/file/d/1yy_AfA9DpWa_2o8bghnruyJmRwndLL08/view?usp=sharing |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 3](assets/entrevista_3.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+Cristian Matos calificó su experiencia general con la aplicación de IoT como **4.5/5**, describiéndola como *"sencilla, práctica y útil"* para el cuidado de sus plantas. Destacó el valor de tener la información accesible en tiempo real, lo que le permite monitorear el bienestar de sus plantas de manera eficiente.
+
+**Puntos Fuertes Identificados**
+
+- **Onboarding y Usabilidad:** El proceso de registro fue *"bastante fácil"* e intuitivo, permitiendo una conexión rápida que no generó frustraciones.
+- **Diseño de Interfaz (UI):** La aplicación tiene un diseño visual *"agradable e intuitivo"*, donde los colores y los iconos facilitan la comprensión de las acciones a realizar.
+- **Claridad de Indicadores:** Los indicadores en el panel principal son *"fáciles de entender"*, ofreciendo información clara sobre el estado de la planta con iconos y colores que indican si está sana.
+- **Alertas de Recomendación:** Las notificaciones son *"claras y directas"*, generando confianza en la información brindada sobre las acciones a seguir.
+- **Interacción con Macetti Bot:** Cristian encontró la interacción con el asistente bastante *"natural y útil"*, facilitando la resolución de dudas sin complicaciones.
+
+**Oportunidades de Mejora Sugeridas**
+
+- **Tutorial Interactivo:** Se sugiere añadir un tutorial inicial para ayudar a nuevos usuarios a familiarizarse con las funcionalidades sin exploración excesiva.
+- **Mayor Claridad en Indicaciones:** Aunque los indicadores son comprensibles, Cristian comentó que a veces necesita más contexto sobre ciertos aspectos, como la luz solar.
+- **Modo Resumen para Múltiples Plantas:** Propone la posibilidad de tener un modo resumen para monitorear varias plantas simultáneamente desde una sola vista.
+- **Personalización de Respuestas:** Se podría mejorar la personalización de las respuestas del asistente para que estas se adapten más al tipo de planta específica.
+
+
+---
+#### **Entrevista #4**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Ariana Martínez |
+|  **Edad** | 25 |
+|  **Rol / Experiencia** | Persona Ocupada |
+| **Fecha de Entrevista** | 14/11/2025 |
+|  **Duración** | 15:51 - 19:09 |
+|  **Tecnologías Usadas** | Google Meet |
+|  **Enlace a Grabación** | `https://drive.google.com/file/d/1yy_AfA9DpWa_2o8bghnruyJmRwndLL08/view?usp=sharing` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 1](assets/valit_4_entrevista.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+Ariana evaluó la propuesta de una maceta inteligente como altamente atractiva, percibiéndola como una solución útil para su estilo de vida ocupado. Considera que la característica más valiosa es la capacidad del sistema para automatizar el riego y, al mismo tiempo, notificarle sobre el estado de su planta, lo cual reduciría olvidos y pérdida de plantas. Para ella, la propuesta combina practicidad con una mejora en la experiencia de tener plantas en casa.
+
+**Puntos Fuertes Identificados**
+
+- Propuesta de Valor:
+La idea de una maceta que se riegue automáticamente y detecte necesidades como luz o nutrientes fue considerada altamente relevante. Ariana valoró especialmente que la maceta pueda alertarla y mantenerla informada, incluso si realiza el trabajo por ella.
+
+- Diseño y Percepción del Producto:
+Dado que le importa la estética del hogar, resalta la importancia de que el producto sea visualmente atractivo, moderno y sostenible. Materiales seguros y sin químicos son factores decisivos para ella.
+
+- Experiencia Esperada:
+Ariana mostró preferencia por un sistema automático asistido, es decir, uno que realice el riego por sí mismo, pero que también brinde actualizaciones sobre el estado de la planta. Le resulta importante sentir que puede supervisar sin tener que intervenir constantemente.
+
+**Oportunidades de Mejora Sugeridas**
+
+Instalación y Configuración:
+Su principal preocupación es la complejidad inicial. Comentó que podría sentirse insegura al instalar o configurar el producto. Esto indica la necesidad de:
+
+**Tutorial paso a paso**
+
+- Manual visual
+
+- Setup guiado desde la app
+
+**Educación del Usuario:**
+Aunque entiende la utilidad, expresó que a veces no sabe exactamente qué necesita una planta. El sistema podría ofrecer:
+
+- Consejos personalizados
+
+- Explicaciones del estado de la planta
+
+- Lenguaje simple y no técnico (ej. “tu planta necesita más luz indirecta porque…”)
+
+- Precio y Valor Percibido:
+Su disposición de pago se ubica en un rango máximo de S/ 200, lo que indica que el producto debe ser percibido como accesible y con beneficios claros desde el primer uso.
+
+**Recomendaciones Estratégicas**
+
+Incluir asistente configurador o video onboarding que reduzca la percepción de dificultad técnica.
+
+Presentar un diseño sostenible, estético y compatible con decoración moderna esto influye significativamente en la decisión de compra.
+
+Integrar notificaciones amables y personalizadas para mantener cercanía emocional (no solo alertas técnicas).
+
+Considerar un plan de precios que permita percibir accesibilidad, por ejemplo:
+
+Versión base + features adicionales premium.
+
+---
+#### **Entrevista #5**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Gabriela Baza |
+|  **Edad** |  26 |
+|  **Rol / Experiencia** | Botanica |
+| **Fecha de Entrevista** | 14/11/2025 |
+|  **Duración** | 19:09 - 26:56 |
+|  **Tecnologías Usadas** | Zoom |
+|  **Enlace a Grabación** | `https://drive.google.com/file/d/1yy_AfA9DpWa_2o8bghnruyJmRwndLL08/view?usp=sharing` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 1](assets/jardinerovalidation_5.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+La usuaria calificó la experiencia general con un **4.5 sobre 5**, describiéndola como "muy placentera y cómoda". El valor principal reside en la claridad de los datos de la planta y el diseño amigable, aunque la confianza total en el sistema se construirá con el uso práctico y la validación a lo largo del tiempo.
+
+**Puntos Fuertes Identificados:**
+- **Onboarding y Diseño:** El proceso de registro es "muy sencillo" y la interfaz "amigable y comprensible". El diseño visual, incluyendo el color verde y la mascota Macety, es atractivo y motiva la compra.
+- **Claridad de Datos:** Los indicadores del dashboard son claros y se consideran "justos y necesarios". Se valora positivamente la inclusión de consejos de cuidado junto a los datos.
+- **Asistente MacetyBot:** La interacción con el bot fue "muy placentera, cómoda y respetuosa", respondiendo de manera precisa a las necesidades.
+- **Funcionalidades Valiosas:** El monitoreo de datos en tiempo real y la tienda integrada fueron percibidos como "fantásticos".
+
+**Oportunidades de Mejora Sugeridas:**
+- **Accesibilidad Visual:** Se sugiere aumentar el grosor de algunas fuentes o implementar un **modo oscuro**, ya que la combinación de colores claros y texto delgado podría dificultar la lectura para ciertos usuarios.
+- **Profundidad de las Recomendaciones:** Las alertas se perciben como "un poco cortas". Se recomienda añadir más contexto, como el motivo de la alerta y **sugerencias cuantificadas** (ej. "recomiendo 50-70 ml de agua") para que se sientan más profesionales.
+- **Onboarding Guiado:** Para reducir la confusión inicial, se propone incluir un **tutorial interactivo o un video explicativo** accesible desde la aplicación (mediante un pop-up o mensaje in-app).
+
+---
+#### **Entrevista #6**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Maria Casas |
+|  **Edad** | 50 |
+|  **Rol / Experiencia** | Jardineria  |
+| **Fecha de Entrevista** | 15/11/2025 |
+|  **Duración** | 26:56 - 31:57 |
+|  **Tecnologías Usadas** | Meet |
+|  **Enlace a Grabación** | `https://drive.google.com/file/d/1yy_AfA9DpWa_2o8bghnruyJmRwndLL08/view?usp=sharing` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 1](assets/validation6.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+El usuario calificó la experiencia general con un **5 sobre 5**, destacando la facilidad de uso y la claridad del diseño como los aspectos más valiosos. La experiencia fue descrita como completamente intuitiva y sin puntos de fricción.
+
+**Puntos Fuertes Identificados:**
+- **Onboarding y Usabilidad:** El proceso de registro y la conexión de la maceta fueron calificados como "fáciles" gracias a una interfaz "intuitiva".
+- **Diseño de Interfaz (UI):** El diseño fue un punto clave de la satisfacción. Los "colores claros y suaves" y los íconos claros ayudaron a una comprensión inmediata de la plataforma.
+- **Claridad de la Información:** Todos los indicadores del dashboard fueron fáciles de entender y la información sobre las plantas se percibió como "completa".
+- **Confianza y Claridad:** Tanto las alertas como las recomendaciones se consideraron "claras y confiables", generando la disposición de seguirlas sin dudar.
+- **Asistente MacetyBot:** La interacción con el bot fue "natural" y fácil de entender.
+- **Navegación:** El usuario no experimentó confusión en ningún momento, destacando que la navegación por la plataforma siempre fue clara.
+
+**Oportunidades de Mejora Sugeridas:**
+- El feedback fue enteramente positivo. El usuario no identificó áreas de mejora, lo que representa una fuerte validación del diseño actual y la experiencia de usuario propuesta.
+---
+
+#### 6.3.3. Evaluaciones según heurísticas
+
+A continuación, se presenta una evaluación heurística consolidada basada en los hallazgos de las entrevistas de validación. Se utilizan las 10 heurísticas de usabilidad de Jakob Nielsen para analizar el feedback de los usuarios y proponer mejoras concretas.
+
+| Heurística de Nielsen | Hallazgo Clave (Consolidado de Entrevistas) | Severidad | Recomendación de Mejora |
+| :--- | :--- | :--- | :--- |
+| **1. Visibilidad del estado del sistema** | El gráfico de historial no muestra claramente la escala de tiempo (diaria, semanal), generando confusión. | **Media** | Añadir un selector de tiempo visible (`24h`, `7d`, `30d`) en la vista de gráficos para que el usuario siempre sepa qué datos está viendo. |
+| **2. Relación entre el sistema y el mundo real** | Las alertas de riego son genéricas. Los usuarios desean saber el "porqué" y la cantidad sugerida (ej. "regar con 70 ml"). | **Media** | Enriquecer las notificaciones con contexto y acciones cuantificables. Ejemplo: "Humedad baja detectada. Te recomendamos regar con 70 ml de agua". |
+| **3. Control y libertad del usuario** | La experiencia general es intuitiva, permitiendo a los usuarios navegar sin sentirse atrapados. No se reportaron problemas significativos en esta área. | **Baja** | Mantener la navegación clara y los botones de "atrás" o "cancelar" consistentes en todos los flujos, especialmente en la configuración de una nueva planta. |
+| **4. Consistencia y estándares** | El diseño visual (iconos, colores) es consistente y ayuda a entender la interfaz. Los usuarios reconocen los patrones de la app. | **Baja** | Asegurar que los nuevos íconos o secciones que se añadan en el futuro sigan la misma guía de estilo para no romper la consistencia ya lograda. |
+| **5. Prevención de errores** | Los usuarios expresaron inseguridad al seleccionar manualmente el tipo de planta, lo que podría llevar a una configuración incorrecta. | **Media** | Implementar una función para **identificar la especie de la planta mediante una foto** desde la app, reduciendo la posibilidad de error humano. |
+| **6. Reconocimiento antes que recuerdo** | Los indicadores del dashboard (humedad, luz, temperatura) son visuales e intuitivos, evitando que el usuario tenga que memorizar información. | **Baja** | Mantener el uso de iconografía universal y etiquetas claras. Para el indicador de "luz", añadir un tooltip que aclare si es luz ambiental o directa. |
+| **7. Flexibilidad y eficiencia de uso** | El sistema está bien para novatos, pero usuarios avanzados (jardineros) desearían un dashboard con más datos o un modo resumen para ver varias plantas a la vez. | **Baja** | Crear un "Modo Avanzado" o un widget de resumen personalizable en el dashboard que permita a los usuarios expertos ver más datos de un vistazo. |
+| **8. Estética y diseño minimalista** | El diseño es "limpio", "amigable" y "moderno". Sin embargo, se señaló que algunas fuentes delgadas sobre fondos claros podrían dificultar la lectura. | **Baja** | Aumentar ligeramente el grosor de la fuente para párrafos o considerar la implementación de un **modo oscuro** para mejorar la accesibilidad y el contraste. |
+| **9. Ayudar a los usuarios a reconocer y recuperarse de errores** | Las alertas son claras, pero no ofrecen suficiente información para que el usuario aprenda del "error" (ej. por qué la humedad es baja). | **Media** | Incluir un enlace de "Más información" o "¿Por qué?" en las alertas que explique brevemente la causa del problema y cómo prevenirlo a futuro. |
+| **10. Ayuda y documentación** | Varios usuarios mencionaron que un tutorial inicial sería útil para entender todas las funcionalidades sin tener que explorar por su cuenta. | **Media** | Implementar un **tutorial interactivo (onboarding guiado)** la primera vez que se abre la app o añadir un pop-up que enlace a un video explicativo. |
+
+
+### 6.4. Video About-the-Product
+
+Este video presenta un recorrido completo por el ecosistema **MaceTy**, demostrando cómo la aplicación web y la landing page se integran para ofrecer una experiencia de usuario fluida y conectada. El objetivo es mostrar la propuesta de valor del producto en acción, desde la captación inicial del usuario hasta la gestión diaria de sus plantas.
+
+- **Enlace al video:** `https://1drv.ms/v/c/624a080810914df5/EVs_IKPqcfxGg4ODZVfvvSwBBAoQUpknCKd7cMgKlfV90w?e=HttPyW`
+
 ## Conclusiones
 
-Existe un problema real y validado en el mercado peruano, donde la mayoría de usuarios urbanos pierde sus plantas por falta de tiempo o conocimiento, lo que abre una oportunidad clara para soluciones IoT accesibles como MaceTy.
+1.  **Validación Integral del Ecosistema Digital:** El desarrollo y la validación del proyecto, desde la arquitectura hasta las entrevistas con usuarios y el video final, confirman que **MaceTy** no es solo un producto de hardware, sino un ecosistema digital completo. La integración exitosa de la landing page, la aplicación web y los servicios de backend demuestra la viabilidad de la solución para resolver el problema validado: la dificultad de cuidar plantas en entornos urbanos.
 
-La diferenciación local es la clave competitiva, ya que MaceTy se adapta al contexto latinoamericano con precios adecuados, soporte en español y funcionalidades pensadas para el estilo de vida urbano, lo que le da ventaja frente a productos importados.
+2.  **La Experiencia de Usuario como Diferenciador Clave:** Las entrevistas de validación y la evaluación heurística revelaron que, más allá de la automatización, los usuarios valoran la claridad de la información, la confianza en las recomendaciones y una interfaz amigable. El feedback positivo (calificaciones de 4/5 y 5/5) y las sugerencias de mejora (como la identificación de plantas por foto) subrayan que una experiencia de usuario superior es el principal diferenciador de MaceTy frente a competidores.
 
-El proyecto no solo es comercialmente viable, sino también sostenible y escalable, al contar con una arquitectura tecnológica robusta, segmentación clara de usuarios y un impacto positivo en el uso eficiente de recursos y la conexión de las personas con la naturaleza.
+3.  **Madurez Técnica y Metodológica del Equipo:** La ejecución de dos sprints de desarrollo, la gestión de repositorios con GitFlow, la documentación de servicios con OpenAPI y el despliegue en plataformas como Netlify y Azure demuestran la capacidad del equipo para aplicar metodologías ágiles y herramientas profesionales. Esta madurez técnica asegura que el producto no solo es funcional, sino también escalable, mantenible y seguro.
 
-
+4.  **Impacto Medible y Potencial de Crecimiento:** El proyecto ha validado un claro "problem-solution fit". Las conclusiones de las entrevistas y el diseño centrado en el usuario sientan las bases para un alto potencial de adopción y crecimiento. La estrategia de negocio, apoyada en un producto tecnológicamente sólido y una marca con una identidad clara (eco-tecnológica y cercana), posiciona a NaturaFy para capturar una cuota significativa del mercado de jardinería inteligente en Latinoamérica.
 ## Bibliografía
 
 - Verified Market Reports. (2024). *Insights de mercado de plantas inteligentes en macetas*. Recuperado de [https://www.verifiedmarketreports.com/es/product/smart-potted-plant-market/](https://www.verifiedmarketreports.com/es/product/smart-potted-plant-market/)  
