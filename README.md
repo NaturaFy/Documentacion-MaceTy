@@ -2540,23 +2540,92 @@ Documentación y Despliegue:
 ### 6.2.2. Sprint 2
 
 #### 6.2.2.1. Sprint Planning 2
-Objetivo del sprint, alcance y criterios de éxito.
-- Fecha/hora/lugar:
-- Meta del Sprint:
-- Historias seleccionadas:
-- Definición de Hecho (DoD):
+El sprint planning es una reunion antes de cada sprint en la metodologia Scrum donde el equipo elige las user stories que va a transformar en un producto tangible. Tambien define que como se van a separar los trabajos y quien sera responsable. Nuestro objetivo sera construir un plan resolubre en un tiempo determinado que sera lo que dure el sprint, para crearlo fomentaremos la colaboracion para que todos sepan y entiendas los objetivos y prioridades.
+
+| Sprint #| Sprint 2 |
+| -- | -- |
+| **Sprint Planning Background** | |
+| **Date** | 15/10/2025 |
+| **Time** | 12:00 AM |
+| **Location** | Discord (Reunión virtual) |
+| **Prepared By** | Jaque Peña, Estefano Oscar |
+| **Attendees (to planning meeting)** | Maycol Jhordan Rojas Velasquez, Sergio Andre Gomez Vallejos, Estefano Oscar Jaque Peña, Carlos Andres Rojas Ccama, Samuel Ignacio Valera Garcés |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | Nuestro enfoque para este Sprint 2 está en avanzar de manera integrada en los bounded contexts del ecosistema MaceTy, fortaleciendo tanto el backend monolítico como los microservicios ya iniciados. Continuaremos la implementación de las funcionalidades clave de medición de sensores (humedad, luz y temperatura), automatización del riego y visualización de métricas en tiempo real dentro de la Web App. Además, integraremos el trabajo ya realizado en los servicios del backend —incluyendo el Profile (user-service), IAM-OUT (IAM Service) y IoT Connection Service— con el backend monolito que contiene los módulos de User Service, IAM Service y Plant Management. En el frontend, ampliaremos las vistas y lógica del Web App basadas en lo implementado previamente por el equipo, agregando el historial ambiental, las alertas críticas y la primera interacción del módulo de comunidad. El objetivo es consolidar una versión funcional que permita medir, registrar y actuar sobre las condiciones de la maceta inteligente, conectando de forma real los microservicios, el monolito y la interfaz de usuario. |
+| **Sprint 2 Velocity** | ------ |
+| **Sum of Story Points** | 45 |
 
 #### 6.2.2.2. Aspect Leaders and Collaborators
-Matriz L/C por aspecto técnico (UI/UX, Frontend, Backend, DB, Deploy, QA).
-| Team Member | GitHub | UI/UX | Frontend | Backend | DB | Deploy | QA |
-|-------------|--------|-------|----------|---------|----|--------|----|
-| ... | ... | ... | ... | ... | ... | ... | ... |
+En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**, la cual permite identificar los roles de liderazgo y colaboración dentro del Sprint.  
+Este artefacto muestra, por cada aspecto abordado en el desarrollo, quién asume el rol de **líder (L)** y quiénes participan como **colaboradores (C)**, con el objetivo de optimizar la comunicación, la distribución de tareas y la eficiencia del trabajo en equipo.  
+
+Cada aspecto corresponde a un ámbito funcional del proyecto (por ejemplo: Frontend, Backend, Base de Datos, UI/UX, Deploy, etc.).  
+El liderazgo asignado se basa en las fortalezas técnicas de cada integrante y la organización general de trabajo definida por el **Team Leader**, quien coordina la integración y revisión final de los entregables.  
+
+A continuación, se presenta la matriz correspondiente al Sprint actual:
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **UI/UX Design** | **Frontend Development** | **Backend Development** | **Database Management** | **Deployment & Documentation** |
+|----------------------------------------|---------------------|------------------|--------------------------|--------------------------|--------------------------|-------------------------------|
+| **Rojas Velasquez, Maycol Jhordan**    | Kmykh            | C                | L                        | C                        | C                        | C                             |
+| **Gomez Vallejos, Sergio Andre**       | CB-Sergio-AGV             | C                | C                        | L                        | L                        | C                             |
+| **Jaque Pena, Estefano Oscar**         | estefanojaque             | C                | L                        | C                        | C                        | L                             |
+| **Rojas Ccama, Carlos Andres**         | Sr-Anonymus-make             | C                | C                        | L                        | L                        | L                             |
+| **Valera Garcés, Samuel Ignacio**      | SamuelValeraGarces            | L                | C                        | C                        | C                        | C                             |
+
+La organización de líderes y colaboradores guarda relación directa con la planificación de tareas y la distribución de responsabilidades dentro del **Sprint Backlog**.  
+Cada miembro asume roles específicos según su experiencia y dominio técnico, contribuyendo a una ejecución coordinada y efectiva del desarrollo del proyecto.  
+El **Team Leader (Maycol Jhordan Rojas Velasquez)** supervisa la integración de los diferentes aspectos y asegura la coherencia técnica entre los módulos.
 
 #### 6.2.2.3. Sprint Backlog 2
-Historias, tareas, estimación, responsables y estado.
-| User Story | Task ID | Tarea | Estimación | Responsable | Estado |
-|-----------|---------|-------|------------|-------------|--------|
-| ... | ... | ... | ...h | ... | To Do/In Prog/Done |
+Para el segundo Sprint, el equipo orientó sus esfuerzos a implementar las funcionalidades centrales del sistema MaceTy relacionadas con el monitoreo ambiental, la automatización del riego y la visualización de métricas en tiempo real, tomando como base el progreso obtenido en el Sprint anterior.
+
+En esta iteración, se trabajó con las User Stories priorizadas desde el Product Backlog, enfocadas en habilitar la lectura de sensores (humedad, luz, temperatura), almacenar historial de mediciones, gestionar umbrales de riego, activar el riego automático o manual, enviar alertas al usuario y preparar los primeros módulos de interacción comunitaria.
+
+El desarrollo se apoyó en la arquitectura ya establecida del backend monolito (compuesto por User Service, IAM Service e IoT/Plant Management) y la integración continua del frontend, permitiendo cerrar el flujo completo desde los sensores físicos hasta la interfaz del usuario.
+El equipo continuó utilizando Trello como herramienta de planificación, lo cual facilitó la organización de tareas, la asignación por responsable y el seguimiento transparente del progreso.
+
+El Objetivo del Sprint 2 fue habilitar el funcionamiento inicial del ecosistema MaceTy, permitiendo que la maceta inteligente pueda medir su entorno, registrar información histórica, activar acciones automáticas como el riego, y notificar eventos críticos, consolidando la base funcional del producto.
+
+A continuación, se presenta el detalle del Sprint Backlog 2, con sus User Stories seleccionadas, tareas asociadas, responsables y estado:
+
+| **Sprint #**   | **Sprint 2**                                   |                      |                                                   |                                                                                                      |                        |                                |            |
+| -------------- | ---------------------------------------------- | -------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------- | ------------------------------ | ---------- |
+| **User Story** |                                                | **Work-Item / Task** |                                                   |                                                                                                      |                        |                                |            |
+| **ID**         | **Title**                                      | **ID**               | **Title**                                         | **Description**                                                                                      | **Estimation (Hours)** | **Assigned To**                | **Status** |
+| ST-01 | Lectura de humedad en tiempo real | **TA011** | Endpoint para humedad actual | Implementar API REST `/sensor/humidity/current` en el backend monolito (Plant Management), integrado con el microservicio IoT Connection ya desarrollado. | 4 | Samuel | To Do |
+|       |                                    | **TA012** | Servicio frontend de humedad | Crear `HumidityService` en el frontend existente, conectándolo al backend monolito (User Service / Plant Management) implementado en el sprint anterior. | 3 | Sergio | To Do |
+|       |                                    | **TA013** | Componente UI Humedad Actual | Crear componente en la Web App para mostrar humedad en tiempo real, reutilizando la infraestructura de autenticación (IAM Front) ya implementada. | 4 | Sergio | To Do |
+| ST-02 | Historial de humedad | **TA014** | Endpoint historial humedad | Crear endpoint `/sensor/humidity/history` en el backend monolito, conectado a la base de datos y consumiendo datos desde IoT Connection Service. | 5 | Samuel | To Do |
+|       |                       | **TA015** | Modelo y persistencia | Crear entidad `HumidityHistory` y repositorio en Spring Boot dentro del monolito, alineado con el bounded context de Plant Management. | 4 | Samuel | To Do |
+|       |                       | **TA016** | UI Historial + Gráficos | Implementar pantalla de gráficos diarios/semanales/mensuales en la Web App usando la sesión de usuario gestionada por el IAM Front existente. | 6 | Sergio | To Do |
+| ST-03 | Lectura de luz | **TA017** | Endpoint lectura de luz | Crear `/sensor/light/current` en el backend monolito, integrando la lectura con IoT Connection Service. | 3 | Samuel | To Do |
+|       |                | **TA018** | UI Luminosidad Actual | Crear componente de UI para mostrar la luminosidad actual (lux) en la Web App, siguiendo el diseño base ya aplicado en la Landing Page. | 3 | Sergio | To Do |
+| ST-04 | Alertas luz insuficiente | **TA019** | Lógica alertas luz | Implementar en el monolito la verificación de umbrales de luz y disparo de eventos de alerta usando datos de IoT Connection. | 5 | Samuel | To Do |
+|       |                          | **TA020** | Notificación frontend | Mostrar notificación en el frontend cuando la luz esté fuera del rango, integrando con la lógica de usuario autenticado provista por IAM Front. | 3 | Sergio | To Do |
+| ST-05 | Lectura de temperatura | **TA021** | Endpoint temperatura actual | Añadir `/sensor/temperature/current` en el backend monolito, utilizando el canal ya configurado con IoT Connection Service. | 3 | Samuel | To Do |
+|       |                        | **TA022** | UI Temperatura Actual | Crear componente para mostrar temperatura en °C, integrado al dashboard de métricas de la Web App. | 3 | Sergio | To Do |
+| ST-06 | Historial de temperatura | **TA023** | Almacenamiento histórico | Crear entidad `TemperatureHistory` y repositorio en el monolito, siguiendo el mismo patrón de persistencia que HumidityHistory. | 4 | Samuel | To Do |
+|       |                          | **TA024** | UI Historial Temperatura | Implementar gráficos de historial de temperatura en la Web App, reutilizando la estructura de navegación ya creada. | 5 | Sergio | To Do |
+| ST-07 | Configurar umbral de riego | **TA025** | Crear endpoint `/watering/threshold` | Agregar en el backend monolito el guardado de umbral de humedad, asociado al perfil del usuario (Profile user-service). | 4 | Samuel | To Do |
+|       |                            | **TA026** | UI Configuración de umbral | Crear formulario en la Web App para configurar el % mínimo de humedad, usando autenticación y roles ya gestionados por IAM. | 3 | Sergio | To Do |
+| ST-08 | Activar riego automático | **TA027** | Lógica automática de riego | Programar en el monolito la lógica que activa/desactiva la bomba según humedad y umbral, integrando sensores vía IoT Connection. | 6 | Samuel | To Do |
+|       |                          | **TA028** | Mostrar logs de riego | Implementar UI para ver registros de riegos automáticos, consumiendo los datos que exponga el módulo Plant Management del monolito. | 3 | Sergio | To Do |
+| ST-09 | Riego manual | **TA029** | Endpoint `/watering/manual` | Implementar endpoint en el backend monolito para activación manual del riego desde la Web App, respetando autenticación IAM. | 3 | Samuel | To Do |
+|       |              | **TA030** | Botón "Regar ahora" | Implementar botón y feedback visual de riego manual en el frontend, llamando al endpoint `/watering/manual`. | 3 | Sergio | To Do |
+| ST-10 | Alerta de humedad crítica | **TA031** | Sistema de eventos (humedad) | Implementar en el monolito la lógica que dispara alarma cuando humedad < umbral crítico, reutilizando infraestructura de notificaciones. | 5 | Samuel | To Do |
+|       |                          | **TA032** | UI alertas humedad | Mostrar notificaciones de humedad crítica en la Web App para el usuario autenticado. | 3 | Sergio | To Do |
+| ST-11 | Alerta de temperatura extrema | **TA033** | Lógica de detección extrema | Implementar en el monolito las reglas para temperatura muy baja/alta y generar eventos de alerta. | 4 | Samuel | To Do |
+|        |                            | **TA034** | UI mensajes temperatura | Mostrar notificación en la app cuando ocurra temperatura extrema, integrado en la misma experiencia de alertas. | 3 | Sergio | To Do |
+| ST-04 | Alertas de luz insuficiente | **TA035** | Registro de alertas luz | Guardar eventos de alertas de luz en la base de datos del monolito. | 3 | Samuel | To Do |
+|       |                            | **TA036** | UI historial alertas | Crear página en la Web App para ver el historial de alertas (humedad, luz, temperatura), integrando todos los tipos de eventos. | 4 | Sergio | To Do |
+| ST-15 | Comunidad de usuarios | **TA037** | Backend de publicaciones | Crear API para posts `/community/post` en el backend monolito, aprovechando el sistema de usuarios del IAM/USER Service. | 6 | Samuel | To Do |
+|       |                        | **TA038** | UI Comunidad | Implementar lista de publicaciones, fotos y comentarios en el frontend, utilizando la sesión de usuario ya gestionada por IAM Front. | 6 | Sergio | To Do |
+| ST-18 | Backup en la nube | **TA039** | Cron backup diario | Implementar backup automático diario en GCP/Firebase para métricas y configuraciones, sobre la estructura de datos del monolito. | 5 | Samuel | To Do |
+| ST-19 | Calibración de sensores | **TA040** | Flujo backend calibración | Implementar endpoints de calibración manual guiada en el backend monolito, integrados con IoT Connection para aplicar los ajustes. | 4 | Samuel | To Do |
+|       |                          | **TA041** | UI Calibración | Crear pantalla paso a paso en la Web App para calibrar sensores, reutilizando la navegación y estilos de la Landing Page. | 4 | Sergio | To Do |
+| ST-20 | Notificación de mantenimiento | **TA042** | Lógica de mantenimiento | Implementar en el monolito la detección de suciedad, batería baja y desgaste, generando eventos de mantenimiento. | 5 | Samuel | To Do |
+|       |                               | **TA043** | UI Mantenimiento | Mostrar recordatorios y mensajes de mantenimiento en el frontend, integrando las notificaciones con la cuenta del usuario. | 3 | Sergio | To Do |
+
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 
