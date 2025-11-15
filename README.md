@@ -2892,25 +2892,21 @@ Evaluación Nielsen/ISO, severidad y recomendaciones.
 | ... | ... | Baja/Media/Alta | ... |
 
 ### 6.4. Video About-the-Product
-Video demostrativo del producto y recorrido funcional.
-- Enlace al video:
-- Contenido mínimo: problema → propuesta de valor → demo (landing, app web/móvil, Macety) → CTA.
-- Duración sugerida: 2–4 min.
+
+Este video presenta un recorrido completo por el ecosistema **MaceTy**, demostrando cómo la aplicación web y la landing page se integran para ofrecer una experiencia de usuario fluida y conectada. El objetivo es mostrar la propuesta de valor del producto en acción, desde la captación inicial del usuario hasta la gestión diaria de sus plantas.
+
+- **Enlace al video:** `https://1drv.ms/v/c/624a080810914df5/EVs_IKPqcfxGg4ODZVfvvSwBBAoQUpknCKd7cMgKlfV90w?e=HttPyW`
 
 ## Conclusiones
 
-Existe un problema real y validado en el mercado peruano, donde la mayoría de usuarios urbanos pierde sus plantas por falta de tiempo o conocimiento, lo que abre una oportunidad clara para soluciones IoT accesibles como MaceTy.
+1.  **Validación Integral del Ecosistema Digital:** El desarrollo y la validación del proyecto, desde la arquitectura hasta las entrevistas con usuarios y el video final, confirman que **MaceTy** no es solo un producto de hardware, sino un ecosistema digital completo. La integración exitosa de la landing page, la aplicación web y los servicios de backend demuestra la viabilidad de la solución para resolver el problema validado: la dificultad de cuidar plantas en entornos urbanos.
 
-La diferenciación local es la clave competitiva, ya que MaceTy se adapta al contexto latinoamericano con precios adecuados, soporte en español y funcionalidades pensadas para el estilo de vida urbano, lo que le da ventaja frente a productos importados.
+2.  **La Experiencia de Usuario como Diferenciador Clave:** Las entrevistas de validación y la evaluación heurística revelaron que, más allá de la automatización, los usuarios valoran la claridad de la información, la confianza en las recomendaciones y una interfaz amigable. El feedback positivo (calificaciones de 4/5 y 5/5) y las sugerencias de mejora (como la identificación de plantas por foto) subrayan que una experiencia de usuario superior es el principal diferenciador de MaceTy frente a competidores.
 
-El proyecto no solo es comercialmente viable, sino también sostenible y escalable, al contar con una arquitectura tecnológica robusta, segmentación clara de usuarios y un impacto positivo en el uso eficiente de recursos y la conexión de las personas con la naturaleza.
+3.  **Madurez Técnica y Metodológica del Equipo:** La ejecución de dos sprints de desarrollo, la gestión de repositorios con GitFlow, la documentación de servicios con OpenAPI y el despliegue en plataformas como Netlify y Azure demuestran la capacidad del equipo para aplicar metodologías ágiles y herramientas profesionales. Esta madurez técnica asegura que el producto no solo es funcional, sino también escalable, mantenible y seguro.
 
-El desarrollo del prototipo en Figma permitió validar la experiencia de usuario diseñada en los apartados de Style Guidelines, Information Architecture y Applications UX/UI Design, comprobando la coherencia visual, la fluidez de navegación y la accesibilidad en distintos dispositivos. Este proceso aseguró que las decisiones tomadas en el diseño conceptual se traduzcan efectivamente en una experiencia funcional y atractiva para el usuario final.
-
-La implementación de la arquitectura técnica documentada en los capítulos de Software Configuration Management y Applications Implementation evidenció la madurez del proyecto, integrando entornos de desarrollo estandarizados, control de versiones, y despliegue ordenado de los servicios y aplicaciones. Esta base técnica garantiza la escalabilidad, mantenibilidad y seguridad del sistema en entornos reales.
-
-La colaboración multidisciplinaria entre los miembros del equipo durante las etapas de diseño, desarrollo y pruebas permitió consolidar un flujo de trabajo ágil y cohesionado. Gracias a la planificación en sprints, el uso de herramientas colaborativas y la comunicación continua, se alcanzó una integración efectiva entre las áreas de UX/UI, backend, IoT y documentación técnica, consolidando un producto final sólido y alineado con los objetivos del proyecto MaceTy.
-
+4.  **Impacto Medible y Potencial de Crecimiento:** El proyecto ha validado un claro "problem-solution fit". Las conclusiones de las entrevistas y el diseño centrado en el usuario sientan las bases para un alto potencial de adopción y crecimiento. La estrategia de negocio, apoyada en un producto tecnológicamente sólido y una marca con una identidad clara (eco-tecnológica y cercana), posiciona a NaturaFy para capturar una cuota significativa del mercado de jardinería inteligente en Latinoamérica.
+// ...existing code...
 ## Bibliografía
 
 - Verified Market Reports. (2024). *Insights de mercado de plantas inteligentes en macetas*. Recuperado de [https://www.verifiedmarketreports.com/es/product/smart-potted-plant-market/](https://www.verifiedmarketreports.com/es/product/smart-potted-plant-market/)  
