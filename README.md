@@ -2838,12 +2838,12 @@ Versión base + features adicionales premium.
 
 | Detalle | Información |
 | :--- | :--- |
-|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
-|  **Edad** | `[Edad]` |
-|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
-| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Entrevistado** | Gabriela Baza |
+|  **Edad** |  26 |
+|  **Rol / Experiencia** | Botanica |
+| **Fecha de Entrevista** | 14/11/2025 |
 |  **Duración** | `[HH:MM:SS]` |
-|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Tecnologías Usadas** | Zoom |
 |  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
 
 <br>
@@ -2857,18 +2857,30 @@ Versión base + features adicionales premium.
 
 **Resumen de Hallazgos Clave:**
 
+La usuaria calificó la experiencia general con un **4.5 sobre 5**, describiéndola como "muy placentera y cómoda". El valor principal reside en la claridad de los datos de la planta y el diseño amigable, aunque la confianza total en el sistema se construirá con el uso práctico y la validación a lo largo del tiempo.
+
+**Puntos Fuertes Identificados:**
+- **Onboarding y Diseño:** El proceso de registro es "muy sencillo" y la interfaz "amigable y comprensible". El diseño visual, incluyendo el color verde y la mascota Macety, es atractivo y motiva la compra.
+- **Claridad de Datos:** Los indicadores del dashboard son claros y se consideran "justos y necesarios". Se valora positivamente la inclusión de consejos de cuidado junto a los datos.
+- **Asistente MacetyBot:** La interacción con el bot fue "muy placentera, cómoda y respetuosa", respondiendo de manera precisa a las necesidades.
+- **Funcionalidades Valiosas:** El monitoreo de datos en tiempo real y la tienda integrada fueron percibidos como "fantásticos".
+
+**Oportunidades de Mejora Sugeridas:**
+- **Accesibilidad Visual:** Se sugiere aumentar el grosor de algunas fuentes o implementar un **modo oscuro**, ya que la combinación de colores claros y texto delgado podría dificultar la lectura para ciertos usuarios.
+- **Profundidad de las Recomendaciones:** Las alertas se perciben como "un poco cortas". Se recomienda añadir más contexto, como el motivo de la alerta y **sugerencias cuantificadas** (ej. "recomiendo 50-70 ml de agua") para que se sientan más profesionales.
+- **Onboarding Guiado:** Para reducir la confusión inicial, se propone incluir un **tutorial interactivo o un video explicativo** accesible desde la aplicación (mediante un pop-up o mensaje in-app).
 
 ---
 #### **Entrevista #6**
 
 | Detalle | Información |
 | :--- | :--- |
-|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
-|  **Edad** | `[Edad]` |
-|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
-| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Entrevistado** | Juan Carlo o Maria Casas |
+|  **Edad** | 50 |
+|  **Rol / Experiencia** | Jardineria  |
+| **Fecha de Entrevista** | 15/11/2025 |
 |  **Duración** | `[HH:MM:SS]` |
-|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Tecnologías Usadas** | Meet |
 |  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
 
 <br>
@@ -2882,14 +2894,37 @@ Versión base + features adicionales premium.
 
 **Resumen de Hallazgos Clave:**
 
+El usuario calificó la experiencia general con un **5 sobre 5**, destacando la facilidad de uso y la claridad del diseño como los aspectos más valiosos. La experiencia fue descrita como completamente intuitiva y sin puntos de fricción.
 
+**Puntos Fuertes Identificados:**
+- **Onboarding y Usabilidad:** El proceso de registro y la conexión de la maceta fueron calificados como "fáciles" gracias a una interfaz "intuitiva".
+- **Diseño de Interfaz (UI):** El diseño fue un punto clave de la satisfacción. Los "colores claros y suaves" y los íconos claros ayudaron a una comprensión inmediata de la plataforma.
+- **Claridad de la Información:** Todos los indicadores del dashboard fueron fáciles de entender y la información sobre las plantas se percibió como "completa".
+- **Confianza y Claridad:** Tanto las alertas como las recomendaciones se consideraron "claras y confiables", generando la disposición de seguirlas sin dudar.
+- **Asistente MacetyBot:** La interacción con el bot fue "natural" y fácil de entender.
+- **Navegación:** El usuario no experimentó confusión en ningún momento, destacando que la navegación por la plataforma siempre fue clara.
+
+**Oportunidades de Mejora Sugeridas:**
+- El feedback fue enteramente positivo. El usuario no identificó áreas de mejora, lo que representa una fuerte validación del diseño actual y la experiencia de usuario propuesta.
 ---
 
 #### 6.3.3. Evaluaciones según heurísticas
-Evaluación Nielsen/ISO, severidad y recomendaciones.
-| Heurística | Hallazgo | Severidad | Recomendación |
-|-----------|----------|-----------|---------------|
-| ... | ... | Baja/Media/Alta | ... |
+
+A continuación, se presenta una evaluación heurística consolidada basada en los hallazgos de las entrevistas de validación. Se utilizan las 10 heurísticas de usabilidad de Jakob Nielsen para analizar el feedback de los usuarios y proponer mejoras concretas.
+
+| Heurística de Nielsen | Hallazgo Clave (Consolidado de Entrevistas) | Severidad | Recomendación de Mejora |
+| :--- | :--- | :--- | :--- |
+| **1. Visibilidad del estado del sistema** | El gráfico de historial no muestra claramente la escala de tiempo (diaria, semanal), generando confusión. | **Media** | Añadir un selector de tiempo visible (`24h`, `7d`, `30d`) en la vista de gráficos para que el usuario siempre sepa qué datos está viendo. |
+| **2. Relación entre el sistema y el mundo real** | Las alertas de riego son genéricas. Los usuarios desean saber el "porqué" y la cantidad sugerida (ej. "regar con 70 ml"). | **Media** | Enriquecer las notificaciones con contexto y acciones cuantificables. Ejemplo: "Humedad baja detectada. Te recomendamos regar con 70 ml de agua". |
+| **3. Control y libertad del usuario** | La experiencia general es intuitiva, permitiendo a los usuarios navegar sin sentirse atrapados. No se reportaron problemas significativos en esta área. | **Baja** | Mantener la navegación clara y los botones de "atrás" o "cancelar" consistentes en todos los flujos, especialmente en la configuración de una nueva planta. |
+| **4. Consistencia y estándares** | El diseño visual (iconos, colores) es consistente y ayuda a entender la interfaz. Los usuarios reconocen los patrones de la app. | **Baja** | Asegurar que los nuevos íconos o secciones que se añadan en el futuro sigan la misma guía de estilo para no romper la consistencia ya lograda. |
+| **5. Prevención de errores** | Los usuarios expresaron inseguridad al seleccionar manualmente el tipo de planta, lo que podría llevar a una configuración incorrecta. | **Media** | Implementar una función para **identificar la especie de la planta mediante una foto** desde la app, reduciendo la posibilidad de error humano. |
+| **6. Reconocimiento antes que recuerdo** | Los indicadores del dashboard (humedad, luz, temperatura) son visuales e intuitivos, evitando que el usuario tenga que memorizar información. | **Baja** | Mantener el uso de iconografía universal y etiquetas claras. Para el indicador de "luz", añadir un tooltip que aclare si es luz ambiental o directa. |
+| **7. Flexibilidad y eficiencia de uso** | El sistema está bien para novatos, pero usuarios avanzados (jardineros) desearían un dashboard con más datos o un modo resumen para ver varias plantas a la vez. | **Baja** | Crear un "Modo Avanzado" o un widget de resumen personalizable en el dashboard que permita a los usuarios expertos ver más datos de un vistazo. |
+| **8. Estética y diseño minimalista** | El diseño es "limpio", "amigable" y "moderno". Sin embargo, se señaló que algunas fuentes delgadas sobre fondos claros podrían dificultar la lectura. | **Baja** | Aumentar ligeramente el grosor de la fuente para párrafos o considerar la implementación de un **modo oscuro** para mejorar la accesibilidad y el contraste. |
+| **9. Ayudar a los usuarios a reconocer y recuperarse de errores** | Las alertas son claras, pero no ofrecen suficiente información para que el usuario aprenda del "error" (ej. por qué la humedad es baja). | **Media** | Incluir un enlace de "Más información" o "¿Por qué?" en las alertas que explique brevemente la causa del problema y cómo prevenirlo a futuro. |
+| **10. Ayuda y documentación** | Varios usuarios mencionaron que un tutorial inicial sería útil para entender todas las funcionalidades sin tener que explorar por su cuenta. | **Media** | Implementar un **tutorial interactivo (onboarding guiado)** la primera vez que se abre la app o añadir un pop-up que enlace a un video explicativo. |
+
 
 ### 6.4. Video About-the-Product
 
