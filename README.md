@@ -2672,6 +2672,8 @@ A continuación, se muestran capturas de pantalla de las principales vistas impl
 Un recorrido en video que ilustra la navegación entre la landing page y la aplicación web, mostrando el registro, inicio de sesión y el dashboard principal.
 - **Enlace al video de ejecución:** `https://1drv.ms/v/c/624a080810914df5/EVs_IKPqcfxGg4ODZVfvvSwBBAoQUpknCKd7cMgKlfV90w?e=HttPyW`
 
+`https://1drv.ms/v/c/624a080810914df5/ESxJ-e8KGrxGrUvXUm-9DX4BU4MhqweWkZSo7WhKLBo6sA?e=MCkz21`
+
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
@@ -2928,7 +2930,6 @@ Para el backend, se utilizó GitHub para el control de versiones y Microsoft Azu
 4.  **Resultado:** La API del backend queda expuesta y accesible a través de la URL proporcionada por Azure.
 
 *   **Plataforma:** Microsoft Azure (App Service)
-*   **URL Backend:** `[URL del servicio desplegado en Azure]`
 
 ![Despliegue de Backend en Azure](assets/deploybackmonolito.png)
 
