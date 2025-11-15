@@ -2567,12 +2567,29 @@ Historias, tareas, estimación, responsables y estado.
 | ... | ... | ... | ...h | ... | To Do/In Prog/Done |
 
 #### 6.2.2.4. Development Evidence for Sprint Review
-Evidencias de desarrollo con repositorio/branch/commit.
+
+En esta sección se explican y presentan los avances en la implementación de los productos de la solución correspondientes al Sprint 2. Los principales logros incluyen:
+
+*   **Landing Page:** Se ha finalizado y desplegado la versión definitiva de la landing page, consolidando la identidad visual y los flujos de conversión.
+![alt text](assets/sprint2-deve.png)
+
+*   **Frontend Web App:** Se desarrolló una nueva versión del frontend, mejorando la interfaz de usuario y la experiencia de navegación.
+![alt text](assets/sprint2-deve3.jpg)
+*   **Backend Monolítico:** Se creó una versión de respaldo del backend monolítico que incluye funcionalidades clave como el registro/login de usuarios, la gestión de perfiles y la capacidad de agregar plantas.
+![alt text](assets/sprint2-deve2.png)
+*   **Arquitectura de Microservicios:** Se inició la migración a una arquitectura de microservicios, creando los servicios de backend desacoplados.
+*   **API Gateway:** Se generó una API Gateway para gestionar la comunicación entre el prototipo y los nuevos microservicios de backend.
+
+*   **Prototipo de Hardware (MaceTy):** Se lograron avances significativos en el prototipo físico, incluyendo la conexión de los sensores de temperatura y humedad, la emisión de una red WiFi para la configuración inicial, la conexión con los microservicios a través de la API Gateway y la implementación de la lógica para los LEDs indicadores de estado.
+
+A continuación, se presenta la tabla con los commits correspondientes a estos avances.
+
 | Repo | Branch | Commit Id | Mensaje | Fecha |
-|------|--------|-----------|---------|-------|
-| https://github.com/NaturaFy/web-app-v2  | main    | 0b7cb336925f96af68e4aa7ad3d81954f9dc35aa       | Add deployment configs and update SPA routing     | October 10, 2025   |
-| https://github.com/NaturaFy/Landing-Page--Macety  | main    | 65bf22b45569bfd942c73bfadae9d268e365ae82       | Update login and signup links to new domain     | October 10, 2025   |
-| https://github.com/NaturaFy/web-app-v2  | main    | cef835843484291f12341884fc309e15bcfa3d3b       | Update new Frontend     | November 14, 2025   |
+| :--- | :--- | :--- | :--- | :--- |
+|      |        |           |         |       |
+|      |        |           |         |       |
+|  https://github.com/NaturaFy/Backend-backup-Monolito    |    main    |     `42c4ac0a64da5dc29e91fba28710f03ac700a78e`     |  VERSION 0.0.7       | 15/11/2025      |
+
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 Resultados de pruebas unitarias/integración/end-to-end.
