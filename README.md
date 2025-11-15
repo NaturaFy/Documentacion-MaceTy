@@ -2646,7 +2646,7 @@ El objetivo de estas entrevistas es validar la usabilidad, claridad y valor perc
 |  **Edad** | 21 |
 |  **Rol / Experiencia** | Persona Ocupada |
 | **Fecha de Entrevista** | 10/11/2020 |
-|  **Duración** | 5:28 |
+|  **Duración** | 0:00 -5:28 |
 |  **Tecnologías Usadas** | zoom |
 |  **Enlace a Grabación** | https://drive.google.com/file/d/13b4uefu0Nl7Z_FgoQw1bgFFKKU7_HIFB/view?usp=sharing |
 
@@ -2688,7 +2688,7 @@ Camila calificó la experiencia general con un **4 sobre 5**, considerándola po
 |  **Edad** | 22 |
 |  **Rol / Experiencia** | Jardinero/a |
 | **Fecha de Entrevista** | 12/11/2025 |
-|  **Duración** | 5:33 |
+|  **Duración** | 5:28 - 10:58 |
 |  **Tecnologías Usadas** | Zoom |
 |  **Enlace a Grabación** | https://drive.google.com/file/d/1PqOclBgduUB5YgxvUxDfHNZ-twvoTRPe/view?usp=sharing |
 
@@ -2729,7 +2729,7 @@ Marllely calificó la experiencia general con un **5 sobre 5**, describiéndola 
 |  **Edad** | 20 |
 |  **Rol / Experiencia** | Persona Ocupada |
 | **Fecha de Entrevista** | 11/11/2025 |
-|  **Duración** | 04:53 |
+|  **Duración** | 10:58 -15:51 |
 |  **Tecnologías Usadas** | Google Meet |
 |  **Enlace a Grabación** | https://youtu.be/yVsWmHW6aWs |
 
@@ -2770,7 +2770,7 @@ Cristian Matos calificó su experiencia general con la aplicación de IoT como *
 |  **Edad** | 25 |
 |  **Rol / Experiencia** | Persona Ocupada |
 | **Fecha de Entrevista** | 14/11/2025 |
-|  **Duración** | `[HH:MM:SS]` |
+|  **Duración** | 15:51 - 19:09 |
 |  **Tecnologías Usadas** | Google Meet |
 |  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
 
