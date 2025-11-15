@@ -2555,7 +2555,9 @@ Historias, tareas, estimación, responsables y estado.
 Evidencias de desarrollo con repositorio/branch/commit.
 | Repo | Branch | Commit Id | Mensaje | Fecha |
 |------|--------|-----------|---------|-------|
-| ...  | ...    | ...       | ...     | ...   |
+| https://github.com/NaturaFy/web-app-v2  | main    | 0b7cb336925f96af68e4aa7ad3d81954f9dc35aa       | Add deployment configs and update SPA routing     | October 10, 2025   |
+| https://github.com/NaturaFy/Landing-Page--Macety  | main    | 65bf22b45569bfd942c73bfadae9d268e365ae82       | Update login and signup links to new domain     | October 10, 2025   |
+| https://github.com/NaturaFy/web-app-v2  | main    | cef835843484291f12341884fc309e15bcfa3d3b       | Update new Frontend     | November 14, 2025   |
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 Resultados de pruebas unitarias/integración/end-to-end.
