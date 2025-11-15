@@ -2592,10 +2592,63 @@ A continuación, se presenta la tabla con los commits correspondientes a estos a
 
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
-Resultados de pruebas unitarias/integración/end-to-end.
-- Cobertura:
-- Suites ejecutadas:
-- Evidencias: capturas/logs/enlaces.
+
+En esta sección se presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados para los servicios web relacionados con las User Stories del Sprint 2. El objetivo es asegurar la calidad, robustez y correcto funcionamiento de las nuevas funcionalidades implementadas.
+
+**Pruebas de Comportamiento (BDD) con Gherkin**
+
+Para las pruebas de aceptación, se ha utilizado un enfoque de Desarrollo Guiado por Comportamiento (BDD). A continuación, se presentan los escenarios definidos en lenguaje Gherkin (`.feature` files), que describen el comportamiento esperado del sistema desde la perspectiva del usuario.
+
+```gherkin
+# Inserte aquí el contenido de los archivos .feature
+
+# Ejemplo de estructura:
+# Feature: Gestión de Perfil de Usuario
+# Como usuario registrado, quiero poder ver y editar mi perfil para mantener mi información actualizada.
+
+# Scenario: Visualizar perfil de usuario existente
+#   Given que soy un usuario autenticado con el id "1"
+#   When realizo una petición GET a "/api/v1/users/1"
+#   Then el código de estado de la respuesta debe ser 200
+#   And la respuesta debe incluir mi nombre de usuario "testuser"
+
+```
+
+**Pruebas Unitarias**
+
+Se realizaron pruebas unitarias para validar el correcto funcionamiento de las clases y métodos individuales en el backend, enfocándose en la lógica de negocio de los nuevos microservicios.
+
+*   **Servicio de Autenticación:** Se probaron los métodos de registro y login.
+*   **Servicio de Perfil:** Se validó la creación y actualización de perfiles de usuario.
+*   **Servicio de Plantas:** Se verificó la lógica para agregar y consultar plantas.
+
+A continuación, se muestran las evidencias de la ejecución de estas pruebas:
+
+![Pruebas Unitarias - Sprint 2](assets/testunitsprint2.png)
+![Pruebas Unitarias - Sprint 2.1](assets/testunitsprint2.1.png)
+
+**Pruebas de Sistema**
+
+Se ejecutaron pruebas de sistema para validar los flujos completos de la aplicación, asegurando que los diferentes componentes (frontend, backend, base de datos) se integren y funcionen correctamente.
+
+*   **Flujo de Registro y Login:** Se probó el ciclo completo desde el registro de un nuevo usuario hasta su autenticación exitosa.
+*   **Flujo de Gestión de Plantas:** Se validó el proceso de agregar una nueva planta al perfil de un usuario.
+
+Evidencias de la ejecución de las pruebas de sistema:
+
+![Pruebas de Sistema - Sprint 2](assets/testsystemsprint2.png)
+![Pruebas de Sistema - Sprint 2.1](assets/testsystemsprint2.1.png)
+![Pruebas de Sistema - Sprint 2.2](assets/testsystemsprint2.2.png)
+
+**Commits de Pruebas**
+
+A continuación, se presenta la tabla con los commits correspondientes a la implementación de las pruebas.
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- |
+| https://github.com/NaturaFy/Backend-backup-Monolito           |    main    |     b070723bd077f32ec2bcb5f623d0dceda2e985a3      |    test: añade tests para Plant y User            |      15/11/2025               |
+
+
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
 Capturas de la aplicación ejecutándose y URLs públicas.
