@@ -110,6 +110,8 @@
 | TB2      | 15/11/2025  | Maycol Rojas                      | Evaluaciones según heurísticas |
 | TB2      | 15/11/2025  | Samuel Valera                     | Video About-the-Product |
 | TB2      | 15/11/2025  | Maycol Rojas                      | Conclusiones |
+| TB2      | 15/11/2025  | Carlos León                       | Execution Evidence for Sprint Review |
+| TB2      | 15/11/2025  | Carlos León                       | Team Collaboration Insights during Sprint |
 
 # Project Report Collaboration Insights
 #### 1. URL del Repositorio en GitHub
