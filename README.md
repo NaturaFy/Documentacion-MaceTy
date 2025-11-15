@@ -1263,19 +1263,15 @@ En esta sección se presentan los diagramas C4 que describen la arquitectura del
 
 El Diagrama del Paisaje del Sistema muestra la relación de MaceTy con actores externos, como usuarios urbanos y jardineros, así como aplicaciones móviles, servicios de notificación y bases de datos de especies. También ilustra la interacción con sistemas externos clave, como APIs climáticas y repositorios especializados, que enriquecen las recomendaciones de cuidado.  
 
-![Landscape](assets/structurizr-106169-PanoramaSistema(5).png)  
-
-**Leyenda del diagrama:**  
-![Landscapekey](assets/structurizr-106169-PanoramaSistema-key(2).png)  
+![Landscape](assets/newsystem.png)  
+ 
 
 #### 4.1.3.2. Context Level Diagram  
 
 El Diagrama de Contexto detalla cómo los distintos actores (usuarios, jardineros) se comunican con el sistema a través de la aplicación móvil y la plataforma web. También representa la conexión con el MaceTy Urban IoT Device, que recolecta datos del entorno (humedad, temperatura, luz) y los transmite al ecosistema vía el MaceTy API Gateway.  
 
-![Context](assets/structurizr-106169-ContextoSistema%20(3).png)  
+![Context](assets/newcontexr.png)  
 
-**Leyenda del diagrama:**  
-![ContextKey](assets/structurizr-106169-ContextoSistema-key(1).png)  
 
 #### 4.1.3.3. Container Level Diagram  
 
@@ -1287,10 +1283,8 @@ El **Diagrama de Contenedores** describe los principales bloques funcionales del
 - **MaceTy Urban Database**: Almacena información de sensores, preferencias del usuario y patrones urbanos.  
 - **Servicios externos**: Repositorios de especies que enriquecen las recomendaciones.  
 
-![IoTSystem](assets/structurizr-106169-ContenedoresCloud(2).png) 
-
-**Leyenda del diagrama:**  
-![ContainerKey](assets/structurizr-106169-ContenedoresCloud-key(1).png)  
+![IoTSystem](assets/newcontenedores.png) 
+ 
 
 #### Software Edge Diagram  
 
@@ -1302,10 +1296,8 @@ Este dispositivo integra sensores y actuadores conectados a un procesador **ESP3
 - **Procesamiento Local:** El ESP32 gestiona la lógica básica de riego y almacenamiento temporal de métricas.  
 - **Conectividad:** Comunicación vía WiFi y sincronización mediante MQTT hacia el IoT Connector.  
 
-![Edge](assets/structurizr-106169-ComponentesEdge(5).png)  
-
-**Índice:**  
-![EdgeKey](assets/structurizr-106169-ComponentesEdge-key(1).png)  
+![Edge](assets/newito.png)  
+ ![Edge](assets/newedge.png)  
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams  
 
