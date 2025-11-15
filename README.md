@@ -2860,7 +2860,7 @@ Durante el presente Sprint, se ha desarrollado y documentado el núcleo de la AP
 
 ---
 
-## ⚙️ Interacción con la API (Ejemplos de uso)
+## Interacción con la API (Ejemplos de uso)
 
 Para interactuar con la API, se puede utilizar una herramienta como Postman o Insomnia. El flujo típico es:
 
@@ -2900,14 +2900,82 @@ Se presenta la URL del repositorio y la tabla con los commits más relevantes qu
 | Backend-backup-Monolito | `d4e5f6g` | feat: añade autenticación y endpoints de plantas | Módulo de Autenticación y Plantas |
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
-Pipeline, entorno y resultado del despliegue.
-- Plataforma (Netlify/Azure/etc.):
-- Logs de deploy:
-- URL producción/staging:
+En esta sección se resume el proceso de despliegue (Deployment) de los productos digitales desarrollados durante el Sprint 2. El objetivo fue poner en producción la **Landing Page**, la **Aplicación Web** y el **Backend Monolítico de respaldo**, utilizando un flujo de integración y despliegue continuo (CI/CD).
+
+**Proceso de Despliegue de Frontend (Landing Page y Aplicación Web)**
+
+Para los componentes de frontend, se utilizó una combinación de GitHub y Netlify para automatizar el despliegue.
+
+1.  **Gestión de Código Fuente:** El código de la Landing Page y de la Aplicación Web se aloja en repositorios separados en GitHub.
+2.  **Integración con Netlify:** Cada repositorio de GitHub se conectó a un sitio en Netlify.
+3.  **Despliegue Continuo (CI/CD):** Se configuró un pipeline de despliegue automático. Cada vez que se realiza un `push` a la rama `main` del repositorio, Netlify detecta el cambio, construye el proyecto (compila los assets de React/Vue) y despliega la nueva versión en su red global (CDN).
+4.  **Resultado:** El sitio se actualiza automáticamente en la URL de producción sin intervención manual.
+
+*   **Plataforma:** Netlify
+*   **URL Landing Page:** `https://naturafy.netlify.app/`
+*   **URL Aplicación Web:** `https://macetyrrrrr.netlify.app/`
+
+![Despliegue de Landing Page en Netlify](assets/deploylanding.png)
+![Despliegue de Aplicación Web en Netlify](assets/deployawppweb.png)
+
+**Proceso de Despliegue de Backend (Monolítico)**
+
+Para el backend, se utilizó GitHub para el control de versiones y Microsoft Azure para el alojamiento del servicio.
+
+1.  **Gestión de Código Fuente:** El código del backend monolítico se gestiona en su propio repositorio de GitHub.
+2.  **Configuración en Azure:** Se creó un recurso de tipo "App Service" en Microsoft Azure, configurado para ejecutar la aplicación (ej. Java, Node.js, etc.).
+3.  **Integración y Despliegue:** Se utilizó el "Deployment Center" de Azure para conectar el App Service con el repositorio de GitHub. Esto permite que, tras un `push` a la rama `main`, Azure obtenga el código más reciente, lo compile (si es necesario) y lo despliegue en el entorno de producción.
+4.  **Resultado:** La API del backend queda expuesta y accesible a través de la URL proporcionada por Azure.
+
+*   **Plataforma:** Microsoft Azure (App Service)
+*   **URL Backend:** `[URL del servicio desplegado en Azure]`
+
+![Despliegue de Backend en Azure](assets/deploybackmonolito.png)
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
-Analítica de colaboración, commits y retrospectiva.
-- Qué salió bien / por mejorar / acciones:
+En esta sección, se analiza la dinámica de colaboración del equipo durante el Sprint 2. Se presentan las analíticas de commits de los repositorios de GitHub y una retrospectiva del sprint para identificar fortalezas y áreas de mejora en nuestro proceso de trabajo.
+
+**Analítica de Colaboración y Commits**
+
+La distribución del trabajo se evidencia a través de los commits realizados en los diferentes repositorios del proyecto.
+
+**1. Repositorio: Landing Page (`NaturaFy/Landing-Page--Macety`)**
+*   **Análisis:** Durante este sprint, los commits se centraron en ajustes finales y la actualización de enlaces para conectar con la nueva aplicación web. La actividad fue puntual, reflejando que la landing page estaba en una fase de mantenimiento y refinamiento.
+    ![Commits Landing Page](assets/insghits2.3.png)
+
+**2. Repositorio: Aplicación Web (`NaturaFy/web-app-Macety`)**
+*   **Análisis:** Este repositorio concentró la mayor parte de la actividad de desarrollo del frontend. Los commits muestran la construcción de la nueva interfaz, la integración de vistas como el dashboard, perfil, y el flujo para añadir plantas. La colaboración fue intensa para asegurar la coherencia visual y funcional.
+    ![Commits Backend](assets/insighits2.1.png)
+**3. Repositorio: Backend Monolítico (`NaturaFy/Backend-backup-Monolito`)**
+*   **Análisis:** El trabajo en el backend se enfocó en implementar los endpoints para autenticación, perfiles y gestión de plantas. Los commits reflejan la creación de la lógica de negocio, la configuración de la base de datos y la implementación de pruebas unitarias y de sistema.
+  ![Commits App Web](assets/isnghits2.png)
+
+**Retrospectiva del Sprint**
+
+### Interpretación de la Participación del Equipo
+
+Según las directrices del curso, se promovió que todos los miembros del equipo tuvieran participación en los diferentes productos (Landing, Web Services, App).
+
+Aunque los repositorios muestran una especialización (frontend/backend), la colaboración se gestionó mediante:
+* **Revisiones de Código (Pull Requests):** Todos los miembros participaron en la revisión de PRs de todos los repositorios.
+* **Commits Cruzados:** Se incentivó que miembros de frontend realizaran pequeños ajustes en el backend (ej. documentación o pruebas) y viceversa, para familiarizarse con todo el *stack*.
+
+Las siguientes analíticas de GitHub muestran la participación de los miembros en los reposositorios principales, demostrando el involucramiento colectivo.
+
+**Evidencia (Capturas de "Contributors" de GitHub):**
+
+![Gráfica de Contribuyentes - Backend](assets/isnghitscomitts2.png)
+
+
+Basado en la colaboración de este sprint, el equipo identificó las siguientes fortalezas y áreas de mejora:
+
+**Fortalezas:**
+* **Comunicación Fluida:** La definición de los contratos JSON entre el backend y el frontend fue exitosa y evitó bloqueos.
+* **Calidad del Código:** La implementación de pruebas unitarias en el backend permitió detectar errores a tiempo.
+
+**Áreas de Mejora:**
+* **Tiempos de Revisión de PRs:** Algunos *Pull Requests* tardaron más de 24 horas en ser revisados. Se debe asignar tiempo específico para esta tarea.
+* **Participación Cruzada:** Aunque hubo participación, puede ser más activa y no solo simbólica. Se implementará *pair programming* inter-roles en el próximo sprint.
 
 ### 6.3. Validation Interviews
 
