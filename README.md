@@ -2586,9 +2586,9 @@ A continuación, se presenta la tabla con los commits correspondientes a estos a
 
 | Repo | Branch | Commit Id | Mensaje | Fecha |
 | :--- | :--- | :--- | :--- | :--- |
-|      |        |           |         |       |
-|      |        |           |         |       |
-|  https://github.com/NaturaFy/Backend-backup-Monolito    |    main    |     `42c4ac0a64da5dc29e91fba28710f03ac700a78e`     |  VERSION 0.0.7       | 15/11/2025      |
+|   https://github.com/NaturaFy/Landing-Page--Macety   |    main    |     ` 65bf22b45569bfd942c73bfadae9d268e365ae82`       |   Update login and signup links to new domain      |   10/11/2025    |
+|  https://github.com/NaturaFy/web-app-Macety    |  main      |     `fde1cf814e06eab97e912ed7f8b91b744cfc045e`    |   Subiendo proyecto desde cero      |   12/11/2025    |
+|  https://github.com/NaturaFy/Backend-backup-Monolito    |    main    |     `42c4ac0a64da5dc29e91fba28710f03ac700a78e`     |  VERSION 0.0.7       | 12/11/2025      |
 
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
