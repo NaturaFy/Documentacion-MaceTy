@@ -96,7 +96,20 @@
 | TP       | 09/10/2025  | Carlos León                       | Services Documentation Evidence for Sprint Review |
 | TP       | 09/10/2025  | Carlos León                       | Software Deployment Evidence for Sprint Review |
 | TP       | 09/10/2025  | Carlos León                       | Team Collaboration Insights during Sprint |
-
+| TB2      | 13/11/2025  | Estefano Jaque                    | Sprint Planning 2 |
+| TB2      | 13/11/2025  | Estefano Jaque                    | Aspect Leaders and Collaborators |
+| TB2      | 13/11/2025  | Estefano Jaque                    | Sprint Backlog 2 |
+| TB2      | 14/11/2025  | Sergio Gomez                      | Development Evidence for Sprint Review |
+| TB2      | 14/11/2025  | Carlos León                       | Execution Evidence for Sprint Review |
+| TB2      | 14/11/2025  | Maycol Rojas                      | Software Deployment Evidence for Sprint Review |
+| TB2      | 14/11/2025  | Carlos León                       | Team Collaboration Insights during Sprint |
+| TB2      | 14/11/2025  | Maycol Rojas                      | Diseño de Entrevistas |
+| TB2      | 14/11/2025  | Todos los integrantes             | Registro de Entrevistas |
+| TB2      | 15/11/2025  | Estefano Jaque                    | Testing Suite Evidence for Sprint Review |
+| TB2      | 15/11/2025  | Estefano Jaque                    | Services Documentation Evidence for Sprint Review |
+| TB2      | 15/11/2025  | Maycol Rojas                      | Evaluaciones según heurísticas |
+| TB2      | 15/11/2025  | Samuel Valera                     | Video About-the-Product |
+| TB2      | 15/11/2025  | Maycol Rojas                      | Conclusiones |
 
 # Project Report Collaboration Insights
 #### 1. URL del Repositorio en GitHub
@@ -104,18 +117,20 @@
 |-----------------------------------|
 | https://github.com/orgs/NaturaFy/repositories |
 #### 2. Actividades de Elaboración del Informe
-
 | Actividad                           | Descripción                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Comunicación de avances            | Se realizaron breves reuniones donde se comentaban los avances de cada integrante para garantizar un trabajo en equipo sincronizado y estar al tanto de cada modificación.                                |
-| Delegación de responsabilidades    | Se organizaron charlas y reuniones para la delegación de tareas, promoviendo el trabajo en equipo y el avance continuo de manera asíncrona.                            |
-| Recopilación de datos              | Se realizó un estudio del mercado, utilizando los segmentos objetivos para extraer datos significativos mediante entrevistas. Además, se utilizaron referencias bibliográficas para investigar información relevante dentro del desarrollo del informe                                                          |
-| Documentación             | Se desarrollaron diferentes capítulos del informe, utilizando las técnicas, herramientas y metodologías requeridas.                                                         |
+| Planificación y Ejecución del Sprint 2 | Se coordinó y ejecutó el segundo sprint de desarrollo, enfocándose en la implementación de funcionalidades clave de la aplicación web y móvil, siguiendo la planificación establecida en Trello. |
+| Diseño y Ejecución de Entrevistas de Validación | Se diseñó un guion estructurado para validar el prototipo con usuarios de los segmentos objetivo. Se realizaron y grabaron sesiones de usabilidad para recopilar feedback cualitativo sobre la experiencia. |
+| Análisis de Feedback y Hallazgos   | Se sintetizaron los resultados de las entrevistas de validación para identificar fortalezas, debilidades y oportunidades de mejora, consolidando los hallazgos en el informe. |
+| Implementación y Despliegue        | Se continuó con el desarrollo de componentes del frontend y backend, y se realizaron despliegues en los entornos de prueba para la revisión de avances funcionales. |
+| Creación de Contenido Multimedia   | Se produjo el video "About-the-Product", incluyendo la grabación de un demo funcional de la aplicación y la edición final para presentar la propuesta de valor. |
+| Documentación y Consolidación      | Se documentaron todas las evidencias del Sprint 2 (desarrollo, pruebas, despliegue) y los resultados de la validación. Se redactaron las conclusiones finales del proyecto. |
+
 #### 3. Capturas de Imagen de los Analíticos de Colaboración y Commits en GitHub
 | Métrica                         | Descripción                                                                                          |
 |---------------------------------|------------------------------------------------------------------------------------------------------|
-| Número de commits por autor     | ![Commits por autor](assets/insghits2.png) |
-| Historial de cambios            | ![Historial de cambios](assets/network2.png) |
+| Número de commits por autor     | ![Commits por autor](assets/insghits3.png) |
+| Historial de cambios            | ![Historial de cambios](assets/network3.png) |
 #### 4. Participación de Todos los Miembros del Equipo
 | Evidencia                       | Descripción                                                                                          |
 |---------------------------------|------------------------------------------------------------------------------------------------------|
@@ -296,8 +311,8 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |  
 |-------------------------|------------------------|------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta |<br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>*TB1:*<br> Apliqué liderazgo conjunto durante el desarrollo del proyecto **MaceTy**, coordinando con todo el equipo la distribución de tareas técnicas y de investigación. Lideré la **arquitectura de software**, diagramas **C4** y el **diseño del sistema IoT**, mientras facilitaba la integración del trabajo de los cinco miembros del equipo, asegurando coherencia entre los bounded contexts y componentes técnicos.<br>*TP:*<br> Diseñé los **wireframes y mockups** de la **landing page**, incluyendo la sección de contacto e interacción inicial con el usuario. Además, colaboré en la definición de los **estilos visuales (Style Guidelines)** y la **arquitectura de información (Information Architecture)**, garantizando la coherencia entre la parte visual, funcional y técnica del sistema.<br><br> **2. Gómez Vallejos, Sergio André**<br>*TB1:*<br> Ejercí liderazgo compartido en la **investigación de mercado y análisis competitivo**, coordinando con el equipo completo para asegurar coherencia entre los antecedentes, problemática y la propuesta técnica. Lideré las secciones de **competidores** y **análisis de entrevistas**, facilitando la comunicación entre todos los miembros para mantener una visión unificada del proyecto.<br>*TP:*<br> Lideré la **implementación del entorno de desarrollo y control de versiones**, documentando los apartados de **Software Development Environment Configuration**, **Source Code Management** y **Source Code Style Guide & Conventions**, garantizando buenas prácticas y estándares unificados durante la implementación del proyecto.<br><br> **3. Valera Garcés, Samuel Ignacio**<br>*TB1:*<br> Lideré la elaboración de **2.3 Needfinding**, **2.3.1 User Personas**, **2.3.2 User Task Matrix**, **2.3.3 User Journey Mapping**, **2.3.4 Empathy Mapping**, **2.5 Big Picture EventStorming**, la **entrevista con el segmento 1**, así como **3.1 User Stories** y **3.2 Product Backlog**. Coordiné con los cinco integrantes del equipo para integrar estos insumos al documento final, asegurando coherencia y cumplimiento de los objetivos del proyecto **MaceTy**.<br>*TP:*<br> Desarrollé los apartados de **Applications Wireframes**, **Wireflow Diagrams** y **User Flow Diagrams**, representando la experiencia de usuario y su interacción con las funcionalidades principales. Además, colaboré en el apartado de **Applications Prototyping**, integrando los flujos de navegación y validando la usabilidad general del sistema.<br><br> **4. Leon Rioja, Carlos Andres**<br>*TB1:*<br> Asumí el liderazgo en el diseño de **contextos delimitados y modelado de dominios**. Desarrollé el **4.1.1.1 Candidate Context Discovery**, **4.1.1.2 Domain Message Flows Modeling** y **4.1.1.3 Bounded Context Canvases**, colaborando estrechamente con el equipo para asegurar que los bounded contexts reflejaran correctamente los procesos de negocio identificados en las fases previas del proyecto.<br>*TP:*<br> Elaboré la evidencia técnica del **Testing Suite**, **Development Evidence**, **Execution Evidence** y **Services Documentation** para la **Sprint Review**, asegurando que los módulos del sistema cumplieran con los criterios de calidad y funcionalidad esperados.<br><br> **5. Jaque Peña, Estefano Oscar**<br>*TB1:*<br> Lideré la conceptualización y desarrollo del **1.2.2 Lean UX Process**, incluyendo **problem statements**, **assumptions** y **hypothesis statements**, que sirvieron como base metodológica del proyecto. Coordiné con los demás miembros para asegurar que el enfoque Lean UX se mantuviera consistente desde la investigación hasta la arquitectura técnica.<br>*TP:*<br> Me encargué del **despliegue de la Landing Page**, la **implementación de servicios** y la planificación del **Sprint 1**, detallando **Sprint Planning**, **Aspect Leaders**, **Sprint Backlog**, y la coordinación con Carlos para la revisión de evidencias. Documenté también la implementación completa de los módulos en el apartado **Landing Page, Services & Applications Implementation**. | **Conclusión TB1:**<br>Durante el TB1, los cinco miembros del equipo demostraron capacidades de liderazgo complementarias y distribuidas estratégicamente. **Maycol** lideró la arquitectura técnica e IoT, **Sergio** la investigación de mercado, **Samuel** el análisis de usuarios, **Carlos** el modelado de dominio, y **Estefano** el marco metodológico Lean UX. Esta sinergia permitió integrar conocimientos técnicos, analíticos y metodológicos en un producto sólido, coherente y escalable.<br><br> **Conclusión TP:**<br>En el TP, el equipo fortaleció su liderazgo conjunto aplicando los conocimientos técnicos adquiridos para la implementación del sistema **MaceTy**. Se logró una integración efectiva entre el diseño UX/UI, la configuración del entorno de desarrollo, la validación funcional mediante pruebas, y el despliegue final de la landing page y servicios. El liderazgo compartido permitió mantener una estructura organizada y colaborativa, logrando cumplir los objetivos de las secciones 5.4 y 6.2 con altos estándares de calidad técnica y visual. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |<br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>*TB1:*<br> Apliqué metodologías colaborativas estableciendo reuniones regulares con los cinco miembros del equipo, usando **GitHub** para el control de versiones y coordinación técnica. Establecí metas claras por sprint: definición de segmentos objetivo, arquitectura del sistema y documentación técnica, coordinando con **Carlos** para los bounded contexts y **Samuel** para la integración de user stories.<br>*TP:*<br> Fortalecí la colaboración durante la etapa de desarrollo visual y despliegue, coordinando el flujo de trabajo entre diseño, front-end y documentación técnica. Promoví la planificación ágil del equipo para cumplir los plazos establecidos y mantener la coherencia técnica en los entregables de la **Landing Page** y las **Applications UX/UI**.<br><br> **2. Gómez Vallejos, Sergio André**<br>*TB1:*<br> Fomenté un entorno inclusivo donde cada integrante aportó desde sus fortalezas. Planifiqué las tareas de investigación y análisis competitivo en coordinación con **Samuel** y **Estefano**, estableciendo metas semanales y cumpliendo con los objetivos del equipo.<br>*TP:*<br> Promoví la colaboración técnica en la **configuración del entorno de desarrollo** y la **gestión del código fuente**, guiando al equipo en la adopción de estándares de versionamiento y estructura de repositorios. Coordiné revisiones grupales para asegurar la uniformidad del código y cumplimiento de buenas prácticas.<br><br> **3. Valera Garcés, Samuel Ignacio**<br>*TB1:*<br> Organicé reuniones de coordinación semanales y definí metas por sección, promoviendo la comunicación continua. Utilicé herramientas colaborativas como **GitHub** y **Docs compartidos**, asegurando la integración y coherencia de las entregas.<br>*TP:*<br> Coordiné la creación de prototipos y diagramas de flujo, garantizando que la comunicación entre diseño y desarrollo fuera fluida. Mantuvimos revisiones conjuntas con **Maycol** y **Sergio** para unificar criterios visuales y de experiencia de usuario.<br><br> **4. Leon Rioja, Carlos Andres**<br>*TB1:*<br> Establecí un ambiente colaborativo para el desarrollo de la arquitectura de dominio, trabajando con **Maycol** y **Samuel** para alinear los bounded contexts con los requerimientos funcionales. Planifiqué tareas semanales y mantuve constante comunicación para validar avances.<br>*TP:*<br> Coordiné con **Estefano** y **Maycol** durante la etapa de pruebas y despliegue, planificando metas de testing y documentando resultados. Contribuí en la integración de evidencias para la **Sprint Review**, fortaleciendo la colaboración técnica en las fases finales del proyecto.<br><br> **5. Jaque Peña, Estefano Oscar**<br>*TB1:*<br> Creé un marco metodológico colaborativo basado en **Lean UX**, que permitió la participación equitativa del equipo. Establecí metas claras por fase y coordiné la integración de aportes con **Sergio**, **Samuel**, **Carlos** y **Maycol**, asegurando una participación balanceada.<br>*TP:*<br> Lideré la colaboración en el **despliegue de la aplicación** y la coordinación general de los **sprints**, planificando metas conjuntas con **Carlos** para evidencias y validaciones. Mantuvimos comunicación continua para asegurar la entrega completa y funcional del sistema **MaceTy**. | **Conclusión TB1:**<br>El equipo de cinco integrantes logró construir un entorno de trabajo colaborativo, estableciendo metas claras y cumpliendo objetivos mediante la comunicación constante, planificación efectiva y un liderazgo compartido. El uso de herramientas colaborativas y metodologías ágiles permitió mantener la cohesión y el cumplimiento de todos los entregables del TB1.<br><br> **Conclusión TP:**<br>Durante el TP, el equipo consolidó su entorno colaborativo al coordinar la implementación práctica del sistema. Cada integrante asumió responsabilidades específicas en diseño, desarrollo, pruebas y despliegue, demostrando un compromiso sólido y sinergia constante. El trabajo conjunto permitió cumplir exitosamente con las metas de las secciones 5.4 y 6.2, evidenciando una gestión de equipo madura y eficiente. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta |<br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>*TB1:*<br> Apliqué liderazgo conjunto durante el desarrollo del proyecto **MaceTy**, coordinando con todo el equipo la distribución de tareas técnicas y de investigación. Lideré la **arquitectura de software**, diagramas **C4** y el **diseño del sistema IoT**, mientras facilitaba la integración del trabajo de los cinco miembros del equipo, asegurando coherencia entre los bounded contexts y componentes técnicos.<br>*TP:*<br> Diseñé los **wireframes y mockups** de la **landing page**, incluyendo la sección de contacto e interacción inicial con el usuario. Además, colaboré en la definición de los **estilos visuales (Style Guidelines)** y la **arquitectura de información (Information Architecture)**, garantizando la coherencia entre la parte visual, funcional y técnica del sistema.<br>*TB2:*<br> Lideré la fase de validación del producto, diseñando las **entrevistas de usuario** y realizando la **evaluación heurística** para analizar el feedback. Además, gestioné la evidencia de **despliegue de software** del Sprint 2 y redacté las **conclusiones finales** del proyecto, colaborando con todo el equipo en el registro de las entrevistas.<br><br> **2. Gómez Vallejos, Sergio André**<br>*TB1:*<br> Ejercí liderazgo compartido en la **investigación de mercado y análisis competitivo**, coordinando con el equipo completo para asegurar coherencia entre los antecedentes, problemática y la propuesta técnica. Lideré las secciones de **competidores** y **análisis de entrevistas**, facilitando la comunicación entre todos los miembros para mantener una visión unificada del proyecto.<br>*TP:*<br> Lideré la **implementación del entorno de desarrollo y control de versiones**, documentando los apartados de **Software Development Environment Configuration**, **Source Code Management** y **Source Code Style Guide & Conventions**, garantizando buenas prácticas y estándares unificados durante la implementación del proyecto.<br>*TB2:*<br> Me encargué de recopilar y documentar la **evidencia de desarrollo** para el Sprint 2, asegurando que los avances de codificación estuvieran correctamente registrados para la revisión. Colaboré activamente con el equipo en la ejecución de las **entrevistas de validación**.<br><br> **3. Valera Garcés, Samuel Ignacio**<br>*TB1:*<br> Lideré la elaboración de **2.3 Needfinding**, **2.3.1 User Personas**, **2.3.2 User Task Matrix**, **2.3.3 User Journey Mapping**, **2.3.4 Empathy Mapping**, **2.5 Big Picture EventStorming**, la **entrevista con el segmento 1**, así como **3.1 User Stories** y **3.2 Product Backlog**. Coordiné con los cinco integrantes del equipo para integrar estos insumos al documento final, asegurando coherencia y cumplimiento de los objetivos del proyecto **MaceTy**.<br>*TP:*<br> Desarrollé los apartados de **Applications Wireframes**, **Wireflow Diagrams** y **User Flow Diagrams**, representando la experiencia de usuario y su interacción con las funcionalidades principales. Además, colaboré en el apartado de **Applications Prototyping**, integrando los flujos de navegación y validando la usabilidad general del sistema.<br>*TB2:*<br> Lideré la creación del video **About-the-Product**, un entregable clave que resume la propuesta de valor y el funcionamiento del sistema. Participé junto al resto del equipo en la realización de las **entrevistas de validación** con usuarios.<br><br> **4. Leon Rioja, Carlos Andres**<br>*TB1:*<br> Asumí el liderazgo en el diseño de **contextos delimitados y modelado de dominios**. Desarrollé el **4.1.1.1 Candidate Context Discovery**, **4.1.1.2 Domain Message Flows Modeling** y **4.1.1.3 Bounded Context Canvases**, colaborando estrechamente con el equipo para asegurar que los bounded contexts reflejaran correctamente los procesos de negocio identificados en las fases previas del proyecto.<br>*TP:*<br> Elaboré la evidencia técnica del **Testing Suite**, **Development Evidence**, **Execution Evidence** y **Services Documentation** para la **Sprint Review**, asegurando que los módulos del sistema cumplieran con los criterios de calidad y funcionalidad esperados.<br>*TB2:*<br> Fui responsable de documentar la **evidencia de ejecución** y los **insights de colaboración** del equipo durante el Sprint 2, demostrando el funcionamiento del producto y analizando la dinámica del equipo. Colaboré en el **registro de entrevistas** de validación.<br><br> **5. Jaque Peña, Estefano Oscar**<br>*TB1:*<br> Lideré la conceptualización y desarrollo del **1.2.2 Lean UX Process**, incluyendo **problem statements**, **assumptions** y **hypothesis statements**, que sirvieron como base metodológica del proyecto. Coordiné con los demás miembros para asegurar que el enfoque Lean UX se mantuviera consistente desde la investigación hasta la arquitectura técnica.<br>*TP:*<br> Me encargué del **despliegue de la Landing Page**, la **implementación de servicios** y la planificación del **Sprint 1**, detallando **Sprint Planning**, **Aspect Leaders**, **Sprint Backlog**, y la coordinación con Carlos para la revisión de evidencias. Documenté también la implementación completa de los módulos en el apartado **Landing Page, Services & Applications Implementation**.<br>*TB2:*<br> Lideré la planificación y documentación del **Sprint 2**, gestionando el **Sprint Planning**, **Aspect Leaders**, y el **Sprint Backlog**. También me encargué de la evidencia de **pruebas (Testing Suite)** y la **documentación de servicios**, colaborando con el equipo en las entrevistas de validación. | **Conclusión TB1:**<br>Durante el TB1, los cinco miembros del equipo demostraron capacidades de liderazgo complementarias y distribuidas estratégicamente. **Maycol** lideró la arquitectura técnica e IoT, **Sergio** la investigación de mercado, **Samuel** el análisis de usuarios, **Carlos** el modelado de dominio, y **Estefano** el marco metodológico Lean UX. Esta sinergia permitió integrar conocimientos técnicos, analíticos y metodológicos en un producto sólido, coherente y escalable.<br><br> **Conclusión TP:**<br>En el TP, el equipo fortaleció su liderazgo conjunto aplicando los conocimientos técnicos adquiridos para la implementación del sistema **MaceTy**. Se logró una integración efectiva entre el diseño UX/UI, la configuración del entorno de desarrollo, la validación funcional mediante pruebas, y el despliegue final de la landing page y servicios. El liderazgo compartido permitió mantener una estructura organizada y colaborativa, logrando cumplir los objetivos de las secciones 5.4 y 6.2 con altos estándares de calidad técnica y visual.<br><br> **Conclusión TB2:**<br>Para la entrega final (TB2), el equipo demostró madurez en la gestión del ciclo de vida del producto. El liderazgo se distribuyó eficazmente para cubrir la planificación y ejecución del Sprint 2, la validación del producto con usuarios reales y la consolidación de entregables finales. **Estefano** lideró la planificación del sprint, **Sergio** y **Carlos** las evidencias de desarrollo y ejecución, **Maycol** la fase de validación y despliegue, y **Samuel** la creación del video del producto. La colaboración de todo el equipo en las entrevistas de validación fue clave para obtener insights valiosos, demostrando una sinergia efectiva que permitió cerrar el proyecto cumpliendo con todos los objetivos. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |<br><br> **1. Rojas Velasquez, Maycol Jhordan**<br>*TB1:*<br> Apliqué metodologías colaborativas estableciendo reuniones regulares con los cinco miembros del equipo, usando **GitHub** para el control de versiones y coordinación técnica. Establecí metas claras por sprint: definición de segmentos objetivo, arquitectura del sistema y documentación técnica, coordinando con **Carlos** para los bounded contexts y **Samuel** para la integración de user stories.<br>*TP:*<br> Fortalecí la colaboración durante la etapa de desarrollo visual y despliegue, coordinando el flujo de trabajo entre diseño, front-end y documentación técnica. Promoví la planificación ágil del equipo para cumplir los plazos establecidos y mantener la coherencia técnica en los entregables de la **Landing Page** y las **Applications UX/UI**.<br>*TB2:*<br> Fomenté un entorno colaborativo durante la fase de validación, organizando las sesiones de entrevistas con usuarios y estableciendo metas claras para la recopilación y análisis de feedback. Planifiqué las tareas de documentación final y despliegue, asegurando que el equipo cumpliera con los objetivos de la entrega final.<br><br> **2. Gómez Vallejos, Sergio André**<br>*TB1:*<br> Fomenté un entorno inclusivo donde cada integrante aportó desde sus fortalezas. Planifiqué las tareas de investigación y análisis competitivo en coordinación con **Samuel** y **Estefano**, estableciendo metas semanales y cumpliendo con los objetivos del equipo.<br>*TP:*<br> Promoví la colaboración técnica en la **configuración del entorno de desarrollo** y la **gestión del código fuente**, guiando al equipo en la adopción de estándares de versionamiento y estructura de repositorios. Coordiné revisiones grupales para asegurar la uniformidad del código y cumplimiento de buenas prácticas.<br>*TB2:*<br> Colaboré activamente en la planificación de tareas del Sprint 2, estableciendo metas para la generación de evidencia de desarrollo. Participé en las reuniones de equipo para sincronizar avances y asegurar el cumplimiento de los objetivos de validación con usuarios.<br><br> **3. Valera Garcés, Samuel Ignacio**<br>*TB1:*<br> Organicé reuniones de coordinación semanales y definí metas por sección, promoviendo la comunicación continua. Utilicé herramientas colaborativas como **GitHub** y **Docs compartidos**, asegurando la integración y coherencia de las entregas.<br>*TP:*<br> Coordiné la creación de prototipos y diagramas de flujo, garantizando que la comunicación entre diseño y desarrollo fuera fluida. Mantuvimos revisiones conjuntas con **Maycol** y **Sergio** para unificar criterios visuales y de experiencia de usuario.<br>*TB2:*<br> Establecí metas claras para la producción del video del producto, planificando las tareas de guion, grabación y edición. Participé en un entorno colaborativo durante las entrevistas, aportando a la discusión y al análisis de los resultados para cumplir los objetivos de validación.<br><br> **4. Leon Rioja, Carlos Andres**<br>*TB1:*<br> Establecí un ambiente colaborativo para el desarrollo de la arquitectura de dominio, trabajando con **Maycol** y **Samuel** para alinear los bounded contexts con los requerimientos funcionales. Planifiqué tareas semanales y mantuve constante comunicación para validar avances.<br>*TP:*<br> Coordiné con **Estefano** y **Maycol** durante la etapa de pruebas y despliegue, planificando metas de testing y documentando resultados. Contribuí en la integración de evidencias para la **Sprint Review**, fortaleciendo la colaboración técnica en las fases finales del proyecto.<br>*TB2:*<br> Promoví la colaboración para la recolección de evidencias de ejecución y análisis del equipo. Planifiqué las tareas de documentación de la colaboración y participé activamente en las reuniones para establecer metas y cumplir con los objetivos del Sprint 2.<br><br> **5. Jaque Peña, Estefano Oscar**<br>*TB1:*<br> Creé un marco metodológico colaborativo basado en **Lean UX**, que permitió la participación equitativa del equipo. Establecí metas claras por fase y coordiné la integración de aportes con **Sergio**, **Samuel**, **Carlos** y **Maycol**, asegurando una participación balanceada.<br>*TP:*<br> Lideré la colaboración en el **despliegue de la aplicación** y la coordinación general de los **sprints**, planificando metas conjuntas con **Carlos** para evidencias y validaciones. Mantuvimos comunicación continua para asegurar la entrega completa y funcional del sistema **MaceTy**.<br>*TB2:*<br> Organicé el entorno colaborativo para el Sprint 2, utilizando Trello para planificar tareas y establecer metas claras. Fomenté la participación de todos en la definición del backlog y en las revisiones de pruebas y servicios, asegurando el cumplimiento de los objetivos del sprint. | **Conclusión TB1:**<br>El equipo de cinco integrantes logró construir un entorno de trabajo colaborativo, estableciendo metas claras y cumpliendo objetivos mediante la comunicación constante, planificación efectiva y un liderazgo compartido. El uso de herramientas colaborativas y metodologías ágiles permitió mantener la cohesión y el cumplimiento de todos los entregables del TB1.<br><br> **Conclusión TP:**<br>Durante el TP, el equipo consolidó su entorno colaborativo al coordinar la implementación práctica del sistema. Cada integrante asumió responsabilidades específicas en diseño, desarrollo, pruebas y despliegue, demostrando un compromiso sólido y sinergia constante. El trabajo conjunto permitió cumplir exitosamente con las metas de las secciones 5.4 y 6.2, evidenciando una gestión de equipo madura y eficiente.<br><br> **Conclusión TB2:**<br>En la fase final, el equipo operó en un entorno altamente colaborativo para ejecutar el Sprint 2 y la validación con usuarios. Se establecieron metas claras para cada actividad, desde la planificación del sprint hasta la producción del video final. La planificación de tareas en Trello y las reuniones de sincronización permitieron cumplir con todos los objetivos de la entrega, demostrando una capacidad consolidada para trabajar de manera inclusiva y orientada a resultados. |
 
 # Capítulo I: Introducción  
 ## 1.1. Startup Profile
@@ -2555,7 +2570,9 @@ Historias, tareas, estimación, responsables y estado.
 Evidencias de desarrollo con repositorio/branch/commit.
 | Repo | Branch | Commit Id | Mensaje | Fecha |
 |------|--------|-----------|---------|-------|
-| ...  | ...    | ...       | ...     | ...   |
+| https://github.com/NaturaFy/web-app-v2  | main    | 0b7cb336925f96af68e4aa7ad3d81954f9dc35aa       | Add deployment configs and update SPA routing     | October 10, 2025   |
+| https://github.com/NaturaFy/Landing-Page--Macety  | main    | 65bf22b45569bfd942c73bfadae9d268e365ae82       | Update login and signup links to new domain     | October 10, 2025   |
+| https://github.com/NaturaFy/web-app-v2  | main    | cef835843484291f12341884fc309e15bcfa3d3b       | Update new Frontend     | November 14, 2025   |
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 Resultados de pruebas unitarias/integración/end-to-end.
@@ -2586,16 +2603,287 @@ Analítica de colaboración, commits y retrospectiva.
 ### 6.3. Validation Interviews
 
 #### 6.3.1. Diseño de Entrevistas
-Objetivo, guion, criterios de reclutamiento y métricas de éxito.
-- Perfil participante:
-- Guion (tareas/escenarios):
-- Métricas (SUS, Tasa éxito, Tiempo tarea):
+El objetivo de estas entrevistas es validar la usabilidad, claridad y valor percibido del prototipo interactivo de MaceTy con usuarios representativos de los segmentos objetivo.
+
+- **Perfil del participante:** Usuarios que coincidan con las personas de "Personas Ocupadas en la Ciudad" y "Jardineros". Se buscará un mix de 3-4 participantes por segmento.
+- **Metodología:** Sesiones de usabilidad moderadas (presenciales o remotas) donde el usuario interactúa con el prototipo de Figma mientras piensa en voz alta.
+- **Métricas Clave:**
+  - **System Usability Scale (SUS):** Para medir la usabilidad general.
+  - **Tasa de éxito de tareas:** Porcentaje de usuarios que completan tareas clave sin ayuda.
+  - **Tiempo en la tarea:** Tiempo promedio para completar tareas como "conectar una nueva maceta".
+  - **Feedback cualitativo:** Respuestas a las preguntas del guion.
+
+**Guion de Entrevista de Validación:**
+
+**Fase 1: Onboarding y Primera Impresión**
+
+1.  ¿Qué tan fácil fue para ti registrarte y conectar la maceta inteligente con la aplicación? (Tarea: Conectar una nueva maceta).
+2.  ¿El diseño visual (colores, íconos, texto) te ayudó a entender fácilmente qué hacer desde el principio?
+
+**Fase 2: Uso del Dashboard y Monitoreo**
+
+3.  Viendo el panel principal, ¿entendiste claramente qué representa cada indicador (humedad, temperatura, luz)?
+4.  ¿Te resultó útil la forma en que la app muestra el estado general de tu planta? ¿Hay algo que falte o sobre?
+
+**Fase 3: Interacción con Alertas y Asistente**
+
+5.  Cuando recibiste una alerta o recomendación, ¿te pareció clara y confiable?
+6.  ¿Seguirías las recomendaciones de Macety sin dudar o necesitarías más información para confiar en ellas?
+7.  ¿Cómo describirías tu experiencia conversando con el asistente MacetyBot? ¿Fue natural o confuso?
+
+**Fase 4: Cierre y Percepción General**
+
+8.  ¿Hubo algún momento en que te sentiste confundido o no supiste cómo avanzar? ¿Dónde?
+9.  ¿Qué parte de toda la experiencia te pareció más valiosa o innovadora? ¿Y la menos útil?
+10. En una escala del 1 al 5 (donde 1 es "muy insatisfecho" y 5 "muy satisfecho"), ¿qué tan satisfecho/a estás con tu experiencia general usando Macety?
 
 #### 6.3.2. Registro de Entrevistas
-Tabla de participantes y hallazgos.
-| Participante | Perfil | Duración | Principales hallazgos |
-|--------------|--------|----------|------------------------|
-| ... | ... | ... | ... |
+#### **Entrevista #1**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Camila Morales Farias |
+|  **Edad** | 21 |
+|  **Rol / Experiencia** | Persona Ocupada |
+| **Fecha de Entrevista** | 10/11/2020 |
+|  **Duración** | 0:00 -5:28 |
+|  **Tecnologías Usadas** | zoom |
+|  **Enlace a Grabación** | https://drive.google.com/file/d/13b4uefu0Nl7Z_FgoQw1bgFFKKU7_HIFB/view?usp=sharing |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 1](assets/entrevista-validation1.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+Camila calificó la experiencia general con un **4 sobre 5**, considerándola positiva, fluida y con gran potencial. Destacó como lo más valioso la sensación de que la planta "le habla" a través de una guía personalizada.
+
+**Puntos Fuertes Identificados:**
+- **Propuesta de Valor:** La idea de una guía personalizada para el cuidado de la planta fue percibida como la característica más innovadora y valiosa.
+- **Diseño y Usabilidad:** El diseño visual es claro y moderno. El proceso de registro fue fácil (4/5) y el asistente MacetyBot se sintió natural y comprensible.
+- **Alertas:** Las notificaciones fueron claras y directas.
+
+**Oportunidades de Mejora Sugeridas:**
+- **Claridad en los Datos:**
+    - **Historial:** El gráfico de historial generó confusión al no ser clara la escala de tiempo (diaria, semanal). Se recomienda añadir un selector de tiempo visible.
+    - **Indicadores:** El indicador de "luz" fue ambiguo. Un tooltip explicativo que aclare si es luz ambiental o directa sería útil.
+- **Profundidad de las Recomendaciones:**
+    - Las alertas, aunque claras, se perciben como genéricas. Se sugiere añadir el "porqué" de la recomendación y cuantificar la acción (ej. "regar con 70 ml").
+    - Un botón de "más información" aumentaría la confianza del usuario en las sugerencias del sistema.
+- **Refinamiento de la Interfaz:**
+    - Se podría mejorar la legibilidad del estado general de la planta usando un código de colores simple (tipo semáforo: verde/amarillo/rojo).
+    - Agrupar mejor algunos elementos en el dashboard para evitar una sensación de dispersión.
+
+---
+#### **Entrevista #2**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Marllely Arias Segil |
+|  **Edad** | 22 |
+|  **Rol / Experiencia** | Jardinero/a |
+| **Fecha de Entrevista** | 12/11/2025 |
+|  **Duración** | 5:28 - 10:58 |
+|  **Tecnologías Usadas** | Zoom |
+|  **Enlace a Grabación** | https://drive.google.com/file/d/1PqOclBgduUB5YgxvUxDfHNZ-twvoTRPe/view?usp=sharing |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 1](assets/validation1-jardinero.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+Marllely calificó la experiencia general con un **5 sobre 5**, describiéndola como "práctica, moderna y muy útil". El valor principal que identificó fue la innovadora combinación de tecnología y naturaleza, que permite "ver el estado de ánimo de la planta en tiempo real".
+
+**Puntos Fuertes Identificados:**
+- **Onboarding y Usabilidad:** El proceso de registro y conexión fue "bastante fácil" y rápido, sin requerir conocimientos técnicos.
+- **Diseño de Interfaz (UI):** El diseño visual es "muy claro y armonioso", con colores, íconos y textos que facilitan la orientación desde el primer momento.
+- **Claridad de la Información:** Los indicadores del dashboard son intuitivos y las explicaciones adicionales al tocarlos fueron muy valoradas.
+- **Confianza en las Alertas:** Las notificaciones son "claras y directas", generando confianza al indicar exactamente qué acción tomar.
+- **Asistente MacetyBot:** La interacción con el bot se percibió como natural y útil para resolver dudas básicas.
+
+**Oportunidades de Mejora Sugeridas:**
+- **Identificación de Plantas:** Durante la configuración, se sintió insegura al elegir la especie. Sugiere añadir una **función para identificar la planta mediante una foto**.
+- **Profundidad de las Recomendaciones:** Aunque confía en las alertas, le gustaría que incluyeran un breve contexto o el "porqué" de la recomendación para fomentar el aprendizaje.
+- **Visualización de Datos:** Sugiere añadir un pequeño **gráfico histórico en el dashboard principal** para observar la evolución de los indicadores a lo largo del tiempo.
+- **Simplificación:** La sección con datos muy técnicos podría simplificarse para ser más accesible.
+
+
+
+---
+#### **Entrevista #3**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Christian André Matos Fernández |
+|  **Edad** | 20 |
+|  **Rol / Experiencia** | Persona Ocupada |
+| **Fecha de Entrevista** | 11/11/2025 |
+|  **Duración** | 10:58 -15:51 |
+|  **Tecnologías Usadas** | Google Meet |
+|  **Enlace a Grabación** | https://youtu.be/yVsWmHW6aWs |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 3](assets/entrevista_3.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+Cristian Matos calificó su experiencia general con la aplicación de IoT como **4.5/5**, describiéndola como *"sencilla, práctica y útil"* para el cuidado de sus plantas. Destacó el valor de tener la información accesible en tiempo real, lo que le permite monitorear el bienestar de sus plantas de manera eficiente.
+
+**Puntos Fuertes Identificados**
+
+- **Onboarding y Usabilidad:** El proceso de registro fue *"bastante fácil"* e intuitivo, permitiendo una conexión rápida que no generó frustraciones.
+- **Diseño de Interfaz (UI):** La aplicación tiene un diseño visual *"agradable e intuitivo"*, donde los colores y los iconos facilitan la comprensión de las acciones a realizar.
+- **Claridad de Indicadores:** Los indicadores en el panel principal son *"fáciles de entender"*, ofreciendo información clara sobre el estado de la planta con iconos y colores que indican si está sana.
+- **Alertas de Recomendación:** Las notificaciones son *"claras y directas"*, generando confianza en la información brindada sobre las acciones a seguir.
+- **Interacción con Macetti Bot:** Cristian encontró la interacción con el asistente bastante *"natural y útil"*, facilitando la resolución de dudas sin complicaciones.
+
+**Oportunidades de Mejora Sugeridas**
+
+- **Tutorial Interactivo:** Se sugiere añadir un tutorial inicial para ayudar a nuevos usuarios a familiarizarse con las funcionalidades sin exploración excesiva.
+- **Mayor Claridad en Indicaciones:** Aunque los indicadores son comprensibles, Cristian comentó que a veces necesita más contexto sobre ciertos aspectos, como la luz solar.
+- **Modo Resumen para Múltiples Plantas:** Propone la posibilidad de tener un modo resumen para monitorear varias plantas simultáneamente desde una sola vista.
+- **Personalización de Respuestas:** Se podría mejorar la personalización de las respuestas del asistente para que estas se adapten más al tipo de planta específica.
+
+
+---
+#### **Entrevista #4**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | Ariana Martínez |
+|  **Edad** | 25 |
+|  **Rol / Experiencia** | Persona Ocupada |
+| **Fecha de Entrevista** | 14/11/2025 |
+|  **Duración** | 15:51 - 19:09 |
+|  **Tecnologías Usadas** | Google Meet |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+![Evidencia Entrevista 1](assets/valit_4_entrevista.png)
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+Ariana evaluó la propuesta de una maceta inteligente como altamente atractiva, percibiéndola como una solución útil para su estilo de vida ocupado. Considera que la característica más valiosa es la capacidad del sistema para automatizar el riego y, al mismo tiempo, notificarle sobre el estado de su planta, lo cual reduciría olvidos y pérdida de plantas. Para ella, la propuesta combina practicidad con una mejora en la experiencia de tener plantas en casa.
+
+**Puntos Fuertes Identificados**
+
+- Propuesta de Valor:
+La idea de una maceta que se riegue automáticamente y detecte necesidades como luz o nutrientes fue considerada altamente relevante. Ariana valoró especialmente que la maceta pueda alertarla y mantenerla informada, incluso si realiza el trabajo por ella.
+
+- Diseño y Percepción del Producto:
+Dado que le importa la estética del hogar, resalta la importancia de que el producto sea visualmente atractivo, moderno y sostenible. Materiales seguros y sin químicos son factores decisivos para ella.
+
+- Experiencia Esperada:
+Ariana mostró preferencia por un sistema automático asistido, es decir, uno que realice el riego por sí mismo, pero que también brinde actualizaciones sobre el estado de la planta. Le resulta importante sentir que puede supervisar sin tener que intervenir constantemente.
+
+**Oportunidades de Mejora Sugeridas**
+
+Instalación y Configuración:
+Su principal preocupación es la complejidad inicial. Comentó que podría sentirse insegura al instalar o configurar el producto. Esto indica la necesidad de:
+
+**Tutorial paso a paso**
+
+- Manual visual
+
+- Setup guiado desde la app
+
+**Educación del Usuario:**
+Aunque entiende la utilidad, expresó que a veces no sabe exactamente qué necesita una planta. El sistema podría ofrecer:
+
+- Consejos personalizados
+
+- Explicaciones del estado de la planta
+
+- Lenguaje simple y no técnico (ej. “tu planta necesita más luz indirecta porque…”)
+
+- Precio y Valor Percibido:
+Su disposición de pago se ubica en un rango máximo de S/ 200, lo que indica que el producto debe ser percibido como accesible y con beneficios claros desde el primer uso.
+
+**Recomendaciones Estratégicas**
+
+Incluir asistente configurador o video onboarding que reduzca la percepción de dificultad técnica.
+
+Presentar un diseño sostenible, estético y compatible con decoración moderna esto influye significativamente en la decisión de compra.
+
+Integrar notificaciones amables y personalizadas para mantener cercanía emocional (no solo alertas técnicas).
+
+Considerar un plan de precios que permita percibir accesibilidad, por ejemplo:
+
+Versión base + features adicionales premium.
+
+---
+#### **Entrevista #5**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
+#### **Entrevista #6**
+
+| Detalle | Información |
+| :--- | :--- |
+|  **Entrevistado** | `[Nombre Completo del Entrevistado]` |
+|  **Edad** | `[Edad]` |
+|  **Rol / Experiencia** | `[Ej: Ganadero con 10 años de experiencia]` |
+| **Fecha de Entrevista** | `[DD/MM/AAAA]` |
+|  **Duración** | `[HH:MM:SS]` |
+|  **Tecnologías Usadas** | `[Ej: Google Meet, Zoom, Grabadora de voz]` |
+|  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
+
+<br>
+
+**Evidencia de la Entrevista:**
+
+
+`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+
+<br>
+
+**Resumen de Hallazgos Clave:**
+
+
+---
 
 #### 6.3.3. Evaluaciones según heurísticas
 Evaluación Nielsen/ISO, severidad y recomendaciones.
@@ -2604,25 +2892,21 @@ Evaluación Nielsen/ISO, severidad y recomendaciones.
 | ... | ... | Baja/Media/Alta | ... |
 
 ### 6.4. Video About-the-Product
-Video demostrativo del producto y recorrido funcional.
-- Enlace al video:
-- Contenido mínimo: problema → propuesta de valor → demo (landing, app web/móvil, Macety) → CTA.
-- Duración sugerida: 2–4 min.
+
+Este video presenta un recorrido completo por el ecosistema **MaceTy**, demostrando cómo la aplicación web y la landing page se integran para ofrecer una experiencia de usuario fluida y conectada. El objetivo es mostrar la propuesta de valor del producto en acción, desde la captación inicial del usuario hasta la gestión diaria de sus plantas.
+
+- **Enlace al video:** `https://1drv.ms/v/c/624a080810914df5/EVs_IKPqcfxGg4ODZVfvvSwBBAoQUpknCKd7cMgKlfV90w?e=HttPyW`
 
 ## Conclusiones
 
-Existe un problema real y validado en el mercado peruano, donde la mayoría de usuarios urbanos pierde sus plantas por falta de tiempo o conocimiento, lo que abre una oportunidad clara para soluciones IoT accesibles como MaceTy.
+1.  **Validación Integral del Ecosistema Digital:** El desarrollo y la validación del proyecto, desde la arquitectura hasta las entrevistas con usuarios y el video final, confirman que **MaceTy** no es solo un producto de hardware, sino un ecosistema digital completo. La integración exitosa de la landing page, la aplicación web y los servicios de backend demuestra la viabilidad de la solución para resolver el problema validado: la dificultad de cuidar plantas en entornos urbanos.
 
-La diferenciación local es la clave competitiva, ya que MaceTy se adapta al contexto latinoamericano con precios adecuados, soporte en español y funcionalidades pensadas para el estilo de vida urbano, lo que le da ventaja frente a productos importados.
+2.  **La Experiencia de Usuario como Diferenciador Clave:** Las entrevistas de validación y la evaluación heurística revelaron que, más allá de la automatización, los usuarios valoran la claridad de la información, la confianza en las recomendaciones y una interfaz amigable. El feedback positivo (calificaciones de 4/5 y 5/5) y las sugerencias de mejora (como la identificación de plantas por foto) subrayan que una experiencia de usuario superior es el principal diferenciador de MaceTy frente a competidores.
 
-El proyecto no solo es comercialmente viable, sino también sostenible y escalable, al contar con una arquitectura tecnológica robusta, segmentación clara de usuarios y un impacto positivo en el uso eficiente de recursos y la conexión de las personas con la naturaleza.
+3.  **Madurez Técnica y Metodológica del Equipo:** La ejecución de dos sprints de desarrollo, la gestión de repositorios con GitFlow, la documentación de servicios con OpenAPI y el despliegue en plataformas como Netlify y Azure demuestran la capacidad del equipo para aplicar metodologías ágiles y herramientas profesionales. Esta madurez técnica asegura que el producto no solo es funcional, sino también escalable, mantenible y seguro.
 
-El desarrollo del prototipo en Figma permitió validar la experiencia de usuario diseñada en los apartados de Style Guidelines, Information Architecture y Applications UX/UI Design, comprobando la coherencia visual, la fluidez de navegación y la accesibilidad en distintos dispositivos. Este proceso aseguró que las decisiones tomadas en el diseño conceptual se traduzcan efectivamente en una experiencia funcional y atractiva para el usuario final.
-
-La implementación de la arquitectura técnica documentada en los capítulos de Software Configuration Management y Applications Implementation evidenció la madurez del proyecto, integrando entornos de desarrollo estandarizados, control de versiones, y despliegue ordenado de los servicios y aplicaciones. Esta base técnica garantiza la escalabilidad, mantenibilidad y seguridad del sistema en entornos reales.
-
-La colaboración multidisciplinaria entre los miembros del equipo durante las etapas de diseño, desarrollo y pruebas permitió consolidar un flujo de trabajo ágil y cohesionado. Gracias a la planificación en sprints, el uso de herramientas colaborativas y la comunicación continua, se alcanzó una integración efectiva entre las áreas de UX/UI, backend, IoT y documentación técnica, consolidando un producto final sólido y alineado con los objetivos del proyecto MaceTy.
-
+4.  **Impacto Medible y Potencial de Crecimiento:** El proyecto ha validado un claro "problem-solution fit". Las conclusiones de las entrevistas y el diseño centrado en el usuario sientan las bases para un alto potencial de adopción y crecimiento. La estrategia de negocio, apoyada en un producto tecnológicamente sólido y una marca con una identidad clara (eco-tecnológica y cercana), posiciona a NaturaFy para capturar una cuota significativa del mercado de jardinería inteligente en Latinoamérica.
+// ...existing code...
 ## Bibliografía
 
 -En esta linea verifico el cambio para empezar con el nuevo capitulo desde ete archivo
