@@ -3319,7 +3319,6 @@ Este video presenta un recorrido completo por el ecosistema **MaceTy**, demostra
 3.  **Madurez Técnica y Metodológica del Equipo:** La ejecución de dos sprints de desarrollo, la gestión de repositorios con GitFlow, la documentación de servicios con OpenAPI y el despliegue en plataformas como Netlify y Azure demuestran la capacidad del equipo para aplicar metodologías ágiles y herramientas profesionales. Esta madurez técnica asegura que el producto no solo es funcional, sino también escalable, mantenible y seguro.
 
 4.  **Impacto Medible y Potencial de Crecimiento:** El proyecto ha validado un claro "problem-solution fit". Las conclusiones de las entrevistas y el diseño centrado en el usuario sientan las bases para un alto potencial de adopción y crecimiento. La estrategia de negocio, apoyada en un producto tecnológicamente sólido y una marca con una identidad clara (eco-tecnológica y cercana), posiciona a NaturaFy para capturar una cuota significativa del mercado de jardinería inteligente en Latinoamérica.
-// ...existing code...
 ## Bibliografía
 
 - Verified Market Reports. (2024). *Insights de mercado de plantas inteligentes en macetas*. Recuperado de [https://www.verifiedmarketreports.com/es/product/smart-potted-plant-market/](https://www.verifiedmarketreports.com/es/product/smart-potted-plant-market/)  
