@@ -2842,7 +2842,7 @@ Versión base + features adicionales premium.
 |  **Edad** |  26 |
 |  **Rol / Experiencia** | Botanica |
 | **Fecha de Entrevista** | 14/11/2025 |
-|  **Duración** | `[HH:MM:SS]` |
+|  **Duración** | 19:09 - 26:56 |
 |  **Tecnologías Usadas** | Zoom |
 |  **Enlace a Grabación** | `[Pega aquí el enlace al video o audio de la entrevista]` |
 
@@ -2851,7 +2851,7 @@ Versión base + features adicionales premium.
 **Evidencia de la Entrevista:**
 
 
-`![Evidencia Entrevista 1](assets/entrevista_1.png)`
+![Evidencia Entrevista 1](assets/jardinerovalidation_5.png)
 
 <br>
 
