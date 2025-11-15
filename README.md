@@ -2646,19 +2646,258 @@ A continuación, se presenta la tabla con los commits correspondientes a la impl
 
 | Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
 | :--- | :--- | :--- | :--- | :--- |
-| https://github.com/NaturaFy/Backend-backup-Monolito           |    main    |     b070723bd077f32ec2bcb5f623d0dceda2e985a3      |    test: añade tests para Plant y User            |      15/11/2025               |
+| https://github.com/NaturaFy/Backend-backup-Monolito           |    main    |     `b070723bd077f32ec2bcb5f623d0dceda2e985a3`      |    test: añade tests para Plant y User            |      15/11/2025               |
 
 
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
-Capturas de la aplicación ejecutándose y URLs públicas.
-- URL App/Web:
-- Screens/Video demo:
+
+En esta sección se presenta la evidencia de ejecución de los componentes desarrollados durante el Sprint 2. Los principales logros incluyen la finalización y despliegue de la **Landing Page**, el desarrollo de una **nueva versión de la aplicación web** con una interfaz mejorada, y la implementación de un **backend monolítico de respaldo** con funcionalidades esenciales como autenticación y gestión de plantas. Además, se avanzó en la migración a una **arquitectura de microservicios** y en el desarrollo del **prototipo de hardware**, integrando sensores y actuadores.
+
+A continuación, se muestran capturas de pantalla de las principales vistas implementadas y un video que demuestra el flujo de navegación y la funcionalidad del ecosistema MaceTy.
+
+**Vistas Principales Implementadas:**
+
+*   **Landing Page Finalizada:**
+    ![Landing Page Finalizada](assets/sprint2-deve.png)
+    Enlace: `https://naturafy.netlify.app/`
+*   **Nueva Versión de la Aplicación Web:**
+    ![Nueva Versión de la Aplicación Web](assets/sprint2-deve3.jpg)
+    Enlace: `https://macetyrrrrr.netlify.app/login`
+*   **Backend Monolítico de Respaldo (Código):**
+    ![Backend Monolítico de Respaldo](assets/sprint2-deve2.png)
+
+**Video de Demostración:**
+
+Un recorrido en video que ilustra la navegación entre la landing page y la aplicación web, mostrando el registro, inicio de sesión y el dashboard principal.
+- **Enlace al video de ejecución:** `https://1drv.ms/v/c/624a080810914df5/EVs_IKPqcfxGg4ODZVfvvSwBBAoQUpknCKd7cMgKlfV90w?e=HttPyW`
+
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
-Endpoints y Swagger/OpenAPI.
-- URL Swagger:
-- Endpoints clave: métodos, payloads y ejemplos.
+
+Durante el presente Sprint, se ha desarrollado y documentado el núcleo de la API REST para la aplicación. Se han implementado los endpoints esenciales para la gestión de autenticación de usuarios, el manejo de perfiles y la administración de plantas. La API sigue un diseño RESTful, utiliza JSON para el intercambio de datos y está protegida mediante tokens JWT (JSON Web Tokens) para las rutas que requieren autenticación. Esta documentación sirve como evidencia del trabajo realizado y como guía para la integración con aplicaciones cliente.
+
+## Detalle de Endpoints
+
+### 1. Módulo de Autenticación (`/api/v1/auth`)
+
+#### Registrar Usuario
+* **Verbo:** `POST`
+* **Sintaxis:** `/api/v1/auth/register`
+* **Parámetros (Body):**
+    ```json
+    {
+      "name": "string",
+      "email": "string",
+      "password": "string"
+    }
+    ```
+* **Respuesta Exitosa (201 Created):**
+    ```json
+    {
+      "id": 1,
+      "name": "Kmykh",
+      "email": "kmykh@example.com",
+      "password": null,
+      "avatar": null,
+      "location": null,
+      "createdAt": "2023-10-27T10:00:00"
+    }
+    ```
+* **Explicación:** Crea un nuevo usuario. Devuelve el objeto del usuario creado sin la contraseña. Falla si el email ya existe (`409 Conflict`).
+
+#### Iniciar Sesión
+* **Verbo:** `POST`
+* **Sintaxis:** `/api/v1/auth/login`
+* **Parámetros (Body):**
+    ```json
+    {
+      "email": "string",
+      "password": "string"
+    }
+    ```
+* **Respuesta Exitosa (200 OK):**
+    ```json
+    {
+      "access_token": "ey...",
+      "refresh_token": "uuid...",
+      "token_type": "Bearer",
+      "expires_in": 3600,
+      "user": { ... }
+    }
+    ```
+* **ExplicACIÓN:** Autentica al usuario y devuelve un token de acceso (`access_token`) junto con los datos del usuario. Falla si las credenciales son incorrectas (`401 Unauthorized`).
+
+#### Obtener Usuario Actual
+* **Verbo:** `GET`
+* **Sintaxis:** `/api/v1/auth/me`
+* **Parámetros:** `Header: Authorization: Bearer <token>`
+* **Respuesta Exitosa (200 OK):**
+    ```json
+    {
+      "id": 1,
+      "name": "Kmykh",
+      "email": "kmykh@example.com",
+      ...
+    }
+    ```
+* **Explicación:** Devuelve los datos del usuario autenticado a partir del token JWT.
+
+#### Cerrar Sesión
+* **Verbo:** `POST`
+* **Sintaxis:** `/api/v1/auth/logout`
+* **Parámetros:** Ninguno
+* **Respuesta Exitosa (200 OK):**
+    ```json
+    {
+      "message": "Sesión cerrada correctamente"
+    }
+    ```
+* **Explicación:** Endpoint para invalidar la sesión en el cliente. Devuelve un mensaje de confirmación.
+
+---
+
+### 2. Módulo de Perfil de Usuario (`/api/v1/profile`)
+
+#### Obtener Perfil
+* **Verbo:** `GET`
+* **Sintaxis:** `/api/v1/profile`
+* **Parámetros:** `Header: Authorization: Bearer <token>`
+* **Respuesta Exitosa (200 OK):**
+    ```json
+    {
+      "id": 1,
+      "name": "Kmykh",
+      "email": "kmykh@example.com",
+      ...
+    }
+    ```
+* **Explicación:** Devuelve el perfil completo del usuario autenticado.
+
+#### Actualizar Perfil
+* **Verbo:** `PUT`
+* **Sintaxis:** `/api/v1/profile`
+* **Parámetros:**
+    * `Header: Authorization: Bearer <token>`
+    * `Body (JSON)`: (Campos opcionales)
+        ```json
+        {
+          "name": "string",
+          "avatar": "string",
+          "location": "string"
+        }
+        ```
+* **Respuesta Exitosa (200 OK):**
+    ```json
+    {
+      "message": "Perfil actualizado correctamente",
+      "user": { ... }
+    }
+    ```
+* **Explicación:** Actualiza los datos del perfil del usuario. Devuelve un mensaje y el perfil actualizado.
+
+#### Eliminar Perfil
+* **Verbo:** `DELETE`
+* **Sintaxis:** `/api/v1/profile`
+* **Parámetros:** `Header: Authorization: Bearer <token>`
+* **Respuesta Exitosa (200 OK):**
+    ```json
+    {
+      "message": "Cuenta y plantas eliminadas correctamente"
+    }
+    ```
+* **Explicación:** Elimina la cuenta del usuario autenticado y todas sus plantas asociadas.
+
+---
+
+### 3. Módulo de Plantas (`/api/v1/plants`)
+
+#### Añadir Planta
+* **Verbo:** `POST`
+* **Sintaxis:** `/api/v1/plants`
+* **Parámetros:**
+    * `Header: Authorization: Bearer <token>`
+    * `Body (JSON)`:
+        ```json
+        {
+          "name": "string",
+          "species": "string",
+          "description": "string",
+          "imageUrl": "string"
+        }
+        ```
+* **Respuesta Exitosa (200 OK):**
+    ```json
+    {
+      "message": "Planta añadida correctamente",
+      "plant": {
+        "id": 1,
+        "name": "Monstera",
+        ...
+        "user": { ... }
+      }
+    }
+    ```
+* **Explicación:** Añade una nueva planta a la colección del usuario autenticado.
+
+#### Obtener Mis Plantas
+* **Verbo:** `GET`
+* **Sintaxis:** `/api/v1/plants`
+* **Parámetros:** `Header: Authorization: Bearer <token>`
+* **Respuesta Exitosa (200 OK):**
+    ```json
+    [
+      {
+        "id": 1,
+        "name": "Monstera",
+        ...
+        "user": { ... }
+      },
+      { ... }
+    ]
+    ```
+* **Explicación:** Devuelve una lista con todas las plantas que pertenecen al usuario autenticado.
+
+---
+
+## ⚙️ Interacción con la API (Ejemplos de uso)
+
+Para interactuar con la API, se puede utilizar una herramienta como Postman o Insomnia. El flujo típico es:
+
+1.  **Registrar un usuario:** Enviar una petición `POST` a `/api/v1/auth/register` con los datos del nuevo usuario.
+2.  **Iniciar sesión:** Enviar una petición `POST` a `/api/v1/auth/login` con el email y contraseña. Copiar el `access_token` de la respuesta.
+3.  **Acceder a rutas protegidas:** Para cualquier otra petición (ej. `GET /api/v1/plants`), añadir un encabezado `Authorization` con el valor `Bearer <tu_access_token>`.
+
+#### Ejemplo: Añadir una planta en Postman
+* **Verbo y URL:** `POST http://localhost:8080/api/v1/plants`
+* **Pestaña Authorization:** Tipo "Bearer Token" y pegar el token.
+* **Pestaña Body:** Seleccionar `raw` y `JSON`, y pegar el cuerpo de la petición:
+
+    ```json
+    {
+        "name": "Sansevieria",
+        "species": "Trifasciata",
+        "description": "Conocida como lengua de suegra. Muy resistente.",
+        "imageUrl": "[https://example.com/sansevieria.jpg](https://example.com/sansevieria.jpg)"
+    }
+    ```
+Al enviar la petición, se recibirá una respuesta `200 OK` con los datos de la planta creada.
+
+---
+
+## Repositorio y Commits de Avance
+
+Se presenta la URL del repositorio y la tabla con los commits más relevantes que evidencian el trabajo de este Sprint.
+
+* **URL del Repositorio de Web Services:** `https://github.com/Kmykh/Backend-backup-Monolito.git`
+
+#### Tabla de Commits Relevantes del Sprint
+
+| Repositorio | Commit ID | Mensaje del Commit | Funcionalidad Relacionada |
+| :--- | :--- | :--- | :--- |
+| Backend-backup-Monolito | `f4a3b2c` | test: añade tests para Plant y User | Módulo de Plantas y Usuarios (Testing) |
+| Backend-backup-Monolito | `a1b2c3d` | feat: implementa endpoints de perfil de usuario | Módulo de Perfil de Usuario |
+| Backend-backup-Monolito | `d4e5f6g` | feat: añade autenticación y endpoints de plantas | Módulo de Autenticación y Plantas |
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
 Pipeline, entorno y resultado del despliegue.
