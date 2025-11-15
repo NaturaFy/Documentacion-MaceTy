@@ -2667,17 +2667,98 @@ En esta sección se presenta el conjunto de Unit Tests, Integration Tests y Acce
 Para las pruebas de aceptación, se ha utilizado un enfoque de Desarrollo Guiado por Comportamiento (BDD). A continuación, se presentan los escenarios definidos en lenguaje Gherkin (`.feature` files), que describen el comportamiento esperado del sistema desde la perspectiva del usuario.
 
 ```gherkin
-# Inserte aquí el contenido de los archivos .feature
 
-# Ejemplo de estructura:
-# Feature: Gestión de Perfil de Usuario
-# Como usuario registrado, quiero poder ver y editar mi perfil para mantener mi información actualizada.
+# Feature: Gestión de usuarios y autenticación
+# Como usuario, quiero poder registrarme, iniciar sesión y gestionar mi perfil
+# para mantener mi información organizada.
 
-# Scenario: Visualizar perfil de usuario existente
-#   Given que soy un usuario autenticado con el id "1"
-#   When realizo una petición GET a "/api/v1/users/1"
+# -----------------------
+# Escenarios de usuario y autenticación
+# -----------------------
+
+# Scenario: Registro exitoso de un nuevo usuario
+#   Given un usuario con nombre "Laura Gómez", email "laura@example.com" y contraseña "12345678"
+#   When realiza una petición POST a "/api/v1/auth/register" con los datos del usuario
+#   Then el código de estado de la respuesta debe ser 201
+#   And la respuesta debe incluir el usuario con email "laura@example.com" y sin contraseña
+
+# Scenario: Registro con email ya existente
+#   Given un usuario con email "laura@example.com" ya registrado
+#   When realiza una petición POST a "/api/v1/auth/register" con los mismos datos
+#   Then el código de estado de la respuesta debe ser 409
+#   And el mensaje de la respuesta indica "El correo ya está registrado"
+
+# Scenario: Login exitoso
+#   Given un usuario registrado con email "laura@example.com" y contraseña "12345678"
+#   When realiza una petición POST a "/api/v1/auth/login" con email y contraseña correctos
 #   Then el código de estado de la respuesta debe ser 200
-#   And la respuesta debe incluir mi nombre de usuario "testuser"
+#   And la respuesta debe incluir "access_token", "refresh_token" y los datos del usuario
+
+# Scenario: Login con credenciales incorrectas
+#   Given un usuario registrado con email "laura@example.com"
+#   When realiza una petición POST a "/api/v1/auth/login" con contraseña incorrecta
+#   Then el código de estado de la respuesta debe ser 401
+#   And el mensaje de la respuesta indica "Correo o contraseña incorrecta"
+
+# Scenario: Obtener perfil del usuario autenticado
+#   Given un usuario autenticado con token válido
+#   When realiza una petición GET a "/api/v1/auth/me"
+#   Then el código de estado de la respuesta debe ser 200
+#   And la respuesta debe incluir los datos del usuario sin contraseña
+
+# Scenario: Actualizar perfil del usuario
+#   Given un usuario autenticado con token válido
+#   When realiza una petición PUT a "/api/v1/profile" con nombre "Laura M. Gómez"
+#   Then el código de estado de la respuesta debe ser 200
+#   And el mensaje indica "Perfil actualizado correctamente"
+#   And el usuario actualizado tiene nombre "Laura M. Gómez"
+
+# Scenario: Eliminar perfil y plantas del usuario
+#   Given un usuario autenticado con token válido
+#   When realiza una petición DELETE a "/api/v1/profile"
+#   Then el código de estado de la respuesta debe ser 200
+#   And el mensaje indica "Cuenta y plantas eliminadas correctamente"
+
+
+# Feature: Gestión de plantas en Macety API
+# Como usuario, quiero poder anadir, ver y modificar mis plantas
+# -----------------------
+# Escenarios de gestión de plantas
+# -----------------------
+
+# Scenario: Crear una nueva planta
+#   Given un usuario autenticado con token válido
+#   When realiza una petición POST a "/api/v1/plants" con nombre "Monstera Deliciosa", especie "Araceae" y descripción "Planta tropical"
+#   Then el código de estado de la respuesta debe ser 201
+#   And la respuesta debe incluir la planta con nombre "Monstera Deliciosa"
+
+# Scenario: Listar todas las plantas del usuario
+#   Given un usuario autenticado con token válido
+#   When realiza una petición GET a "/api/v1/plants"
+#   Then el código de estado de la respuesta debe ser 200
+#   And la respuesta debe incluir una lista de plantas asociadas al usuario
+
+# Scenario: Obtener detalles de una planta específica
+#   Given un usuario autenticado con token válido
+#   And existe una planta con id "1"
+#   When realiza una petición GET a "/api/v1/plants/1"
+#   Then el código de estado de la respuesta debe ser 200
+#   And la respuesta debe incluir los datos de la planta con id "1"
+
+# Scenario: Actualizar una planta existente
+#   Given un usuario autenticado con token válido
+#   And existe una planta con id "1"
+#   When realiza una petición PUT a "/api/v1/plants/1" con nombre "Monstera Actualizada" y descripción "Hojas más grandes"
+#   Then el código de estado de la respuesta debe ser 200
+#   And la respuesta debe incluir la planta con nombre "Monstera Actualizada"
+
+# Scenario: Eliminar una planta
+#   Given un usuario autenticado con token válido
+#   And existe una planta con id "1"
+#   When realiza una petición DELETE a "/api/v1/plants/1"
+#   Then el código de estado de la respuesta debe ser 200
+#   And el mensaje indica "Planta eliminada correctamente"
+
 
 ```
 
