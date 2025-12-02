@@ -3421,12 +3421,12 @@ Esta sección documenta los avances de desarrollo mediante commits de los reposi
 
 | **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Committed on (Date)** |
 |----------------|------------|---------------|-------------------|------------------------|
-| [Backend-Microservices-MaceTy](URL_DEL_REPO_BACKEND) | `` | `a1b2c3d` | feat: implement MQTT connector for ESP32 communication | 28/11/2025 |
-| [Backend-Microservices-MaceTy](URL_DEL_REPO_BACKEND) | `main` | `` | feat: add watering automation logic in Plant Service | 29/11/2025 |
-| [Backend-Microservices-MaceTy](URL_DEL_REPO_BACKEND) | `main` | `i7j8k9l` | fix: optimize sensor data queries with indexes | 30/11/2025 |
-| [Frontend-MaceTy-Web](URL_DEL_REPO_FRONTEND) | `main` | `` | feat: implement real-time dashboard with WebSockets | 28/11/2025 |
-| [Frontend-MaceTy-Web](URL_DEL_REPO_FRONTEND) | `main` | `d9a613065d0bedc4d9865a989ffce2f6780a345c` | feat: add Chart.js integration for historical graphs | 29/11/2025 |
-| [Frontend-MaceTy-Web](URL_DEL_REPO_FRONTEND) | `main` | `96f1184ecbda339953ecd11ba4f0b359e7058273` | feat: implement manual watering button with feedback | 30/11/2025 |
+| [Backend-Microservices-MaceTy](URL_DEL_REPO_BACKEND) | `main` | `e660d7d0c5a30942f93e4df6be72c35657b750b0` | feat: implement MQTT connector for ESP32 communication | 28/11/2025 |
+| [Backend-Microservices-MaceTy](URL_DEL_REPO_BACKEND) | `main` | `f836fda11275fb88fcc830326aec7e866503d728` | feat: add watering automation logic in Plant Service | 29/11/2025 |
+| [Backend-Microservices-MaceTy](URL_DEL_REPO_BACKEND) | `main` | `f70d527e2cbd315561217212197414e0a45b383e` | fix: optimize sensor data queries with indexes | 30/11/2025 |
+| [Frontend-MaceTy-Web](https://github.com/NaturaFy/web-app-Macety) | `main` | `` | feat: implement real-time dashboard with WebSockets | 28/11/2025 |
+| [Frontend-MaceTy-Web](https://github.com/NaturaFy/web-app-Macety) | `main` | `d9a613065d0bedc4d9865a989ffce2f6780a345c` | feat: add Chart.js integration for historical graphs | 29/11/2025 |
+| [Frontend-MaceTy-Web](https://github.com/NaturaFy/web-app-Macety) | `main` | `96f1184ecbda339953ecd11ba4f0b359e7058273` | feat: implement manual watering button with feedback | 30/11/2025 |
 | [Landing-Page-MaceTy](https://github.com/NaturaFy/Landing-Page--Macety) | `main` | `65bf22b` | fix: Update login and signup links to new domain| 28/11/2025 |
 | [IoT-Firmware-ESP32](https://github.com/NaturaFy/IoT-Firmware-ESP32) | `main` | `d9a613065d0bedc4d9865a989ffce2f6780a345c` | feat: implement DHT22 sensor integration with MQTT | 26/11/2025 |
 | [IoT-Firmware-ESP32](https://github.com/NaturaFy/IoT-Firmware-ESP32) | `main` | `ed7c289381ce8b5583ed1c1825d790cba5d2b932` | feat: add automatic reconnection logic for WiFi | 27/11/2025 |
