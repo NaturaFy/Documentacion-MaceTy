@@ -294,15 +294,26 @@
     - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)  
     - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)  
     - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)  
+  - [6.2.3. Sprint 3](#623-sprint-3)  
+    - [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)  
+    - [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators)  
+    - [6.2.3.3. Sprint Backlog 3](#6233-sprint-backlog-3)  
+    - [6.2.3.4. Development Evidence for Sprint Review](#6234-development-evidence-for-sprint-review)  
+    - [6.2.3.5. Testing Suite Evidence for Sprint Review](#6235-testing-suite-evidence-for-sprint-review)  
+    - [6.2.3.6. Execution Evidence for Sprint Review](#6236-execution-evidence-for-sprint-review)  
+    - [6.2.3.7. Services Documentation Evidence for Sprint Review](#6237-services-documentation-evidence-for-sprint-review)  
+    - [6.2.3.8. Software Deployment Evidence for Sprint Review](#6238-software-deployment-evidence-for-sprint-review)  
+    - [6.2.3.9. Team Collaboration Insights during Sprint](#6239-team-collaboration-insights-during-sprint)  
 - [6.3. Validation Interviews](#63-validation-interviews)  
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)  
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)  
   - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)  
 - [6.4. Video About-the-Product](#64-video-about-the-product)  
-  
+
 - [Conclusiones](#71-conclusiones)  
-- [Bibliografía](#72-bibliografía)  
-- [Anexos](#73-anexos)  
+- [Video About-the-Team](#72-video-about-the-team)
+- [Bibliografía](#73-bibliografía)  
+- [Anexos](#74-anexos)  
 
 # STUDENT OUTCOME
 El curso contribuye al cumplimiento del Student Outcome ABET: 
@@ -3125,6 +3136,176 @@ Basado en la colaboración de este sprint, el equipo identificó las siguientes 
 **Áreas de Mejora:**
 * **Tiempos de Revisión de PRs:** Algunos *Pull Requests* tardaron más de 24 horas en ser revisados. Se debe asignar tiempo específico para esta tarea.
 * **Participación Cruzada:** Aunque hubo participación, puede ser más activa y no solo simbólica. Se implementará *pair programming* inter-roles en el próximo sprint.
+### 6.2.3. Sprint 3
+
+El Sprint 3 representa la fase de consolidación y optimización del ecosistema MaceTy, enfocándose en la integración completa entre el prototipo de hardware IoT, los microservicios de backend, el frontend web y la arquitectura de despliegue en la nube. Durante este sprint, el equipo trabajó en la refinación de funcionalidades clave, la mejora de la experiencia de usuario basada en el feedback del Sprint 2 y la implementación de características avanzadas que fortalecen la propuesta de valor del producto.
+
+**Objetivos Principales del Sprint 3:**
+- Integración completa del prototipo de hardware (ESP32 + sensores) con los microservicios de backend
+- Implementación de funcionalidades avanzadas de monitoreo y automatización
+- Optimización de la arquitectura de microservicios y API Gateway
+- Mejoras en la experiencia de usuario del frontend basadas en validaciones previas
+- Fortalecimiento de la infraestructura de despliegue y CI/CD
+
+---
+
+#### 6.2.3.1. Sprint Planning 3
+
+El Sprint Planning 3 define los objetivos, alcance y estrategia de ejecución para esta iteración crítica del proyecto MaceTy.
+
+| Sprint # | Sprint 3 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | [Fecha de planificación] |
+| **Time** | [Hora de inicio] |
+| **Location** | Discord (Reunión virtual) |
+| **Prepared By** | Sergio Andre Gomez Vallejos |
+| **Attendees (to planning meeting)** | Maycol Jhordan Rojas Velasquez, Sergio Andre Gomez Vallejos, Estefano Oscar Jaque Peña, Carlos Andres Rojas Ccama, Samuel Ignacio Valera Garcés |
+| **Sprint Goal & User Stories** | |
+| **Sprint 3 Goal** | Nuestro enfoque está en consolidar la integración completa del ecosistema MaceTy, conectando el hardware IoT con los microservicios de backend, optimizando la experiencia de usuario en el frontend y fortaleciendo la arquitectura de despliegue. Creemos que esto entrega un producto funcional end-to-end que valida la propuesta de valor completa de MaceTy. Esto se confirmará cuando todas las funcionalidades críticas estén desplegadas, probadas y documentadas. |
+| **Sprint 3 Velocity** | [Velocity calculado basado en sprints anteriores] |
+| **Sum of Story Points** | [Total de story points del backlog seleccionado] |
+
+---
+
+#### 6.2.3.2. Aspect Leaders and Collaborators
+
+La matriz LACX (Leadership-and-Collaboration Matrix) para el Sprint 3 refleja la distribución estratégica de responsabilidades, considerando la complejidad técnica de la integración IoT-Cloud-Frontend.
+
+| **Team Member** | **GitHub Username** | **IoT/Hardware** | **Microservices** | **Frontend** | **Testing & QA** | **DevOps & Deploy** | **Documentation** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Rojas Velasquez, Maycol** | Kmykh | L | C | C | C | C | L |
+| **Gomez Vallejos, Sergio** | CB-Sergio-AGV | C | L | C | C | L | C |
+| **Jaque Peña, Estefano** | estefanojaque | C | C | L | C | C | L |
+| **Rojas Ccama, Carlos** | Sr-Anonymus-make | C | L | C | L | C | C |
+| **Valera Garcés, Samuel** | SamuelValeraGarces | L | C | C | C | L | C |
+
+**Leyenda:** L = Líder (Leader), C = Colaborador (Contributor)
+
+---
+
+#### 6.2.3.3. Sprint Backlog 3
+
+El Sprint Backlog 3 detalla las User Stories seleccionadas del Product Backlog, desglosadas en tareas técnicas específicas con sus responsables y estimaciones.
+
+| **Sprint #** | **Sprint 3** | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **ID** | **Title** | **ID** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| [ST-XX] | [Título de la historia] | **TAXX** | [Título de la tarea] | [Descripción técnica detallada] | [Horas] | [Responsable] | [To Do/In Progress/Done] |
+
+**Nota:** Completar con las tareas específicas del Sprint 3 según la planificación del equipo.
+
+---
+
+#### 6.2.3.4. Development Evidence for Sprint Review
+
+Esta sección documenta los avances de desarrollo mediante commits de los repositorios del proyecto, evidenciando el trabajo realizado durante el Sprint 3.
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- |
+| [Nombre del repo] | [Branch] | [Commit hash] | [Mensaje descriptivo] | [Fecha] |
+
+**Repositorios Clave:**
+- Landing Page: [URL del repositorio]
+- Frontend Web App: [URL del repositorio]
+- Backend Microservices: [URL del repositorio]
+- IoT Firmware: [URL del repositorio]
+
+---
+
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+Documentación de las pruebas automatizadas (unitarias, integración y sistema) ejecutadas durante el Sprint 3, incluyendo evidencias de cobertura y resultados.
+
+**Pruebas Unitarias:**
+- [Descripción de las pruebas unitarias implementadas]
+- Cobertura: [Porcentaje]
+
+**Pruebas de Integración:**
+- [Descripción de las pruebas de integración]
+- Resultados: [Resumen de resultados]
+
+**Pruebas de Sistema:**
+- [Descripción de las pruebas end-to-end]
+- Evidencias: [Capturas/logs]
+
+**Commits de Testing:**
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- |
+| [Repo de testing] | [Branch] | [Hash] | [Mensaje] | [Fecha] |
+
+---
+
+#### 6.2.3.6. Execution Evidence for Sprint Review
+
+Capturas de pantalla y videos que demuestran las funcionalidades implementadas y desplegadas durante el Sprint 3.
+
+**Funcionalidades Principales Implementadas:**
+1. [Funcionalidad 1 con captura]
+2. [Funcionalidad 2 con captura]
+3. [Funcionalidad 3 con captura]
+
+**Video de Demostración:**
+- **Enlace:** [URL del video de ejecución del Sprint 3]
+- **Contenido:** Recorrido completo del flujo integrado IoT-Backend-Frontend
+
+---
+
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review
+
+Documentación actualizada de los endpoints de la API, arquitectura de microservicios y contratos de integración.
+
+**Endpoints Implementados en Sprint 3:**
+
+| Bounded Context | Endpoint | Verbo HTTP | Descripción | Documentación |
+| :--- | :--- | :--- | :--- | :--- |
+| [Contexto] | [Ruta] | [GET/POST/PUT/DELETE] | [Descripción funcional] | [Swagger/Postman link] |
+
+**Arquitectura de Microservicios:**
+- Diagrama actualizado de la arquitectura
+- Flujos de comunicación entre servicios
+- Documentación de eventos y mensajería
+
+---
+
+#### 6.2.3.8. Software Deployment Evidence for Sprint Review
+
+Evidencia del proceso de despliegue de los componentes del sistema en los entornos de desarrollo, staging y producción.
+
+**Componentes Desplegados:**
+1. **Frontend:** [Plataforma y URL]
+2. **Backend Microservices:** [Plataforma y URL]
+3. **API Gateway:** [Plataforma y URL]
+4. **Base de Datos:** [Servicio y configuración]
+
+**Pipeline CI/CD:**
+- [Descripción del pipeline automatizado]
+- [Capturas de los despliegues exitosos]
+
+---
+
+#### 6.2.3.9. Team Collaboration Insights during Sprint
+
+Análisis de la colaboración del equipo durante el Sprint 3, incluyendo analíticas de GitHub y retrospectiva del sprint.
+
+**Analíticas de Commits:**
+- [Gráficos de contribuciones por miembro]
+- [Distribución de trabajo por repositorio]
+
+**Retrospectiva del Sprint:**
+
+| Qué Salió Bien | Qué se Puede Mejorar | Acciones a Implementar |
+| :--- | :--- | :--- |
+| [Fortalezas identificadas] | [Áreas de mejora] | [Compromisos del equipo] |
+
+**Métricas de Colaboración:**
+- Total de commits: [Número]
+- Pull requests creados y mergeados: [Número]
+- Issues cerrados: [Número]
+- Tiempo promedio de revisión de PRs: [Tiempo]
+
+---
 
 ### 6.3. Validation Interviews
 
@@ -3467,6 +3648,77 @@ Este video presenta un recorrido completo por el ecosistema **MaceTy**, demostra
 3.  **Madurez Técnica y Metodológica del Equipo:** La ejecución de dos sprints de desarrollo, la gestión de repositorios con GitFlow, la documentación de servicios con OpenAPI y el despliegue en plataformas como Netlify y Azure demuestran la capacidad del equipo para aplicar metodologías ágiles y herramientas profesionales. Esta madurez técnica asegura que el producto no solo es funcional, sino también escalable, mantenible y seguro.
 
 4.  **Impacto Medible y Potencial de Crecimiento:** El proyecto ha validado un claro "problem-solution fit". Las conclusiones de las entrevistas y el diseño centrado en el usuario sientan las bases para un alto potencial de adopción y crecimiento. La estrategia de negocio, apoyada en un producto tecnológicamente sólido y una marca con una identidad clara (eco-tecnológica y cercana), posiciona a NaturaFy para capturar una cuota significativa del mercado de jardinería inteligente en Latinoamérica.
+
+## Video About-the-Team
+
+Este video presenta al equipo detrás de **MaceTy**, mostrando la visión, el proceso colaborativo y el compromiso de cada miembro en el desarrollo de este ecosistema IoT para el cuidado inteligente de plantas urbanas. El objetivo es humanizar el proyecto, destacar las fortalezas técnicas y metodológicas del equipo, y demostrar cómo la sinergia entre diseño, desarrollo y validación ha permitido construir una solución integral centrada en el usuario.
+
+### Contenido del Video
+
+**1. Introducción del Equipo (0:00 - 0:45)**
+- Presentación de **NaturaFy** como startup tecnológica enfocada en soluciones IoT sostenibles
+- Breve descripción del contexto del proyecto: curso de Desarrollo de Soluciones IoT en UPC
+- Introducción individual de cada miembro con su rol principal en el proyecto
+
+**2. Visión y Propósito del Proyecto (0:46 - 1:30)**
+- Explicación del problema identificado: alta mortalidad de plantas en hogares urbanos por falta de tiempo y conocimiento
+- Presentación de **MaceTy** como solución integral: hardware IoT + software + comunidad
+- Compromiso del equipo con la sostenibilidad y la accesibilidad tecnológica en Latinoamérica
+
+**3. Metodología de Trabajo y Colaboración (1:31 - 2:45)**
+- **Maycol Jhordan Rojas Velasquez** (Team Leader): Explica la arquitectura técnica y el liderazgo en la integración IoT-Cloud-Frontend
+- **Sergio Andre Gomez Vallejos**: Detalla el trabajo en investigación de mercado, backend y configuración de entornos de desarrollo
+- **Samuel Ignacio Valera Garcés**: Describe el proceso de needfinding, diseño UX/UI y creación de prototipos
+- **Carlos Andres Leon Rioja**: Presenta el modelado de dominio, diseño de bounded contexts y estrategias de testing
+- **Estefano Oscar Jaque Peña**: Explica el marco metodológico Lean UX, planificación de sprints y despliegue de servicios
+
+**4. Logros y Aprendizajes del Proyecto (2:46 - 3:30)**
+- **Logros Técnicos**: Implementación exitosa de arquitectura de microservicios, integración de sensores IoT, desarrollo de aplicación web completa
+- **Logros Metodológicos**: Aplicación efectiva de Scrum, Domain-Driven Design y Lean UX
+- **Aprendizajes**: Importancia de la validación temprana con usuarios, gestión de equipos distribuidos, integración de hardware y software
+
+**5. Validación con Usuarios Reales (3:31 - 4:15)**
+- Resumen de las **6 entrevistas de validación** realizadas con usuarios urbanos y jardineros
+- Presentación de métricas clave: **calificación promedio 4.5/5**, feedback positivo sobre automatización y diseño
+- Compromiso del equipo con la mejora continua basada en insights de usuarios
+
+**6. Visión a Futuro y Cierre (4:16 - 5:00)**
+- **Próximos pasos**: Expansión de funcionalidades (identificación de plantas por foto, integración con asistentes de voz)
+- **Escalabilidad**: Plan de crecimiento en mercados de Lima, Arequipa y otras ciudades latinoamericanas
+- **Invitación**: A la comunidad académica, inversores y usuarios potenciales a unirse al ecosistema MaceTy
+- **Mensaje final**: "Transformando el cuidado de plantas urbanas con tecnología accesible y sostenible"
+
+### Especificaciones Técnicas del Video
+
+- **Duración Total**: 5:00 minutos
+- **Formato**: 1920x1080 (Full HD)
+- **Plataforma de Distribución**: YouTube, Microsoft Stream (UPC), presentaciones académicas
+- **Estructura**: Combinación de entrevistas individuales, capturas de pantalla del producto, animaciones de flujos técnicos y testimonios de usuarios
+
+### Participación del Equipo
+
+| Miembro del Equipo | Rol en el Video | Temas Presentados |
+| :--- | :--- | :--- |
+| **Maycol Jhordan Rojas Velasquez** | Team Leader & Arquitecto Técnico | Arquitectura del sistema, integración IoT-Cloud, liderazgo técnico |
+| **Sergio Andre Gomez Vallejos** | Backend Developer & DevOps | Investigación de mercado, desarrollo backend, configuración CI/CD |
+| **Samuel Ignacio Valera Garcés** | UX/UI Designer & Product Manager | Needfinding, diseño de experiencia de usuario, prototipos |
+| **Carlos Andres Leon Rioja** | Domain Expert & QA Engineer | Modelado de dominio, bounded contexts, estrategias de testing |
+| **Estefano Oscar Jaque Peña** | Scrum Master & Deployment Lead | Metodología Lean UX, planificación de sprints, despliegue de servicios |
+
+### Mensaje Clave del Video
+
+"**MaceTy** no es solo un producto tecnológico, es el resultado de un equipo multidisciplinario comprometido con resolver un problema real mediante la combinación de **ingeniería de software, diseño centrado en el usuario y metodologías ágiles**. Nuestro objetivo es demostrar que la tecnología IoT puede ser **accesible, sostenible y verdaderamente útil** para mejorar la vida cotidiana de las personas en entornos urbanos."
+
+- **Enlace al video:** `[URL del video About-the-Team - Por definir]`
+
+---
+
+**Nota para el equipo**: Este video debe filmarse con una calidad profesional, cuidando la iluminación, el audio y la edición para transmitir una imagen sólida y confiable del equipo. Se recomienda:
+- Usar fondos neutros o con elementos relacionados al branding de NaturaFy
+- Incluir subtítulos en español e inglés para accesibilidad
+- Agregar música de fondo suave que no compita con las voces
+- Incorporar transiciones suaves y motion graphics del logo MaceTy
+
 ## Bibliografía
 
 - Verified Market Reports. (2024). *Insights de mercado de plantas inteligentes en macetas*. Recuperado de [https://www.verifiedmarketreports.com/es/product/smart-potted-plant-market/](https://www.verifiedmarketreports.com/es/product/smart-potted-plant-market/)  
