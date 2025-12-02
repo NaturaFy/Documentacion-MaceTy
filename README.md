@@ -3628,7 +3628,16 @@ Se realizaron pruebas unitarias para validar el correcto funcionamiento de las c
 
 **Evidencias de Ejecución:**
 
-AQUI SAMUELLLL
+![Unit Tests final](assets/testfinalmono1.png)
+
+![Unit Tests final](assets/testfinalmono2.png)
+
+![Unit Tests final](assets/testfinalmono3.png)
+
+![Unit Tests final](assets/testfinalmono4.png)
+
+![Unit Tests final](assets/testfinalmono5.png)
+
 
 ### **Pruebas de Sistema (System Tests)**
 
