@@ -3421,10 +3421,10 @@ Esta sección documenta los avances de desarrollo mediante commits de los reposi
 
 | **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Committed on (Date)** |
 |----------------|------------|---------------|-------------------|------------------------|
-| [Backend-Microservices-MaceTy](URL_DEL_REPO_BACKEND) | `main` | `e660d7d0c5a30942f93e4df6be72c35657b750b0` | feat: implement MQTT connector for ESP32 communication | 28/11/2025 |
-| [Backend-Microservices-MaceTy](URL_DEL_REPO_BACKEND) | `main` | `f836fda11275fb88fcc830326aec7e866503d728` | feat: add watering automation logic in Plant Service | 29/11/2025 |
-| [Backend-Microservices-MaceTy](URL_DEL_REPO_BACKEND) | `main` | `f70d527e2cbd315561217212197414e0a45b383e` | fix: optimize sensor data queries with indexes | 30/11/2025 |
-| [Frontend-MaceTy-Web](https://github.com/NaturaFy/web-app-Macety) | `main` | `` | feat: implement real-time dashboard with WebSockets | 28/11/2025 |
+| [Backend-Microservices-MaceTy](https://github.com/NaturaFy/Backend-Microservices-MaceTy) | `main` | `e660d7d0c5a30942f93e4df6be72c35657b750b0` | feat: implement MQTT connector for ESP32 communication | 28/11/2025 |
+| [Backend-Microservices-MaceTy](https://github.com/NaturaFy/Backend-Microservices-MaceTy) | `main` | `f836fda11275fb88fcc830326aec7e866503d728` | feat: add watering automation logic in Plant Service | 29/11/2025 |
+| [Backend-Microservices-MaceTy](https://github.com/NaturaFy/Backend-Microservices-MaceTy) | `main` | `f70d527e2cbd315561217212197414e0a45b383e` | fix: optimize sensor data queries with indexes | 30/11/2025 |
+| [Frontend-MaceTy-Web](https://github.com/NaturaFy/web-app-Macety) | `main` | `fde1cf814e06eab97e912ed7f8b91b744cfc045e` | feat: implement real-time dashboard with WebSockets | 28/11/2025 |
 | [Frontend-MaceTy-Web](https://github.com/NaturaFy/web-app-Macety) | `main` | `d9a613065d0bedc4d9865a989ffce2f6780a345c` | feat: add Chart.js integration for historical graphs | 29/11/2025 |
 | [Frontend-MaceTy-Web](https://github.com/NaturaFy/web-app-Macety) | `main` | `96f1184ecbda339953ecd11ba4f0b359e7058273` | feat: implement manual watering button with feedback | 30/11/2025 |
 | [Landing-Page-MaceTy](https://github.com/NaturaFy/Landing-Page--Macety) | `main` | `65bf22b` | fix: Update login and signup links to new domain| 28/11/2025 |
@@ -3438,7 +3438,7 @@ Esta sección documenta los avances de desarrollo mediante commits de los reposi
 
 | **Componente** | **Repositorio GitHub** | **Descripción** |
 |----------------|------------------------|-----------------|
-| **Backend Microservices** | [URL_DEL_REPO_BACKEND] | Microservicios de backend: API Gateway, IoT Connector, Plant Management, Notification Service |
+| **Backend Microservices** | [https://github.com/NaturaFy/Backend-Microservices-MaceTy] | Microservicios de backend: API Gateway, IoT Connector, Plant Management, Notification Service |
 | **Frontend Web App** | [https://github.com/NaturaFy/web-app-Macety] | Aplicación web desarrollada en React con dashboard de monitoreo en tiempo real |
 | **Landing Page** | [https://github.com/NaturaFy/Landing-Page--Macety] | Landing page optimizada con React y Tailwind CSS |
 | **IoT Firmware** | [https://github.com/NaturaFy/IoT-Firmware-ESP32] | Firmware para ESP32 con integración de sensores y comunicación MQTT |
