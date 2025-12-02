@@ -3530,10 +3530,20 @@ Documentación actualizada de los endpoints de la API, arquitectura de microserv
 ![Nueva Versión dl Monolito](assets/evidencemnlt7.png)
 
 
-| Bounded Context | Endpoint | Verbo HTTP | Descripción | Documentación |
-| :--- | :--- | :--- | :--- | :--- |
-| [Contexto] | [Ruta] | [GET/POST/PUT/DELETE] | [Descripción funcional] | [Swagger/Postman link] |
-
+| Endpoint | Verbo HTTP | Descripción | Documentación |
+| :--- | :--- | :--- | :--- |
+| `/api/v1/profile` | GET | Obtener perfil del usuario autenticado | [Swagger](http://localhost:8080/swagger-ui/index.html) |
+| `/api/v1/profile` | PUT | Actualizar perfil del usuario autenticado | [Swagger](http://localhost:8080/swagger-ui/index.html) |
+| `/api/v1/profile` | DELETE | Eliminar perfil del usuario y sus plantas asociadas | [Swagger](http://localhost:8080/swagger-ui/index.html) |
+| `/api/v1/plants` | GET | Obtener todas las plantas del usuario autenticado | [Swagger](http://localhost:8080/swagger-ui/index.html) |
+| `/api/v1/plants` | POST | Crear una nueva planta asociada al usuario | [Swagger](http://localhost:8080/swagger-ui/index.html) |
+| `/api/v1/plants/{plantId}/sensor/register` | POST | Registrar sensor IoT para una planta específica | [Swagger](http://localhost:8080/swagger-ui/index.html) |
+| `/api/v1/plants/sensor/{deviceId}/owner/register` | POST | Registrar dueño del dispositivo sensor | [Swagger](http://localhost:8080/swagger-ui/index.html) |
+| `/api/v1/plants/{plantId}/sensor/latest` | GET | Obtener últimas lecturas de sensores de una planta | [Swagger](http://localhost:8080/swagger-ui/index.html) |
+| `/api/v1/authentication/sign-in` | POST | Iniciar sesión con credenciales de usuario | [Swagger](http://localhost:8080/swagger-ui/index.html) |
+| `/api/v1/authentication/sign-up` | POST | Registrar nuevo usuario en el sistema | [Swagger](http://localhost:8080/swagger-ui/index.html) |
+| `/api/v1/auth/me` | GET | Obtener información del usuario autenticado | [Swagger](http://localhost:8080/swagger-ui/index.html) |
+| `/api/v1/auth/logout` | POST | Cerrar sesión del usuario actual | [Swagger](http://localhost:8080/swagger-ui/index.html) |
 **Arquitectura de Microservicios:**
 - Diagrama actualizado de la arquitectura
 - Flujos de comunicación entre servicios
