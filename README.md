@@ -147,8 +147,8 @@
 #### 3. Capturas de Imagen de los Analíticos de Colaboración y Commits en GitHub
 | Métrica                         | Descripción                                                                                          |
 |---------------------------------|------------------------------------------------------------------------------------------------------|
-| Número de commits por autor     | ![Commits por autor](assets/insghits3.png) |
-| Historial de cambios            | ![Historial de cambios](assets/network3.png) |
+| Número de commits por autor     | ![Commits por autor](assets/tfcontributors.png) |
+| Historial de cambios            | ![Historial de cambios](assets/network21321.png) |
 #### 4. Participación de Todos los Miembros del Equipo
 | Evidencia                       | Descripción                                                                                          |
 |---------------------------------|------------------------------------------------------------------------------------------------------|
