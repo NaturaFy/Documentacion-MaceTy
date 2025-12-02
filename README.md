@@ -3820,10 +3820,10 @@ La distribución del trabajo se evidencia a través de los commits realizados en
 
 **2. Repositorio: Aplicación Web (`NaturaFy/web-app-Macety`)**
 *   **Análisis:** Este repositorio concentró la mayor parte de la actividad de desarrollo del frontend. Los commits muestran la construcción de la nueva interfaz, la integración de vistas como el dashboard, perfil, y el flujo para añadir plantas. La colaboración fue intensa para asegurar la coherencia visual y funcional.
-    ![Commits Backend](assets/insighits2.1.png)
+    ![Commits Backend](assets/papapaap.png)
 **3. Repositorio: Backend Monolítico (`NaturaFy/Backend-backup-Monolito`)**
 *   **Análisis:** El trabajo en el backend se enfocó en implementar los endpoints para autenticación, perfiles y gestión de plantas. Los commits reflejan la creación de la lógica de negocio, la configuración de la base de datos y la implementación de pruebas unitarias y de sistema.
-  ![Commits App Web](assets/metrics.png)
+  ![Commits App Web](assets/aoappapap1.png)
 
 **Retrospectiva del Sprint**
 
@@ -4198,6 +4198,7 @@ Impacto Medible y Trayectoria de Crecimiento Validada: El proyecto ha validado e
 
 Este video presenta al equipo detrás de **MaceTy**, mostrando la visión, el proceso colaborativo y el compromiso de cada miembro en el desarrollo de este ecosistema IoT para el cuidado inteligente de plantas urbanas. El objetivo es humanizar el proyecto, destacar las fortalezas técnicas y metodológicas del equipo, y demostrar cómo la sinergia entre diseño, desarrollo y validación ha permitido construir una solución integral centrada en el usuario.
 
+
 ### Participación del Equipo
 
 | Miembro del Equipo | Rol en el Video | Temas Presentados |
@@ -4208,6 +4209,7 @@ Este video presenta al equipo detrás de **MaceTy**, mostrando la visión, el pr
 | **Carlos Andres Leon Rioja** | Domain Expert & QA Engineer | Modelado de dominio, bounded contexts, estrategias de testing |
 | **Estefano Oscar Jaque Peña** | Scrum Master & Deployment Lead | Metodología Lean UX, planificación de sprints, despliegue de servicios |
 
+![Evidencia Entrevista 1](assets/videa.png)
 
 - **Enlace al video:** `https://drive.google.com/file/d/14jtjEThBggbpArCm0HlNdJcT6aGSO25R/view?usp=sharing`
 
