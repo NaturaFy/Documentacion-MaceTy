@@ -3515,6 +3515,21 @@ Documentación actualizada de los endpoints de la API, arquitectura de microserv
 
 **Endpoints Implementados en Sprint 3:**
 
+![Nueva Versión dl Monolito](assets/evidencemnlt1.png)
+
+![Nueva Versión dl Monolito](assets/evidencemnlt2.png)
+
+![Nueva Versión dl Monolito](assets/evidencemnlt3.png)
+
+![Nueva Versión dl Monolito](assets/evidencemnlt4.png)
+
+![Nueva Versión dl Monolito](assets/evidencemnlt5.png)
+
+![Nueva Versión dl Monolito](assets/evidencemnlt6.png)
+
+![Nueva Versión dl Monolito](assets/evidencemnlt7.png)
+
+
 | Bounded Context | Endpoint | Verbo HTTP | Descripción | Documentación |
 | :--- | :--- | :--- | :--- | :--- |
 | [Contexto] | [Ruta] | [GET/POST/PUT/DELETE] | [Descripción funcional] | [Swagger/Postman link] |
