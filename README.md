@@ -3670,48 +3670,6 @@ Este video presenta un recorrido completo por el ecosistema **MaceTy**, demostra
 
 Este video presenta al equipo detrás de **MaceTy**, mostrando la visión, el proceso colaborativo y el compromiso de cada miembro en el desarrollo de este ecosistema IoT para el cuidado inteligente de plantas urbanas. El objetivo es humanizar el proyecto, destacar las fortalezas técnicas y metodológicas del equipo, y demostrar cómo la sinergia entre diseño, desarrollo y validación ha permitido construir una solución integral centrada en el usuario.
 
-### Contenido del Video
-
-**1. Introducción del Equipo (0:00 - 0:45)**
-- Presentación de **NaturaFy** como startup tecnológica enfocada en soluciones IoT sostenibles
-- Breve descripción del contexto del proyecto: curso de Desarrollo de Soluciones IoT en UPC
-- Introducción individual de cada miembro con su rol principal en el proyecto
-
-**2. Visión y Propósito del Proyecto (0:46 - 1:30)**
-- Explicación del problema identificado: alta mortalidad de plantas en hogares urbanos por falta de tiempo y conocimiento
-- Presentación de **MaceTy** como solución integral: hardware IoT + software + comunidad
-- Compromiso del equipo con la sostenibilidad y la accesibilidad tecnológica en Latinoamérica
-
-**3. Metodología de Trabajo y Colaboración (1:31 - 2:45)**
-- **Maycol Jhordan Rojas Velasquez** (Team Leader): Explica la arquitectura técnica y el liderazgo en la integración IoT-Cloud-Frontend
-- **Sergio Andre Gomez Vallejos**: Detalla el trabajo en investigación de mercado, backend y configuración de entornos de desarrollo
-- **Samuel Ignacio Valera Garcés**: Describe el proceso de needfinding, diseño UX/UI y creación de prototipos
-- **Carlos Andres Leon Rioja**: Presenta el modelado de dominio, diseño de bounded contexts y estrategias de testing
-- **Estefano Oscar Jaque Peña**: Explica el marco metodológico Lean UX, planificación de sprints y despliegue de servicios
-
-**4. Logros y Aprendizajes del Proyecto (2:46 - 3:30)**
-- **Logros Técnicos**: Implementación exitosa de arquitectura de microservicios, integración de sensores IoT, desarrollo de aplicación web completa
-- **Logros Metodológicos**: Aplicación efectiva de Scrum, Domain-Driven Design y Lean UX
-- **Aprendizajes**: Importancia de la validación temprana con usuarios, gestión de equipos distribuidos, integración de hardware y software
-
-**5. Validación con Usuarios Reales (3:31 - 4:15)**
-- Resumen de las **6 entrevistas de validación** realizadas con usuarios urbanos y jardineros
-- Presentación de métricas clave: **calificación promedio 4.5/5**, feedback positivo sobre automatización y diseño
-- Compromiso del equipo con la mejora continua basada en insights de usuarios
-
-**6. Visión a Futuro y Cierre (4:16 - 5:00)**
-- **Próximos pasos**: Expansión de funcionalidades (identificación de plantas por foto, integración con asistentes de voz)
-- **Escalabilidad**: Plan de crecimiento en mercados de Lima, Arequipa y otras ciudades latinoamericanas
-- **Invitación**: A la comunidad académica, inversores y usuarios potenciales a unirse al ecosistema MaceTy
-- **Mensaje final**: "Transformando el cuidado de plantas urbanas con tecnología accesible y sostenible"
-
-### Especificaciones Técnicas del Video
-
-- **Duración Total**: 5:00 minutos
-- **Formato**: 1920x1080 (Full HD)
-- **Plataforma de Distribución**: YouTube, Microsoft Stream (UPC), presentaciones académicas
-- **Estructura**: Combinación de entrevistas individuales, capturas de pantalla del producto, animaciones de flujos técnicos y testimonios de usuarios
-
 ### Participación del Equipo
 
 | Miembro del Equipo | Rol en el Video | Temas Presentados |
@@ -3722,19 +3680,10 @@ Este video presenta al equipo detrás de **MaceTy**, mostrando la visión, el pr
 | **Carlos Andres Leon Rioja** | Domain Expert & QA Engineer | Modelado de dominio, bounded contexts, estrategias de testing |
 | **Estefano Oscar Jaque Peña** | Scrum Master & Deployment Lead | Metodología Lean UX, planificación de sprints, despliegue de servicios |
 
-### Mensaje Clave del Video
 
-"**MaceTy** no es solo un producto tecnológico, es el resultado de un equipo multidisciplinario comprometido con resolver un problema real mediante la combinación de **ingeniería de software, diseño centrado en el usuario y metodologías ágiles**. Nuestro objetivo es demostrar que la tecnología IoT puede ser **accesible, sostenible y verdaderamente útil** para mejorar la vida cotidiana de las personas en entornos urbanos."
+- **Enlace al video:** `https://drive.google.com/file/d/14jtjEThBggbpArCm0HlNdJcT6aGSO25R/view?usp=sharing`
 
-- **Enlace al video:** `[URL del video About-the-Team - Por definir]`
 
----
-
-**Nota para el equipo**: Este video debe filmarse con una calidad profesional, cuidando la iluminación, el audio y la edición para transmitir una imagen sólida y confiable del equipo. Se recomienda:
-- Usar fondos neutros o con elementos relacionados al branding de NaturaFy
-- Incluir subtítulos en español e inglés para accesibilidad
-- Agregar música de fondo suave que no compita con las voces
-- Incorporar transiciones suaves y motion graphics del logo MaceTy
 
 ## Bibliografía
 
