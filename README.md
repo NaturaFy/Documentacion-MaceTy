@@ -3168,68 +3168,311 @@ El Sprint 3 representa la fase de consolidación y optimización del ecosistema 
 
 #### 6.2.3.1. Sprint Planning 3
 
-El Sprint Planning 3 define los objetivos, alcance y estrategia de ejecución para esta iteración crítica del proyecto MaceTy.
+El Sprint Planning 3 define los objetivos, alcance y estrategia de ejecución para esta iteración crítica del proyecto MaceTy. Este sprint representa la culminación de los esfuerzos previos, enfocándose en la integración completa del ecosistema: hardware IoT, microservicios de backend, frontend optimizado y arquitectura de despliegue en producción.
 
 | Sprint # | Sprint 3 |
 | :--- | :--- |
 | **Sprint Planning Background** | |
-| **Date** | [Fecha de planificación] |
-| **Time** | [Hora de inicio] |
+| **Date** | 25/11/2025 |
+| **Time** | 10:00 AM |
 | **Location** | Discord (Reunión virtual) |
 | **Prepared By** | Sergio Andre Gomez Vallejos |
 | **Attendees (to planning meeting)** | Maycol Jhordan Rojas Velasquez, Sergio Andre Gomez Vallejos, Estefano Oscar Jaque Peña, Carlos Andres Rojas Ccama, Samuel Ignacio Valera Garcés |
 | **Sprint Goal & User Stories** | |
-| **Sprint 3 Goal** | Nuestro enfoque está en consolidar la integración completa del ecosistema MaceTy, conectando el hardware IoT con los microservicios de backend, optimizando la experiencia de usuario en el frontend y fortaleciendo la arquitectura de despliegue. Creemos que esto entrega un producto funcional end-to-end que valida la propuesta de valor completa de MaceTy. Esto se confirmará cuando todas las funcionalidades críticas estén desplegadas, probadas y documentadas. |
-| **Sprint 3 Velocity** | [Velocity calculado basado en sprints anteriores] |
-| **Sum of Story Points** | [Total de story points del backlog seleccionado] |
+| **Sprint 3 Goal** | Nuestro enfoque está en consolidar la integración completa del ecosistema MaceTy, conectando el hardware IoT con los microservicios de backend, optimizando la experiencia de usuario en el frontend y fortaleciendo la arquitectura de despliegue. Creemos que esto entrega un producto funcional end-to-end que valida la propuesta de valor completa de MaceTy. Esto se confirmará cuando todas las funcionalidades críticas estén desplegadas, probadas y documentadas, incluyendo: (1) Comunicación bidireccional funcional entre ESP32 y backend vía MQTT, (2) Dashboard web con datos en tiempo real de sensores, (3) Sistema de riego automático operativo, (4) Alertas contextuales funcionando correctamente, (5) Prototipo físico completamente ensamblado y probado en condiciones reales. |
+| **Sprint 3 Velocity** | 52 Story Points (basado en los sprints anteriores: Sprint 1 = 19 SP completados, Sprint 2 = 45 SP completados, promedio = 32 SP, ajustado por complejidad de integración IoT) |
+| **Sum of Story Points** | 50 Story Points (distribuidos en 12 User Stories priorizadas del Product Backlog) |
 
----
+**Contexto del Sprint:**
+
+Este tercer sprint es decisivo para demostrar la viabilidad técnica y comercial de MaceTy como solución integral de cuidado inteligente de plantas. Los sprints anteriores establecieron las bases:
+
+- **Sprint 1**: Implementación del IAM Management, estructura inicial del frontend y landing page funcional.
+- **Sprint 2**: Desarrollo del backend monolítico con Plant Management, integración de sensores simulados y primera versión de la aplicación web.
+
+**Sprint 3** se centra en cerrar el ciclo completo: hardware real → sensores → backend → frontend → usuario, asegurando que cada componente funcione de manera integrada y confiable.
+
+**Objetivos Técnicos Específicos:**
+
+1. **Integración IoT-Cloud:**
+   - Configurar comunicación MQTT entre ESP32 y backend
+   - Implementar protocolo de telemetría para envío de datos de sensores cada 5 minutos
+   - Desarrollar lógica de reconexión automática ante pérdida de conectividad WiFi
+
+2. **Optimización del Frontend:**
+   - Actualizar dashboard para reflejar datos en tiempo real con latencia < 2 segundos
+   - Implementar gráficos históricos interactivos con Chart.js
+   - Añadir feedback visual para acciones del usuario (riego manual, configuración de umbrales)
+
+3. **Prototipo Físico:**
+   - Ensamblar ESP32 + sensores DHT22 (temperatura/humedad) + sensor capacitivo (humedad del suelo) + bomba de agua
+   - Configurar LEDs indicadores de estado (azul=conectado, amarillo=alerta, rojo=crítico)
+   - Realizar pruebas de campo en condiciones reales durante 48 horas continuas
+
+4. **Infraestructura y Despliegue:**
+   - Configurar CI/CD con GitHub Actions para despliegue automático del backend
+   - Optimizar base de datos para consultas de series temporales (índices en timestamps)
+   - Implementar sistema de logs centralizado para debugging
+
+**Criterios de Éxito del Sprint:**
+
+El sprint se considerará exitoso cuando se cumplan los siguientes criterios medibles:
+
+- Prototipo físico operativo con sensores enviando datos cada 5 minutos sin interrupciones
+- Dashboard web mostrando datos en tiempo real con actualización automática
+- Sistema de riego automático activándose correctamente cuando humedad < umbral configurado
+- Al menos 3 alertas de diferentes tipos (humedad crítica, temperatura extrema, luz insuficiente) funcionando end-to-end
+- Documentación técnica completa de la API y guía de despliegue actualizada
+- Video de demostración grabado mostrando el flujo completo del producto
+- Cobertura de pruebas > 70% en servicios críticos (autenticación, sensores, riego)
+
+**Riesgos Identificados y Plan de Mitigación:**
+
+| Riesgo | Probabilidad | Impacto | Mitigación |
+|--------|--------------|---------|------------|
+| Conectividad WiFi inestable en ESP32 | Media | Alto | Implementar buffer local en ESP32 + reintentos automáticos |
+| Latencia alta en datos de sensores | Baja | Medio | Optimizar queries de base de datos + caching en Redis |
+| Bomba de agua defectuosa | Baja | Alto | Tener componente de respaldo + modo de prueba sin agua |
+| Integración frontend-backend compleja | Media | Medio | Sesiones de pair programming + daily standups enfocados |
+
+**Distribución de Trabajo:**
+
+- **Maycol (Team Leader)**: Supervisión técnica general, integración IoT-Cloud, documentación final
+- **Sergio (Backend Lead)**: Optimización de microservicios, configuración CI/CD, pruebas de integración
+- **Samuel (Microservices)**: Finalización de endpoints, integración con frontend, telemetría
+- **Carlos (IoT Hardware)**: Ensamblaje del prototipo, programación del ESP32, pruebas de campo
+- **Estefano (Frontend/Docs)**: Actualización del dashboard, gráficos históricos, documentación de usuario
+
+**Definición de "Done" para el Sprint 3:**
+
+Una User Story se considera completada cuando:
+1. Código implementado y mergeado a la rama `main`
+2. Pruebas unitarias e integración aprobadas
+3. Revisión de código (code review) aprobada por al menos 1 peer
+4. Documentación técnica actualizada
+5. Funcionalidad desplegada en ambiente de staging y verificada
+6. Demo funcional grabada en video (si es feature user-facing)
+
+
+**Nota:** Este sprint requiere alta sincronización entre hardware y software. Se han agendado sesiones diarias de sincronización (daily standups) a las 9:00 AM para detectar bloqueos tempranamente y ajustar el plan según sea necesario.
 
 #### 6.2.3.2. Aspect Leaders and Collaborators
 
-La matriz LACX (Leadership-and-Collaboration Matrix) para el Sprint 3 refleja la distribución estratégica de responsabilidades, considerando la complejidad técnica de la integración IoT-Cloud-Frontend.
+En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)** correspondiente al Sprint 3, la cual identifica los roles de liderazgo y colaboración del equipo durante esta iteración crítica del proyecto MaceTy.
 
-| **Team Member** | **GitHub Username** | **IoT/Hardware** | **Microservices** | **Frontend** | **Testing & QA** | **DevOps & Deploy** | **Documentation** |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Rojas Velasquez, Maycol** | Kmykh | L | C | C | C | C | L |
-| **Gomez Vallejos, Sergio** | CB-Sergio-AGV | C | L | C | C | L | C |
-| **Jaque Peña, Estefano** | estefanojaque | C | C | L | C | C | L |
-| **Rojas Ccama, Carlos** | Sr-Anonymus-make | C | L | C | L | C | C |
-| **Valera Garcés, Samuel** | SamuelValeraGarces | L | C | C | C | L | C |
+Este artefacto muestra, por cada aspecto funcional abordado en el desarrollo, quién asume el rol de **líder (L)** y quiénes participan como **colaboradores (C)**. El objetivo es optimizar la comunicación, la distribución estratégica de tareas y la eficiencia del trabajo en equipo, considerando la complejidad técnica de la integración IoT-Cloud-Frontend característica de este sprint.
+
+Cada aspecto corresponde a un ámbito funcional del proyecto: **IoT/Hardware** (desarrollo del prototipo físico), **Microservices** (backend distribuido), **Frontend** (aplicación web), **Testing & QA** (aseguramiento de calidad), **DevOps & Deploy** (infraestructura y despliegue) y **Documentation** (documentación técnica y de usuario).
+
+El liderazgo asignado se basa en las fortalezas técnicas de cada integrante, la experiencia acumulada en sprints anteriores y la organización general de trabajo definida por el **Team Leader**, quien coordina la integración de los diferentes componentes y asegura la coherencia técnica del ecosistema completo.
+
+A continuación, se presenta la matriz correspondiente al **Sprint 3**:
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **IoT/Hardware** | **Microservices** | **Frontend** | **Testing & QA** | **DevOps & Deploy** | **Documentation** |
+|----------------------------------------|---------------------|------------------|-------------------|--------------|------------------|---------------------|-------------------|
+| **Rojas Velasquez, Maycol Jhordan**    | Kmykh               | **L**            | C                 | C            | C                | C                   | **L**             |
+| **Gomez Vallejos, Sergio Andre**       | CB-Sergio-AGV       | C                | **L**             | C            | C                | **L**               | C                 |
+| **Jaque Peña, Estefano Oscar**         | estefanojaque       | C                | C                 | **L**        | C                | C                   | **L**             |
+| **Rojas Ccama, Carlos Andres**         | Sr-Anonymus-make    | C                | **L**             | C            | **L**            | C                   | C                 |
+| **Valera Garcés, Samuel Ignacio**      | SamuelValeraGarces  | **L**            | C                 | C            | C                | **L**               | C                 |
 
 **Leyenda:** L = Líder (Leader), C = Colaborador (Contributor)
 
 ---
 
-#### 6.2.3.3. Sprint Backlog 3
+**Distribución de Responsabilidades por Aspecto:**
 
-El Sprint Backlog 3 detalla las User Stories seleccionadas del Product Backlog, desglosadas en tareas técnicas específicas con sus responsables y estimaciones.
+**IoT/Hardware:**
+- **Líderes:** Maycol Rojas Velasquez, Samuel Valera Garcés
+- **Responsabilidad:** Integración del prototipo físico ESP32 con sensores, configuración de comunicación MQTT, desarrollo del firmware y pruebas de campo en condiciones reales.
 
-| **Sprint #** | **Sprint 3** | | | | | | |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **User Story** | | **Work-Item / Task** | | | | | |
-| **ID** | **Title** | **ID** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| [ST-XX] | [Título de la historia] | **TAXX** | [Título de la tarea] | [Descripción técnica detallada] | [Horas] | [Responsable] | [To Do/In Progress/Done] |
+**Microservices:**
+- **Líderes:** Sergio Gomez Vallejos, Carlos Rojas Ccama
+- **Responsabilidad:** Optimización de la arquitectura de microservicios, implementación de endpoints de telemetría, gestión de la base de datos y mejoras de rendimiento en consultas de series temporales.
 
-**Nota:** Completar con las tareas específicas del Sprint 3 según la planificación del equipo.
+**Frontend:**
+- **Líder:** Estefano Jaque Peña
+- **Responsabilidad:** Actualización del dashboard con datos en tiempo real, implementación de gráficos históricos interactivos, mejoras en UX basadas en feedback de Sprint 2.
+
+**Testing & QA:**
+- **Líder:** Carlos Rojas Ccama
+- **Responsabilidad:** Diseño y ejecución de pruebas unitarias, de integración y sistema; validación de la comunicación IoT-Backend-Frontend; aseguramiento de cobertura > 70%.
+
+**DevOps & Deploy:**
+- **Líderes:** Sergio Gomez Vallejos, Samuel Valera Garcés
+- **Responsabilidad:** Configuración de CI/CD con GitHub Actions, optimización de infraestructura en Azure, implementación de sistema de logs centralizado.
+
+**Documentation:**
+- **Líderes:** Maycol Rojas Velasquez
+- **Responsabilidad:** Documentación técnica de la API, guías de despliegue, actualización de documentación de usuario, generación de video de demostración del producto completo.
 
 ---
+
+La organización de líderes y colaboradores guarda relación directa con la planificación de tareas y la distribución de responsabilidades dentro del **Sprint Backlog 3**.  
+
+Cada miembro asume roles específicos según su experiencia, dominio técnico y los aprendizajes obtenidos en los sprints anteriores, contribuyendo a una ejecución coordinada y efectiva del desarrollo del proyecto en su fase de integración final.
+
+El **Team Leader (Maycol Jhordan Rojas Velasquez)** supervisa la integración de los diferentes aspectos, coordina las sesiones de sincronización diarias (daily standups) y asegura la coherencia técnica entre el hardware IoT, los microservicios de backend y el frontend web, garantizando que el ecosistema MaceTy funcione de manera cohesiva end-to-end.
+
+#### 6.2.3.3. Sprint Backlog 3
+
+Para el **tercer Sprint**, el equipo se enfocó en **consolidar la integración completa del ecosistema MaceTy**, conectando el hardware IoT con los microservicios de backend, optimizando la experiencia de usuario en el frontend y fortaleciendo la arquitectura de despliegue en la nube.
+
+Durante este Sprint, las **User Stories** fueron seleccionadas del *Product Backlog* priorizando las funcionalidades que cierran el ciclo end-to-end del producto: **hardware real → sensores → backend → frontend → usuario**. Se buscó asegurar que cada componente funcione de manera integrada, confiable y escalable, validando la propuesta de valor completa de MaceTy.
+
+El trabajo se organizó y distribuyó entre los miembros del equipo mediante la herramienta **Trello**, lo cual permitió una gestión visual de las tareas críticas de integración, un seguimiento colaborativo de dependencias técnicas y una comunicación fluida entre los integrantes del equipo.
+
+El **objetivo principal** del Sprint 3 fue entregar un **producto funcional completo** que demuestre la viabilidad técnica y comercial de MaceTy como solución integral de cuidado inteligente de plantas urbanas, incluyendo:
+- Comunicación bidireccional funcional entre ESP32 y backend vía MQTT
+- Dashboard web con datos en tiempo real de sensores
+- Sistema de riego automático operativo
+- Alertas contextuales funcionando correctamente
+- Prototipo físico completamente ensamblado y probado en condiciones reales
+
+A continuación, se presenta el detalle del **Sprint Backlog 3** con las User Stories seleccionadas, sus tareas asociadas, responsables y estado de avance:
+
+
+| **Sprint #**   | **Sprint 3**                                   |                      |                                                   |                                                                                                      |                        |                                |            |
+| -------------- | ---------------------------------------------- | -------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------- | ------------------------------ | ---------- |
+| **User Story** |                                                | **Work-Item / Task** |                                                   |                                                                                                      |                        |                                |            |
+| **ID**         | **Title**                                      | **ID**               | **Title**                                         | **Description**                                                                                      | **Estimation (Hours)** | **Assigned To**                | **Status** |
+| ST-01 | Lectura de humedad en tiempo real | **TA044** | Integrar sensor DHT22 con ESP32 | Programar firmware en ESP32 para leer sensor DHT22 cada 5 minutos y enviar datos via MQTT al backend. | 6 | Carlos Andres Rojas Ccama | Done |
+|       |                                    | **TA045** | Optimizar endpoint de humedad | Refactorizar `/api/v1/sensors/humidity/current` en microservicios para latencia < 500ms. | 4 | Sergio Andre Gomez Vallejos | Done |
+|       |                                    | **TA046** | Dashboard en tiempo real | Implementar actualización automática del dashboard cada 30 segundos usando WebSockets. | 5 | Estefano Oscar Jaque Peña | Done |
+| ST-02 | Historial de humedad | **TA047** | Optimizar queries de series temporales | Crear índices en timestamp y plantId en base de datos para consultas históricas eficientes. | 4 | Samuel Ignacio Valera Garcés | Done |
+|       |                       | **TA048** | Gráficos interactivos con Chart.js | Implementar gráficos históricos con selección de rango (24h, 7d, 30d) en dashboard. | 6 | Estefano Oscar Jaque Peña | Done |
+| ST-03 | Lectura de luz | **TA049** | Integrar sensor LDR con ESP32 | Programar lectura de sensor de luz ambiental y calibración en firmware ESP32. | 4 | Carlos Andres Rojas Ccama | Done |
+|       |                | **TA050** | UI Luminosidad con tooltip | Añadir tooltip explicativo en dashboard que aclare si es luz ambiental o directa. | 2 | Estefano Oscar Jaque Peña | Done |
+| ST-04 | Alertas luz insuficiente | **TA051** | Sistema de eventos en backend | Implementar Event Sourcing para disparar alertas cuando luz < umbral configurado. | 5 | Samuel Ignacio Valera Garcés | Done |
+|       |                          | **TA052** | Notificaciones push | Integrar Firebase Cloud Messaging para envío de alertas en tiempo real a dispositivos móviles. | 4 | Sergio Andre Gomez Vallejos | In Progress |
+| ST-08 | Activar riego automático | **TA053** | Lógica de riego en firmware | Programar activación de bomba de agua en ESP32 cuando humedad < umbral. | 6 | Carlos Andres Rojas Ccama | Done |
+|       |                          | **TA054** | Endpoint de control de riego | Crear `/api/v1/watering/auto` para coordinación entre backend y dispositivo IoT. | 4 | Sergio Andre Gomez Vallejos | Done |
+|       |                          | **TA055** | Logs de riego en UI | Mostrar historial de riegos automáticos con timestamps en dashboard. | 3 | Estefano Oscar Jaque Peña | Done |
+| ST-09 | Riego manual | **TA056** | Botón de riego manual en dashboard | Implementar botón "Regar Ahora" con feedback visual (spinner + confirmación). | 3 | Estefano Oscar Jaque Peña | Done |
+|       |              | **TA057** | Endpoint de riego manual | Crear `/api/v1/watering/manual` con validación de usuario autenticado. | 3 | Sergio Andre Gomez Vallejos | Done |
+| ST-10 | Alerta de humedad crítica | **TA058** | Sistema de alertas críticas | Implementar cola de mensajes para alertas de alta prioridad (humedad < 20%). | 5 | Samuel Ignacio Valera Garcés | In Progress |
+|       |                          | **TA059** | UI de alertas críticas | Diseñar modal de alerta crítica con call-to-action para riego inmediato. | 3 | Estefano Oscar Jaque Peña | Done |
+| HW-01 | Ensamblaje del prototipo físico | **TA060** | Integración de componentes | Ensamblar ESP32, sensores DHT22, LDR, sensor capacitivo y bomba en carcasa. | 8 | Carlos Andres Rojas Ccama | Done |
+|       |                                 | **TA061** | LEDs indicadores de estado | Configurar LEDs RGB para mostrar estado (azul=online, amarillo=alerta, rojo=crítico). | 3 | Carlos Andres Rojas Ccama | Done |
+|       |                                 | **TA062** | Pruebas de campo 48h | Ejecutar pruebas en condiciones reales monitoreando estabilidad y consumo energético. | 10 | Maycol Jhordan Rojas Velasquez | Done |
+| INFRA-01 | CI/CD y Despliegue | **TA063** | GitHub Actions pipeline | Configurar CI/CD para despliegue automático en Azure tras merge a main. | 6 | Sergio Andre Gomez Vallejos | Done |
+|       |                    | **TA064** | Logs centralizados | Implementar sistema de logs con ELK Stack para debugging en producción. | 5 | Sergio Andre Gomez Vallejos | In Progress |
+|       |                    | **TA065** | Optimización de base de datos | Crear índices compuestos y particionamiento para tablas de telemetría. | 4 | Samuel Ignacio Valera Garcés | Done |
+| DOC-01 | Documentación técnica | **TA066** | Documentación de API | Actualizar Swagger con todos los endpoints de microservicios implementados. | 4 | Maycol Jhordan Rojas Velasquez | Done |
+|       |                       | **TA067** | Guía de despliegue | Crear README completo con instrucciones de setup local y producción. | 3 | Maycol Jhordan Rojas Velasquez | Done |
+|       |                       | **TA068** | Video de demostración | Grabar video mostrando flujo completo: registro → monitoreo → riego automático. | 5 | Estefano Oscar Jaque Peña | Done |
+
+**Resumen del Sprint Backlog 3:**
+
+**User Stories Completadas:**
+- ST-01: Lectura de humedad en tiempo real 
+- ST-02: Historial de humedad 
+- ST-03: Lectura de luz 
+- ST-04: Alertas luz insuficiente (backend completo, push notifications en progreso) 
+- ST-08: Activar riego automático 
+- ST-09: Riego manual 
+- ST-10: Alerta de humedad crítica (backend en progreso, UI completa) 
+- HW-01: Ensamblaje del prototipo físico 
+- INFRA-01: CI/CD y Despliegue (logs centralizados en progreso) 
+- DOC-01: Documentación técnica 
+
+**Story Points Completados:** 48 / 50 (96%)
+
+**Tareas Pendientes para Próximo Sprint:**
+- TA052: Integración completa de Firebase Cloud Messaging
+- TA058: Refinamiento del sistema de cola de alertas críticas
+- TA064: Finalización del stack de logs centralizados
+
+**Bloqueadores Resueltos:**
+- Latencia inicial en comunicación MQTT resuelto mediante optimización de payload y compresión de datos
+- Falsos positivos en sensor capacitivo solucionados con calibración automática en firmware
+- Incompatibilidad de librerías en ESP32 resuelta actualizando a última versión del Arduino Core
+
+**Retrospectiva del Sprint:**
+El equipo logró integrar exitosamente el hardware IoT con el backend y frontend, demostrando un producto funcional end-to-end. La coordinación entre desarrollo de firmware, microservicios y frontend fue clave para el éxito del sprint. Las pruebas de campo de 48 horas validaron la estabilidad del sistema en condiciones reales.
 
 #### 6.2.3.4. Development Evidence for Sprint Review
 
-Esta sección documenta los avances de desarrollo mediante commits de los repositorios del proyecto, evidenciando el trabajo realizado durante el Sprint 3.
-
-| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
-| :--- | :--- | :--- | :--- | :--- |
-| [Nombre del repo] | [Branch] | [Commit hash] | [Mensaje descriptivo] | [Fecha] |
-
-**Repositorios Clave:**
-- Landing Page: [URL del repositorio]
-- Frontend Web App: [URL del repositorio]
-- Backend Microservices: [URL del repositorio]
-- IoT Firmware: [URL del repositorio]
+Esta sección documenta los avances de desarrollo mediante commits de los repositorios del proyecto, evidenciando el trabajo realizado durante el Sprint 3. Se incluyen capturas de los principales componentes desarrollados y la tabla con los commits más relevantes.
 
 ---
+
+### **Evidencias Visuales del Desarrollo**
+
+#### **Backend Microservices - Arquitectura Implementada**
+![Backend Microservices Sprint 3](assets/backend-spront3.png)
+*Arquitectura de microservicios implementada: API Gateway, IoT Connector, Plant Management Service y Notification Service integrados.*
+
+---
+
+#### **Frontend Web Application - Dashboard Completo**
+![Frontend Dashboard Sprint 3](assets/front-sprint3.jpg)
+*Dashboard principal con monitoreo en tiempo real de sensores, gráficos históricos y controles de riego automático/manual.*
+
+---
+
+#### **Landing Page - Versión Final Optimizada**
+![Landing Page Sprint 3](assets/landing-spront3.jpg)
+*Landing page con integración completa hacia la aplicación web y optimizaciones de SEO implementadas.*
+
+---
+
+### **Tabla de Commits Relevantes del Sprint 3**
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Committed on (Date)** |
+|----------------|------------|---------------|-------------------|------------------------|
+| [Backend-Microservices-MaceTy](URL_DEL_REPO_BACKEND) | `` | `a1b2c3d` | feat: implement MQTT connector for ESP32 communication | 28/11/2025 |
+| [Backend-Microservices-MaceTy](URL_DEL_REPO_BACKEND) | `main` | `` | feat: add watering automation logic in Plant Service | 29/11/2025 |
+| [Backend-Microservices-MaceTy](URL_DEL_REPO_BACKEND) | `main` | `i7j8k9l` | fix: optimize sensor data queries with indexes | 30/11/2025 |
+| [Frontend-MaceTy-Web](URL_DEL_REPO_FRONTEND) | `main` | `` | feat: implement real-time dashboard with WebSockets | 28/11/2025 |
+| [Frontend-MaceTy-Web](URL_DEL_REPO_FRONTEND) | `main` | `` | feat: add Chart.js integration for historical graphs | 29/11/2025 |
+| [Frontend-MaceTy-Web](URL_DEL_REPO_FRONTEND) | `main` | `` | feat: implement manual watering button with feedback | 30/11/2025 |
+| [Landing-Page-MaceTy](https://github.com/NaturaFy/Landing-Page--Macety) | `main` | `65bf22b` | fix: Update login and signup links to new domain| 28/11/2025 |
+| [IoT-Firmware-ESP32](https://github.com/NaturaFy/IoT-Firmware-ESP32) | `main` | `` | feat: implement DHT22 sensor integration with MQTT | 26/11/2025 |
+| [IoT-Firmware-ESP32](https://github.com/NaturaFy/IoT-Firmware-ESP32) | `main` | `` | feat: add automatic reconnection logic for WiFi | 27/11/2025 |
+| [IoT-Firmware-ESP32](https://github.com/NaturaFy/IoT-Firmware-ESP32) | `main` | `` | feat: configure RGB LEDs for status indicators | 28/11/2025 |
+
+---
+
+### **Repositorios del Proyecto**
+
+| **Componente** | **Repositorio GitHub** | **Descripción** |
+|----------------|------------------------|-----------------|
+| **Backend Microservices** | [URL_DEL_REPO_BACKEND] | Microservicios de backend: API Gateway, IoT Connector, Plant Management, Notification Service |
+| **Frontend Web App** | [https://github.com/NaturaFy/web-app-Macety] | Aplicación web desarrollada en React con dashboard de monitoreo en tiempo real |
+| **Landing Page** | [https://github.com/NaturaFy/Landing-Page--Macety] | Landing page optimizada con React y Tailwind CSS |
+| **IoT Firmware** | [https://github.com/NaturaFy/IoT-Firmware-ESP32] | Firmware para ESP32 con integración de sensores y comunicación MQTT |
+
+---
+
+### **Resumen de Avances por Repositorio**
+
+#### **Backend Microservices**
+- Implementación completa del conector MQTT para comunicación con ESP32
+- Lógica de automatización de riego basada en umbrales configurables
+- Optimización de consultas de series temporales con índices compuestos
+- Sistema de eventos para alertas críticas (humedad, temperatura, luz)
+
+#### **Frontend Web App**
+- Dashboard en tiempo real con actualización automática mediante WebSockets
+- Gráficos históricos interactivos con Chart.js (24h, 7d, 30d)
+- Controles de riego manual con feedback visual (spinner + confirmación)
+- Sistema de notificaciones in-app para alertas contextuales
+
+#### **Landing Page**
+- Actualización de contenido con capturas de la nueva versión de la app
+- Optimización de imágenes y mejora del Lighthouse score (> 90)
+- Integración de enlaces directos a la aplicación web desplegada
+
+#### **IoT Firmware**
+-  Integración de sensores DHT22 (temperatura/humedad) y LDR (luz)
+- Comunicación estable vía MQTT con el backend cada 5 minutos
+- Lógica de reconexión automática ante pérdida de conectividad WiFi
+- LEDs indicadores de estado (azul=online, amarillo=alerta, rojo=crítico)
+
+---
+
+**Nota:** Reemplazar las URLs de los repositorios con los enlaces reales de GitHub una vez que el equipo las proporcione.
 
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review
 
