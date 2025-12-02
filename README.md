@@ -3490,25 +3490,22 @@ Documentación de las pruebas automatizadas (unitarias, integración y sistema) 
 - [Descripción de las pruebas end-to-end]
 - Evidencias: [Capturas/logs]
 
-**Commits de Testing:**
-| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
-| :--- | :--- | :--- | :--- | :--- |
-| [Repo de testing] | [Branch] | [Hash] | [Mensaje] | [Fecha] |
-
----
 
 #### 6.2.3.6. Execution Evidence for Sprint Review
 
 Capturas de pantalla y videos que demuestran las funcionalidades implementadas y desplegadas durante el Sprint 3.
 
-**Funcionalidades Principales Implementadas:**
-1. [Funcionalidad 1 con captura]
-2. [Funcionalidad 2 con captura]
-3. [Funcionalidad 3 con captura]
+**Vistas Principales Implementadas:**
 
-**Video de Demostración:**
-- **Enlace:** [URL del video de ejecución del Sprint 3]
-- **Contenido:** Recorrido completo del flujo integrado IoT-Backend-Frontend
+*   **Landing Page Finalizada:**
+    ![Landing Page Finalizada](assets/sprint2-deve.png)
+    Enlace: `https://naturafy.netlify.app/`
+*   **Nueva Versión de la Aplicación Web:**
+    ![Nueva Versión de la Aplicación Web](assets/sprint2-deve3.jpg)
+    Enlace: `https://macetyrrrrr.netlify.app/login`
+*   **Backend Monolítico de Respaldo (Código):**
+    ![Backend Monolítico de Respaldo](assets/backend-spront3.png)
+
 
 ---
 
@@ -3531,41 +3528,105 @@ Documentación actualizada de los endpoints de la API, arquitectura de microserv
 
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review
 
-Evidencia del proceso de despliegue de los componentes del sistema en los entornos de desarrollo, staging y producción.
+En esta sección se presenta la evidencia del proceso de despliegue de los componentes del sistema MaceTy durante el Sprint 3, demostrando la implementación exitosa en los entornos de producción.
 
-**Componentes Desplegados:**
-1. **Frontend:** [Plataforma y URL]
-2. **Backend Microservices:** [Plataforma y URL]
-3. **API Gateway:** [Plataforma y URL]
-4. **Base de Datos:** [Servicio y configuración]
+---
 
-**Pipeline CI/CD:**
-- [Descripción del pipeline automatizado]
-- [Capturas de los despliegues exitosos]
+### **Componentes Desplegados**
+
+#### **1. Frontend Web Application**
+- **Plataforma de Despliegue:** Netlify
+- **URL de Producción:** `https://macetyrrrrr.netlify.app/`
+- **Tecnologías:** React + Vue.js, TailwindCSS
+- **Método de Despliegue:** Integración continua con GitHub (rama `main`)
+
+**Proceso de Despliegue Frontend:**
+1. Los cambios son pusheados a la rama `main` del repositorio de GitHub
+2. Netlify detecta automáticamente el cambio y inicia el build
+3. Se ejecuta el proceso de compilación (`npm run build`)
+4. Los assets estáticos son desplegados en la CDN global de Netlify
+5. La nueva versión queda disponible en la URL de producción
+
+**Evidencias de Despliegue Frontend:**
+
+![Despliegue Frontend - Configuración Netlify](assets/deplo32.jpeg)
+*Configuración de build settings y continuous deployment en Netlify*
+
+![Despliegue Frontend - Build Log](assets/deplo33.jpeg)
+*Log del proceso de build exitoso mostrando compilación sin errores*
+
+![Despliegue Frontend - Deploy Summary](assets/deplo31.jpeg)
+*Resumen del despliegue con timestamp y commit asociado*
+
+![Despliegue Frontend - Production URL](assets/deplo34.jpeg)
+*Aplicación web desplegada y accesible en producción*
+
+---
+
+#### **2. Backend Microservices**
+- **Plataforma de Despliegue:** Microsoft Azure App Service
+- **URL Base de API:** `http://52.254.76.7:8080/`
+- **Tecnologías:** Java Spring Boot, PostgreSQL
+- **Método de Despliegue:** Azure DevOps con GitHub Actions
+
+
+**Evidencias de Despliegue Backend:**
+
+![Despliegue Backend - Azure Dashboard](assets/deploback31.jpeg)
+
+
+![Despliegue Backend - GitHub Actions Pipeline](assets/deploback33.jpeg)
+
+![Despliegue Backend - API Health Check](assets/backend-spront3.png)
+
 
 ---
 
 #### 6.2.3.9. Team Collaboration Insights during Sprint
 
-Análisis de la colaboración del equipo durante el Sprint 3, incluyendo analíticas de GitHub y retrospectiva del sprint.
+En esta sección, se analiza la dinámica de colaboración del equipo durante el Sprint 2. Se presentan las analíticas de commits de los repositorios de GitHub y una retrospectiva del sprint para identificar fortalezas y áreas de mejora en nuestro proceso de trabajo.
 
-**Analíticas de Commits:**
-- [Gráficos de contribuciones por miembro]
-- [Distribución de trabajo por repositorio]
+**Analítica de Colaboración y Commits**
 
-**Retrospectiva del Sprint:**
+La distribución del trabajo se evidencia a través de los commits realizados en los diferentes repositorios del proyecto.
 
-| Qué Salió Bien | Qué se Puede Mejorar | Acciones a Implementar |
-| :--- | :--- | :--- |
-| [Fortalezas identificadas] | [Áreas de mejora] | [Compromisos del equipo] |
+**1. Repositorio: Landing Page (`NaturaFy/Landing-Page--Macety`)**
+*   **Análisis:** Durante este sprint, los commits se centraron en ajustes finales y la actualización de enlaces para conectar con la nueva aplicación web. La actividad fue puntual, reflejando que la landing page estaba en una fase de mantenimiento y refinamiento.
+    ![Commits Landing Page](assets/insghits2.3.png)
 
-**Métricas de Colaboración:**
-- Total de commits: [Número]
-- Pull requests creados y mergeados: [Número]
-- Issues cerrados: [Número]
-- Tiempo promedio de revisión de PRs: [Tiempo]
+**2. Repositorio: Aplicación Web (`NaturaFy/web-app-Macety`)**
+*   **Análisis:** Este repositorio concentró la mayor parte de la actividad de desarrollo del frontend. Los commits muestran la construcción de la nueva interfaz, la integración de vistas como el dashboard, perfil, y el flujo para añadir plantas. La colaboración fue intensa para asegurar la coherencia visual y funcional.
+    ![Commits Backend](assets/insighits2.1.png)
+**3. Repositorio: Backend Monolítico (`NaturaFy/Backend-backup-Monolito`)**
+*   **Análisis:** El trabajo en el backend se enfocó en implementar los endpoints para autenticación, perfiles y gestión de plantas. Los commits reflejan la creación de la lógica de negocio, la configuración de la base de datos y la implementación de pruebas unitarias y de sistema.
+  ![Commits App Web](assets/metrics.png)
 
----
+**Retrospectiva del Sprint**
+
+### Interpretación de la Participación del Equipo
+
+Según las directrices del curso, se promovió que todos los miembros del equipo tuvieran participación en los diferentes productos (Landing, Web Services, App).
+
+Aunque los repositorios muestran una especialización (frontend/backend), la colaboración se gestionó mediante:
+* **Revisiones de Código (Pull Requests):** Todos los miembros participaron en la revisión de PRs de todos los repositorios.
+* **Commits Cruzados:** Se incentivó que miembros de frontend realizaran pequeños ajustes en el backend (ej. documentación o pruebas) y viceversa, para familiarizarse con todo el *stack*.
+
+Las siguientes analíticas de GitHub muestran la participación de los miembros en los reposositorios principales, demostrando el involucramiento colectivo.
+
+**Evidencia (Capturas de "Contributors" de GitHub):**
+
+![Gráfica de Contribuyentes - Backend](assets/isnghitscomitts2.png)
+
+
+Basado en la colaboración de este sprint, el equipo identificó las siguientes fortalezas y áreas de mejora:
+
+**Fortalezas:**
+* **Comunicación Fluida:** La definición de los contratos JSON entre el backend y el frontend fue exitosa y evitó bloqueos.
+* **Calidad del Código:** La implementación de pruebas unitarias en el backend permitió detectar errores a tiempo.
+
+**Áreas de Mejora:**
+* **Tiempos de Revisión de PRs:** Algunos *Pull Requests* tardaron más de 24 horas en ser revisados. Se debe asignar tiempo específico para esta tarea.
+* **Participación Cruzada:** Aunque hubo participación, puede ser más activa y no solo simbólica. Se implementará *pair programming* inter-roles en el próximo sprint.
 
 ### 6.3. Validation Interviews
 
